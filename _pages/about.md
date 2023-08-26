@@ -1,32 +1,115 @@
 ---
-title: About me
-subtitle: Personal is the perfect theme for developers, designers and other creatives.
-description: Personal is the perfect theme for developers, designers and other creatives.
-featured_image: /images/demo/about.jpg
+title: Seon Ho Lee
+subtitle: Upcoming M.S. Student at CVML Lab, KAIST
+description: Research on AI especially in Computer vision, Computer Graphics, and Recommendation System
+featured_image: /images/about/banner_image.jpg
 ---
 
-## Features
+# Hello
 
-We've packed Personal full of powerful features to help showcase your work:
+![Profile Image](/images/about/profile_image.jpg){: width="200" height="200" style="float: right; margin-right: 20px; margin-bottom: 20px;"}
 
-* Beautiful, minimal design
-* Large header image and single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio post type
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+I am Griffin Seon Ho Lee. I am an undergraduate at [Sogang University](https://wwwe.sogang.ac.kr/wwwe/index_new.html), majoring in Computer Science and Engineering. I am working as an undergraduate intern at [Computer Vision and Machine Learning Lab](https://sites.google.com/view/cvml-kaist/home) in [Graduate School of AI](https://gsai.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Prof. Hyunjung Shim](https://sites.google.com/view/cvml-kaist/members). 
 
-## Get Personal
+<br/>
 
-Personal is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
+I am interested in research on AI especially in Computer vision, Computer Graphics, and Recommendation System. I hope to use AI to help people freely envision, realize, and share what they believe in.
 
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--large">Get This Theme</a>
+<br/>
+
+Particularly, I am researching on the following topics:
+
+**1. Multi-Labeled Objects Generation in Generative Models**
+
+**2. Image Editing in Generative Models**
+
+<br/>
+
+Please refer to my CV(Curriculum Vitae) if you want to know more about me.
+
+<a href="/pdf/cv.pdf" target="_blank" class="button button--medium"><i class="fa fa-file-pdf"></i> CV</a>
+<a href="mailto:glanceyes@gmail.com" class="button button--medium"><i class="fa fa-envelope"></i> E-mail</a>
+<a href="https://github.com/glanceyes" target="_blank" class="button button--medium"><i class="fa-brands fa-github"></i> Github</a>
+<a href="https://www.linkedin.com/in/glanceyes/" target="_blank" class="button button--medium"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+<br/>
+
+- 9405, Building #9, Hoegi-ro, Seoul, Korea <br/>
+- Email: glanceyes (at) gmail (dot) com
+
+<br/>
+<hr/>
+
+## News
+
+**Jun. 2023**: I got accepted to [CVML Lab](https://sites.google.com/view/cvml-kaist/home) as an undergraduate intern.
+
+<br/>
+<hr/>
+
+## Education
+
+#### Sogang University
+- B.S. in Computer Science and Engineering, Mar. 2017 ~ Feb. 2024 <i>(Expected)</i>
+- GPA: 4.14 / 4.3 <i>(Summa Cum Laude)</i>
+
+#### Sangsan High School
+
+
+<br/>
+<hr/>
+
+## Research Experience
+
+#### Suppress to Impress: Attenuating Distractions in Attention Maps for Diffusion Model Inference
+
+- Advised by Prof. Hyunjung Shim <i>(On-going)</i>
+- Keywords: Multi-labeled Objects Generation, Conditional Image Generation with Implicit Guidance
+
+
+#### KUVIS: Web-based Visual Programming Software with Deep Learning in Medicine
+
+- SeonHo Lee, Yoomin Kang, Advised by Prof. Wonki Jeong <i>(Jul. 2022 ~ Aug. 2022)</i>
+- Keywords: Visual Programming, Parallel Computing for Deep Learning
+- Prototype of [VIENCE Pathoview](https://vience.io/main)
+
+<br/>
+<hr/>
+
+
+## Work Experience
+
+#### Life Planning Lab
+- Backend Developer <i>(Dec. 2021 ~ Jan. 2022)</i>
+
+
+<br/>
+<hr/>
+
+
+## Honors and Awards
+
+#### Korea National Science and Technology Scholarship
+- Spring 2019, Fall 2022, Spring 2023, Fall 2023 <i>(4 Semesters)</i>
+
+#### Dean's List, Sogang University
+- 1%: Spring 2018, Spring 2019, Fall 2022
+- 5%: Fall 2018
+
+<br/>
+<hr/>
+
+## Skills
+
+#### Programming Languages
+- Python, C/C++, JavaScript, HTML/CSS, SQL
+
+
+#### Algorithm & Problem Solving
+- Advanced to 2022 ICPC Asia Korea Regional Round
+- Profile Links
+    + [Baekjoon Online Judge](https://www.acmicpc.net/user/glanceyes)
+    + [Solve.ac](https://solved.ac/profile/glanceyes)
+
+
+<br/>
+<hr/>

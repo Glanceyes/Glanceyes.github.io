@@ -1,7 +1,7 @@
-site: Personal Jekyll Theme
+site: Glanceyes (SeonHo Lee)
 
 url: 
-baseurl: 
+baseurl:
 
 collections:
   pages:

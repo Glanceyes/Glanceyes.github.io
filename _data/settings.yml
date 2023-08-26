@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Personal
+  site_title: Glanceyes
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -8,17 +8,17 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
-      url: '/'
-    - title: 'Blog'
-      url: '/blog/'
     - title: 'About'
       url: '/about'
+    - title: 'Blog'
+      url: '/'
+    - title: 'Projects'
+      url: '/project'
     - title: 'Contact'
       url: '/contact'
 
 footer_settings:
-  footer_tagline: A sleek, modern Jekyll theme for personal websites.
+  footer_tagline: Glance at Everything for a New Perspective
 
 hero_settings:
   overlay_opacity: 0.8
@@ -151,7 +151,7 @@ font_settings:
     letter_spacing: 0
 
 advanced_settings:
-  ajax_loading: true
+  ajax_loading: false
   analytics_code: ""
   custom_styles: ""
   header_js: ""
