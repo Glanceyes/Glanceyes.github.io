@@ -1,6 +1,6 @@
 ---
 title: Seon Ho Lee
-subtitle: Upcoming M.S. Student at CVML Lab, KAIST
+subtitle: Upcoming M.S. Student at CVML Lab, KAIST AI
 description: Research on AI especially in Computer vision, Computer Graphics, and Recommendation System
 featured_image: /images/about/banner_image.jpg
 ---
@@ -108,7 +108,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 - Advanced to 2022 ICPC Asia Korea Regional Round
 - Profile Links
     + [Baekjoon Online Judge](https://www.acmicpc.net/user/glanceyes)
-    + [Solve.ac](https://solved.ac/profile/glanceyes)
+    + [Solve.ac](https://solved.ac/profile/glanceyes) <i>(Diamond 5)</i>
 
 
 <br/>

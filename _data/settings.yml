@@ -14,8 +14,6 @@ menu_settings:
       url: '/'
     - title: 'Projects'
       url: '/project'
-    - title: 'Contact'
-      url: '/contact'
 
 footer_settings:
   footer_tagline: Glance at Everything for a New Perspective
@@ -25,12 +23,6 @@ hero_settings:
 
 post_settings:
   grid_spacing: 10
-
-contact_settings:
-  form_action: ''
-  confirmation_url: '/thanks'
-  email_subject: 'Contact form submission'
-  send_button_text: 'Send Message'
 
 social_settings:
   facebook_url: ''
