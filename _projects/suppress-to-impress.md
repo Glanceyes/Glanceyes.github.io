@@ -1,8 +1,7 @@
 ---
-title: Suppress-to-Impress&#58 Attenuating Distractions in Attention Maps for Diffusion Model Inference
+title: Suppress-to-Impress&#58 Attenuating Distractions in Attention Maps for Diffusion
+  Model Inference
 ---
-
-
 
 ## Suppress-to-Impress: Attenuating Distractions in Attention Maps for Diffusion Model Inference
 
