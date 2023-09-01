@@ -46,7 +46,7 @@ defaults:
       path: ""
       type: "archives"
     values:
-      layout: "project"
+      layout: "archive"
 
 markdown: kramdown
 highlighter: rouge
@@ -66,3 +66,5 @@ paginate: 6
 paginate_path: "/blog/page:num/"
 
 future: true
+
+timezone: Asia/Seoul

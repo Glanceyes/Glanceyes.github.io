@@ -37,7 +37,7 @@ featured_image: /images/archives/banner_image.jpg
 			<div class="post__content-wrap">
 				<div class="post__content">
 					<h2 class="post__title"><a href="{{ note.url | relative_url }}">{{ note.title }}</a></h2>
-					<p class="post__subtitle">{{ note.subtitle }}</p>
+					<p class="post__subtitle">{{ note.date | date: "%b %d, %Y" }}</p>
 					<p class="post__description">{{ note.content | markdownify | strip_html | truncatewords: 50, '...' }}</p>
 				</div>
 			</div>

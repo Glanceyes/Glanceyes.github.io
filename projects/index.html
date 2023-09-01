@@ -25,8 +25,15 @@ featured_image: /images/projects/banner_image.jpg
 <section class="listing">
 
 	<div class="wrap">
-
-		{% for project in site.projects reversed %}
+		{% assign now_date = 'now' | date: '%Y-%m-%d' %}
+		{% assign projects_with_empty_dates = site.projects | where_exp: 'item', "item.end_date == ''" %}
+		
+		{% assign projects_with_non_empty_dates = site.projects | where_exp: 'item', "item.end_date != ''" %}
+		{% assign sorted_projects = projects_with_non_empty_dates | sort: 'end_date' | reverse %}
+		
+		{% assign final_sorted_projects = projects_with_empty_dates | concat: sorted_projects %}
+		
+		{% for project in final_sorted_projects %}
 
 		<article class="post">
 
@@ -37,7 +44,7 @@ featured_image: /images/projects/banner_image.jpg
 			<div class="post__content-wrap">
 				<div class="post__content">
 					<h2 class="post__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
-					<p class="post__subtitle">{{ project.subtitle }}</p>
+					<p class="post__subtitle">{{ project.start_date }} ~ {{ project.end_date | default: 'now' }}</p>
 					<p class="post__description">{{ project.content | markdownify | strip_html | truncatewords: 50, '...' }}</p>
 				</div>
 			</div>

@@ -11,9 +11,8 @@ layout: default
 	<div class="wrap">
 
 		<h1>{{ page.title }}</h1>
-		<p>Project Duration: {{ page.start_date }} ~ {{ page.end_date | default: 'now' }}</p>
-		<p>Updated on {{ page.last_modified_at | date_to_long_string}}</p>
-	
+		<p>{{ page.date | date_to_long_string }}</p>
+
 	</div>
 
 </section>

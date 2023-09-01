@@ -1,10 +1,11 @@
 ---
 title: "[Solution] BOJ 13257"
-featured_image: /images/thumbnail/2023-09-01-01.png
-tags: [BOJ, algorithm]
+featured_image: "/images/thumbnail/2023-09-01-01.png"
+tags:
+- BOJ
+- algorithm
+date: '2023-09-01 17:00:00'
 ---
-
-
 
 ![img](https://vip2.loli.io/2023/09/01/GrQXC24wTZ6te5H.png)
 

@@ -1,10 +1,11 @@
 ---
 title: "[Solution] BOJ 23242"
-featured_image: images/thumbnail/2023-09-01-02.png
-tags: [BOJ, algorithm]
+featured_image: images/thumbnail/2023-09-01-03.png
+tags:
+- BOJ
+- algorithm
+date: '2023-09-01 15:00:00'
 ---
-
-
 
 ![img](https://vip2.loli.io/2023/09/01/2WrXxTc3DsHKCGV.png)
 
@@ -52,17 +53,13 @@ $n$의 제한이 4,000이고 $B$의 제한이 30 이므로 **Dynamic Programming
 
 <br/>
 
-
-$$
-dp[i][j]: i\text{번째 원소까지 본 상태에서 } j \text{개의 bucket으로 나누었을 때 최소 (오차)² 합}
-$$
-
+$dp[i][j]$: $i$번째 원소까지 본 상태에서 $j$개의 bucket으로 나누었을 때 최소 $(오차)^2$ 합
 
 <br/>
 
 
 
-$dp[i][j]$를 계산하려면 i번째보다 앞에 있는 원소까지 봤고 그 때 $j-1$개의 bucket으로 나누었을 때의 최소 $(오차)^2$ 합에다가 그 이후부터 $i$번째 원소까지 새로 생기는 $j$번째 bucket의 $(오차)^2$ 합을 더한 값 중에서 가장 작은 것을 반영해주면 된다. 점화식을 정리하면 다음과 같다.
+$dp[i][j]$를 계산하려면 i번째보다 앞에 있는 원소까지 봤고 그 때 $j-1$개의 bucket으로 나누었을 때의 최소 $(오차)^2$ 합에다가 그 이후부터 $i$번째 원소까지 새로 생기는 $j$번째 bucket의 $(\text{오차})^2$ 합을 더한 값 중에서 가장 작은 것을 반영해주면 된다. 점화식을 정리하면 다음과 같다.
 
 
 
@@ -73,10 +70,11 @@ $$
 dp[i][j] = \min(dp[k][j - 1] + ∑(Error)^2) \; (단, k < i)
 $$
 
-$$
-∑(Error)^2: k+1 \text{ 부터 } i \text{ 번째까지의} (오차)^2 합
-$$
+<br/>
 
+
+
+$∑(Error)^2$: $k+1$ 부터 $i$ 번째까지의 $(\text{오차})^2$ 합
 
 
 
@@ -91,13 +89,14 @@ $$
 <br/>
 
 
-$$
-\begin{align}
-sum[i]&: \text{첫 번째부터 i번째 원소까지의 } f \text{ 값 누적합}\\
-expo[i]&: \text{첫 번째부터 i번째 원소까지의 } f^2 \text { 값 누적합}
-\end{align}
-$$
 
+$sum[i]$: 첫 번째부터 $i$번째 원소까지의 $f$ 값의 누적 합
+
+<br/>
+
+$expo[i]$: 첫 번째부터 $i$번째 원소까지의 $f^2$ 값의 누적 합
+
+<br/>
 
 
 
@@ -112,6 +111,9 @@ $$
 E = ∑\frac{f}{i - k} = \frac{sum[i] - sum[k]}{i - k}
 $$
 
+
+
+<br/>
 $$
 \begin{align}
 ∑(Error)^2 &= ∑(f - E)^2 \\&= ∑f^2 - 2E∑f + ∑E^2 \\&= expo[i] - expo[k] - 2E(sum[i] - sum[k]) + (i - k)E^2

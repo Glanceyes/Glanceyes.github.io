@@ -65,12 +65,17 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 - Advised by Prof. Hyunjung Shim <i>(On-going)</i>
 - Keywords: Multi-labeled Objects Generation, Conditional Image Generation with Implicit Guidance
 
+[Learn More](/project/suppress-to-impress)
+
+<br/>
 
 #### KUVIS: Web-based Visual Programming Software with Deep Learning in Medicine
 
 - SeonHo Lee, Yoomin Kang, Advised by Prof. Wonki Jeong <i>(Jul. 2022 ~ Aug. 2022)</i>
 - Keywords: Visual Programming, Parallel Computing for Deep Learning
 - Prototype of [VIENCE Pathoview](https://vience.io/main)
+
+[Learn More](/project/kuvis)
 
 <br/>
 <hr/>
