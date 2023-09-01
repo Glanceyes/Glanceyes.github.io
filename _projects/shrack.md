@@ -41,6 +41,8 @@ SHrack is developed to have an ability to harness computer vision techniques for
 
 Initially, the plan was to utilize pre-trained models. However, due to unsatisfactory estimation results, a decision was made to undergo supervised training with a labeled dataset, leading to fine-tuning of the model. The result is a robust posture estimation in videos, enabling accurate exercise count tracking.
 
+<br/>
+
 
 
 ![SHrack 프로젝트 구조.png](https://vip2.loli.io/2023/09/02/viBYjWt6OxzAaZm.png)

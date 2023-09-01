@@ -86,4 +86,4 @@ Though still in its prototype phase, the application's outcomes are promising. T
 
 
 
-This project is a prototype product of my internship at the High-Performance Visual Computing Lab (HVCL) of Korea University's School of Information, and the program is proprietary to [Vience](https://vience.io/main)
+This project is a prototype product of my internship at [High-Performance Visual Computing Lab (HVCL)](http://hvcl.korea.ac.kr) of Korea University's School of Information, and the program is proprietary to [Vience](https://vience.io/main)
