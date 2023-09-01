@@ -108,7 +108,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 - Advanced to 2022 ICPC Asia Korea Regional Round
 - Profile Links
     + [Baekjoon Online Judge](https://www.acmicpc.net/user/glanceyes)
-    + [Solve.ac](https://solved.ac/profile/glanceyes) <i>(Diamond 5)</i>
+    + [Solve.ac](https://solved.ac/profile/glanceyes) <i>(Diamond 4)</i>
 
 
 <br/>

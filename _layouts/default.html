@@ -43,7 +43,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 	<link rel="stylesheet" href="{{ '/css/fontawesome.all.min.css' | relative_url }}">
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+	<script>hljs.highlightAll();</script>
+	
 	{% if site.data.settings.advanced_settings.custom_styles %}
 	<!-- Custom Styles -->
 	<style>{{ site.data.settings.advanced_settings.custom_styles }}</style>
@@ -54,6 +57,23 @@
 	{{ site.data.settings.advanced_settings.analytics_code }}
 	{% endif %}
 
+	<!-- LaTeX -->
+	<script type="text/javascript" async
+		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+	</script>
+
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			extensions: ["tex2jax.js"],
+			jax: ["input/TeX", "output/HTML-CSS"],
+			tex2jax: {
+			inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+			displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+			processEscapes: true
+			},
+			"HTML-CSS": { availableFonts: ["TeX"] }
+		});
+	</script>
 	{% if site.data.settings.advanced_settings.header_js %}
 	<!-- Extra Header JS Code -->
 	{{ site.data.settings.advanced_settings.header_js }}

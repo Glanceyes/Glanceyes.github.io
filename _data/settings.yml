@@ -14,7 +14,9 @@ menu_settings:
     - title: 'Blog'
       url: '/'
     - title: 'Projects'
-      url: '/project'
+      url: '/projects'
+    - title: 'Archives'
+      url: '/archives'
 
 footer_settings:
   footer_tagline: Glance at Everything for a New Perspective

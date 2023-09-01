@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to My Explorations
+title: Welcome to my Explorations
 description: Sharing Thoughts, Experiences, and Inspirations.
 featured_image: /images/blog/banner_image.jpg
 ---
@@ -36,7 +36,7 @@ featured_image: /images/blog/banner_image.jpg
 				<div class="post__content">
 					<h2 class="post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
 					<p class="post__subtitle">{{ post.date | date: "%b %d, %Y" }}</p>
-					<p class="post__description"> {{ post.content | markdownify | strip_html | truncatewords: 50, '...' }}</p>
+					<p class="post__description">{{ post.content | markdownify | strip_html | truncatewords: 50, '...' }}</p>
 				</div>
 			</div>
 
