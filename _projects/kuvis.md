@@ -1,5 +1,5 @@
 ---
-title: A Web Application Enabling AI Modeling through Visual Programming in Medical Science
+title: KUVIS&#58 A Web Application Enabling AI Modeling through Visual Programming in Medical Science
 featured_image: https://vip2.loli.io/2023/09/01/4mpxRGOMdWaHASr.png
 start_date: '2022-07-01'
 end_date: '2022-08-31'

@@ -32,7 +32,7 @@ We introduce a new approach for **<u>addressing catastrophic neglect and attribu
 
 
 
-This approach aims to allow the diffusion model to determine the placement and size itself during inference, while ensuring the <u>**cross-attention map** **suppresses**</u> areas of **<u>non-focus</u>** and emphasizes areas of interest, using **<u>unsupervised</u>** method rather than explicitly specifying them with a mask.
+This approach aims to allow the diffusion model to determine the placement and size itself during inference, while ensuring the **cross-attention map** **suppresses** areas of **non-focus** and emphasizes areas of interest, using **unsupervised** method rather than explicitly specifying them with a mask.
 
 
 
