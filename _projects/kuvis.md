@@ -18,13 +18,13 @@ last_modified_at: '2023-09-01 22:00:00'
 
 ![kuvis](https://vip2.loli.io/2023/09/01/4mpxRGOMdWaHASr.png)
 
-In the evolving landscape of artificial intelligence and deep learning, tools that simplify the modeling process are in high demand. This project delves into the creation of a pioneering web application designed to enable AI modeling through visual programming. By harnessing the power of cloud technology, this application provides users with universal access and adaptability, establishing a new paradigm in AI model design.
+In the evolving trend of artificial intelligence and deep learning, tools that simplify the modeling process are in high demand. This project delves into the creation of a pioneering web application designed to enable AI modeling through visual programming. By harnessing the power of cloud technology, this application provides users with universal access and adaptability, establishing a new paradigm in AI model design.
 
 <br/>
 
 ## Introduction
 
-The world of AI modeling has often been constrained by the intricacies of code-based design. To bridge this gap, the project embarked on developing a web application that enables visual programming, allowing even those unfamiliar with traditional coding to design complex AI models.
+The world of AI modeling has often been constrained by the intricacies of code-based design. To bridge this gap, the project has an goal of developing a web application that enables visual programming, allowing even those unfamiliar with traditional coding to design complex AI models.
 
 <br/>
 
