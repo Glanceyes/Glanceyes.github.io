@@ -30,6 +30,7 @@
 	margin-top: -40px;
 	background: $background-color;
 	padding: 16px 20px;
+
 	@include box-shadow(0, 6px, 16px, rgba(0,0,0,0.05));
 
 	@include mq(tabletp) {
@@ -84,9 +85,20 @@
 	}
 
 	ul, ol {
+		padding-left: $p-small;
+		text-indent: -$p-small;
+	
+		@include mq(tabletp) {
+			padding-left: $p-medium;
+			text-indent: -$p-medium;
+		}
+	
+		@include mq(laptop) {
+			padding-left: $p-large;
+			text-indent: -$p-large;
+		}
 		ul, ol {
 			max-width: 100%;
-			padding-left: 25px;
 		}
 	}
 

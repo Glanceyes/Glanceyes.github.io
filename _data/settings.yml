@@ -133,7 +133,7 @@ font_settings:
     large_size: 22
     weight: 400
     letter_spacing: 0
-    line_height: 1.6
+    line_height: 1.8
   blockquote:
     small_size: 20
     medium_size: 24
