@@ -349,6 +349,8 @@ Gray scale 이미지에 관해서도 unsupervised object discovery가 잘 수행
 - Stable Diffusion으로 cross-attention manipulation으로 각 subject token에 관한 guidance를 부여했음에도 불구하고 multi-labeled objects를 잘 생성하지 못한 경우의 self-attention map을 살펴보면 특정 token의 cross-attention이 주목해야 할 부분에 self-attention의 cluster가 형성되어 있지 않음을 확인했다.
   - 다시 말해, cross-attention과 self-attention을 서로 조화시켜야 한다.
 - 그러면 diffusion model의 inference의 초기 단계에서 빠르게 self-attention에 생성하기를 원하는 object에 대한 clustering이 이루어져야 할 것이다.
+  - [Grounded Text-to-Image Synthesis with Attention Refocusing](https://arxiv.org/pdf/2306.05427.pdf)
+  - [Compositional Text-to-Image Synthesis with Attention Map Control of Diffusion Models](https://arxiv.org/pdf/2305.13921.pdf)
   - 이에 관해 유사한 아이디어를 가지고 접근한 논문이 있다. Slot Attention은 사용하지 않았지만, object마다 생성해야 할 영역을 BoxNet이라는 학습된 모델을 통해 bounding box로 예측하고 cross-attention을 해당 영역에 집중하게 한다. 이러한 아이디어는 그동안 적지 않은 논문들이 제시한 바이다.
   - 생성해야 할 영역에 self-attention이 cluster를 형성하도록 $q$와 $k$를 곱했을 때 나오는 similarity에 관해 해당 영역 외의 나머지 similairity는 0으로 만들어 버림으로써 해당 영역 안쪽에만 유사한 token으로 clustering 되도록 하고 있다.
   - BoxNet을 training 시켜야 하는 단점이 있고, 과연 bounding box로 예측을 하는 것이 정말 바람직한 건지는 의문이다.
