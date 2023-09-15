@@ -14,7 +14,7 @@ published: true
 - 대부분의 deep learning 접근법은 natural scenes의 compositional properties를 파악하지 못하는 distributed representations를 학습한다.
 - 본 논문에서는 Slot Attention module을 소개하는데, 이 모듈은 perceptual representations (e.g. CNN의 output)과 "**slot**"이라는 task-dependent abstract representations 사이의 인터페이스 역할을 한다.
 - Slot은 iterative attention을 통해 입력의 어떠한 object에도 binding할 수 있다. 이는 여러 attention rounds의 competitive procedure를 통해 specialize 된다.
-- Slot Attention을 사용하면 unsupervised object discovery 또는 supervised property prediction tasks에 대한 학습에서도 보이지 않는 composition에 대해 일반화 할 수 있는 object-centric representations를 추출할 수 있다.
+- Slot Attention을 사용하면 unsupervised object discovery 또는 supervised property prediction tasks에 대한 학습에서도 unseen composition에 대해 일반화 할 수 있는 object-centric representations를 추출할 수 있다.
 
 <br/>
 
@@ -97,7 +97,8 @@ Attention mechanism에서 query와 key를 dot product 해서 차원 $D$로 정�
 - 일반적으로 잘 알고 있는 transformer와 차이가 크지 않다.
   - Learnable linear transformation $k$, $q$, 그리고 $v$를 사용
   - Slot들에 관해 attention coefficient가 normalization 되며, 이 부분이 slot들이 서로 경쟁할 수 있도록 유도한다.
-- Weighted sum 대신 slot 수에 관해 weighted mean을 사용해서 가변적인 개수의 slot에 관해 normalization 될 수 있도록 한다.
+- Weighted sum 대신 slot 수에 관해 weighted mean을 사용해서 가변적인 개수의 <b>slot에 관해 normalization</b> 될 수 있도록 한다.
+  - 이 부분이 slot들이 서로 input의 다른 부분에 binding 되도록 경쟁을 유도하는 핵심 요소 중 하나라고 이해했다.
 - Slot Attention은 permutation invariance와 permutation equivariance를 특징으로 지닌다.
   - Permutation invariance: input이 어떠한 순서로 오든 간에 slot attention의 output에는 영향을 끼치지 않는다.
   - Permutation equivariance: slot을 initialization 한 이후에 순서를 바꾸는 건 module의 output인 slot의 순서를 바꾸는 것과 동일하다.
