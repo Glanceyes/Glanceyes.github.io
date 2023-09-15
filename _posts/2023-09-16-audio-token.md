@@ -57,9 +57,9 @@ published: true
 
   - 두 개의 Linear layer + GELU non-linear activation function
 
-    ![audiotoken_embedding1](https://vip2.loli.io/2023/09/16/U7V3OD9XYdKtnHM.png){: width="55%" height="50"}
+    ![audiotoken_embedding1](https://vip2.loli.io/2023/09/16/U7V3OD9XYdKtnHM.png){: width="50%" height="50"}
 
-    ![audiotoken_embedding2](https://vip2.loli.io/2023/09/16/zuQD5ZST6298qA4.png){: width="70%" height="50"}
+    ![audiotoken_embedding2](https://vip2.loli.io/2023/09/16/zuQD5ZST6298qA4.png){: width="60%" height="50"}
 
 - 해당 text를 text-encoder로 CLIP embedding 생성 후 이를 T2I model의 cross-attention layer에 injection
 
@@ -71,11 +71,11 @@ published: true
 
   - 일반적인 Diffusion Model에서의 Loss (𝜏는 conditioning을 위한 encoder)
 
-    ![audiotoken_loss2](https://vip2.loli.io/2023/09/16/JKZCghsxOIwEY89.png){: width="90%" height="50"}
+    ![audiotoken_loss2](https://vip2.loli.io/2023/09/16/JKZCghsxOIwEY89.png){: width="100%" height="50"}
 
   - audio embedding과 데이터의 label의 유사도가 높아지도록 하는 loss
 
-    ![audiotoken_loss3](https://vip2.loli.io/2023/09/16/9FYzPHL6DhmO5gW.png)
+    ![audiotoken_loss3](https://vip2.loli.io/2023/09/16/9FYzPHL6DhmO5gW.png){: width="50%" height="50"}
 
   - Pre-trained 모델들은 frozen 시키고 새롭게 추가한 layer들만 학습시킴
 
