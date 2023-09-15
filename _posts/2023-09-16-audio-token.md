@@ -7,6 +7,12 @@ published: true
 
 
 
+
+
+> ## [AudioToken: Adaptation of Text-Conditioned Diffusion Models for Audio-to-Image Generation](https://arxiv.org/abs/2305.13050)
+
+<br/>
+
 ## Overview
 
 

@@ -7,7 +7,9 @@ published: true
 
 
 
+> ## [Object-Centric Learning with Slot Attention](https://arxiv.org/abs/2006.15055)
 
+<br/>
 
 ## Abstract
 
