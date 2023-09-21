@@ -41,7 +41,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 ## News
 
-**Jun. 2023**: I got accepted to [CVML Lab](https://sites.google.com/view/cvml-kaist/home) as an undergraduate intern.
+**Sep. 2023**: I got accepted to [CVML Lab](https://sites.google.com/view/cvml-kaist/home) as a M.S. graduate student.
 
 <br/>
 <hr/>
