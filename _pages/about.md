@@ -41,7 +41,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 ## News
 
-**Sep. 2023**: I got accepted to [CVML Lab](https://sites.google.com/view/cvml-kaist/home) as a M.S. graduate student.
+**Sep. 2023**: I got accepted to [CVML Lab](https://sites.google.com/view/cvml-kaist/home) as a M.S. graduate student in KAIST AI.
 
 <br/>
 <hr/>
@@ -59,6 +59,13 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 <hr/>
 
 ## Research Experience
+
+#### Highlight-Guided Diffusion: Scribble can be Good Guidance
+
+- On-going Research Project (Preprint will be released soon)
+- Scheduled to be submitted within Oct. 2023
+
+<br/>
 
 #### Suppress to Impress: Attenuating Distractions in Attention Maps for Diffusion Model Inference
 
