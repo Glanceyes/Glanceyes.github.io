@@ -62,17 +62,10 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 #### Highlight-Guided Diffusion: Scribble can be Good Guidance
 
-- On-going Research Project (Preprint will be released soon)
-- Scheduled to be submitted within Oct. 2023
-
-<br/>
-
-#### Suppress to Impress: Attenuating Distractions in Attention Maps for Diffusion Model Inference
-
-- Advised by Prof. Hyunjung Shim <i>(On-going)</i>
+- On-going Research
+- Jaejin Lee, Minhee Lee, Advised by Prof. Hyunjung Shim <i>
 - Keywords: Multi-labeled Objects Generation, Conditional Image Generation with Implicit Guidance
 
-[Learn More](/project/suppress-to-impress)
 
 <br/>
 
@@ -100,6 +93,10 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 ## Honors and Awards
 
+#### Excellence Award in 2023 POSTECH OIBC Challenge
+- 3rd Place (3/120) in 2023 POSTECH OIBC Challenge <i>(Dec. 2023)</i>
+- Modeling LSTM Attention with Hourly Insolation Q Featrue for Solar Power Prediction
+
 #### Korea National Science and Technology Scholarship
 - Spring 2019, Fall 2022, Spring 2023, Fall 2023 <i>(4 Semesters)</i>
 
@@ -120,7 +117,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 - Advanced to 2022 ICPC Asia Korea Regional Round
 - Profile Links
     + [Baekjoon Online Judge](https://www.acmicpc.net/user/glanceyes)
-    + [Solve.ac](https://solved.ac/profile/glanceyes) <i>(Diamond 4)</i>
+    + [Solve.ac](https://solved.ac/profile/glanceyes)
 
 
 <br/>
