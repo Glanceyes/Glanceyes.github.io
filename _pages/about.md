@@ -63,7 +63,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 #### Highlight-Guided Diffusion: Scribble can be Good Guidance
 
 - On-going Research
-- Jaejin Lee, Minhee Lee, Advised by Prof. Hyunjung Shim <i>
+- Seonho Lee, Jaejin Lee, Minhee Lee, Advised by Prof. Hyunjung Shim <i>
 - Keywords: Multi-labeled Objects Generation, Conditional Image Generation with Implicit Guidance
 
 
@@ -71,7 +71,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 #### KUVIS: Web-based Visual Programming Software with Deep Learning in Medicine
 
-- SeonHo Lee, Yoomin Kang, Advised by Prof. Wonki Jeong <i>(Jul. 2022 ~ Aug. 2022)</i>
+- Seonho Lee, Yoomin Kang, Advised by Prof. Wonki Jeong <i>(Jul. 2022 ~ Aug. 2022)</i>
 - Keywords: Visual Programming, Parallel Computing for Deep Learning
 - Prototype of [VIENCE Pathoview](https://vience.io/main)
 
@@ -94,8 +94,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 ## Honors and Awards
 
 #### Excellence Award in 2023 POSTECH OIBC Challenge
-- 3rd Place (3/120) in 2023 POSTECH OIBC Challenge <i>(Dec. 2023)</i>
-- Modeling LSTM Attention with Hourly Insolation Q Featrue for Solar Power Prediction
+- 3rd Place (3/120) in 2023 POSTECH OIBC AI Competition of Solar Power Prediction <i>(Dec. 2023)</i>
 
 #### Korea National Science and Technology Scholarship
 - Spring 2019, Fall 2022, Spring 2023, Fall 2023 <i>(4 Semesters)</i>
