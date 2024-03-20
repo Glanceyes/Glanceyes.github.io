@@ -9,7 +9,7 @@ featured_image: /images/about/banner_image.jpg
 
 ![Profile Image](/images/about/profile_image.jpg){: width="200" height="200" style="float: right; margin-right: 20px; margin-bottom: 20px;"}
 
-I am Griffin Seon Ho Lee. I am a M.S. student at [Sogang University](https://wwwe.sogang.ac.kr/wwwe/index_new.html), majoring in Artificial Intelligence. I am working as an AI graduate researcher at [Computer Vision and Machine Learning Lab](https://sites.google.com/view/cvml-kaist/home) in [Graduate School of AI](https://gsai.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Prof. Hyunjung Shim](https://sites.google.com/view/cvml-kaist/members). 
+I am Griffin Seon Ho Lee. I am a M.S. student at [KAIST AI](https://gsai.kaist.ac.kr/), majoring in Artificial Intelligence. I am working as an AI graduate researcher at [Computer Vision and Machine Learning Lab](https://sites.google.com/view/cvml-kaist/home) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Prof. Hyunjung Shim](https://sites.google.com/view/cvml-kaist/members). 
 
 <br/>
 
