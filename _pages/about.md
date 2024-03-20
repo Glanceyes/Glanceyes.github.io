@@ -48,6 +48,9 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 ## Education
 
+#### KAIST
+- M.S. in Artificial Intelligence, Mar. 2024 ~ Feb. 2026 <i>(Expected)</i>
+
 #### Sogang University
 - B.S. in Computer Science and Engineering, Mar. 2017 ~ Feb. 2024 <i>(Expected)</i>
 - GPA: 4.12 / 4.3 <i>(Summa Cum Laude)</i>
