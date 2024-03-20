@@ -1,7 +1,7 @@
 ---
 title: Seon Ho Lee
-subtitle: Upcoming M.S. Student at CVML Lab, KAIST AI
-description: Research on AI especially in Computer vision, Computer Graphics, and Recommendation System
+subtitle: M.S. Student at CVML Lab, KAIST AI
+description: Research on AI especially in Computer vision and Computer Graphics
 featured_image: /images/about/banner_image.jpg
 ---
 
@@ -9,19 +9,19 @@ featured_image: /images/about/banner_image.jpg
 
 ![Profile Image](/images/about/profile_image.jpg){: width="200" height="200" style="float: right; margin-right: 20px; margin-bottom: 20px;"}
 
-I am Griffin Seon Ho Lee. I am an undergraduate at [Sogang University](https://wwwe.sogang.ac.kr/wwwe/index_new.html), majoring in Computer Science and Engineering. I am working as an undergraduate intern at [Computer Vision and Machine Learning Lab](https://sites.google.com/view/cvml-kaist/home) in [Graduate School of AI](https://gsai.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Prof. Hyunjung Shim](https://sites.google.com/view/cvml-kaist/members). 
+I am Griffin Seon Ho Lee. I am a M.S. student at [Sogang University](https://wwwe.sogang.ac.kr/wwwe/index_new.html), majoring in Artificial Intelligence. I am working as an AI graduate researcher at [Computer Vision and Machine Learning Lab](https://sites.google.com/view/cvml-kaist/home) in [Graduate School of AI](https://gsai.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Prof. Hyunjung Shim](https://sites.google.com/view/cvml-kaist/members). 
 
 <br/>
 
-I am interested in research on AI especially in Computer vision, Computer Graphics, and Recommendation System. I hope to use AI to help people freely envision, realize, and share what they believe in.
+I am interested in research on AI especially in Computer vision and Computer Graphics. I hope to use AI to help people freely envision, realize, and share what they believe in.
 
 <br/>
 
 Particularly, I am researching on the following topics:
 
-**1. Multi-Labeled Objects Generation in Generative Models**
+**1. Score Distillation based 3D Generation**
 
-**2. Image Editing in Generative Models**
+**2. Image Editing with Diffusion Models**
 
 <br/>
 
@@ -50,7 +50,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 #### Sogang University
 - B.S. in Computer Science and Engineering, Mar. 2017 ~ Feb. 2024 <i>(Expected)</i>
-- GPA: 4.14 / 4.3 <i>(Summa Cum Laude)</i>
+- GPA: 4.12 / 4.3 <i>(Summa Cum Laude)</i>
 
 #### Sangsan High School
 
@@ -62,9 +62,10 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 #### Highlight-Guided Diffusion: Scribble can be Good Guidance
 
-- On-going Research
-- Seonho Lee, Jaejin Lee, Minhee Lee, Advised by Prof. Hyunjung Shim <i>
+- Seonho Lee, Jaejin Lee, Minhee Lee, Hannah Park, Jihoon Lee
 - Keywords: Conditional Image Generation with Classifier Guidance
+
+[Codes](https://github.com/Glanceyes/Highlight-Guided-Diffusion)
 
 
 <br/>
@@ -75,7 +76,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 - Keywords: Visual Programming, Parallel Computing for Deep Learning
 - Prototype of [VIENCE Pathoview](https://vience.io/main)
 
-[Learn More](/project/kuvis)
+[Projects](/project/kuvis)
 
 <br/>
 <hr/>
@@ -116,7 +117,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 - Advanced to 2022 ICPC Asia Korea Regional Round
 - Profile Links
     + [Baekjoon Online Judge](https://www.acmicpc.net/user/glanceyes)
-    + [Solve.ac](https://solved.ac/profile/glanceyes)
+    + [Solved.ac](https://solved.ac/profile/glanceyes)
 
 
 <br/>
