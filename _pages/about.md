@@ -63,9 +63,17 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 ## Research Experience
 
+#### Understanding Multi-Granularity for Open-Vocabulary Part Segmentation
+- Jiho Choi\*, Seonho Lee\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
+- Keywords: Open-Vocabulary Part Segmentation
+
+[Pre-print](#) (Under Review), [Codes](#) (Coming Soon)
+
+<br/>
+
 #### Highlight-Guided Diffusion: Scribble can be Good Guidance
 
-- Seonho Lee, Jaejin Lee, Minhee Lee, Hannah Park, Jihoon Lee
+- Seonho Lee, Jaejin Lee, Minhee Lee
 - Keywords: Conditional Image Generation with Classifier Guidance
 
 [Codes](https://github.com/Glanceyes/Highlight-Guided-Diffusion)
@@ -80,6 +88,10 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 - Prototype of [VIENCE Pathoview](https://vience.io/main)
 
 [Projects](/project/kuvis)
+
+<br/>
+
+\*: equal contribution
 
 <br/>
 <hr/>
