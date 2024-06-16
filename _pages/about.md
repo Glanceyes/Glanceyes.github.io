@@ -78,6 +78,9 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 [Codes](https://github.com/Glanceyes/Highlight-Guided-Diffusion)
 
+<br/>
+
+\*: equal contribution
 
 <br/>
 <hr/>
@@ -92,9 +95,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 [Projects](/project/kuvis)
 
-<br/>
 
-\*: equal contribution
 
 <br/>
 <hr/>
