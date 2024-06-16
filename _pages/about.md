@@ -80,6 +80,9 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 
 <br/>
+<hr/>
+
+## Projects
 
 #### KUVIS: Web-based Visual Programming Software with Deep Learning in Medicine
 
@@ -108,6 +111,10 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 
 ## Honors and Awards
+
+#### 2nd Place on Open Vocabulary Part Segmentation Challenge at CVPR 2024
+- 2nd Place Winnder both on Track 1 and 2
+- 4th workshop on Open World Vision at CVPR 2024
 
 #### Excellence Award in 2023 POSTECH OIBC Challenge
 - 3rd Place (3/120) in AI Competition of Solar Power Generation Forecasting <i>(Dec. 2023)</i>
