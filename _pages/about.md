@@ -19,9 +19,9 @@ I am interested in research on AI especially in Computer vision and Computer Gra
 
 Particularly, I am researching on the following topics:
 
-**1. Score Distillation based 3D Generation**
+**1. 3D Editing with Generative Models**
 
-**2. Image Editing with Diffusion Models**
+**2. Open Vocabulary Segmentation**
 
 <br/>
 
@@ -61,22 +61,21 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 <br/>
 <hr/>
 
-## Research Experience
+## Publications
+
+#### DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation
+- Jiwook Kim\*, Seonho Lee\*, Jaeyo Shin, Jiho Choi, Hyunjung Shim
+- Keywords: 3D Editing, Score Distillation
+
+[Pre-print](https://arxiv.org/abs/2407.11394) (arXiv), [Codes](https://github.com/kaist-cvml-lab/DreamCatalyst)
+
+<br/>
 
 #### Understanding Multi-Granularity for Open-Vocabulary Part Segmentation
 - Jiho Choi\*, Seonho Lee\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
 - Keywords: Open-Vocabulary Part Segmentation
 
-[Pre-print](#) (Under Review), [Codes](#) (Coming Soon)
-
-<br/>
-
-#### Highlight-Guided Diffusion: Scribble can be Good Guidance
-
-- Seonho Lee, Jaejin Lee, Minhee Lee
-- Keywords: Conditional Image Generation with Classifier Guidance
-
-[Codes](https://github.com/Glanceyes/Highlight-Guided-Diffusion)
+[Pre-print](https://arxiv.org/abs/2406.11384) (Under Review), [Codes](https://github.com/kaist-cvml-lab/part-clipseg)
 
 <br/>
 
@@ -87,6 +86,16 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 ## Projects
 
+
+#### Highlight-Guided Diffusion: Scribble can be Good Guidance
+
+- Seonho Lee, Jaejin Lee, Minhee Lee
+- Keywords: Conditional Image Generation with Classifier Guidance
+
+[Codes](https://github.com/Glanceyes/Highlight-Guided-Diffusion)
+
+<br/>
+
 #### KUVIS: Web-based Visual Programming Software with Deep Learning in Medicine
 
 - Seonho Lee, Yoomin Kang, Advised by Prof. Wonki Jeong <i>(Jul. 2022 ~ Aug. 2022)</i>
@@ -96,20 +105,8 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 [Projects](/project/kuvis)
 
 
-
 <br/>
 <hr/>
-
-
-## Work Experience
-
-#### Life Planning Lab
-- Backend Developer <i>(Dec. 2021 ~ Jan. 2022)</i>
-
-
-<br/>
-<hr/>
-
 
 ## Honors and Awards
 
@@ -129,6 +126,17 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 <br/>
 <hr/>
+
+
+## Work Experience
+
+#### Life Planning Lab
+- Backend Developer <i>(Dec. 2021 ~ Jan. 2022)</i>
+
+
+<br/>
+<hr/>
+
 
 ## Skills
 
