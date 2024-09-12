@@ -71,7 +71,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 - <b>Seonho Lee</b>\*, Jiho Choi\*, Seohyun Lim, Jiwook Kim, Hyunjung Shim
 - Keywords: Conditional Image Generation
-- Sep. 2024
+- <i>Sep. 2024</i>
 
 [Pre-print]() (Under Review), [Codes](https://github.com/kaist-cvml-lab/scribble-diffusion)
 
@@ -83,7 +83,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 - Jiwook Kim\*, <b>Seonho Lee</b>\*, Jaeyo Shin, Jiho Choi, Hyunjung Shim
 - Keywords: 3D Editing, Score Distillation
-- Jul. 2024
+- <i>Jul. 2024</i>
 
 [Pre-print](https://arxiv.org/abs/2407.11394) (arXiv), [Project Page](https://dream-catalyst.github.io/), [Codes](https://github.com/kaist-cvml-lab/DreamCatalyst)
 
@@ -95,7 +95,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 - Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
 - Keywords: Open-Vocabulary Part Segmentation
-- May. 2024
+- <i>May. 2024</i>
 
 [Pre-print](https://arxiv.org/abs/2406.11384) (Under Review), [Codes](https://github.com/kaist-cvml-lab/part-clipseg)
 
