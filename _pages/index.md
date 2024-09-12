@@ -67,7 +67,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 #### Scribble-Guided Diffusion for Training-free Text-to-Image Generation
 
-![Profile Image](/images/about/publications/2024/scribblediff.png){: width="20%" style="float: left; margin-right: 40px; margin-bottom: 20px;"}
+![Profile Image](/images/about/publications/2024/scribblediff.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
 
 - <b>Seonho Lee</b>\*, Jiho Choi\*, Seohyun Lim, Jiwook Kim, Hyunjung Shim
 - Keywords: Conditional Image Generation
@@ -79,7 +79,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 #### DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation
 
-![Profile Image](/images/about/publications/2024/dreamcatalyst.png){: width="20%" style="float: left; margin-right: 40px; margin-bottom: 20px;"}
+![Profile Image](/images/about/publications/2024/dreamcatalyst.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
 
 - Jiwook Kim\*, <b>Seonho Lee</b>\*, Jaeyo Shin, Jiho Choi, Hyunjung Shim
 - Keywords: 3D Editing, Score Distillation
