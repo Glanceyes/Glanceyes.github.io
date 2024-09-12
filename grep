@@ -1,0 +1,908 @@
+ 1096  history 10000 > grep jekyll
+ 1095  history 10000 > grep bundle
+ 1094  history > grep bundle
+ 1093  history 1000
+ 1092  history -i 10000 
+ 1091  history -i 10000 > grep bundle
+ 1090  history -i 1000 > grep bundle
+ 1089  history -i 1000 > grep jekyll
+ 1088  history > grep jekyll
+ 1087  /usr/bin/python3 /Users/glanceyes/.vscode/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/glanceyes/.vscode/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/deactivate/zsh/envVars.txt
+ 1086  /usr/bin/python3 /Users/glanceyes/.vscode/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/glanceyes/.vscode/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/deactivate/zsh/envVars.txt
+ 1085  /usr/bin/python3 /Users/glanceyes/.vscode/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/glanceyes/.vscode/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/deactivate/zsh/envVars.txt
+ 1084  /usr/bin/python3 /Users/glanceyes/.vscode/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/glanceyes/.vscode/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/deactivate/zsh/envVars.txt
+ 1083  /usr/bin/python3 /Users/glanceyes/.vscode/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/glanceyes/.vscode/extensions/ms-python.python-2024.12.3-darwin-arm64/python_files/deactivate/zsh/envVars.txt
+ 1082  ssh ge@CVML-GPGPU9
+ 1081  ssh ge@CVML-GPGPU4
+ 1080  exit
+ 1079  ssh ge@CVML-GPGPU9
+ 1078  ssh ge@CVML-GPGPU9
+ 1077  ssh ge@CVML-GPGPU3
+ 1076  rm -rf .vscode
+ 1075  ls
+ 1074  rm -rf .vscode
+ 1073  ls -al
+ 1072  ssh ge@CVML-GPGPU3
+ 1071  ssh ge@CVML-GPGPU8
+ 1070  ssh ge@CVML-GPGPU4
+ 1069  ssh ge@CVML-GPGPU9
+ 1068  ssh ge@CVML-WST06
+ 1067  ssh ge@CVML-WTS06
+ 1066  ssh ge@CVML-GPGPU9
+ 1065  ssh ge@CVML-GPGPU9
+ 1064  ssh ge@CVML-GPGPU3
+ 1063  ssh ge@CVML-GPGPU3
+ 1062  ssh ge@CVML-GPGPU9
+ 1061  ssh ge@CVML-GPGPU9
+ 1060  git push -u origin main
+ 1059  git commit -m "Update README"
+ 1058  git add .
+ 1057  git push -u origin main
+ 1056  git commit -m "Update README"
+ 1055  git add .
+ 1054  git pull origin
+ 1053  git reset --hard HEAD~
+ 1052  git pull origin
+ 1051  git push -u origin main
+ 1050  git commit -m "Update README"
+ 1049  git add .
+ 1048  git push origin main
+ 1047  git commit -m "Update publications"
+ 1046  git add .
+ 1045  git add .
+ 1044  git pull origin
+ 1043  git push -u origin main
+ 1042  git commit -m "Update README"
+ 1041  git add .
+ 1040  git push -u origin main
+ 1039  git remote add origin https://github.com/kaist-cvml-lab/DreamCatalyst.git
+ 1038  git branch -M main
+ 1037  git commit -m "Add first commit\n\nCo-authored-by: Jiwook Kim <tom919@kaist.ac.kr>\nCo-authored-by: Seonho Lee <glanceyes@gmail.com>\nCo-authored-by: Jaeyo Shin <mallangcowb@gmail.com >\nCo-authored-by: Jiho Choi <jihochoi1993@gmail.com>\n"
+ 1036  git add .
+ 1035  ls
+ 1034  git init
+ 1033  ls
+ 1032  git commit -m "Add first commit"
+ 1031  git init
+ 1030  cd DreamCatalyst
+ 1029  ls
+ 1028  cd Codes
+ 1027  ls
+ 1026  cd ..
+ 1025  cd ..
+ 1024  git push origin main
+ 1023  git commit -m "Add videos for vigilance task"
+ 1022  git add .
+ 1021  ls
+ 1020  git push origin main
+ 1019  git commit -m "First commit"
+ 1018  git add .
+ 1017  cd Temporary-Asset-Repository/
+ 1016  git clone https://github.com/Glanceyes/Temporary-Asset-Repository.git
+ 1015  ls
+ 1014  cd ..
+ 1013  git push origin main
+ 1012  git commit -m "Update Video"
+ 1011  git add .
+ 1010  ls
+ 1009  clear
+ 1008  cd Image-Repository
+ 1007  cd Image-Re
+ 1006  ls
+ 1005  git clone https://github.com/Glanceyes/Image-Repository.git
+ 1004  ls
+ 1003  cd Archive
+ 1002  git Archive
+ 1001  ls
+ 1000  sudo pkill bluetoothd
+  999  bundle exec jekyll serve
+  998  bundle exex jekyll serve
+  997  git push origin main
+  996  git commit -m "Fix research experience"
+  995  git add .
+  994  brew install MonitorControl
+  993  git commit -m "Add Award"
+  992  git push origin main
+  991  git commit -m "Add Award"
+  990  git add .
+  989  brew install MonitorControl
+  988  ls
+  987  clear
+  986  ssh ge@CVML-GPGPU9
+  985  ls
+  984  brew install stats
+  983  brew install maccy
+  982  ls
+  981  clear
+  980  ls
+  979  bundle exec jekyll serve
+  978  history
+  977  git push origin main
+  976  git commit -m "Update projects"
+  975  git add .
+  974  pwd
+  973  ls
+  972  ssh ge@CVML-GPGPU9
+  971  ssh ge@CVML-GPGPU4
+  970  ssh ge@CVML-GPGPU4
+  969  ssh ge@CVML-GPGPU9
+  968  ssh ge@CVML-GPGPU3
+  967  ssh ge@CVML-GPGPU9
+  966  ssh ge@CVML-GPGPU9
+  965  conda activate ovparts
+  964  ssh ge@CVML-GPGPU4
+  963  ssh ge@CVML-GPGPU4
+  962  ssh ge@CVML-GPGPU9
+  961  ssh ge@CVML-GPGPU4
+  960  ssh ge@CVML-GPGPU8
+  959  ssh ge@CVML-GPGPU8
+  958  ssh ge@CVML-GPGPU9
+  957  ssh ge@CVML-GPGPU8
+  956  ssh ge@CVML-GPGPU6
+  955  ssh ge@CVML-DEBUG1
+  954  ssh ge@CVML-GPGPU4
+  953  ssh ge@CVML-GPGPU4
+  952  ssh ge@CVML-GPGPU9
+  951  ssh ge@CVML-DEBUG1
+  950  ssh ge@CVML-DEBUG1
+  949  ssh ge@CVML-DEBUG1
+  948  exit
+  947  ssh ge@CVML-DEBUG1
+  946  ssh ge@CVML-DEBUG1
+  945  ssh ge@CVML-DEBUG1
+  944  ssh ge@CVML-DEBUG1
+  943  ssh ge@CVML-DEBUG1
+  942  ssh ge@CVML-DEBUG1
+  941  ssh ge@CVML-GPGPU4
+  940  ssh ge@CVML-GPGPU9
+  939  ssh ge@CVML-GPGPU4
+  938  ssh ge@CVML-GPGPU4
+  937  ssh ge@CVML-GPGPU8
+  936  ssh ge@CVML-GPGPU4
+  935  ssh ge@CVML-GPGPU04
+  934  ssh ge@CVML-GPGPU04
+  933  ssh ge@CVML-DEBUG1
+  932  ssh ge@CVML-DEBUG01
+  931  ssh ge@CVML-GPGPU4
+  930  ssh ge@CVML-GPGPU8
+  929  ssh ge@CVML-GPGPU8
+  928  ssh ge@CVML-GPGPU9
+  927  ssh ge@CVML-GPGPU9
+  926  ssh ge@CVML-GPGPU9
+  925  ssh ge@CVML-GPGPU9
+  924  ssh ge@CVML-GPGPU8
+  923  ssh ge@CVML-GPGPU4
+  922  ssh ge@CVML-GPGPU9
+  921  ssh ge@CVML-GPGPU8
+  920  ssh ge@CVML-GPGPU8
+  919  ssh ge@CVML-GPGPU8
+  918  ssh ge@CVML-DEBUG1
+  917  ssh ge@CVML-DEBUG1
+  916  ssh ge@CVML-DEBUG1
+  915  ssh ge@CVML-DEBUG1
+  914  ssh ge@CVML-DEBUG1
+  913  ssh ge@CVML-DEBUG01
+  912  ssh ge@CVML-GPGPU9
+  911  ssh ge@CVML-DEBUG1
+  910  ssh ge@CVML-GPGPU9
+  909  ssh ge@CVML-GPGPU9
+  908  ssh ge@CVML-GPGPU7
+  907  ssh ge@CVML-GPGPU7
+  906  ssh ge@CVML-GPGPU7
+  905  ssh ge@CVML-GPGPU9
+  904  ssh ge@CVML-GPGPU9
+  903  ssh ge@CVML-GPGPU9
+  902  python /Users/glanceyes/.vscode/extensions/ms-python.python-2024.6.0/python_files/printEnvVariablesToFile.py /Users/glanceyes/.vscode/extensions/ms-python.python-2024.6.0/python_files/deactivate/zsh/envVars.txt
+  901  ssh ge@CVML-GPGPU6
+  900  ssh ge@CVML-GPGPU3
+  899  ssh ge@CVML-GPGPU3
+  898  ssh ge@CVML-GPGPU3
+  897  ssh ge@CVML-GPGPU9
+  896  ssh CVML@GPGPU-09
+  895  ssh ge@CVML-GPGPU4
+  894  ssh ge@CVML-GPGPU4
+  893  ssh ge@CVML-GPGPU04
+  892  ssh ge@CVML-GPGPU4
+  891  python /Users/glanceyes/.vscode/extensions/ms-python.python-2024.4.0/python_files/printEnvVariablesToFile.py /Users/glanceyes/.vscode/extensions/ms-python.python-2024.4.0/python_files/deactivate/zsh/envVars.txt
+  890  ssh ge@CVML-GPGPU9
+  889  ssh ge@CVML-GPGPU8
+  888  ssh ge@CVML-GPGPU8
+  887  ssh ge@CVML-GPGPU9
+  886  ssh ge@CVML-GPGPU9
+  885  ssh ge@CVML-DEBUG1
+  884  ssh ge@CVML_DEBUG-01
+  883  ssh ge@CVML-DEBUG01
+  882  ssh ge@CVML-SPC03
+  881  ssh ge@192.168.16.100
+  880  ssh ge@CVML-GPGPU5
+  879  ssh ge@CVML-GPGPU5
+  878  clear
+  877  ssh ge@CVML-GPGPU7
+  876  ssh ge@CVML-GPGPU7
+  875  ssh ge@CVML-GPGPU7
+  874  ssh ge@CVML-GPGPU7
+  873  ssh ge@CVML-GPGPU7
+  872  ssh ge@CVML-GPGPU7
+  871  ssh ge@CVML-GPGPU7
+  870  ssh ge@CVML-GPGPU7
+  869  ssh ge@CVML-GPGPU7
+  868  ssh ge@CVML-GPGPU9
+  867  ssh ge@CVML-GPGPU9
+  866  ssh ge@CVML-GPGPU9
+  865  ssh ge@CVML-GPGPU9
+  864  ssh ge@CVML-GPGPU9
+  863  ssh ge@CVML-GPGPU9
+  862  ssh ge@CVML-GPGPU9
+  861  ssh ge@CVML-GPGPU9
+  860  git push origin main
+  859  git commit -m "Update profile"
+  858  git add .
+  857  git push origin main
+  856  git commit -m "Fix profile"
+  855  git add .
+  854  bundle exec jekyll serve
+  853  git push origin main
+  852  git commit -m "Update profile"
+  851  git add .
+  850  bundle exec jekyll serve
+  849  ls
+  848  ssh ge@CVML-GPGPU5
+  847  ssh ge@CVML-GPGPU5
+  846  ssh ge@CVML-GPGPU9
+  845  ssh -V
+  844  ssh -v
+  843  ssh -v
+  842  ssh ge@CVML-GPGPU5
+  841  ssh ge@CVML-GPGPU4
+  840  ssh ge@CVML-GPGPU5
+  839  ssh ge@CVML-GPGPU3
+  838  ssh ge@CVML-GPGPU5
+  837  ssh-add -D
+  836  ssh ge@CVML-GPGPU3
+  835  ssh ge@CVML-GPGPU3
+  834  ssh ge@CVML-SPC03
+  833  ssh ge@CVML-SPC_03
+  832  ssh ge@CVML-WST06
+  831  ssh ge@CVML-SPC03
+  830  ssh ge@CVML-SPC02
+  829  ssh ge@CVML-GPGPU9
+  828  ssh ge@CVML-GPGPU8
+  827  ssh ge@CVML-GPGPU7
+  826  ssh ge@CVML-GPGPU6
+  825  ssh ge@CVML-GPGPU5
+  824  ssh ge@CVML-GPGPU4
+  823  ssh ge@CVML-GPGPU3
+  822  ssh ge@CVML-DEBUG1
+  821  ssh ge@CVML-SPC_03
+  820  ssh geCVML-SPC_03
+  819  ssh ge@CVML-SPC03
+  818  ssh ge@CVML-GPGPU5
+  817  ssh ge@CVML-GPGPU3
+  816  ssh ge@CVML-GPGPU3
+  815  ssh ge@CVML-SPC03
+  814  ssh ge@CVML-SPC03
+  813  ssh ge@CVML-SPC03
+  812  ssh ge@CVML-GPGPU5
+  811  clear
+  810  ssh ge@CVML-GPGPU3
+  809  ssh ge@CVML-GPGPU3
+  808  ssh ge@CVML-GPU03
+  807  ssh ge@CVML-GPGPU03
+  806  ssh ge@CVML-SPC03
+  805  clear
+  804  ssh ge@CVML-SPC03
+  803  ssh ge@CVML-SPC03
+  802  ssh ge@CVML-SPC03
+  801  ssh ge@CVML-SPC03
+  800  ssh ge@CVML-SPC03
+  799  ssh ge@CVML_SPC03
+  798  ssh ge@CVML-SPC03
+  797  ssh ge@CVML-GPGPU7
+  796  clear
+  795  ssh ge@CVML-GPGPU7
+  794  ssh ge@CVML-GPU07
+  793  ssh ge@CVML-GPGPU07
+  792  ssh ge@CVML-GPGPU4
+  791  tar -xvf gds_spider_outputs.tar --exclude="*.ckpt"
+  790  tar -xvf gds_outputs.tar --exclude="*.ckpt"
+  789  ls
+  788  cd GeometricSDS
+  787  ls
+  786  cd study/cvml
+  785  ssh ge@CVML-GPGPU4
+  784  ssh ge@CVML-GPGPU9
+  783  ssh ge@CVML-GPGPU9
+  782  ssh ge@CVML-GPGPU7
+  781  ssh ge@CVML-GPGPU9
+  780  ssh ge@CVML-GPGPU4
+  779  ssh ge@CVML-GPGPU3
+  778  ssh ge@CVML-GPGPU7
+  777  ssh ge@CVML-GPGPU4
+  776  ssh ge@CVML-GPGPU4
+  775  docker run --privileged --gpus all -it -p $DOCKER_PORT_RANGE:$DOCKER_PORT_RANGE --shm-size=192g --name=$DOCKER_CONTAINER_NAME -d -v $DOCKER_BASE_PATH:$DOCKER_BASE_PATH $DOCKER_IMAGE_NAME
+  774  DOCKER_IMAGE_NAME=glanceyes/pds\nDOCKER_BASE_PATH=/raid/workspace/cvml_user/ge\nDOCKER_CONTAINER_NAME=glanceyes_pds\nDOCKER_PORT_RANGE=37030-37040
+  773  ssh ge@CVML-GPGPU4
+  772  ssh ge@CVML-GPGPU4
+  771  ssh ge@CVML-GPGPU4
+  770  ssh ge@CVML-GPGPU7
+  769  ssh ge@CVML-GPGPU9
+  768  ssh ge@CVML-GPGPU7
+  767  ssh ge@CVML-GPGPU4
+  766  ssh ge@CVML-GPGPU5
+  765  ssh ge@CVML-SPC03
+  764  ssh ge@CVML-GPGPU3
+  763  ssh ge@CVML-SPC03
+  762  conda activate base
+  761  python -u "/Users/glanceyes/Study/CVML/dift/src/models/dift_sd.py"
+  760  ssh ge@CVML-GPGPU3
+  759  ls
+  758  ssh ge@CVML-GPGPU3
+  757  ssh ge@CVML-GPGPU7
+  756  ssh ge@CVML-GPGPU4
+  755  ssh ge@CVML-GPGPU4
+  754  ssh ge@CVML-GPGPU3
+  753  ssh ge@CVML-GPGPU6
+  752  ssh ge@CVML-GPGPU6
+  751  ssh ge@CVML-GPGPU4
+  750  ssh ge@CVML-GPGPU4
+  749  ssh ge@CVML-GPGPU9
+  748  ssh ge@CVML_GPGPU9
+  747  ssh ge@CVML-GPGPU9
+  746  ssh ge@CVML_GPGPU9
+  745  git clone https://github.com/Tsingularity/dift.git
+  744  ls
+  743  cd CVML
+  742  ls
+  741  cd study
+  740  ssh intern05@137.68.194.149
+  739  ssh intern05@137.68.194.149
+  738  ssh intern05@137.68.194.149
+  737  ssh intern05@137.68.194.149
+  736  git push origin main
+  735  git commit -m "Fix README"
+  734  git commit Fix README
+  733  git add README.md
+  732  git push -u origin main
+  731  git remote add origin https://github.com/Glanceyes/Highlight-Guided-Diffusion.git
+  730  git branch -M main
+  729  git commit -m "Add first commit"
+  728  git add .
+  727  git init
+  726  git push -u origin main
+  725  git remote add origin https://github.com/Glanceyes/Highlight-Guided-Diffusion.git
+  724  git branch -M main
+  723  git commit -m "Add first commit"
+  722  git add .
+  721  git init
+  720  rm -rf ./.git
+  719  ls -al
+  718  git push -u origin main
+  717  git remote add origin https://github.com/Glanceyes/Highlight-Guided-Diffusion.git
+  716  git branch -M main
+  715  git commit -m "Add first commit"
+  714  git add .
+  713  git init
+  712  ls
+  711  ssh intern05@137.68.194.149
+  710  ssh intern05@137.68.194.149
+  709  ssh intern05@137.68.194.149
+  708  ssh intern05@137.68.194.149
+  707  ssh intern05@137.68.194.149
+  706  ssh intern05@137.68.194.149
+  705  ssh intern05@137.68.194.149
+  704  ssh intern05@137.68.194.149
+  703  git branch
+  702  git commit -m "Add experiment"
+  701  git branch
+  700  git add .
+  699  ssh intern05@137.68.194.149
+  698  ssh intern05@137.68.194.149
+  697  git add .
+  696  git pull origin
+  695  cd Highlight-Guided-Diffusion
+  694  ls
+  693  cd CVML
+  692  ls
+  691  cd Study
+  690  ssh intern05@137.68.194.149
+  689  ssh intern05@137.68.194.149
+  688  ssh intern05@137.68.194.149
+  687  ssh intern05@137.68.194.149
+  686  ssh intern05@137.68.194.149
+  685  ssh intern05@137.68.194.149
+  684  ssh intern05@137.68.194.149
+  683  ssh intern05@137.68.194.149
+  682  ssh intern05@137.68.194.149
+  681  ssh intern05@137.68.194.149
+  680  ssh intern05@137.68.194.149
+  679  ssh intern05@137.68.194.149
+  678  ssh intern05@137.68.194.149
+  677  ssh intern05@137.68.194.149
+  676  ssh intern05@137.68.194.149
+  675  ssh intern05@137.68.194.149
+  674  ssh intern05@137.68.194.149
+  673  ssh intern05@137.68.194.149
+  672  ssh intern05@137.68.194.149
+  671  ssh intern05@137.68.194.149
+  670  ssh intern05@137.68.194.149
+  669  ssh intern05@137.68.194.149
+  668  ssh intern05@137.68.194.149
+  667  ssh intern05@137.68.194.149
+  666  ssh intern05@137.68.194.149
+  665  ssh intern05@137.68.194.149
+  664  ssh intern05@137.68.194.149
+  663  ssh intern05@137.68.194.149
+  662  ssh intern05@137.68.194.149
+  661  git push origin main
+  660  git commit -m "[FIX] Awards"
+  659  git add .
+  658  ssh intern05@137.68.194.149
+  657  git push origin main
+  656  git commit -m "[FIX] Profile update"
+  655  git add .
+  654  ssh intern05@137.68.194.149
+  653  git push origin
+  652  git commit -m "[FIX] Update awards\n"
+  651  git add .
+  650  git push origin
+  649  git remote add origin https://github.com/Glanceyes/Glanceyes.github.io.git
+  648  git push origin
+  647  git branch
+  646  git
+  645  cd Glanceyes
+  644  cd ..
+  643  ls
+  642  cd Personal
+  641  cd ..
+  640  ls
+  639  git push
+  638  git push
+  637  git commit -m "[FIX] Update Awards"
+  636  git add .
+  635  history -i 100 | grep git
+  634  bundle exec jekyll serve
+  633  ls
+  632  cd Glanceyes
+  631  ls
+  630  cd Sites
+  629  history -i 100 | grep jekyll
+  628  history -i 10000 | grep jekyll
+  627  history -i | grep jekyll
+  626  git push
+  625  git commit -m "[FIX] Align center"
+  624  git add .
+  623  git push
+  622  git commit -m "[FIX] Update profile image"
+  621  git add .
+  620  git push
+  619  git commit -m "[FIX] Update image url"
+  618  git add .
+  617  git push -u origin main
+  616  git remote add origin https://github.com/Glanceyes/2023-POSTECH-OIBC-Challenge.git
+  615  git branch -M main
+  614  git commit -m "[FEAT] First commit"
+  613  git add .
+  612  git init
+  611  conda activate base
+  610  ssh intern05@137.68.194.149
+  609  ssh intern05@137.68.194.149
+  608  ssh intern05@137.68.194.149
+  607  ssh intern05@137.68.194.149
+  606  ssh intern05@137.68.194.149
+  605  ssh intern05@137.68.194.149
+  604  ssh intern05@137.68.194.149
+  603  ssh intern05@137.68.194.149
+  602  ssh intern05@137.68.194.149
+  601  ssh intern05@137.68.194.149
+  600  ssh intern05@137.68.194.172
+  599  ssh intern05@137.68.194.149
+  598  ssh intern05@137.68.194.149
+  597  ssh intern05@137.68.194.149
+  596  ssh intern05@137.68.194.149
+  595  ssh intern05@137.68.194.149
+  594  ssh intern05@137.68.194.135
+  593  ls
+  592  python draw_highlight.py
+  591  python draw_highlight.py
+  590  python draw_highlight
+  589  ssh intern05@137.68.194.135
+  588  python draw_highlight.py
+  587  ls
+  586  cd Highlight-Guided-Diffusion
+  585  ls
+  584  cd cvml
+  583  ls
+  582  cd study
+  581  ls
+  580  ssh intern05@137.68.194.149
+  579  ssh intern05@137.68.194.149
+  578  conda activate base
+  577  ssh intern05@137.68.194.149
+  576  ssh intern05@137.68.194.149
+  575  python draw_highlight.py
+  574  cd Highlight-Guided-Diffusion
+  573  python draw_highlight.py
+  572  ls
+  571  cd ..
+  570  ls
+  569  python draw_highlight.py
+  568  ls
+  567  cd Highlight-Guided-Diffusion
+  566  ls
+  565  cd cvml
+  564  ls
+  563  cd study
+  562  ls
+  561  cd cvml
+  560  ssh intern05@137.68.194.149
+  559  ssh intern05@137.68.194.149
+  558  python -u "/Users/glanceyes/Study/CVML/StableDiffusion/scripts/txt2img.py"
+  557  ssh intern05@137.68.194.149
+  556  ls
+  555  ls
+  554  mkdir Sunlight
+  553  ls
+  552  ssh intern05@137.68.194.149
+  551  git clone https://github.com/Stability-AI/stablediffusion.git
+  550  ls
+  549  cd CVML
+  548  ls
+  547  cd Study
+  546  ls
+  545  python draw_highlight.py
+  544  python draw_highlight.py
+  543  python draw_highlight.py
+  542  python draw_highlight.py
+  541  python draw_highlight.py
+  540  pip install transformers
+  539  pip install transformer
+  538  pip install git+https://github.com/CompVis/taming-transformers.git\npip install git+https://github.com/openai/CLIP.git
+  537  ls
+  536  python draw_highlight.py
+  535  pip install git+https://github.com/CompVis/taming-transformers.git\npip install git+https://github.com/openai/CLIP.git
+  534  python draw_highlight.py
+  533  pip install opencv-python
+  532  pip install cv2
+  531  python draw_highlight.py
+  530  pip install -r environments/requirements.txt
+  529  conda install pytorch torchvision
+  528  conda install pytorch torchvision torchaudio
+  527  conda activate highlight-guided
+  526  conda create --name highlight-guided python==3.8.0
+  525  conda activate highlight-guided
+  524  ls
+  523  clear
+  522  cd highlight-guided-diffusion
+  521  cd highlight-guigded-diffusion
+  520  ls
+  519  cd study/cvml
+  518  ssh -X intern05@137.68.194.149
+  517  ssh intern05@137.68.194.149
+  516  ssh intern05@137.68.194.149
+  515  ssh intern05@137.68.194.149 -p 10022
+  514  ssh intern05@137.68.194.149 -p 10022
+  513  ssh intern05@137.68.194.149 -p 10022
+  512  ssh intern05@137.68.194.149:10022
+  511  ssh intern05@137.68.194.135
+  510  ssh
+  509  ssh intern05@137.68.194.135
+  508  ssh intern05@137.68.194.149
+  507  ssh intern05@137.68.194.149
+  506  ls
+  505  git clone https://github.com/Glanceyes/Highlight-Guided-Diffusion.git
+  504  cd ..
+  503  git branch
+  502  git pull origin feat/gpu
+  501  git commit -m "Update utils"
+  500  git add .
+  499  git branch
+  498  git pull origin feat/gpu
+  497  git branch
+  496  cd Highlight-Control-Diffusion
+  495  ls
+  494  cd CVML
+  493  ls
+  492  cd Study
+  491  ls
+  490  git pull origin feat/gpu
+  489  git pull origin feat/gpu
+  488  git branch
+  487  conda activate base
+  486  git branch
+  485  ssh intern05@137.68.194.149
+  484  ssh intern05@137.68.194.135
+  483  history -i 100
+  482  ssh intern05@137.68.194.149
+  481  ssh intern05@137.68.194.149
+  480  history -i 100
+  479  history -i 1000
+  478  history -i 1000 | grep ssh
+  477  history
+  476  history | grep ssh
+  475  git clone https://huggingface.co/gligen/gligen-generation-text-box
+  474  git clone https://huggingface.co/gligen/gligen-generation-text-box/blob/main
+  473  rm -rf gligen-generation-text-box
+  472  ls -al
+  471  git clone https://huggingface.co/gligen/gligen-generation-text-box
+  470  git clone https://huggingface.co/gligen/gligen-generation-text-box/blob/main/diffusion_pytorch_model.bin
+  469  ls
+  468  git-lfs install
+  467  brew install git-lfs
+  466  git-lfs install
+  465  git lfs install
+  464  git lfs install https://huggingface.co/gligen/gligen-generation-text-box/blob/main/diffusion_pytorch_model.bin
+  463  git-lfs install https://huggingface.co/gligen/gligen-generation-text-box/blob/main/diffusion_pytorch_model.bin
+  462  ls
+  461  cd text-box
+  460  ls
+  459  cd checkpoints/gligen
+  458  ls
+  457  cd Highlight-Control-Diffusion
+  456  ls
+  455  cd CVML
+  454  ls
+  453  l
+  452  cd Study
+  451  brew install git-lfs
+  450  conda install pytorch::pytorch torchvision torchaudio -c pytorch
+  449  conda install matplotlib
+  448  conda install jupyter
+  447  conda install jupyter matplitlib
+  446  conda install jupyter, matplotlib
+  445  conda install tqdm
+  444  conda install pandas
+  443  ls
+  442  conda activate example_env
+  441  conda create -n example_env python=3.9
+  440  conda create -n example_env python=3.9
+  439  ls
+  438  cd Assignment_01
+  437  ls
+  436  cd Assignments
+  435  ls
+  434  cd AIE4011-RecSys
+  433  ls
+  432  cd Sogang
+  431  ls
+  430  git push
+  429  git commit -m "[FEAT] New research project"
+  428  git add .
+  427  ls
+  426  bundle exec jekyll serve
+  425  bundle exec jekyll
+  424  history -i 100
+  423  ls
+  422  cd glanceyes
+  421  ls
+  420  cd sites
+  419  cd ..
+  418  ls
+  417  cd study
+  416  ls
+  415  python draw_highlight.py
+  414  python draw_highlight.py
+  413  ls
+  412  cd Highlight-Guided-Diffusion
+  411  cd Highlight-Guided Diffusion
+  410  ls
+  409  git clone https://github.com/Glanceyes/Highlight-Guided-Diffusion.git
+  408  ls
+  407  cd ..
+  406  ls
+  405  python draw_highlight.py
+  404  clear
+  403  pip install -r environment/requirements.txt
+  402  pip install -f environment/requirements.txt
+  401  ls
+  400  pip install environment/requirements.txt
+  399  clear
+  398  pip install requirements.txt
+  397  ls
+  396  conda activate highlight-guide
+  395  conda activate highlight-guid
+  394  conda create -n highlight-guide python=3.8
+  393  conda create -n highlight-guide python 3.8
+  392  conda remove -n shrack --all
+  391  conda env list
+  390  ls
+  389  cd Highlight-Guide-Diffusion
+  388  ls
+  387  cd CVML
+  386  ls
+  385  cd Study
+  384  ls
+  383  ssh intern05@137.68.194.149
+  382  history -i 100 | grep ssh
+  381  ssh intern05@137.68.194.149
+  380  git push
+  379  git commit -m "[FEAT] Update education section"
+  378  git add .
+  377  ls
+  376  clear
+  375  ls
+  374  ls
+  373  cd Glanceyes
+  372  ls
+  371  cd Sites
+  370  bundle exec jekyll serve
+  369  bundle exec jekyll 
+  368  cd Glanceyes
+  367  ls
+  366  cd Sites
+  365  ls
+  364  cd ..
+  363  cd ..
+  362  git clone https://github.com/gligen/GLIGEN.git
+  361  ls
+  360  git clone https://github.com/Attention-Refocusing/attention-refocusing.git
+  359  https://github.com/Attention-Refocusing/attention-refocusing.git
+  358  ls
+  357  git clone https://github.com/Glanceyes/Highlight-Guide-Diffusion.git
+  356  ls
+  355  cd CVML
+  354  ls
+  353  cd Study
+  352  cd Studyl
+  351  ls
+  350  cd
+  349  git push
+  348  git commit -m "[FIX] Modify width of images"
+  347  git add .
+  346  bundle exec jekyll serve
+  345  git push
+  344  git commit -m "[FEAT] Add link for papers"
+  343  git add .
+  342  git push
+  341  git commit -m "[FEAT] Upload post"
+  340  git add .
+  339  bundle exec jekyll serve
+  338  ls
+  337  cd Glanceyes
+  336  ls
+  335  cd Sites
+  334  ssh intern05@137.68.194.149
+  333  ssh intern05@137.68.194.149
+  332  ssh intern05@137.68.194.149
+  331  ssh intern05@137.68.194.149
+  330  ls
+  329  bundle exec jekyll serve
+  328  ls
+  327  cd sites/glanceyes
+  326  git push
+  325  git commit -m "[FIX] Update link"
+  324  git add .
+  323  git push
+  322  git commit -m "[FEAT] Upload post"
+  321  git add .
+  320  bundle exec jekyll serve
+  319  ls
+  318  clear
+  317  cd Glanceyes
+  316  cd Sites
+  315  bundle exec jekyll serve
+  314  ls
+  313  cd Sites/Glanceyes
+  312  ls
+  311  git push origin main
+  310  git commit -m "[FIX] Revise the contents"
+  309  git add .
+  308  cd Glanceyes
+  307  cd Sites
+  306  ls
+  305  cd Sties
+  304  ssh intern05@137.68.194.149
+  303  ssh intern05@137.68.194.135
+  302  git push
+  301  git commit -m "[FEAT] Upload post"
+  300  git add .
+  299  ls
+  298  cd Sites/Glanceyes
+  297  bundle exec jekyll serve
+  296  ls
+  295  cd Sites/Glanceyes
+  294  git push
+  293  git commit -m "[FIX] Update link"
+  292  git add .
+  291  git push
+  290  git commit -m "[FIX] Update link"
+  289  git add .
+  288  ls
+  287  cd Sites/Glanceyes
+  286  bundle exec jekyll serve
+  285  cd Glanceyes
+  284  ls
+  283  cd Sites
+  282  bundle exec jekyll serve
+  281  bundle exec jekyll serve
+  280  bundle exec jekyll serve
+  279  bundle exec jekyll serve
+  278  bundle exec jekyll serve
+  277  bundle exec jekyll serve
+  276  bundle exec jekyll serve
+  275  bundle exec jekyll serve
+  274  bundle exec jekyll serve
+  273  bundle exec jekyll serve
+  272  ls
+  271  cd Glanceyes
+  270  ls
+  269  clear
+  268  cd Sites
+  267  ls
+  266  cd Sties
+  265  ls
+  264  git push
+  263  git commit -m "[FEAT] Update projects"
+  262  git add .
+  261  ls
+  260  git push origin main
+  259  git commit -m "[FEAT] Add archives"
+  258  git add .
+  257  git add m
+  256  rougify style base16.solarized.light > css/syntax.css
+  255  ls
+  254  gem install kramdown rouge
+  253  cd Glanceyes
+  252  ls
+  251  cd Sites
+  250  bundle exec jekyll serve
+  249  ls
+  248  cd Glanceyes
+  247  ls
+  246  cd Sites
+  245  ls
+  244  git push
+  243  ls
+  242  clear
+  241  ls
+  240  ls
+  239  git commit -m "[FEAT] Add thumbnail"
+  238  git add .
+  237  ls
+  236  cd Glanceyes
+  235  ls
+  234  cd Sites
+  233  git push
+  232  git commit -m "[FEAT] Add project"
+  231  git push
+  230  git commit - m "[FEAT] Add project"
+  229  git add .
+  228  git push
+  227  git commit -m "[FEAT] Add excerpt"
+  226  git add .
+  225  git push
+  224  git commit -m "[FIX] Set future to true"
+  223  git add .
+  222  git push origin main
+  221  git commit -m "[FIX] Add setting"
+  220  git add .
+  219  git push origin main
+  218  git commit -m "[FEAT] Update Posts"
+  217  git add .
+  216  ls
+  215  git push
+  214  git commit -m "[FEAT] Update about.md"
+  213  git add .
+  212  cd Glanceyes
+  211  ls
+  210  cd Sites
+  209  ls
+  208  bundle exec jekyll serve
+  207  bundle exec jekyll serve
+  206  bundle exec jekyll serve
+  205  bundle install
+  204  bundle install bundle exec jekyll serve
+  203  vi Gemfile
+  202  ls
+  201  vi _config.yml
+  200  ls
+  199  git push
+  198  git push --set-upstream origin main
+  197  git commit -m "[FEAT] Change theme"
+  196  git add .
+  195  ls
+  194  bundle exec jekyll serve
+  193  bundle install
+  192  bundle exec jekyll serve
+  191  gem install bundler
+  190  bundle exec jekyll serve
+  189  jekyll new ./

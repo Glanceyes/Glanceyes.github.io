@@ -19,7 +19,7 @@ I am interested in research on AI especially in Computer vision and Computer Gra
 
 Particularly, I am researching on the following topics:
 
-**1. 3D Editing with Generative Models**
+**1. 3D Generative Models**
 
 **2. Open Vocabulary Segmentation**
 
@@ -27,13 +27,13 @@ Particularly, I am researching on the following topics:
 
 Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
-<a href="/pdf/cv.pdf" target="_blank" class="button button--medium"><i class="fa fa-file-pdf"></i> CV</a>
+<!-- <a href="/pdf/cv.pdf" target="_blank" class="button button--medium"><i class="fa fa-file-pdf"></i> CV</a> -->
 <a href="mailto:glanceyes@gmail.com" class="button button--medium"><i class="fa fa-envelope"></i> E-mail</a>
 <a href="https://github.com/glanceyes" target="_blank" class="button button--medium"><i class="fa-brands fa-github"></i> Github</a>
 <a href="https://www.linkedin.com/in/glanceyes/" target="_blank" class="button button--medium"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+<a href="https://scholar.google.com/citations?user=DFKGTG0AAAAJ/" target="_blank" class="button button--medium"><i class="fa-brands fa-google"></i> Google Scholar</a>
 <br/>
 
-- 9405, Building #9, Hoegi-ro, Seoul, Korea <br/>
 - Email: glanceyes (at) gmail (dot) com
 
 <br/>
@@ -63,21 +63,43 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 ## Publications
 
+### <i>2024</i>
+
+#### Scribble-Guided Diffusion for Training-free Text-to-Image Generation
+
+![Profile Image](/images/about/publications/2024/scribblediff.png){: width="20%" style="float: left; margin-right: 40px; margin-bottom: 20px;"}
+
+- <b>Seonho Lee</b>\*, Jiho Choi\*, Seohyun Lim, Jiwook Kim, Hyunjung Shim
+- Keywords: Conditional Image Generation
+- Sep. 2024
+
+[Pre-print]() (Under Review), [Codes](https://github.com/kaist-cvml-lab/scribble-diffusion)
+
+<br clear="all"/>
+
 #### DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation
-- Jiwook Kim\*, Seonho Lee\*, Jaeyo Shin, Jiho Choi, Hyunjung Shim
+
+![Profile Image](/images/about/publications/2024/dreamcatalyst.png){: width="20%" style="float: left; margin-right: 40px; margin-bottom: 20px;"}
+
+- Jiwook Kim\*, <b>Seonho Lee</b>\*, Jaeyo Shin, Jiho Choi, Hyunjung Shim
 - Keywords: 3D Editing, Score Distillation
+- Jul. 2024
 
-[Pre-print](https://arxiv.org/abs/2407.11394) (arXiv), [Codes](https://github.com/kaist-cvml-lab/DreamCatalyst)
+[Pre-print](https://arxiv.org/abs/2407.11394) (arXiv), [Project Page](https://dream-catalyst.github.io/), [Codes](https://github.com/kaist-cvml-lab/DreamCatalyst)
 
-<br/>
+<br clear="all"/>
 
 #### Understanding Multi-Granularity for Open-Vocabulary Part Segmentation
-- Jiho Choi\*, Seonho Lee\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
+
+![Profile Image](/images/about/publications/2024/partclipseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
+
+- Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
 - Keywords: Open-Vocabulary Part Segmentation
+- May. 2024
 
 [Pre-print](https://arxiv.org/abs/2406.11384) (Under Review), [Codes](https://github.com/kaist-cvml-lab/part-clipseg)
 
-<br/>
+<br clear="left"/>
 
 \*: equal contribution
 
@@ -87,12 +109,12 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 ## Projects
 
 
-#### Highlight-Guided Diffusion: Scribble can be Good Guidance
+#### RECJOON: Backjoon Online Judge Problem Solving Recommendation System
 
-- Seonho Lee, Jaejin Lee, Minhee Lee
-- Keywords: Conditional Image Generation with Classifier Guidance
+- Naver Boostcamp AI Tech 3rd, Team 14 <i>(Mar. 2022 ~ Jun. 2022)</i>
+- Keywords: Recommendation System
 
-[Codes](https://github.com/Glanceyes/Highlight-Guided-Diffusion)
+[Review](https://glanceyes.github.io/project/recjoon), [Codes](https://github.com/boostcampaitech3/final-project-level3-recsys-14)
 
 <br/>
 
@@ -102,7 +124,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 - Keywords: Visual Programming, Parallel Computing for Deep Learning
 - Prototype of [VIENCE Pathoview](https://vience.io/main)
 
-[Projects](/project/kuvis)
+[Review](https://glanceyes.github.io/project/kuvis), [Projects](/project/kuvis)
 
 
 <br/>
@@ -153,3 +175,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 <br/>
 <hr/>
+
+```
+Last updated: 13rd, Sep. 2024
+```
