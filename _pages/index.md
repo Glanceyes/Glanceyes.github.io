@@ -27,7 +27,7 @@ Particularly, I am researching on the following topics:
 
 Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
-<!-- <a href="/pdf/cv.pdf" target="_blank" class="button button--medium"><i class="fa fa-file-pdf"></i> CV</a> -->
+<a href="/pdf/cv.pdf" target="_blank" class="button button--medium"><i class="fa fa-file-pdf"></i> CV</a>
 <a href="mailto:glanceyes@gmail.com" class="button button--medium"><i class="fa fa-envelope"></i> E-mail</a>
 <a href="https://github.com/glanceyes" target="_blank" class="button button--medium"><i class="fa-brands fa-github"></i> Github</a>
 <a href="https://www.linkedin.com/in/glanceyes/" target="_blank" class="button button--medium"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
