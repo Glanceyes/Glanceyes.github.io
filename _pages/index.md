@@ -73,7 +73,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 - Keywords: Conditional Image Generation
 - <i>Sep. 2024</i>
 
-[Pre-print]() (Under Review), [Codes](https://github.com/kaist-cvml-lab/scribble-diffusion)
+[Pre-print](https://arxiv.org/abs/2409.08026) (Under Review), [Codes](https://github.com/kaist-cvml-lab/scribble-diffusion)
 
 <br clear="all"/>
 
