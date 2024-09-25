@@ -41,6 +41,8 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 ## News
 
+**Sep. 2024**: Our <b>[PartCLIPSeg](https://arxiv.org/abs/2406.11384)</b> paper got accepted to <b>[NeurIPS 2024](https://neurips.cc)!</b>
+
 **Sep. 2023**: I got accepted to [CVML Lab](https://sites.google.com/view/cvml-kaist/home) as a M.S. graduate student in KAIST AI.
 
 <br/>
@@ -93,6 +95,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 ![Profile Image](/images/about/publications/2024/partclipseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
 
+- <b>[NeurIPS 2024](https://neurips.cc)</b>
 - Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
 - Keywords: Open-Vocabulary Part Segmentation
 - <i>May. 2024</i>
