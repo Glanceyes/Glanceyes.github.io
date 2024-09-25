@@ -95,12 +95,11 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 ![Profile Image](/images/about/publications/2024/partclipseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
 
-- <b>[NeurIPS 2024](https://neurips.cc)</b>
 - Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
 - Keywords: Open-Vocabulary Part Segmentation
 - <i>May. 2024</i>
 
-[Paper](https://arxiv.org/abs/2406.11384), [Codes](https://github.com/kaist-cvml-lab/part-clipseg)
+<b>[NeurIPS 2024](https://neurips.cc)</b>, [Paper](https://arxiv.org/abs/2406.11384), [Codes](https://github.com/kaist-cvml-lab/part-clipseg)
 
 <br clear="left"/>
 
