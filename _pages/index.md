@@ -7,7 +7,7 @@ featured_image: /images/about/banner_image.jpg
 
 # Hello
 
-![Profile Image](/images/about/profile_image.jpg){: width="200" height="200" style="float: right; margin-right: 20px; margin-bottom: 20px;"}
+![Profile Image](/images/about/profile_image.jpg){: width="200" height="200" style="float: right; margin-right: 20px; margin-left: 20px; margin-bottom: 20px;"}
 
 I am Griffin Seon Ho Lee. I am a M.S. student at [KAIST AI](https://gsai.kaist.ac.kr/), majoring in Artificial Intelligence. I am working as an AI graduate researcher at [Computer Vision and Machine Learning Lab](https://sites.google.com/view/cvml-kaist/home) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Prof. Hyunjung Shim](https://sites.google.com/view/cvml-kaist/members). 
 
@@ -25,9 +25,7 @@ Particularly, I am researching on the following topics:
 
 <br/>
 
-Please refer to my CV(Curriculum Vitae) if you want to know more about me.
-
-<a href="/pdf/cv.pdf" target="_blank" class="button button--medium"><i class="fa fa-file-pdf"></i> CV</a>
+<!-- <a href="/pdf/cv.pdf" target="_blank" class="button button--medium"><i class="fa fa-file-pdf"></i> CV</a> -->
 <a href="mailto:glanceyes@gmail.com" class="button button--medium"><i class="fa fa-envelope"></i> E-mail</a>
 <a href="https://github.com/glanceyes" target="_blank" class="button button--medium"><i class="fa-brands fa-github"></i> Github</a>
 <a href="https://www.linkedin.com/in/glanceyes/" target="_blank" class="button button--medium"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
@@ -87,7 +85,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 - Keywords: 3D Editing, Score Distillation
 - <i>Jul. 2024</i>
 
-[Pre-print](https://arxiv.org/abs/2407.11394) (arXiv), [Project Page](https://dream-catalyst.github.io/), [Codes](https://github.com/kaist-cvml-lab/DreamCatalyst)
+[Pre-print](https://arxiv.org/abs/2407.11394) (Under Review), [Project Page](https://dream-catalyst.github.io/), [Codes](https://github.com/kaist-cvml-lab/DreamCatalyst)
 
 <br clear="all"/>
 
@@ -103,7 +101,7 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 
 <br clear="left"/>
 
-\*: equal contribution
+<b>\* indicates equal contribution.</b>
 
 <br/>
 <hr/>
@@ -179,5 +177,5 @@ Please refer to my CV(Curriculum Vitae) if you want to know more about me.
 <hr/>
 
 ```
-Last updated: 13rd, Sep. 2024
+Last updated: 3rd, Oct. 2024
 ```
