@@ -67,7 +67,7 @@ Particularly, I am researching on the following topics:
 
 #### PartCATSeg: Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation
 
-![PartCATSeg](/images/about/publications/2024/partcatseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
+![PartCATSeg](/images/about/publications/2024/partcatseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
 
 - Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
 - Keywords: Open-Vocabulary Part Segmentation
