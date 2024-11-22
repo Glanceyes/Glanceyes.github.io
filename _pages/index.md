@@ -189,5 +189,5 @@ Particularly, I am researching on the following topics:
 <hr/>
 
 ```
-Last updated: 3rd, Oct. 2024
+Last updated: 23rd, Nov. 2024
 ```
