@@ -79,7 +79,7 @@ Particularly, I am researching on the following topics:
 
 #### Scribble-Guided Diffusion for Training-free Text-to-Image Generation
 
-![Scribble-Guided Diffusion](/images/about/publications/2024/scribblediff.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
+![Scribble-Guided Diffusion](/images/about/publications/2024/scribblediff.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 80px; margin-bottom: 80px;"}
 
 - <b>Seonho Lee</b>\*, Jiho Choi\*, Seohyun Lim, Jiwook Kim, Hyunjung Shim
 - Keywords: Conditional Image Generation
