@@ -67,7 +67,7 @@ Particularly, I am researching on the following topics:
 
 #### PartCATSeg: Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation
 
-![PartCATSeg](/images/about/publications/2024/partcatseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
+![PartCATSeg](/images/about/publications/2024/partcatseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
 
 - Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
 - Keywords: Open-Vocabulary Part Segmentation
@@ -79,7 +79,7 @@ Particularly, I am researching on the following topics:
 
 #### Scribble-Guided Diffusion for Training-free Text-to-Image Generation
 
-![Scribble-Guided Diffusion](/images/about/publications/2024/scribblediff.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 80px; margin-bottom: 80px;"}
+![Scribble-Guided Diffusion](/images/about/publications/2024/scribblediff.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
 
 - <b>Seonho Lee</b>\*, Jiho Choi\*, Seohyun Lim, Jiwook Kim, Hyunjung Shim
 - Keywords: Conditional Image Generation
