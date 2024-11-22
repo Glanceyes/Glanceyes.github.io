@@ -65,9 +65,21 @@ Particularly, I am researching on the following topics:
 
 ### <i>2024</i>
 
+#### PartCATSeg: Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation
+
+![PartCATSeg](/images/about/publications/2024/partcatseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
+
+- Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
+- Keywords: Open-Vocabulary Part Segmentation
+- <i>Nov. 2024</i>
+
+(Under Review)
+
+<br clear="all"/>
+
 #### Scribble-Guided Diffusion for Training-free Text-to-Image Generation
 
-![Profile Image](/images/about/publications/2024/scribblediff.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
+![Scribble-Guided Diffusion](/images/about/publications/2024/scribblediff.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
 
 - <b>Seonho Lee</b>\*, Jiho Choi\*, Seohyun Lim, Jiwook Kim, Hyunjung Shim
 - Keywords: Conditional Image Generation
@@ -79,7 +91,7 @@ Particularly, I am researching on the following topics:
 
 #### DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation
 
-![Profile Image](/images/about/publications/2024/dreamcatalyst.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
+![DreamCatalyst](/images/about/publications/2024/dreamcatalyst.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
 
 - Jiwook Kim\*, <b>Seonho Lee</b>\*, Jaeyo Shin, Jiho Choi, Hyunjung Shim
 - Keywords: 3D Editing, Score Distillation
@@ -89,9 +101,9 @@ Particularly, I am researching on the following topics:
 
 <br clear="all"/>
 
-#### Understanding Multi-Granularity for Open-Vocabulary Part Segmentation
+#### PartCLIPSeg: Understanding Multi-Granularity for Open-Vocabulary Part Segmentation
 
-![Profile Image](/images/about/publications/2024/partclipseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
+![PartCLIPSeg](/images/about/publications/2024/partclipseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
 
 - Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
 - Keywords: Open-Vocabulary Part Segmentation
@@ -99,7 +111,7 @@ Particularly, I am researching on the following topics:
 
 <b>[NeurIPS 2024](https://neurips.cc)</b>, [Paper](https://arxiv.org/abs/2406.11384), [Codes](https://github.com/kaist-cvml-lab/part-clipseg)
 
-<br clear="left"/>
+<br clear="all"/>
 
 <b>\* indicates equal contribution.</b>
 
