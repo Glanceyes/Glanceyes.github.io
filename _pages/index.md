@@ -19,9 +19,10 @@ I am interested in research on AI especially in Computer vision and Computer Gra
 
 Particularly, I am researching on the following topics:
 
-**1. 3D Generative Models**
+**1. 3D Generative AI**
 
-**2. Open Vocabulary Segmentation**
+**2. Multi-modal AI**
+
 
 <br/>
 
@@ -120,6 +121,13 @@ Particularly, I am researching on the following topics:
 
 ## Projects
 
+#### SHrack: Mobile Web Service for Real-time Exercise Count Tracking
+- Web-based real-time video streaming service for accurate exercise count detection
+- Keywords: MobileNet, Contextual Prediction Module
+
+[Review](https://glanceyes.github.io/project/shrack)
+
+<br/>
 
 #### RECJOON: Backjoon Online Judge Problem Solving Recommendation System
 
@@ -151,6 +159,9 @@ Particularly, I am researching on the following topics:
 #### Excellence Award in 2023 POSTECH OIBC Challenge
 - 3rd Place (3/120) in AI Competition of Solar Power Generation Forecasting <i>(Dec. 2023)</i>
 
+#### 2022 ICPC Asia Korea Regional Contest
+- 48th in Korea, 62nd in Preliminary
+
 #### Korea National Science and Technology Scholarship
 - Spring 2019, Fall 2022, Spring 2023, Fall 2023 <i>(4 Semesters)</i>
 
@@ -165,21 +176,29 @@ Particularly, I am researching on the following topics:
 ## Work Experience
 
 #### Life Planning Lab
-- Backend Developer <i>(Dec. 2021 ~ Jan. 2022)</i>
+- Data Engineer <i>(Dec. 2021 ~ Jan. 2022)</i>
+- Developed back-end platform and managed database
+- Created a data preprocessor on AWS and built data pipeline for dashboard
+
+
+<br/>
+<hr/>
+
+## Extra-Curricular Activities
+- Participated in courses and competitions hosted by Upstage
 
 
 <br/>
 <hr/>
 
 
-## Skills
+## Technical Skills
 
 #### Programming Languages
 - Python, C/C++, JavaScript, HTML/CSS, SQL
 
 
 #### Algorithm & Problem Solving
-- Advanced to 2022 ICPC Asia Korea Regional Round
 - Profile Links
     + [Baekjoon Online Judge](https://www.acmicpc.net/user/glanceyes)
     + [Solved.ac](https://solved.ac/profile/glanceyes)
@@ -189,5 +208,5 @@ Particularly, I am researching on the following topics:
 <hr/>
 
 ```
-Last updated: 23rd, Nov. 2024
+Last updated: 24th, Dec. 2024
 ```
