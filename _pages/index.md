@@ -185,6 +185,8 @@ Particularly, I am researching on the following topics:
 <hr/>
 
 ## Extra-Curricular Activities
+
+#### Naver Boostcamp AI Tech 3rd
 - Participated in courses and competitions hosted by Upstage
 
 
