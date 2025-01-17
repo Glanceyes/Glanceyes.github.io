@@ -19,7 +19,7 @@ I am interested in research on AI especially in Computer vision and Computer Gra
 
 Particularly, I am researching on the following topics:
 
-**1. 3D Generative AI**
+**1. 3D Generation**
 
 **2. Multi-modal AI**
 
@@ -74,7 +74,7 @@ Particularly, I am researching on the following topics:
 - Keywords: Open-Vocabulary Part Segmentation
 - <i>Nov. 2024</i>
 
-(Under Review)
+[Pre-print](http://arxiv.org/abs/2501.09688) (Under Review), [Codes](https://github.com/kaist-cvml/part-catseg)
 
 <br clear="all"/>
 
@@ -110,7 +110,7 @@ Particularly, I am researching on the following topics:
 - Keywords: Open-Vocabulary Part Segmentation
 - <i>May. 2024</i>
 
-<b>[NeurIPS 2024](https://neurips.cc)</b>, [Paper](https://arxiv.org/abs/2406.11384), [Codes](https://github.com/kaist-cvml-lab/part-clipseg)
+<b>[NeurIPS 2024](https://neurips.cc/virtual/2024/poster/94085)</b>, [Paper](https://arxiv.org/abs/2406.11384), [Codes](https://github.com/kaist-cvml-lab/part-clipseg)
 
 <br clear="all"/>
 
@@ -210,5 +210,5 @@ Particularly, I am researching on the following topics:
 <hr/>
 
 ```
-Last updated: 24th, Dec. 2024
+Last updated: 17th, Jan. 2025
 ```
