@@ -78,7 +78,7 @@ Particularly, I am researching on the following topics:
 - Keywords: Open-Vocabulary Part Segmentation
 - <i>Nov. 2024</i>
 
-<b>[CVPR 2025](https://cvpr.thecvf.com/Conferences/2025)</b>, [Pre-print](http://arxiv.org/abs/2501.09688) (Under Review), [Codes](https://github.com/kaist-cvml/part-catseg)
+<b>[CVPR 2025](https://cvpr.thecvf.com/Conferences/2025)</b>, [Paper](http://arxiv.org/abs/2501.09688), [Codes](https://github.com/kaist-cvml/part-catseg)
 
 <br clear="all"/>
 
