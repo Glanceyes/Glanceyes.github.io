@@ -40,7 +40,7 @@ Particularly, I am researching on the following topics:
 
 ## News
 
-**Feb. 2025**: Our <b>[PartCATSeg](http://arxiv.org/abs/2501.09688)</b> paper got accepted to <b>[CVPR 2025](https://cvpr.thecvf.com/2025)!</b>
+**Feb. 2025**: Our <b>[PartCATSeg](http://arxiv.org/abs/2501.09688)</b> paper got accepted to <b>[CVPR 2025](https://cvpr.thecvf.com/Conferences/2025)!</b>
 
 **Jan. 2025**: Our <b>[DreamCatalyst](https://arxiv.org/abs/2407.11394)</b> paper got accepted to <b>[ICLR 2025](https://iclr.cc/Conferences/2025)!</b>
 
@@ -78,7 +78,7 @@ Particularly, I am researching on the following topics:
 - Keywords: Open-Vocabulary Part Segmentation
 - <i>Nov. 2024</i>
 
-<b>[CVPR 2025](https://cvpr.thecvf.com/2025)</b>, [Pre-print](http://arxiv.org/abs/2501.09688) (Under Review), [Codes](https://github.com/kaist-cvml/part-catseg)
+<b>[CVPR 2025](https://cvpr.thecvf.com/Conferences/2025)</b>, [Pre-print](http://arxiv.org/abs/2501.09688) (Under Review), [Codes](https://github.com/kaist-cvml/part-catseg)
 
 <br clear="all"/>
 
