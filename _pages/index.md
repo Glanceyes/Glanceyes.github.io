@@ -13,15 +13,17 @@ I am Griffin Seon Ho Lee. I am a M.S. student at [KAIST AI](https://gsai.kaist.a
 
 <br/>
 
-I am interested in research on AI especially in Computer vision and Computer Graphics. I hope to use AI to help people freely envision, realize, and share what they believe in.
+I am interested in research on AI especially in Computer vision. I hope to use AI to help people freely envision, realize, and share what they believe in.
 
 <br/>
 
 Particularly, I am researching on the following topics:
 
-**1. 3D Generation**
+**1. Multi-modal AI**
 
-**2. Multi-modal AI**
+**2. 3D understanding & generation**
+
+
 
 
 <br/>
