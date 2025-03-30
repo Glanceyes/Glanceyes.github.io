@@ -53,6 +53,7 @@ Particularly, I am researching on the following topics:
 <br/>
 <hr/>
 
+
 ## Education
 
 #### KAIST
@@ -67,6 +68,7 @@ Particularly, I am researching on the following topics:
 
 <br/>
 <hr/>
+
 
 ## Publications
 
@@ -125,7 +127,13 @@ Particularly, I am researching on the following topics:
 <br/>
 <hr/>
 
+
 ## Projects
+
+#### 3D-Aware VLM Finetuning, Samsung Research 
+- On-going project (Jun. 2024 ~ Jun. 2025)
+
+<br/>
 
 #### SHrack: Mobile Web Service for Real-time Exercise Count Tracking
 - Web-based real-time video streaming service for accurate exercise count detection
@@ -200,11 +208,7 @@ Particularly, I am researching on the following topics:
 <hr/>
 
 
-## Technical Skills
-
-#### Programming Languages
-- Python, C/C++, JavaScript, HTML/CSS, SQL
-
+## Skills
 
 #### Algorithm & Problem Solving
 - Profile Links
@@ -216,5 +220,5 @@ Particularly, I am researching on the following topics:
 <hr/>
 
 ```
-Last updated: 23rd, Jan. 2025
+Last updated: 30th, March. 2025
 ```
