@@ -131,7 +131,7 @@ Particularly, I am researching on the following topics:
 ## Projects
 
 #### 3D-Aware VLM Finetuning, Samsung Research 
-- On-going project (Jun. 2024 ~ Jun. 2025)
+- On-going research project <i>(Jun. 2024 ~ Jun. 2025)</i>
 
 <br/>
 
