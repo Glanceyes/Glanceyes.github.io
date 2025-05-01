@@ -117,7 +117,7 @@ Particularly, I am researching on the following topics:
 
 ## Work Experience
 
-#### Sanp Inc.
+#### Snap Inc.
 - Incoming research & engineer intern <i>(Jun. 2025 ~ Sep. 2025)</i>
 - Research on Video Diffusion Model
 
