@@ -21,7 +21,7 @@ Particularly, I am researching on the following topics:
 
 **1. Multi-modal AI**
 
-**2. 3D understanding & generation**
+**2. Diffusion Model**
 
 
 
@@ -117,7 +117,7 @@ Particularly, I am researching on the following topics:
 
 ## Work Experience
 
-### Sanp Inc.
+#### Sanp Inc.
 - Incoming research & engineer intern <i>(Jun. 2025 ~ Sep. 2025)</i>
 - Research on Video Diffusion Model
 
