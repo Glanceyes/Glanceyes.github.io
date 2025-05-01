@@ -118,14 +118,16 @@ Particularly, I am researching on the following topics:
 ## Work Experience
 
 #### Snap Inc.
-- Incoming research & engineer intern <i>(Jun. 2025 ~ Sep. 2025)</i>
+
+- Incoming Research & Engineer Intern 
+- <i>Jun. 2025 ~ Sep. 2025</i>, Santa Monica, CA
 - Research on Video Diffusion Model
 
 
 #### Life Planning Lab
-- Data Engineer <i>(Dec. 2021 ~ Jan. 2022)</i>
-- Developed back-end platform and managed database
-- Created a data preprocessor on AWS and built data pipeline for dashboard
+- Data Engineer & Back-end Engineer
+- <i>Dec. 2021 ~ Jan. 2022</i>, Seoul
+- Developed back-end platform and data preprocessor
 
 
 <br/>
