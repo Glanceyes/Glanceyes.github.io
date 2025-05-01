@@ -42,6 +42,8 @@ Particularly, I am researching on the following topics:
 
 ## News
 
+**Jun. 2025**: I will start my internship at [Snap Inc.](https://www.snap.com) in Santa Monica, CA.
+
 **Feb. 2025**: Our <b>[PartCATSeg](http://arxiv.org/abs/2501.09688)</b> paper got accepted to <b>[CVPR 2025](https://cvpr.thecvf.com/Conferences/2025)!</b>
 
 **Jan. 2025**: Our <b>[DreamCatalyst](https://arxiv.org/abs/2407.11394)</b> paper got accepted to <b>[ICLR 2025](https://iclr.cc/Conferences/2025)!</b>
@@ -53,21 +55,6 @@ Particularly, I am researching on the following topics:
 <br/>
 <hr/>
 
-
-## Education
-
-#### KAIST
-- M.S. in Artificial Intelligence, Mar. 2024 ~ Feb. 2026 <i>(Expected)</i>
-
-#### Sogang University
-- B.S. in Computer Science and Engineering, Mar. 2017 ~ Feb. 2024 <i>(Expected)</i>
-- GPA: 4.12 / 4.3 <i>(Summa Cum Laude)</i>
-
-#### Sangsan High School
-
-
-<br/>
-<hr/>
 
 
 ## Publications
@@ -128,6 +115,23 @@ Particularly, I am researching on the following topics:
 <hr/>
 
 
+## Work Experience
+
+### Sanp Inc.
+- Incoming research & engineer intern <i>(Jun. 2025 ~ Sep. 2025)</i>
+- Research on Video Diffusion Model
+
+
+#### Life Planning Lab
+- Data Engineer <i>(Dec. 2021 ~ Jan. 2022)</i>
+- Developed back-end platform and managed database
+- Created a data preprocessor on AWS and built data pipeline for dashboard
+
+
+<br/>
+<hr/>
+
+
 ## Projects
 
 #### 3D-Aware VLM Finetuning, Samsung Research 
@@ -164,6 +168,22 @@ Particularly, I am researching on the following topics:
 <br/>
 <hr/>
 
+## Education
+
+#### KAIST
+- M.S. in Artificial Intelligence, Mar. 2024 ~ Feb. 2026 <i>(Expected)</i>
+
+#### Sogang University
+- B.S. in Computer Science and Engineering, Mar. 2017 ~ Feb. 2024 <i>(Expected)</i>
+- GPA: 4.12 / 4.3 <i>(Summa Cum Laude)</i>
+
+#### Sangsan High School
+
+
+<br/>
+<hr/>
+
+
 ## Honors and Awards
 
 #### 2nd Place on Open Vocabulary Part Segmentation Challenge at CVPR 2024
@@ -186,17 +206,6 @@ Particularly, I am researching on the following topics:
 <br/>
 <hr/>
 
-
-## Work Experience
-
-#### Life Planning Lab
-- Data Engineer <i>(Dec. 2021 ~ Jan. 2022)</i>
-- Developed back-end platform and managed database
-- Created a data preprocessor on AWS and built data pipeline for dashboard
-
-
-<br/>
-<hr/>
 
 ## Extra-Curricular Activities
 
