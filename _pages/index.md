@@ -119,13 +119,13 @@ Particularly, I am researching on the following topics:
 
 #### Snap Inc.
 
-- Incoming Research & Engineer Intern 
+- Incoming summer intern at Generative ML team
 - <i>Jun. 2025 ~ Sep. 2025</i>, Santa Monica, CA
 - Research on Video Diffusion Model
 
 
 #### Life Planning Lab
-- Data Engineer & Back-end Engineer
+- Data engineer & Back-end engineer
 - <i>Dec. 2021 ~ Jan. 2022</i>, Seoul
 - Developed back-end platform and data preprocessor
 
