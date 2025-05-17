@@ -59,11 +59,36 @@ Particularly, I am researching on the following topics:
 
 ## Publications
 
-### <i>2024</i>
+
+#### 3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation
+
+![3D-Aware-VLM](/images/about/publications/3d_aware_vlm.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
+
+- <b>Seonho Lee</b>\*, Jiho Choi\*, Inha Kang, Jiwook Kim, Junsung Park, Hyunjung Shim
+- Keywords: 3D-aware VLM Finetuning
+- <i>May. 2025</i>
+
+Under Review
+
+<br clear="all"/>
+
+
+#### What “Not” to Detect: Improving Object Detection under Negation via Reasoning and Token Merging
+
+![CoVAND](/images/about/publications/covand.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
+
+- Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Hyunjung Shim
+- Keywords: Described Object Detction under Negation
+- <i>May. 2025</i>
+
+Under Review
+
+
+<br clear="all"/>
 
 #### PartCATSeg: Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation
 
-![PartCATSeg](/images/about/publications/2024/partcatseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
+![PartCATSeg](/images/about/publications/partcatseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
 
 - Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
 - Keywords: Open-Vocabulary Part Segmentation
@@ -75,7 +100,7 @@ Particularly, I am researching on the following topics:
 
 #### Scribble-Guided Diffusion for Training-free Text-to-Image Generation
 
-![Scribble-Guided Diffusion](/images/about/publications/2024/scribblediff.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
+![Scribble-Guided Diffusion](/images/about/publications/scribblediff.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
 
 - <b>Seonho Lee</b>\*, Jiho Choi\*, Seohyun Lim, Jiwook Kim, Hyunjung Shim
 - Keywords: Conditional Image Generation
@@ -87,7 +112,7 @@ Particularly, I am researching on the following topics:
 
 #### DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation
 
-![DreamCatalyst](/images/about/publications/2024/dreamcatalyst.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
+![DreamCatalyst](/images/about/publications/dreamcatalyst.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
 
 - Jiwook Kim\*, <b>Seonho Lee</b>\*, Jaeyo Shin, Jiho Choi, Hyunjung Shim
 - Keywords: 3D Editing, Score Distillation
@@ -99,7 +124,7 @@ Particularly, I am researching on the following topics:
 
 #### PartCLIPSeg: Understanding Multi-Granularity for Open-Vocabulary Part Segmentation
 
-![PartCLIPSeg](/images/about/publications/2024/partclipseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
+![PartCLIPSeg](/images/about/publications/partclipseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
 
 - Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
 - Keywords: Open-Vocabulary Part Segmentation
@@ -231,5 +256,5 @@ Particularly, I am researching on the following topics:
 <hr/>
 
 ```
-Last updated: 6th, May. 2025
+Last updated: 17th, May. 2025
 ```
