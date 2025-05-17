@@ -62,7 +62,7 @@ Particularly, I am researching on the following topics:
 
 #### 3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation
 
-![3D-Aware-VLM](/images/about/publications/3d_aware_vlm.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 30px; margin-bottom: 30px;"}
+![3D-Aware-VLM](/images/about/publications/3d_aware_vlm.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
 
 - <b>Seonho Lee</b>\*, Jiho Choi\*, Inha Kang, Jiwook Kim, Junsung Park, Hyunjung Shim
 - Keywords: 3D-aware VLM Finetuning
