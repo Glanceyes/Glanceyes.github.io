@@ -44,6 +44,8 @@ Particularly, I am researching on the following topics:
 
 **Jun. 2025**: I will start my internship at [Snap Inc.](https://www.snap.com) in Santa Monica, CA.
 
+**May. 2025**: Our <b>[ScribbleDiff](https://arxiv.org/abs/2409.08026)</b> paper got accepted to <b>[ICIP 2025](https://2025.ieeeicip.org/)!</b>
+
 **Feb. 2025**: Our <b>[PartCATSeg](http://arxiv.org/abs/2501.09688)</b> paper got accepted to <b>[CVPR 2025](https://cvpr.thecvf.com/Conferences/2025)!</b>
 
 **Jan. 2025**: Our <b>[DreamCatalyst](https://arxiv.org/abs/2407.11394)</b> paper got accepted to <b>[ICLR 2025](https://iclr.cc/Conferences/2025)!</b>
@@ -106,7 +108,7 @@ Under Review
 - Keywords: Conditional Image Generation
 - <i>Sep. 2024</i>
 
-[Pre-print](https://arxiv.org/abs/2409.08026) (Under Review), [Codes](https://github.com/kaist-cvml-lab/scribble-diffusion)
+<b>[ICIP 2025](https://2025.ieeeicip.org)</b>, [Paper](https://arxiv.org/abs/2409.08026), [Codes](https://github.com/kaist-cvml-lab/scribble-diffusion)
 
 <br clear="all"/>
 
