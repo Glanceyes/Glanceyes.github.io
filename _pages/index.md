@@ -61,6 +61,10 @@ Particularly, I am researching on the following topics:
 
 ## Publications
 
+<br clear="all"/>
+<b>* indicates equal contribution.</b>
+
+<br clear="all"/>
 
 #### 3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation
 
@@ -136,7 +140,7 @@ Under Review
 
 <br clear="all"/>
 
-<b>\* indicates equal contribution.</b>
+
 
 <br/>
 <hr/>
