@@ -62,7 +62,9 @@ Particularly, I am researching on the following topics:
 ## Publications
 
 <br clear="all"/>
-<b>* indicates equal contribution.</b>
+<b>*: equal contribution.</b>
+<br/>
+<b>†: co-corresponding author.</b>
 
 <br clear="all"/>
 
@@ -83,7 +85,7 @@ Under Review
 
 ![CoVAND](/images/about/publications/covand.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
 
-- Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Hyunjung Shim
+- Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†
 - Keywords: Described Object Detction under Negation
 - <i>May. 2025</i>
 
