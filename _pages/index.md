@@ -83,7 +83,7 @@ Under Review
 
 #### What “Not” to Detect: Improving Object Detection under Negation via Reasoning and Token Merging
 
-![CoVAND](/images/about/publications/covand.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
+![CoVAND](/images/about/publications/covand.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
 
 - Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†
 - Keywords: Described Object Detction under Negation
