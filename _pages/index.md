@@ -44,7 +44,7 @@ Particularly, I am researching on the following topics:
 
 **Jun. 2025**: I got research engineering internship at [Snap Inc.](https://www.snap.com) in Santa Monica, CA.
 
-**Jun. 2025**: I got awarded <b>[Presidential Science Scholarship for Graduate Students](https://www.msit.go.kr/bbs/view.do?sCode=user&mPid=121&mId=311&bbsSeqNo=100&nttSeqNo=3179541)</b>.
+**Jun. 2025**: I got awarded <b>[Korean Presidential Science Scholarship for Graduate Students](https://www.msit.go.kr/bbs/view.do?sCode=user&mPid=121&mId=311&bbsSeqNo=100&nttSeqNo=3179541)</b>.
 
 **May. 2025**: Our <b>[ScribbleDiff](https://arxiv.org/abs/2409.08026)</b> paper got accepted to <b>[ICIP 2025](https://2025.ieeeicip.org/)!</b>
 
@@ -223,7 +223,7 @@ Under Review
 
 ## Honors and Awards
 
-#### Presidential Science Scholarship for Graduate Students
+#### Korean Presidential Science Scholarship for Graduate Students
 
 - Awarded by the President of Korea <i>(Jun. 2025)</i>
 
