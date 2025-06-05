@@ -226,7 +226,6 @@ Under Review
 #### Presidential Science Scholarship for Graduate Students
 
 - Awarded by the President of Korea <i>(Jun. 2025)</i>
-- <i>48k USD stipend</i>
 
 #### 2nd Place on Open Vocabulary Part Segmentation Challenge at CVPR 2024
 - 2nd Place Winnder both on Track 1 and 2
@@ -234,7 +233,7 @@ Under Review
 
 #### Excellence Award in 2023 POSTECH OIBC Challenge
 - 3rd Place (3/120) in AI Competition of Solar Power Generation Forecasting <i>(Dec. 2023)</i>
-- <i>20k USD</i> prize
+- <i>2k USD</i> prize
 
 #### 2022 ICPC Asia Korea Regional Contest
 - 48th in Korea, 62nd in Preliminary
