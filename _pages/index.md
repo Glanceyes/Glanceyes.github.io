@@ -42,7 +42,9 @@ Particularly, I am researching on the following topics:
 
 ## News
 
-**Jun. 2025**: I will start my internship at [Snap Inc.](https://www.snap.com) in Santa Monica, CA.
+**Jun. 2025**: I got research engineering internship at [Snap Inc.](https://www.snap.com) in Santa Monica, CA.
+
+**Jun. 2025**: I got awarded <b>[Presidential Science Scholarship for Graduate Students](https://www.msit.go.kr/bbs/view.do?sCode=user&mPid=121&mId=311&bbsSeqNo=100&nttSeqNo=3179541)</b>.
 
 **May. 2025**: Our <b>[ScribbleDiff](https://arxiv.org/abs/2409.08026)</b> paper got accepted to <b>[ICIP 2025](https://2025.ieeeicip.org/)!</b>
 
@@ -221,12 +223,18 @@ Under Review
 
 ## Honors and Awards
 
+#### Presidential Science Scholarship for Graduate Students
+
+- Awarded by the President of Korea <i>(Jun. 2025)</i>
+- <i>48k USD stipend</i>
+
 #### 2nd Place on Open Vocabulary Part Segmentation Challenge at CVPR 2024
 - 2nd Place Winnder both on Track 1 and 2
 - 4th workshop on Open World Vision at CVPR 2024
 
 #### Excellence Award in 2023 POSTECH OIBC Challenge
 - 3rd Place (3/120) in AI Competition of Solar Power Generation Forecasting <i>(Dec. 2023)</i>
+- <i>20k USD</i> prize
 
 #### 2022 ICPC Asia Korea Regional Contest
 - 48th in Korea, 62nd in Preliminary
@@ -264,5 +272,5 @@ Under Review
 <hr/>
 
 ```
-Last updated: 21th, May. 2025
+Last updated: 5th, Jun. 2025
 ```
