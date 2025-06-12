@@ -78,7 +78,7 @@ Particularly, I am researching on the following topics:
 - Keywords: 3D-aware VLM Finetuning
 - <i>May. 2025</i>
 
-Under Review
+[Paper](http://arxiv.org/abs/2506.09883), [Codes](https://github.com/kaist-cvml/3d-vlm-gd)
 
 <br clear="all"/>
 
