@@ -1,5 +1,5 @@
 ---
-title: Seon Ho Lee
+title: Seonho Lee
 subtitle: M.S. Student at CVML Lab, KAIST AI
 description: Research on AI especially in Computer vision and Computer Graphics
 featured_image: /images/about/banner_image.jpg
@@ -9,7 +9,7 @@ featured_image: /images/about/banner_image.jpg
 
 ![Profile Image](/images/about/profile_image.jpg){: width="200" height="200" style="float: right; margin-right: 20px; margin-left: 20px; margin-bottom: 20px;"}
 
-I am Griffin Seon Ho Lee. I am a M.S. student at [KAIST AI](https://gsai.kaist.ac.kr/), majoring in Artificial Intelligence. I am working as an AI graduate researcher at [Computer Vision and Machine Learning Lab](https://sites.google.com/view/cvml-kaist/home) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Prof. Hyunjung Shim](https://sites.google.com/view/cvml-kaist/members). 
+I am Seonho Lee (Griffin Sunho Lee in the US). I am a M.S. student at [KAIST AI](https://gsai.kaist.ac.kr/), majoring in Artificial Intelligence. I am working as an AI graduate researcher at [Computer Vision and Machine Learning Lab](https://sites.google.com/view/cvml-kaist/home) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Prof. Hyunjung Shim](https://sites.google.com/view/cvml-kaist/members). 
 
 <br/>
 
@@ -78,7 +78,7 @@ Particularly, I am researching on the following topics:
 - Keywords: 3D-aware VLM Finetuning
 - <i>May. 2025</i>
 
-[Paper](http://arxiv.org/abs/2506.09883), [Codes](https://github.com/kaist-cvml/3d-vlm-gd)
+Under Review, [Paper](http://arxiv.org/abs/2506.09883), [Codes](https://github.com/kaist-cvml/3d-vlm-gd)
 
 <br clear="all"/>
 
@@ -171,8 +171,9 @@ Under Review
 
 ## Projects
 
-#### 3D-Aware VLM Finetuning, Samsung Research 
-- On-going research project <i>(Jun. 2024 ~ Jun. 2025)</i>
+#### 3D-Aware VLM Finetuning, Samsung Research
+- Patent filed with Samsung Research
+- Keywords: 3D-aware VLM Finetuning, Geometric Distillation
 
 <br/>
 
@@ -227,6 +228,7 @@ Under Review
 
 - Awarded by the President of Korea <i>(Jun. 2025)</i>
 
+
 #### 2nd Place on Open Vocabulary Part Segmentation Challenge at CVPR 2024
 - 2nd Place Winnder both on Track 1 and 2
 - 4th workshop on Open World Vision at CVPR 2024
@@ -271,5 +273,5 @@ Under Review
 <hr/>
 
 ```
-Last updated: 5th, Jun. 2025
+Last updated: 3th, Jul. 2025
 ```
