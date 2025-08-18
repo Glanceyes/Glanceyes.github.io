@@ -31,8 +31,8 @@ Particularly, I am researching on the following topics:
 <a href="/pdf/cv.pdf" target="_blank" class="button button--medium"><i class="fa fa-file-pdf"></i> CV</a>
 <a href="mailto:glanceyes@gmail.com" class="button button--medium"><i class="fa fa-envelope"></i> E-mail</a>
 <a href="https://github.com/glanceyes" target="_blank" class="button button--medium"><i class="fa-brands fa-github"></i> Github</a>
-<a href="https://www.linkedin.com/in/glanceyes/" target="_blank" class="button button--medium"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-<a href="https://scholar.google.com/citations?user=DFKGTG0AAAAJ/" target="_blank" class="button button--medium"><i class="fa-brands fa-google"></i> Google Scholar</a>
+<a href="https://www.linkedin.com/in/glanceyes" target="_blank" class="button button--medium"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+<a href="https://scholar.google.com/citations?user=DFKGTG0AAAAJ" target="_blank" class="button button--medium"><i class="fa-brands fa-google"></i> Google Scholar</a>
 <br/>
 
 - Email: glanceyes (at) gmail (dot) com
