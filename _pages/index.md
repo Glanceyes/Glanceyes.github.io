@@ -42,6 +42,8 @@ Particularly, I am researching on the following topics:
 
 ## News
 
+**Aug. 2025**: Our <b>[3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)</b> paper got accepted to <b>[EMNLP 2025 Findings](https://2025.emnlp.org/)!</b>
+
 **Jun. 2025**: I got research engineering internship at [Snap Inc.](https://www.snap.com) in Santa Monica, CA.
 
 **Jun. 2025**: I got awarded <b>[Korean Presidential Science Scholarship for Graduate Students](https://www.msit.go.kr/bbs/view.do?sCode=user&mPid=121&mId=311&bbsSeqNo=100&nttSeqNo=3179541)</b>.
@@ -75,10 +77,10 @@ Particularly, I am researching on the following topics:
 ![3D-Aware-VLM](/images/about/publications/3d_aware_vlm.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
 
 - <b>Seonho Lee</b>\*, Jiho Choi\*, Inha Kang, Jiwook Kim, Junsung Park, Hyunjung Shim
-- Keywords: 3D-aware VLM Finetuning
+- Keywords: 3D-Aware VLM Finetuning
 - <i>May. 2025</i>
 
-Under Review, [Paper](http://arxiv.org/abs/2506.09883), [Codes](https://github.com/kaist-cvml/3d-vlm-gd)
+<b>[EMNLP 2025 Findings](https://2025.emnlp.org/)</b>, [Paper](http://arxiv.org/abs/2506.09883), [Codes](https://github.com/kaist-cvml/3d-vlm-gd)
 
 <br clear="all"/>
 
@@ -210,6 +212,7 @@ Under Review
 
 #### KAIST
 - M.S. in Artificial Intelligence, Mar. 2024 ~ Feb. 2026 <i>(Expected)</i>
+- GPA: 4.20 / 4.3
 
 #### Sogang University
 - B.S. in Computer Science and Engineering, Mar. 2017 ~ Feb. 2024 <i>(Expected)</i>
@@ -273,5 +276,5 @@ Under Review
 <hr/>
 
 ```
-Last updated: 3th, Jul. 2025
+Last updated: 20th, Aug. 2025
 ```
