@@ -1,5 +1,5 @@
 ---
-title: Seonho Lee
+title: Seonho Lee (Griffin Sunho Lee)
 subtitle: M.S. Student at CVML Lab, KAIST AI
 description: Research on AI especially in Computer vision and Computer Graphics
 featured_image: /images/about/banner_image.jpg
@@ -42,7 +42,7 @@ Particularly, I am researching on the following topics:
 
 ## News
 
-**Jun. 2025**: I got research engineering internship at [Snap Inc.](https://www.snap.com) in Santa Monica, CA.
+**Jun. 2025**: I got ML engineering internship at [Snap Inc.](https://www.snap.com) in Santa Monica, CA.
 
 **Jun. 2025**: I got awarded <b>[Korean Presidential Science Scholarship for Graduate Students](https://www.msit.go.kr/bbs/view.do?sCode=user&mPid=121&mId=311&bbsSeqNo=100&nttSeqNo=3179541)</b>.
 
@@ -154,9 +154,10 @@ Under Review
 
 #### Snap Inc.
 
-- Incoming summer intern at Generative ML team
+- ML engineer intern at Generative ML team (VideoCraft)
 - <i>Jun. 2025 ~ Sep. 2025</i>, Santa Monica, CA
-- Research on Video Diffusion Model
+- Researched on personalized video generation
+- Developed new architecture with multi-subject adapters for VideoAlchemist
 
 
 #### Life Planning Lab
