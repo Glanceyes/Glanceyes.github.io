@@ -31,8 +31,8 @@ Particularly, I am researching on the following topics:
 <a href="/pdf/cv.pdf" target="_blank" class="button button--medium"><i class="fa fa-file-pdf"></i> CV</a>
 <a href="mailto:glanceyes@gmail.com" class="button button--medium"><i class="fa fa-envelope"></i> E-mail</a>
 <a href="https://github.com/glanceyes" target="_blank" class="button button--medium"><i class="fa-brands fa-github"></i> Github</a>
-<a href="https://www.linkedin.com/in/glanceyes/" target="_blank" class="button button--medium"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-<a href="https://scholar.google.com/citations?user=DFKGTG0AAAAJ/" target="_blank" class="button button--medium"><i class="fa-brands fa-google"></i> Google Scholar</a>
+<a href="https://www.linkedin.com/in/glanceyes" target="_blank" class="button button--medium"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+<a href="https://scholar.google.com/citations?user=DFKGTG0AAAAJ" target="_blank" class="button button--medium"><i class="fa-brands fa-google"></i> Google Scholar</a>
 <br/>
 
 - Email: glanceyes (at) gmail (dot) com
@@ -41,6 +41,8 @@ Particularly, I am researching on the following topics:
 <hr/>
 
 ## News
+
+**Aug. 2025**: Our <b>[3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)</b> paper got accepted to <b>[EMNLP 2025 Findings](https://2025.emnlp.org/)!</b>
 
 **Jun. 2025**: I got ML engineering internship at [Snap Inc.](https://www.snap.com) in Santa Monica, CA.
 
@@ -75,10 +77,10 @@ Particularly, I am researching on the following topics:
 ![3D-Aware-VLM](/images/about/publications/3d_aware_vlm.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
 
 - <b>Seonho Lee</b>\*, Jiho Choi\*, Inha Kang, Jiwook Kim, Junsung Park, Hyunjung Shim
-- Keywords: 3D-aware VLM Finetuning
+- Keywords: 3D-Aware VLM Finetuning
 - <i>May. 2025</i>
 
-Under Review, [Paper](http://arxiv.org/abs/2506.09883), [Codes](https://github.com/kaist-cvml/3d-vlm-gd)
+<b>[EMNLP 2025 Findings](https://2025.emnlp.org/)</b>, [Paper](http://arxiv.org/abs/2506.09883), [Codes](https://github.com/kaist-cvml/3d-vlm-gd)
 
 <br clear="all"/>
 
@@ -211,6 +213,7 @@ Under Review
 
 #### KAIST
 - M.S. in Artificial Intelligence, Mar. 2024 ~ Feb. 2026 <i>(Expected)</i>
+- GPA: 4.20 / 4.3
 
 #### Sogang University
 - B.S. in Computer Science and Engineering, Mar. 2017 ~ Feb. 2024 <i>(Expected)</i>
@@ -274,5 +277,5 @@ Under Review
 <hr/>
 
 ```
-Last updated: 3th, Jul. 2025
+Last updated: 2nd, Sep. 2025
 ```
