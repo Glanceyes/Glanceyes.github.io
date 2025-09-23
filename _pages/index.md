@@ -66,8 +66,7 @@ Particularly, I am researching on the following topics:
 ## Publications
 
 <br clear="all"/>
-<b>*: equal contribution.</b> &nbsp <b>†: corresponding author.</b>&nbsp <b>C: conference</b>
-&nbsp <b>P: preprint</b>
+<b>*: equal contribution.</b> &nbsp; <b>†: corresponding author.</b> &nbsp; <b>C: conference</b> &nbsp; <b>P: preprint</b>
 
 <br clear="all"/>
 
