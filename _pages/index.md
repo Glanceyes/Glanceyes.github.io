@@ -1,5 +1,5 @@
 ---
-title: Seonho Lee (Griffin Sunho Lee)
+title: Seonho (Griffin Sunho) Lee
 subtitle: M.S. Student at CVML Lab, KAIST AI
 description: Research on AI especially in Computer vision and Computer Graphics
 featured_image: /images/about/banner_image.jpg
@@ -19,9 +19,9 @@ I am interested in research on AI especially in Computer vision. I hope to use A
 
 Particularly, I am researching on the following topics:
 
-**1. Multi-modal AI**
+**1. Generative AI**
 
-**2. Diffusion Model**
+**2. Vision-Language Understanding**
 
 
 
@@ -35,7 +35,7 @@ Particularly, I am researching on the following topics:
 <a href="https://scholar.google.com/citations?user=DFKGTG0AAAAJ" target="_blank" class="button button--medium"><i class="fa-brands fa-google"></i> Google Scholar</a>
 <br/>
 
-- Email: glanceyes (at) gmail (dot) com
+- Email: glanceyes (at) kaist (dot) com
 
 <br/>
 <hr/>
@@ -66,83 +66,84 @@ Particularly, I am researching on the following topics:
 ## Publications
 
 <br clear="all"/>
-<b>*: equal contribution.</b>
-<br/>
-<b>†: co-corresponding author.</b>
+<b>*: equal contribution.</b> &nbsp <b>†: corresponding author.</b>&nbsp <b>C: conference</b>
+&nbsp <b>P: preprint</b>
 
 <br clear="all"/>
 
-#### 3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation
+#### [C5] 3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation
 
 ![3D-Aware-VLM](/images/about/publications/3d_aware_vlm.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
 
-- <b>Seonho Lee</b>\*, Jiho Choi\*, Inha Kang, Jiwook Kim, Junsung Park, Hyunjung Shim
+- <b>Seonho Lee</b>\*, Jiho Choi\*, Inha Kang, Jiwook Kim, Junsung Park, Hyunjung Shim†
 - Keywords: 3D-Aware VLM Finetuning
-- <i>May. 2025</i>
+<!-- - <i>May. 2025</i> -->
 
 <b>[EMNLP 2025 Findings](https://2025.emnlp.org/)</b>, [Paper](http://arxiv.org/abs/2506.09883), [Codes](https://github.com/kaist-cvml/3d-vlm-gd)
 
 <br clear="all"/>
 
 
-#### What “Not” to Detect: Improving Object Detection under Negation via Reasoning and Token Merging
-
-![CoVAND](/images/about/publications/covand.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
-
-- Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†
-- Keywords: Described Object Detction under Negation
-- <i>May. 2025</i>
-
-Under Review
-
-
-<br clear="all"/>
-
-#### PartCATSeg: Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation
+#### [C4] Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation
 
 ![PartCATSeg](/images/about/publications/partcatseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
 
-- Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
+- Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim†
 - Keywords: Open-Vocabulary Part Segmentation
-- <i>Nov. 2024</i>
+<!-- - <i>Nov. 2024</i> -->
 
 <b>[CVPR 2025](https://cvpr.thecvf.com/Conferences/2025)</b>, [Paper](http://arxiv.org/abs/2501.09688), [Codes](https://github.com/kaist-cvml/part-catseg)
 
 <br clear="all"/>
 
-#### Scribble-Guided Diffusion for Training-free Text-to-Image Generation
+#### [C3] Scribble-Guided Diffusion for Training-free Text-to-Image Generation
 
 ![Scribble-Guided Diffusion](/images/about/publications/scribblediff.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
 
-- <b>Seonho Lee</b>\*, Jiho Choi\*, Seohyun Lim, Jiwook Kim, Hyunjung Shim
+- <b>Seonho Lee</b>\*, Jiho Choi\*, Seohyun Lim, Jiwook Kim, Hyunjung Shim†
 - Keywords: Conditional Image Generation
-- <i>Sep. 2024</i>
+<!-- - <i>Sep. 2024</i> -->
 
 <b>[ICIP 2025](https://2025.ieeeicip.org)</b>, [Paper](https://arxiv.org/abs/2409.08026), [Codes](https://github.com/kaist-cvml-lab/scribble-diffusion)
 
 <br clear="all"/>
 
-#### DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation
+#### [C2] DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation
 
 ![DreamCatalyst](/images/about/publications/dreamcatalyst.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
 
-- Jiwook Kim\*, <b>Seonho Lee</b>\*, Jaeyo Shin, Jiho Choi, Hyunjung Shim
+- Jiwook Kim\*, <b>Seonho Lee</b>\*, Jaeyo Shin, Jiho Choi, Hyunjung Shim†
 - Keywords: 3D Editing, Score Distillation
-- <i>Jul. 2024</i>
+<!-- - <i>Jul. 2024</i> -->
 
 <b>[ICLR 2025](https://openreview.net/forum?id=FA5ZAJlv96)</b>, [Paper](https://arxiv.org/abs/2407.11394), [Project Page](https://dream-catalyst.github.io/), [Codes](https://github.com/kaist-cvml-lab/DreamCatalyst)
 
 <br clear="all"/>
 
-#### PartCLIPSeg: Understanding Multi-Granularity for Open-Vocabulary Part Segmentation
+#### [C1] Understanding Multi-Granularity for Open-Vocabulary Part Segmentation
 
 ![PartCLIPSeg](/images/about/publications/partclipseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
 
-- Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim
+- Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim†
 - Keywords: Open-Vocabulary Part Segmentation
-- <i>May. 2024</i>
+<!-- - <i>May. 2024</i> -->
 
 <b>[NeurIPS 2024](https://neurips.cc/virtual/2024/poster/94085)</b>, [Paper](https://arxiv.org/abs/2406.11384), [Codes](https://github.com/kaist-cvml-lab/part-clipseg)
+
+<br clear="all"/>
+
+
+
+#### [P1] What “Not” to Detect: Improving Object Detection under Negation via Reasoning and Token Merging
+
+![CoVAND](/images/about/publications/covand.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
+
+- Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†
+- Keywords: Described Object Detction under Negation
+<!-- - <i>May. 2025</i> -->
+
+Under Review
+
 
 <br clear="all"/>
 
@@ -157,10 +158,11 @@ Under Review
 #### Snap Inc.
 
 - ML engineer intern at Generative ML team (VideoCraft)
-- <i>Jun. 2025 ~ Sep. 2025</i>, Santa Monica, CA
-- Researched on personalized video generation
-- Developed new architecture with multi-subject adapters for VideoAlchemist
+- <i>Jun. 2025 ~ Sep. 2025</i>, Santa Monica, CA, USA
+- Created cross-reference dataset preprocessing pipeline for personalized video generation
+- Developed new model architecture with multi-subject adapters for <i>VideoAlchemist 2.0</i>
 
+<br/>
 
 #### Life Planning Lab
 - Data engineer & Back-end engineer
@@ -175,8 +177,8 @@ Under Review
 ## Projects
 
 #### 3D-Aware VLM Finetuning, Samsung Research
-- Patent filed with Samsung Research
-- Keywords: 3D-aware VLM Finetuning, Geometric Distillation
+- Electronic Device and Method for Operating Thereof and Storage Medium
+- Korean patent: 10-2025-0109574
 
 <br/>
 
@@ -239,7 +241,6 @@ Under Review
 
 #### Excellence Award in 2023 POSTECH OIBC Challenge
 - 3rd Place (3/120) in AI Competition of Solar Power Generation Forecasting <i>(Dec. 2023)</i>
-- <i>2k USD</i> prize
 
 #### 2022 ICPC Asia Korea Regional Contest
 - 48th in Korea, 62nd in Preliminary
@@ -265,10 +266,29 @@ Under Review
 <hr/>
 
 
+## Academic Activities
+
+#### Reviewer
+- 3DV 2026
+
+
+<br/>
+<hr/>
+
+
 ## Skills
 
+#### Languages
+- Python, SQL, C++, C, JavaScript, Bash, PHP
+
+#### Libraries & Frameworks
+- PyTorch, TensorFlow, Node.js, OpenGL, CUDA
+
+#### Tools
+- Git, Docker, Kubernetes, AWS, Google Cloud, Shell, MLflow
+
 #### Algorithm & Problem Solving
-- Profile Links
+- Profile Links (Korean Leetcode)
     + [Baekjoon Online Judge](https://www.acmicpc.net/user/glanceyes)
     + [Solved.ac](https://solved.ac/profile/glanceyes)
 
@@ -277,5 +297,5 @@ Under Review
 <hr/>
 
 ```
-Last updated: 2nd, Sep. 2025
+Last updated: 23rd, Sep. 2025
 ```
