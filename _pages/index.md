@@ -42,7 +42,7 @@ Particularly, I am researching on the following topics:
 
 ## News
 
-**Oct. 2025**: Two papers <b>[PartCATSeg](http://arxiv.org/abs/2501.09688)</b> and <b>[3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)</b> got selected as <b>[QIFK(Qualcomm Innovation Fellowship Korea) 2025](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-south-korea) Finalist</b>
+**Oct. 2025**: Two papers <b>[PartCATSeg](http://arxiv.org/abs/2501.09688)</b> and <b>[3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)</b> got selected as <b>[QIFK(Qualcomm Innovation Fellowship Korea) 2025](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-south-korea) Finalist</b>.
 
 **Aug. 2025**: Our <b>[3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)</b> paper got accepted to <b>[EMNLP 2025 Findings](https://2025.emnlp.org/)!</b>
 
