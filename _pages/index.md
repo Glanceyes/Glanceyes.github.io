@@ -42,6 +42,8 @@ Particularly, I am researching on the following topics:
 
 ## News
 
+**Oct. 2025**: Two papers <b>[PartCATSeg](http://arxiv.org/abs/2501.09688)</b> and <b>[3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)</b> got selected as <b>[QIFK(Qualcomm Innovation Fellowship Korea) 2025](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-south-korea) Finalist</b>
+
 **Aug. 2025**: Our <b>[3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)</b> paper got accepted to <b>[EMNLP 2025 Findings](https://2025.emnlp.org/)!</b>
 
 **Jun. 2025**: I got ML engineering internship at [Snap Inc.](https://www.snap.com) in Santa Monica, CA.
@@ -229,6 +231,12 @@ Under Review
 
 ## Honors and Awards
 
+#### Qualcomm Innovation Fellowship Korea (QIFK) 2025 Finalist
+
+- Selected as a finalist by Qualcomm AI Research <i>(Oct. 2025)</i>
+- Two Papers: [PartCATSeg](http://arxiv.org/abs/2501.09688) and [3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)
+
+
 #### Korean Presidential Science Scholarship for Graduate Students
 
 - Awarded by the President of Korea <i>(Jun. 2025)</i>
@@ -296,5 +304,5 @@ Under Review
 <hr/>
 
 ```
-Last updated: 23rd, Sep. 2025
+Last updated: 23rd, Oct. 2025
 ```
