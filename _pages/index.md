@@ -143,7 +143,7 @@ Particularly, I am researching on the following topics:
 - Keywords: Described Object Detction under Negation
 <!-- - <i>May. 2025</i> -->
 
-Under Review
+[Preprint](https://arxiv.org/abs/2510.13232)
 
 
 <br clear="all"/>
@@ -159,8 +159,8 @@ Under Review
 #### Snap Inc.
 
 - ML engineer intern at Generative ML team (VideoCraft)
-- <i>Jun. 2025 ~ Sep. 2025</i>, Santa Monica, CA, USA
-- Created cross-reference dataset preprocessing pipeline for personalized video generation
+- <i>Jun. 2025 ~ Sep. 2025</i>, Santa Monica, CA, USA (On-site)
+- Led a project for establishing cross-reference dataset preprocessing pipeline for personalized video generation
 - Developed new model architecture with multi-subject adapters for <i>VideoAlchemist 2.0</i>
 
 <br/>
@@ -234,7 +234,7 @@ Under Review
 #### Qualcomm Innovation Fellowship Korea (QIFK) 2025 Finalist
 
 - Selected as a finalist by Qualcomm AI Research <i>(Oct. 2025)</i>
-- Two Papers: [PartCATSeg](http://arxiv.org/abs/2501.09688) and [3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)
+- Two papers: [PartCATSeg](http://arxiv.org/abs/2501.09688) and [3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)
 
 
 #### Korean Presidential Science Scholarship for Graduate Students
@@ -263,6 +263,17 @@ Under Review
 <hr/>
 
 
+## Academic Activities
+
+#### Reviewer
+- 3DV 2026
+
+
+<br/>
+<hr/>
+
+
+
 ## Extra-Curricular Activities
 
 #### Naver Boostcamp AI Tech 3rd
@@ -272,15 +283,6 @@ Under Review
 <br/>
 <hr/>
 
-
-## Academic Activities
-
-#### Reviewer
-- 3DV 2026
-
-
-<br/>
-<hr/>
 
 
 ## Skills
@@ -304,5 +306,5 @@ Under Review
 <hr/>
 
 ```
-Last updated: 23rd, Oct. 2025
+Last updated: 24th, Oct. 2025
 ```
