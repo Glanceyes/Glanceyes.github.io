@@ -134,6 +134,29 @@ Particularly, I am researching on the following topics:
 <br clear="all"/>
 
 
+#### [P3] Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling
+
+![Perceptual_Judge](/images/about/publications/perceptual_judge.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
+
+- Seojeong Park*, Jiho Choi*, Junyong Kang, <b>Seonho Lee</b>, Jaeyo Shin, Hyunjung Shim†
+- Keywords: Multimodal LLM, Perceptual Judgment Bias
+<!-- - <i>Nov. 2025</i> -->
+
+Under Review
+
+<br clear="all">
+
+#### [P2] WaymoQA: A Multi-View Visual Question Answering Dataset for Safety-Critical Reasoning in Autonomous Driving
+
+![WaymoQA](/images/about/publications/waymoqa.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
+
+- Seungjun Yu, <b>Seonho Lee</b>, Namho Kim, Jaeyo Shin, Junsung Park, Wonjeong Ryu, Raehyuk Jung, Hyunjung Shim†
+- Keywords: Visual Question Answering, Safety-Critical Reasoning
+<!-- - <i>Nov. 2025</i> -->
+
+[Preprint](https://arxiv.org/abs/2511.20022)
+
+<br clear="all"/>
 
 #### [P1] What “Not” to Detect: Improving Object Detection under Negation via Reasoning and Token Merging
 
@@ -306,5 +329,5 @@ Particularly, I am researching on the following topics:
 <hr/>
 
 ```
-Last updated: 24th, Oct. 2025
+Last updated: 26th, Nov. 2025
 ```
