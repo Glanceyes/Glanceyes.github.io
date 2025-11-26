@@ -138,7 +138,7 @@ Particularly, I am researching on the following topics:
 
 ![Perceptual_Judge](/images/about/publications/perceptual_judge.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
 
-- Seojeong Park*, Jiho Choi*, Junyong Kang, <b>Seonho Lee</b>, Jaeyo Shin, Hyunjung Shim†
+- Seojeong Park\*, Jiho Choi\*, Junyong Kang, <b>Seonho Lee</b>, Jaeyo Shin, Hyunjung Shim†
 - Keywords: Multimodal LLM, Perceptual Judgment Bias
 <!-- - <i>Nov. 2025</i> -->
 
