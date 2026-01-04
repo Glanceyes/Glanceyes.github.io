@@ -11,15 +11,16 @@ menu_settings:
   menu_items:
     - title: 'About'
       url: '/'
-    - title: 'Blog'
-      url: '/blog'
     - title: 'Projects'
       url: '/projects'
-    - title: 'Archives'
-      url: '/archives'
+    # - title: 'Blog'
+    #   url: '/blog'
+    # - title: 'Archives'
+    #   url: '/archives'
+
 
 footer_settings:
-  footer_tagline: Glance at Everything for a New Perspective
+  footer_tagline: Seonho Lee
 
 hero_settings:
   overlay_opacity: 0.8
