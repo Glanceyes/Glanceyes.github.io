@@ -9,7 +9,7 @@ featured_image: /images/about/banner_image.jpg
 
 ![Profile Image](/images/about/profile_image.jpg){: width="200" height="200" style="float: right; margin-right: 20px; margin-left: 20px; margin-bottom: 20px;"}
 
-I am Seonho Lee (Griffin Sunho Lee in the US). I am a M.S. student at [KAIST AI](https://gsai.kaist.ac.kr/), majoring in Artificial Intelligence. I am working as an AI graduate researcher at [Computer Vision and Machine Learning Lab](https://sites.google.com/view/cvml-kaist/home) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Prof. Hyunjung Shim](https://sites.google.com/view/cvml-kaist/members). 
+I am Seonho Lee (Griffin Sunho Lee in the US). I will be working as an AI Applied Scientist at Krafton AI starting in March 2026. I got a M.S. degree from [KAIST AI](https://gsai.kaist.ac.kr/) in Artificial Intelligence and had worked as an AI graduate researcher at the [Computer Vision and Machine Learning Lab](https://sites.google.com/view/cvml-kaist/home) at [KAIST](https://www.kaist.ac.kr/en/), under the supervision of [Prof. Hyunjung Shim](https://sites.google.com/view/cvml-kaist/members). 
 
 <br/>
 
@@ -188,13 +188,13 @@ Under Review
 
 <br/>
 
-#### Life Planning Lab
+<!-- #### Life Planning Lab
 - Data engineer & Back-end engineer
 - <i>Dec. 2021 ~ Jan. 2022</i>, Seoul
 - Developed back-end platform and data preprocessor
 
 
-<br/>
+<br/> -->
 <hr/>
 
 
@@ -216,7 +216,7 @@ Under Review
 
 #### RECJOON: Backjoon Online Judge Problem Solving Recommendation System
 
-- Naver Boostcamp AI Tech 3rd, Team 14 <i>(Mar. 2022 ~ Jun. 2022)</i>
+- Naver Boostcamp AI Tech 3rd <i>(Mar. 2022 ~ Jun. 2022)</i>
 - Keywords: Recommendation System
 
 [Review](https://glanceyes.github.io/project/recjoon), [Codes](https://github.com/boostcampaitech3/final-project-level3-recsys-14)
@@ -255,15 +255,11 @@ Under Review
 ## Honors and Awards
 
 #### Qualcomm Innovation Fellowship Korea (QIFK) 2025 Finalist
-
 - Selected as a finalist by Qualcomm AI Research <i>(Oct. 2025)</i>
 - Two papers: [PartCATSeg](http://arxiv.org/abs/2501.09688) and [3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)
 
-
 #### Korean Presidential Science Scholarship for Graduate Students
-
 - Awarded by the President of Korea <i>(Jun. 2025)</i>
-
 
 #### 2nd Place on Open Vocabulary Part Segmentation Challenge at CVPR 2024
 - 2nd Place Winnder both on Track 1 and 2
@@ -296,7 +292,7 @@ Under Review
 <hr/>
 
 
-
+<!-- 
 ## Extra-Curricular Activities
 
 #### Naver Boostcamp AI Tech 3rd
@@ -322,12 +318,13 @@ Under Review
 #### Algorithm & Problem Solving
 - Profile Links (Korean Leetcode)
     + [Baekjoon Online Judge](https://www.acmicpc.net/user/glanceyes)
-    + [Solved.ac](https://solved.ac/profile/glanceyes)
+    + [Solved.ac](https://solved.ac/profile/glanceyes) 
 
 
 <br/>
 <hr/>
+-->
 
 ```
-Last updated: 26th, Nov. 2025
+Last updated: 4th, Jan. 2026
 ```
