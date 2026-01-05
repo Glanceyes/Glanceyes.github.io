@@ -1,6 +1,6 @@
 ---
 title: Seonho (Griffin Sunho) Lee
-subtitle: Incoming Applied AI Research Scientist at Krafton AI
+subtitle: Incoming Applied AI Researcher at Krafton AI
 description: Research on AI especially in Computer vision and Computer Graphics
 featured_image: /images/about/banner_image.jpg
 ---
