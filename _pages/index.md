@@ -42,7 +42,7 @@ Particularly, I am researching on the following topics:
 
 ## News
 
-**Mar. 2026**: I will be working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/) in art generation team.
+**Mar. 2026**: I will be working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/).
 
 **Oct. 2025**: Two papers <b>[PartCATSeg](http://arxiv.org/abs/2501.09688)</b> and <b>[3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)</b> got selected as <b>[QIFK(Qualcomm Innovation Fellowship Korea) 2025](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-south-korea) Finalist</b>.
 
