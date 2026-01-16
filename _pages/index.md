@@ -1,7 +1,7 @@
 ---
 title: Seonho (Griffin Sunho) Lee
 subtitle: Incoming Applied AI Researcher at Krafton AI
-description: Research on AI especially in Computer vision and Computer Graphics
+description: Research on AI in Computer vision 
 featured_image: /images/about/banner_image.jpg
 ---
 
@@ -42,6 +42,8 @@ Particularly, I am researching on the following topics:
 
 ## News
 
+
+
 **Oct. 2025**: Two papers <b>[PartCATSeg](http://arxiv.org/abs/2501.09688)</b> and <b>[3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)</b> got selected as <b>[QIFK(Qualcomm Innovation Fellowship Korea) 2025](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-south-korea) Finalist</b>.
 
 **Aug. 2025**: Our <b>[3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)</b> paper got accepted to <b>[EMNLP 2025 Findings](https://2025.emnlp.org/)!</b>
@@ -49,6 +51,13 @@ Particularly, I am researching on the following topics:
 **Jun. 2025**: I got ML engineering internship at [Snap Inc.](https://www.snap.com) in Santa Monica, CA.
 
 **Jun. 2025**: I got awarded <b>[Korean Presidential Science Scholarship for Graduate Students](https://www.msit.go.kr/bbs/view.do?sCode=user&mPid=121&mId=311&bbsSeqNo=100&nttSeqNo=3179541)</b>.
+
+
+<details>
+<summary>
+<a>More News</a>
+</summary>
+<br/>
 
 **May. 2025**: Our <b>[ScribbleDiff](https://arxiv.org/abs/2409.08026)</b> paper got accepted to <b>[ICIP 2025](https://2025.ieeeicip.org/)!</b>
 
@@ -59,6 +68,8 @@ Particularly, I am researching on the following topics:
 **Sep. 2024**: Our <b>[PartCLIPSeg](https://arxiv.org/abs/2406.11384)</b> paper got accepted to <b>[NeurIPS 2024](https://neurips.cc/Conferences/2024)!</b>
 
 **Sep. 2023**: I got accepted to [CVML Lab](https://sites.google.com/view/cvml-kaist/home) as a M.S. graduate student in KAIST AI.
+
+</details>
 
 <br/>
 <hr/>
@@ -179,9 +190,8 @@ Under Review
 
 ## Work Experience
 
-#### Snap Inc.
+#### Snap Inc. - Generative ML team (VideoCraft), <i>ML engineer intern</i>
 
-- ML engineer intern at Generative ML team (VideoCraft)
 - <i>Jun. 2025 ~ Sep. 2025</i>, Santa Monica, CA, USA (On-site)
 - Led a project for establishing cross-reference dataset preprocessing pipeline for personalized video generation
 - Developed new model architecture with multi-subject adapters for <i>VideoAlchemist 2.0</i>
@@ -238,7 +248,7 @@ Under Review
 ## Education
 
 #### KAIST
-- M.S. in Artificial Intelligence, Mar. 2024 ~ Feb. 2026 <i>(Expected)</i>
+- M.S. in Artificial Intelligence, Mar. 2024 ~ Feb. 2026
 - GPA: 4.20 / 4.3
 
 #### Sogang University
