@@ -293,6 +293,16 @@
 			@include rotate(180);
 		}
 
+		// Paragraph-style content (when not using a list)
+		p {
+			margin-top: 8px;
+			max-width: 100%;
+		}
+
+		p:first-of-type {
+			margin-top: 10px;
+		}
+
 		ul {
 			margin-top: 10px;
 			padding-left: 0;
