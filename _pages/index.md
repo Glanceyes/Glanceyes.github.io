@@ -9,7 +9,7 @@ featured_image: /images/about/banner_image.jpg
 
 ![Profile Image](/images/about/profile_image.jpg){: width="200" height="200" style="float: right; margin-right: 20px; margin-left: 20px; margin-bottom: 20px;"}
 
-I am Seonho Lee (Griffin Sunho Lee in the US). I will be working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/) starting in 2026. I got a M.S. degree from [KAIST AI](https://gsai.kaist.ac.kr/) in Artificial Intelligence and had worked as an AI graduate researcher at the [Computer Vision and Machine Learning Lab](https://sites.google.com/view/cvml-kaist/home) at [KAIST](https://www.kaist.ac.kr/en/), under the supervision of [Prof. Hyunjung Shim](https://sites.google.com/view/cvml-kaist/members). 
+I am Seonho Lee (Griffin Sunho Lee in the US). I will be working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/) starting in 2026. I got a M.S. degree from [KAIST AI](https://gsai.kaist.ac.kr/) in Artificial Intelligence and had worked as an AI graduate researcher at the [Computer Vision and Machine Learning Lab](https://kaist-cvml.github.io) at [KAIST](https://www.kaist.ac.kr/en/), under the supervision of [Prof. Hyunjung Shim](https://scholar.google.com/citations?user=KB5XZGIAAAAJ&hl=en). 
 
 <br/>
 
