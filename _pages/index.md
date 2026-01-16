@@ -58,14 +58,13 @@ Particularly, I am researching on the following topics:
 
 **Jan. 2025**: Our <b>[DreamCatalyst](https://arxiv.org/abs/2407.11394)</b> paper got accepted to <b>[ICLR 2025](https://iclr.cc/Conferences/2025)!</b>
 
-**Sep. 2024**: Our <b>[PartCLIPSeg](https://arxiv.org/abs/2406.11384)</b> paper got accepted to <b>[NeurIPS 2024](https://neurips.cc/Conferences/2024)!</b>
-
-
 <details>
 <summary>
 <a>More News</a>
 </summary>
 <br/>
+
+**Sep. 2024**: Our <b>[PartCLIPSeg](https://arxiv.org/abs/2406.11384)</b> paper got accepted to <b>[NeurIPS 2024](https://neurips.cc/Conferences/2024)!</b>
 
 **Sep. 2023**: I got accepted to [CVML Lab](https://sites.google.com/view/cvml-kaist/home) as a M.S. graduate student in KAIST AI.
 
