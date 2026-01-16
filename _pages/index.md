@@ -58,8 +58,6 @@ Particularly, I am researching on the following topics:
 
 **Jan. 2025**: Our <b>[DreamCatalyst](https://arxiv.org/abs/2407.11394)</b> paper got accepted to <b>[ICLR 2025](https://iclr.cc/Conferences/2025)!</b>
 
-<br/>
-
 <details class="more-news" markdown="1">
 <summary><b>More News</b></summary>
 
