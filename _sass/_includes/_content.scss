@@ -258,6 +258,58 @@
 			}
 		}
 	}
+
+	// Collapsible sections (e.g., "More News" on the home page)
+	details.more-news {
+		margin-top: 12px;
+		padding: 10px 12px;
+		border: 2px solid $background-alt-color;
+		background: $background-alt-color;
+		border-radius: 6px;
+
+		summary {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			cursor: pointer;
+			color: $text-dark-color;
+			font-weight: $bold-weight;
+			list-style: none;
+			outline: none;
+		}
+
+		summary::-webkit-details-marker {
+			display: none;
+		}
+
+		summary::after {
+			content: "▾";
+			font-weight: $bold-weight;
+			color: $text-light-color;
+			@include transition(transform 0.15s ease-in-out);
+		}
+
+		&[open] summary::after {
+			@include rotate(180);
+		}
+
+		ul {
+			margin-top: 10px;
+			padding-left: 0;
+			text-indent: 0;
+			list-style-position: outside;
+		}
+
+		li {
+			margin-top: 8px;
+			max-width: 100%;
+		}
+
+		a {
+			font-weight: $bold-weight;
+			border-bottom: 2px solid $accent-color;
+		}
+	}
 }
 
 .image-wrap,
