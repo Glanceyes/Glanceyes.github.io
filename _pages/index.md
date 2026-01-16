@@ -9,7 +9,7 @@ featured_image: /images/about/banner_image.jpg
 
 ![Profile Image](/images/about/profile_image.jpg){: width="200" height="200" style="float: right; margin-right: 20px; margin-left: 20px; margin-bottom: 20px;"}
 
-I am Seonho Lee (Griffin Sunho Lee in the US). I will be working as an Applied AI Research Scientist at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/) starting in 2026. I got a M.S. degree from [KAIST AI](https://gsai.kaist.ac.kr/) in Artificial Intelligence and had worked as an AI graduate researcher at the [Computer Vision and Machine Learning Lab](https://sites.google.com/view/cvml-kaist/home) at [KAIST](https://www.kaist.ac.kr/en/), under the supervision of [Prof. Hyunjung Shim](https://sites.google.com/view/cvml-kaist/members). 
+I am Seonho Lee (Griffin Sunho Lee in the US). I will be working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/) starting in 2026. I got a M.S. degree from [KAIST AI](https://gsai.kaist.ac.kr/) in Artificial Intelligence and had worked as an AI graduate researcher at the [Computer Vision and Machine Learning Lab](https://sites.google.com/view/cvml-kaist/home) at [KAIST](https://www.kaist.ac.kr/en/), under the supervision of [Prof. Hyunjung Shim](https://sites.google.com/view/cvml-kaist/members). 
 
 <br/>
 
@@ -42,7 +42,7 @@ Particularly, I am researching on the following topics:
 
 ## News
 
-
+**Mar. 2026**: I will be working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/) in art generation team.
 
 **Oct. 2025**: Two papers <b>[PartCATSeg](http://arxiv.org/abs/2501.09688)</b> and <b>[3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)</b> got selected as <b>[QIFK(Qualcomm Innovation Fellowship Korea) 2025](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-south-korea) Finalist</b>.
 
@@ -52,13 +52,6 @@ Particularly, I am researching on the following topics:
 
 **Jun. 2025**: I got awarded <b>[Korean Presidential Science Scholarship for Graduate Students](https://www.msit.go.kr/bbs/view.do?sCode=user&mPid=121&mId=311&bbsSeqNo=100&nttSeqNo=3179541)</b>.
 
-
-<details>
-<summary>
-<a>More News</a>
-</summary>
-<br/>
-
 **May. 2025**: Our <b>[ScribbleDiff](https://arxiv.org/abs/2409.08026)</b> paper got accepted to <b>[ICIP 2025](https://2025.ieeeicip.org/)!</b>
 
 **Feb. 2025**: Our <b>[PartCATSeg](http://arxiv.org/abs/2501.09688)</b> paper got accepted to <b>[CVPR 2025](https://cvpr.thecvf.com/Conferences/2025)!</b>
@@ -66,6 +59,13 @@ Particularly, I am researching on the following topics:
 **Jan. 2025**: Our <b>[DreamCatalyst](https://arxiv.org/abs/2407.11394)</b> paper got accepted to <b>[ICLR 2025](https://iclr.cc/Conferences/2025)!</b>
 
 **Sep. 2024**: Our <b>[PartCLIPSeg](https://arxiv.org/abs/2406.11384)</b> paper got accepted to <b>[NeurIPS 2024](https://neurips.cc/Conferences/2024)!</b>
+
+
+<details>
+<summary>
+<a>More News</a>
+</summary>
+<br/>
 
 **Sep. 2023**: I got accepted to [CVML Lab](https://sites.google.com/view/cvml-kaist/home) as a M.S. graduate student in KAIST AI.
 
