@@ -61,7 +61,7 @@ Particularly, I am researching on the following topics:
 <br/>
 
 <details class="more-news" markdown="1">
-<summary><b>More News<b/></summary>
+<summary><b>More News</b></summary>
 
 **Sep. 2024**: Our **[PartCLIPSeg](https://arxiv.org/abs/2406.11384)** paper got accepted to **[NeurIPS 2024](https://neurips.cc/Conferences/2024)**!
 
