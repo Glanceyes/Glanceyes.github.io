@@ -42,9 +42,9 @@ Particularly, I am researching on the following topics:
 
 ## News
 
-**Jan. 2026** Our <b>[What "Not" to Detect](https://openreview.net/forum?id=hFzrP5mw24)</b> paper got accepted to [ICLR 2026](https://iclr.cc/Conferences/2026)!
-
 **Mar. 2026**: I will be working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/).
+
+**Jan. 2026** Our <b>[What "Not" to Detect](https://openreview.net/forum?id=hFzrP5mw24)</b> paper got accepted to [ICLR 2026](https://iclr.cc/Conferences/2026)!
 
 **Oct. 2025**: Two papers <b>[PartCATSeg](http://arxiv.org/abs/2501.09688)</b> and <b>[3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)</b> got selected as <b>[QIFK(Qualcomm Innovation Fellowship Korea) 2025](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-south-korea) Finalist</b>.
 
