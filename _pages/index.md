@@ -157,7 +157,7 @@ Particularly, I am researching on the following topics:
 <br clear="all"/>
 
 
-#### [P3] Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling
+#### [P2] Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling
 
 ![Perceptual_Judge](/images/about/publications/perceptual_judge.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
 
@@ -169,7 +169,7 @@ Under Review
 
 <br clear="all">
 
-#### [P2] WaymoQA: A Multi-View Visual Question Answering Dataset for Safety-Critical Reasoning in Autonomous Driving
+#### [P1] WaymoQA: A Multi-View Visual Question Answering Dataset for Safety-Critical Reasoning in Autonomous Driving
 
 ![WaymoQA](/images/about/publications/waymoqa.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
 
