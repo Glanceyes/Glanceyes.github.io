@@ -42,7 +42,7 @@ Particularly, I am researching on the following topics:
 
 ## News
 
-**Jan. 2026** Our <b>[What "Not" to Detect"](https://openreview.net/forum?id=hFzrP5mw24) paper got accepted to [ICLR 2026](https://iclr.cc/Conferences/2026)!</b>
+**Jan. 2026** Our <b>[What "Not" to Detect](https://openreview.net/forum?id=hFzrP5mw24)</b> paper got accepted to [ICLR 2026](https://iclr.cc/Conferences/2026)!
 
 **Mar. 2026**: I will be working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/).
 
