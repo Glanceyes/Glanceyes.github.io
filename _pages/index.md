@@ -42,6 +42,8 @@ Particularly, I am researching on the following topics:
 
 ## News
 
+**Jan. 2026** Our <b>[What "Not" to Detect"](https://openreview.net/forum?id=hFzrP5mw24) paper got accepted to [ICLR 2026](https://iclr.cc/Conferences/2026)!</b>
+
 **Mar. 2026**: I will be working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/).
 
 **Oct. 2025**: Two papers <b>[PartCATSeg](http://arxiv.org/abs/2501.09688)</b> and <b>[3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)</b> got selected as <b>[QIFK(Qualcomm Innovation Fellowship Korea) 2025](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-south-korea) Finalist</b>.
@@ -76,6 +78,20 @@ Particularly, I am researching on the following topics:
 
 <br clear="all"/>
 <b>*: equal contribution.</b> &nbsp; <b>†: corresponding author.</b> &nbsp; <b>C: conference</b> &nbsp; <b>P: preprint</b>
+
+<br clear="all"/>
+
+
+#### [C6] What “Not” to Detect: Improving Object Detection under Negation via Reasoning and Token Merging
+
+![CoVAND](/images/about/publications/covand.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
+
+- Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†
+- Keywords: Described Object Detction under Negation
+<!-- - <i>May. 2025</i> -->
+
+<b>[ICLR 2026](https://openreview.net/forum?id=hFzrP5mw24)</b>, [Paper](https://arxiv.org/abs/2510.13232)
+
 
 <br clear="all"/>
 
@@ -165,32 +181,19 @@ Under Review
 
 <br clear="all"/>
 
-#### [P1] What “Not” to Detect: Improving Object Detection under Negation via Reasoning and Token Merging
-
-![CoVAND](/images/about/publications/covand.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
-
-- Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†
-- Keywords: Described Object Detction under Negation
-<!-- - <i>May. 2025</i> -->
-
-[Preprint](https://arxiv.org/abs/2510.13232)
-
-
-<br clear="all"/>
-
-
-
 <br/>
 <hr/>
 
 
 ## Work Experience
 
-#### Snap Inc. - Generative ML team (VideoCraft), <i>ML engineer intern</i>
+#### [Snap Inc.](https://www.snap.com) - Generative ML team (VideoCraft), <i>ML engineer intern</i>
 
 - <i>Jun. 2025 ~ Sep. 2025</i>, Santa Monica, CA, USA (On-site)
 - Led a project for establishing cross-reference dataset preprocessing pipeline for personalized video generation
 - Developed new model architecture with multi-subject adapters for <i>VideoAlchemist 2.0</i>
+
+<br clear="all"/>
 
 <br/>
 
@@ -243,11 +246,11 @@ Under Review
 
 ## Education
 
-#### KAIST
+#### [KAIST](https://www.kaist.ac.kr/en/)
 - M.S. in Artificial Intelligence, Mar. 2024 ~ Feb. 2026
 - GPA: 4.20 / 4.3
 
-#### Sogang University
+#### [Sogang University](https://www.sogang.ac.kr/en/home)
 - B.S. in Computer Science and Engineering, Mar. 2017 ~ Feb. 2024 <i>(Expected)</i>
 - GPA: 4.12 / 4.3 <i>(Summa Cum Laude)</i>
 
@@ -332,5 +335,5 @@ Under Review
 -->
 
 ```
-Last updated: 4th, Jan. 2026
+Last updated: 26th, Jan. 2026
 ```
