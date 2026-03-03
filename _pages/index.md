@@ -9,7 +9,7 @@ featured_image: /images/about/banner_image.jpg
 
 ![Profile Image](/images/about/profile_image.jpg){: width="200" height="200" style="float: right; margin-right: 20px; margin-left: 20px; margin-bottom: 20px;"}
 
-I am Seonho Lee (Griffin Sunho Lee in the US). I will be working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/) starting in 2026. I got a M.S. degree from [KAIST AI](https://gsai.kaist.ac.kr/) in Artificial Intelligence and had worked as an AI graduate researcher at the [Computer Vision and Machine Learning Lab](https://kaist-cvml.github.io) at [KAIST](https://www.kaist.ac.kr/en/), under the supervision of [Prof. Hyunjung Shim](https://scholar.google.com/citations?user=KB5XZGIAAAAJ&hl=en). 
+I am Seonho Lee (Griffin Sunho Lee in the US). I am working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/). I got a M.S. degree from [KAIST AI](https://gsai.kaist.ac.kr/) in Artificial Intelligence and had worked as an AI graduate researcher at the [Computer Vision and Machine Learning Lab](https://kaist-cvml.github.io) at [KAIST](https://www.kaist.ac.kr/en/), under the supervision of [Prof. Hyunjung Shim](https://scholar.google.com/citations?user=KB5XZGIAAAAJ&hl=en). 
 
 <br/>
 
@@ -42,7 +42,7 @@ Particularly, I am researching on the following topics:
 
 ## News
 
-**Mar. 2026**: I will be working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/).
+**Mar. 2026**: I begin to work as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/).
 
 **Jan. 2026** Our <b>[What "Not" to Detect](https://openreview.net/forum?id=hFzrP5mw24)</b> paper got accepted to [ICLR 2026](https://iclr.cc/Conferences/2026)!
 
@@ -187,9 +187,15 @@ Under Review
 
 ## Work Experience
 
+#### [Krafton](https://www.krafton.com/en/) - [AI Research Team](https://www.krafton.ai/en/), <i>Applied AI Researcher</i>
+
+- <i>Mar. 2026 ~ Present </i>, Seoul, Republic of Korea
+
+<br clear="all"/>
+
 #### [Snap Inc.](https://www.snap.com) - Generative ML team (VideoCraft), <i>ML engineer intern</i>
 
-- <i>Jun. 2025 ~ Sep. 2025</i>, Santa Monica, CA, USA (On-site)
+- <i>Jun. 2025 ~ Sep. 2025</i>, Santa Monica, CA, USA
 - Led a project for establishing cross-reference dataset preprocessing pipeline for personalized video generation
 - Developed new model architecture with multi-subject adapters for <i>VideoAlchemist 2.0</i>
 
@@ -335,5 +341,5 @@ Under Review
 -->
 
 ```
-Last updated: 26th, Jan. 2026
+Last updated: 3rd, Mar. 2026
 ```
