@@ -1,6 +1,6 @@
 ---
 title: Seonho (Griffin Sunho) Lee
-subtitle: Incoming Applied AI Researcher at Krafton AI
+subtitle: Applied AI Researcher at Krafton AI
 description: Research on AI in Computer vision 
 featured_image: /images/about/banner_image.jpg
 ---
@@ -9,7 +9,7 @@ featured_image: /images/about/banner_image.jpg
 
 ![Profile Image](/images/about/profile_image.jpg){: width="200" height="200" style="float: right; margin-right: 20px; margin-left: 20px; margin-bottom: 20px;"}
 
-I am Seonho Lee (Griffin Sunho Lee in the US). I am working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/). I got a M.S. degree from [KAIST AI](https://gsai.kaist.ac.kr/) in Artificial Intelligence and had worked as an AI graduate researcher at the [Computer Vision and Machine Learning Lab](https://kaist-cvml.github.io) at [KAIST](https://www.kaist.ac.kr/en/), under the supervision of [Prof. Hyunjung Shim](https://scholar.google.com/citations?user=KB5XZGIAAAAJ&hl=en). 
+I am Seonho Lee (Griffin Sunho Lee in the US). I am working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/). I got a M.S. degree from [KAIST AI](https://gsai.kaist.ac.kr/) in Artificial Intelligence and had worked as an AI graduate researcher at the [Computer Vision and Machine Learning Lab](https://kaist-cvml.github.io) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Prof. Hyunjung Shim](https://scholar.google.com/citations?user=KB5XZGIAAAAJ&hl=en). 
 
 <br/>
 
@@ -88,7 +88,7 @@ Particularly, I am researching on the following topics:
 
 - Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†
 - Keywords: Described Object Detction under Negation
-<!-- - <i>May. 2025</i> -->
+
 
 <b>[ICLR 2026](https://openreview.net/forum?id=hFzrP5mw24)</b>, [Paper](https://arxiv.org/abs/2510.13232)
 
@@ -101,7 +101,7 @@ Particularly, I am researching on the following topics:
 
 - <b>Seonho Lee</b>\*, Jiho Choi\*, Inha Kang, Jiwook Kim, Junsung Park, Hyunjung Shim†
 - Keywords: 3D-Aware VLM Finetuning
-<!-- - <i>May. 2025</i> -->
+
 
 <b>[EMNLP 2025 Findings](https://2025.emnlp.org/)</b>, [Paper](http://arxiv.org/abs/2506.09883), [Codes](https://github.com/kaist-cvml/3d-vlm-gd)
 
@@ -156,6 +156,17 @@ Particularly, I am researching on the following topics:
 
 <br clear="all"/>
 
+#### [P3] Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views
+
+![DR3D](/images/about/publications/dr3d.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
+
+- Jiho Choi\*, <b>Seonho Lee</b>\*, Seojeong Park, Hyunjung Shim†
+- Keywords: Multi-View 3D Reasoning, Reinforcement Learning
+
+Under Review
+
+<br clear="all">
+
 
 #### [P2] Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling
 
@@ -177,7 +188,7 @@ Under Review
 - Keywords: Visual Question Answering, Safety-Critical Reasoning
 <!-- - <i>Nov. 2025</i> -->
 
-[Preprint](https://arxiv.org/abs/2511.20022)
+[Preprint](https://arxiv.org/abs/2511.20022), Under Review
 
 <br clear="all"/>
 
@@ -269,6 +280,9 @@ Under Review
 
 ## Honors and Awards
 
+#### Best Paper Award in IPIU 2026
+- Paper: [What "Not" to Detect](https://arxiv.org/abs/2510.13232) (<i>Feb. 2026</i>)
+
 #### Qualcomm Innovation Fellowship Korea (QIFK) 2025 Finalist
 - Selected as a finalist by Qualcomm AI Research <i>(Oct. 2025)</i>
 - Two papers: [PartCATSeg](http://arxiv.org/abs/2501.09688) and [3D-Aware VLM Finetuning](http://arxiv.org/abs/2506.09883)
@@ -300,6 +314,7 @@ Under Review
 ## Academic Activities
 
 #### Reviewer
+- CVPR 2026 Workshop (MUSI)
 - 3DV 2026
 
 
@@ -341,5 +356,5 @@ Under Review
 -->
 
 ```
-Last updated: 3rd, Mar. 2026
+Last updated: 7th, Mar. 2026
 ```
