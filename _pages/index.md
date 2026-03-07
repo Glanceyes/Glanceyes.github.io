@@ -158,7 +158,7 @@ Particularly, I am researching on the following topics:
 
 #### [P3] Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views
 
-![DR3D](/images/about/publications/dr3d.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
+![DR3D](/images/about/publications/dr3d.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
 
 - Jiho Choi\*, <b>Seonho Lee</b>\*, Seojeong Park, Hyunjung Shim†
 - Keywords: Multi-View 3D Reasoning, Reinforcement Learning
