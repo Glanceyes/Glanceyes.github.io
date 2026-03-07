@@ -282,6 +282,7 @@ Under Review
 
 #### Best Paper Award in IPIU 2026
 - Paper: [What "Not" to Detect](https://arxiv.org/abs/2510.13232) (<i>Feb. 2026</i>)
+- Inha Kang, <b>Seonho Lee</b>, Jiho Choi
 
 #### Qualcomm Innovation Fellowship Korea (QIFK) 2025 Finalist
 - Selected as a finalist by Qualcomm AI Research <i>(Oct. 2025)</i>
