@@ -83,13 +83,11 @@ Particularly, I am researching on the following topics:
 
 #### [C6] What “Not” to Detect: Improving Object Detection under Negation via Reasoning and Token Merging
 
-![CoVAND](/images/about/publications/covand.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 80px; margin-bottom: 80px;"}
+![CoVAND](/images/about/publications/covand.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
 
 - Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†
 - Keywords: Described Object Detction under Negation
 - Aceepted in ICLR 2026 Workshop LLM Reasoning
-    - Grounding the "Not": Symbolic Representation of Negation for Logical Reasoning in VLMs
-
 
 <b>[ICLR 2026](https://openreview.net/forum?id=hFzrP5mw24)</b>, [Paper](https://arxiv.org/abs/2510.13232)
 
