@@ -76,18 +76,17 @@ Particularly, I am researching on the following topics:
 ## Publications
 
 <br clear="all"/>
-<b>*: equal contribution.</b> &nbsp; <b>†: corresponding author.</b> &nbsp; <b>C: conference</b> &nbsp; <b>P: preprint</b>
+<b>*: equal contribution.</b> &nbsp; <b>†: corresponding author.</b> &nbsp; <b>C: conference</b> &nbsp; <b>P: preprint</b> &nbsp; <b>W: workshop</b>
 
 <br clear="all"/>
 
 
 #### [C6] What “Not” to Detect: Improving Object Detection under Negation via Reasoning and Token Merging
 
-![CoVAND](/images/about/publications/covand.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
+![NegToMe](/images/about/publications/negtome.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
 
 - Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†
 - Keywords: Described Object Detction under Negation
-- Aceepted in ICLR 2026 Workshop LLM Reasoning
 
 <b>[ICLR 2026](https://openreview.net/forum?id=hFzrP5mw24)</b>, [Paper](https://arxiv.org/abs/2510.13232)
 
@@ -153,6 +152,17 @@ Particularly, I am researching on the following topics:
 <!-- - <i>May. 2024</i> -->
 
 <b>[NeurIPS 2024](https://neurips.cc/virtual/2024/poster/94085)</b>, [Paper](https://arxiv.org/abs/2406.11384), [Codes](https://github.com/kaist-cvml-lab/part-clipseg) [![GitHub Stars](https://img.shields.io/github/stars/kaist-cvml/part-clipseg){: style="display: inline; height: 20px; vertical-align: middle;"}](https://github.com/kaist-cvml/part-clipseg){: style="text-decoration: none; border: none;"}
+
+<br clear="all"/>
+
+#### [W1] Grounding the "Not": Symbolic Representation of Negation for Logical Reasoning in VLMs
+
+![CoVAND](/images/about/publications/covand.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
+
+- Inha Kang, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†
+- Keywords: Negation Understanding, Affirmative Bias
+
+<b>[ICLR 2026 Workshop LLM Reasoning](https://sites.google.com/view/iclr-2026-llmreasoning)</b>
 
 <br clear="all"/>
 
