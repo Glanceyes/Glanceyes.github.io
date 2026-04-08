@@ -1,14 +1,14 @@
 ---
 title: Seonho (Griffin Sunho) Lee
 subtitle: Applied AI Researcher at Krafton AI
-description: Research on AI in Computer vision 
+description: Research on AI in Computer vision
 featured_image: /images/about/banner_image.jpg
 ---
 
 
 ![Profile Image](/images/about/profile_image.jpg){: width="200" height="200" style="float: right; margin-right: 20px; margin-left: 20px; margin-bottom: 20px;"}
 
-I am Seonho Lee (Griffin Sunho Lee in the US). I am working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/). I got a M.S. degree from [KAIST AI](https://gsai.kaist.ac.kr/) in Artificial Intelligence and had worked as an AI graduate researcher at the [Computer Vision and Machine Learning Lab](https://kaist-cvml.github.io) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Prof. Hyunjung Shim](https://scholar.google.com/citations?user=KB5XZGIAAAAJ&hl=en). 
+I am Seonho Lee (Griffin Sunho Lee in the US). I am working as an Applied AI Researcher at [Krafton](https://www.krafton.com/en/) [AI](https://www.krafton.ai/en/). I got a M.S. degree from [KAIST AI](https://gsai.kaist.ac.kr/) in Artificial Intelligence and had worked as an AI graduate researcher at the [Computer Vision and Machine Learning Lab](https://kaist-cvml.github.io) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Prof. Hyunjung Shim](https://scholar.google.com/citations?user=KB5XZGIAAAAJ&hl=en).
 
 <!-- <br/>
 
@@ -73,27 +73,15 @@ Particularly, I am researching on the following topics:
 
 
 
-## Publications
+## Selected Publications
 
 <br clear="all"/>
-<b>*: equal contribution.</b> &nbsp; <b>†: corresponding author.</b> &nbsp; <b>C: conference</b> &nbsp; <b>P: preprint</b> &nbsp; <b>W: workshop</b>
-
-<br clear="all"/>
-
-
-#### [C6] What “Not” to Detect: Improving Object Detection under Negation via Reasoning and Token Merging
-
-![NegToMe](/images/about/publications/negtome.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
-
-- Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†
-- Keywords: Described Object Detction under Negation
-
-<b>[ICLR 2026](https://openreview.net/forum?id=hFzrP5mw24)</b>, [Paper](https://arxiv.org/abs/2510.13232)
-
+<b>*: equal contribution.</b> &nbsp; <b>†: corresponding author.</b>
 
 <br clear="all"/>
 
-#### [C5] 3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation
+
+#### 3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation
 
 ![3D-Aware-VLM](/images/about/publications/3d_aware_vlm.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
 
@@ -106,7 +94,7 @@ Particularly, I am researching on the following topics:
 <br clear="all"/>
 
 
-#### [C4] Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation
+#### Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation
 
 ![PartCATSeg](/images/about/publications/partcatseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
 
@@ -118,7 +106,7 @@ Particularly, I am researching on the following topics:
 
 <br clear="all"/>
 
-#### [C3] Scribble-Guided Diffusion for Training-free Text-to-Image Generation
+#### Scribble-Guided Diffusion for Training-free Text-to-Image Generation
 
 ![Scribble-Guided Diffusion](/images/about/publications/scribblediff.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
 
@@ -130,7 +118,7 @@ Particularly, I am researching on the following topics:
 
 <br clear="all"/>
 
-#### [C2] DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation
+#### DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation
 
 ![DreamCatalyst](/images/about/publications/dreamcatalyst.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
 
@@ -143,7 +131,7 @@ Particularly, I am researching on the following topics:
 
 <br clear="all"/>
 
-#### [C1] Understanding Multi-Granularity for Open-Vocabulary Part Segmentation
+#### Understanding Multi-Granularity for Open-Vocabulary Part Segmentation
 
 ![PartCLIPSeg](/images/about/publications/partclipseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
 
@@ -155,18 +143,7 @@ Particularly, I am researching on the following topics:
 
 <br clear="all"/>
 
-#### [W1] Grounding the "Not": Symbolic Representation of Negation for Logical Reasoning in VLMs
-
-![CoVAND](/images/about/publications/covand.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
-
-- Inha Kang, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†
-- Keywords: Negation Understanding, Affirmative Bias
-
-<b>[ICLR 2026 Workshop LLM Reasoning](https://sites.google.com/view/iclr-2026-llmreasoning)</b>
-
-<br clear="all"/>
-
-#### [P3] Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views
+#### Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views
 
 ![DR3D](/images/about/publications/dr3d.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
 
@@ -178,29 +155,7 @@ Under Review
 <br clear="all">
 
 
-#### [P2] Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling
-
-![Perceptual_Judge](/images/about/publications/perceptual_judge.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
-
-- Seojeong Park\*, Jiho Choi\*, Junyong Kang, <b>Seonho Lee</b>, Jaeyo Shin, Hyunjung Shim†
-- Keywords: Multimodal LLM, Perceptual Judgment Bias
-<!-- - <i>Nov. 2025</i> -->
-
-Under Review
-
-<br clear="all">
-
-#### [P1] WaymoQA: A Multi-View Visual Question Answering Dataset for Safety-Critical Reasoning in Autonomous Driving
-
-![WaymoQA](/images/about/publications/waymoqa.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
-
-- Seungjun Yu, <b>Seonho Lee</b>, Namho Kim, Jaeyo Shin, Junsung Park, Wonjeong Ryu, Raehyuk Jung, Hyunjung Shim†
-- Keywords: Visual Question Answering, Safety-Critical Reasoning
-<!-- - <i>Nov. 2025</i> -->
-
-Under Review, [Preprint](https://arxiv.org/abs/2511.20022)
-
-<br clear="all"/>
+→ [**More Publications**](/publications)
 
 <br/>
 <hr/>
@@ -236,6 +191,20 @@ Under Review, [Preprint](https://arxiv.org/abs/2511.20022)
 
 
 ## Projects
+
+#### [Raon-VisionEncoder](https://krafton.ai/blog/posts/2026-04-02-raon_vision_encoder/raon-visionencoder-en.html): A SigLIP2-class Vision Encoder Trained Entirely on Open Data, Krafton AI
+- Developed a vision encoder with comparable performance to SigLIP2-NaFlex using only open data
+- Built VLM training pipeline integrating the vision encoder with a language model for downstream VQA evaluation and training optimization
+
+[Blog Post](https://krafton.ai/blog/posts/2026-04-02-raon_vision_encoder/raon-visionencoder-en.html)
+
+<br/>
+
+#### VideoAlchemist 2.0: Multi-Subject Personalized Video Generation, Snap Inc.
+- Developed a personalized video generation model supporting multiple subjects with fine-grained temporal control
+- Built cross-reference dataset pipeline and multi-subject adapter architecture for personalized video generation (contributed as a foundation for [AlcheMinT](https://arxiv.org/abs/2512.10943))
+
+<br/>
 
 #### 3D-Aware VLM Finetuning, Samsung Research
 - Electronic Device and Method for Operating Thereof and Storage Medium
@@ -334,7 +303,7 @@ Under Review, [Preprint](https://arxiv.org/abs/2511.20022)
 <hr/>
 
 
-<!-- 
+<!--
 ## Extra-Curricular Activities
 
 #### Naver Boostcamp AI Tech 3rd
@@ -360,7 +329,7 @@ Under Review, [Preprint](https://arxiv.org/abs/2511.20022)
 #### Algorithm & Problem Solving
 - Profile Links (Korean Leetcode)
     + [Baekjoon Online Judge](https://www.acmicpc.net/user/glanceyes)
-    + [Solved.ac](https://solved.ac/profile/glanceyes) 
+    + [Solved.ac](https://solved.ac/profile/glanceyes)
 
 
 <br/>
