@@ -3,7 +3,7 @@ title: Publications
 subtitle: Research papers
 layout: page
 permalink: /publications
-featured_image: /images/about/banner_image.jpg
+featured_image: /images/archives/banner_image.jpg
 ---
 
 <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:2rem;">*: equal contribution &nbsp;·&nbsp; †: corresponding author &nbsp;·&nbsp; <b>C</b>: conference &nbsp;·&nbsp; <b>W</b>: workshop &nbsp;·&nbsp; <b>P</b>: preprint</p>
