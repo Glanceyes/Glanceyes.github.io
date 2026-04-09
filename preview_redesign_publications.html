@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seonho Lee – Publications</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #fff;
+  --bg-alt: #f8f9fa;
+  --text: #1a1d23;
+  --text-mid: #52596b;
+  --text-light: #8e96a8;
+  --accent: #1d4ed8;
+  --accent-light: #eff4ff;
+  --border: #e5e8ef;
+  --hero-bg: #0f1b2d;
+  --radius: 8px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Demo banner */
+.demo-banner {
+  background: #1e3a5f;
+  border-bottom: 1px solid #2d5a8e;
+  padding: 9px 24px;
+  text-align: center;
+  font-size: 12.5px;
+  color: rgba(255,255,255,0.75);
+}
+
+/* Nav */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--hero-bg);
+  height: 54px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.nav-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 28px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+.nav-links {
+  display: flex;
+  gap: 6px;
+  list-style: none;
+}
+.nav-links a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: 6px;
+  transition: color 0.15s;
+}
+.nav-links a.active,
+.nav-links a:hover { color: #fff; }
+.nav-links a.active { background: rgba(255,255,255,0.08); }
+
+/* Hero */
+.hero {
+  position: relative;
+  padding: 64px 28px 56px;
+  overflow: hidden;
+}
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('file:///Users/glanceyes/Documents/Glanceyes.github.io/images/archives/banner_image.jpg');
+  background-size: cover;
+  background-position: center 55%;
+  filter: brightness(0.38) saturate(0.85);
+}
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.hero-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: 10px;
+}
+.hero-subtitle {
+  font-size: 15px;
+  color: rgba(255,255,255,0.65);
+  font-weight: 400;
+}
+
+/* Main */
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 52px 28px 80px;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--text-mid);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 24px;
+}
+
+section { margin-bottom: 52px; }
+
+/* Legend */
+.pub-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+  align-items: center;
+}
+.pub-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12.5px;
+  color: var(--text-mid);
+}
+.pub-legend-sym {
+  font-weight: 700;
+  color: var(--text);
+  font-size: 13.5px;
+}
+.pub-legend-sep {
+  width: 1px;
+  height: 12px;
+  background: var(--border);
+  margin: 0 2px;
+}
+
+/* Publication entries */
+.pub-list { display: flex; flex-direction: column; }
+.pub-entry {
+  display: flex;
+  gap: 20px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: flex-start;
+}
+.pub-entry:last-child { border-bottom: none; }
+.pub-entry:target {
+  background: #eff6ff;
+  border-radius: 8px;
+  padding: 16px 14px;
+  margin: 0 -14px;
+  scroll-margin-top: 80px;
+}
+.pub-entry { scroll-margin-top: 80px; }
+
+/* Index label */
+.pub-index {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-light);
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 6px;
+  flex-shrink: 0;
+  margin-top: 3px;
+  letter-spacing: 0.02em;
+  font-family: 'Inter', monospace;
+  min-width: 34px;
+  text-align: center;
+}
+
+.pub-thumb {
+  width: 108px;
+  height: 76px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+}
+.pub-body { flex: 1; min-width: 0; }
+.pub-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.45;
+  margin-bottom: 5px;
+}
+.pub-note {
+  font-size: 12px;
+  color: #b45309;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.pub-authors {
+  font-size: 12.5px;
+  color: var(--text-mid);
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+.pub-authors strong { color: var(--text); font-weight: 600; }
+.pub-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.venue-badge {
+  font-size: 11.5px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 2px 8px;
+  letter-spacing: 0.02em;
+}
+.venue-badge.conf { background: var(--accent-light); color: var(--accent); }
+.venue-badge.workshop { background: #f0fdf4; color: #15803d; }
+.venue-badge.preprint { background: #f3f4f6; color: #6b7280; }
+.pub-links { display: flex; gap: 6px; flex-wrap: wrap; }
+.pub-link {
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--text-mid);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 2px 9px;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+}
+.pub-link:hover { border-color: var(--accent); color: var(--accent); }
+
+/* Footer */
+footer {
+  background: var(--hero-bg);
+  color: rgba(255,255,255,0.5);
+  text-align: center;
+  font-size: 12.5px;
+  padding: 24px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+</style>
+</head>
+<body>
+
+<div class="demo-banner">🎨 Redesign Demo · 실제 사이트 적용 전 미리보기입니다</div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="preview_redesign.html" class="nav-logo">Glanceyes</a>
+    <ul class="nav-links">
+      <li><a href="preview_redesign.html">About</a></li>
+      <li><a href="preview_redesign_publications.html" class="active">Publications</a></li>
+      <li><a href="preview_redesign_projects.html">Projects</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-inner">
+    <div class="hero-title">Publications</div>
+    <div class="hero-subtitle">Research papers</div>
+  </div>
+</section>
+
+<main class="main">
+
+  <div class="pub-legend">
+    <span class="pub-legend-item"><span class="pub-legend-sym">*</span> equal contribution</span>
+    <span class="pub-legend-sep"></span>
+    <span class="pub-legend-item"><span class="pub-legend-sym">†</span> corresponding author</span>
+    <span class="pub-legend-sep"></span>
+    <span class="pub-legend-item"><span class="pub-legend-sym">C</span> conference</span>
+    <span class="pub-legend-sep"></span>
+    <span class="pub-legend-item"><span class="pub-legend-sym">P</span> preprint</span>
+    <span class="pub-legend-sep"></span>
+    <span class="pub-legend-item"><span class="pub-legend-sym">W</span> workshop</span>
+  </div>
+
+  <!-- Conference Papers -->
+  <section>
+    <div class="section-title">Conference Papers</div>
+    <div class="pub-list">
+
+      <div class="pub-entry" id="c6">
+        <span class="pub-index">C6</span>
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/negtome.png" alt="NegToMe">
+        <div class="pub-body">
+          <div class="pub-title">What "Not" to Detect: Improving Object Detection under Negation via Reasoning and Token Merging</div>
+          <div class="pub-authors">Inha Kang, Youngsun Lim, <strong>Seonho Lee</strong>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge conf">ICLR 2026</span>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2510.13232" target="_blank" class="pub-link">Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-entry" id="c5">
+        <span class="pub-index">C5</span>
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/3d_aware_vlm.png" alt="3D-Aware VLM">
+        <div class="pub-body">
+          <div class="pub-title">3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation</div>
+          <div class="pub-authors"><strong>Seonho Lee</strong>*, Jiho Choi*, Inha Kang, Jiwook Kim, Junsung Park, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge conf">EMNLP 2025 Findings</span>
+            <div class="pub-links">
+              <a href="http://arxiv.org/abs/2506.09883" target="_blank" class="pub-link">Paper</a>
+              <a href="https://github.com/kaist-cvml/3d-vlm-gd" target="_blank" class="pub-link">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-entry" id="c4">
+        <span class="pub-index">C4</span>
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/partcatseg.png" alt="PartCATSeg">
+        <div class="pub-body">
+          <div class="pub-title">Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation</div>
+          <div class="pub-authors">Jiho Choi*, <strong>Seonho Lee</strong>*, Seungho Lee, Minhyun Lee, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge conf">CVPR 2025</span>
+            <div class="pub-links">
+              <a href="http://arxiv.org/abs/2501.09688" target="_blank" class="pub-link">Paper</a>
+              <a href="https://github.com/kaist-cvml/part-catseg" target="_blank" class="pub-link">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-entry" id="c3">
+        <span class="pub-index">C3</span>
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/scribblediff.png" alt="ScribbleDiff">
+        <div class="pub-body">
+          <div class="pub-title">Scribble-Guided Diffusion for Training-free Text-to-Image Generation</div>
+          <div class="pub-authors"><strong>Seonho Lee</strong>*, Jiho Choi*, Seohyun Lim, Jiwook Kim, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge conf">ICIP 2025</span>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2409.08026" target="_blank" class="pub-link">Paper</a>
+              <a href="https://github.com/kaist-cvml-lab/scribble-diffusion" target="_blank" class="pub-link">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-entry" id="c2">
+        <span class="pub-index">C2</span>
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/dreamcatalyst.png" alt="DreamCatalyst">
+        <div class="pub-body">
+          <div class="pub-title">DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation</div>
+          <div class="pub-note">🤗 HuggingFace Daily Paper</div>
+          <div class="pub-authors">Jiwook Kim*, <strong>Seonho Lee</strong>*, Jaeyo Shin, Jiho Choi, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge conf">ICLR 2025</span>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2407.11394" target="_blank" class="pub-link">Paper</a>
+              <a href="https://dream-catalyst.github.io/" target="_blank" class="pub-link">Project</a>
+              <a href="https://github.com/kaist-cvml-lab/DreamCatalyst" target="_blank" class="pub-link">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-entry" id="c1">
+        <span class="pub-index">C1</span>
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/partclipseg.png" alt="PartCLIPSeg">
+        <div class="pub-body">
+          <div class="pub-title">Understanding Multi-Granularity for Open-Vocabulary Part Segmentation</div>
+          <div class="pub-authors">Jiho Choi*, <strong>Seonho Lee</strong>*, Seungho Lee, Minhyun Lee, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge conf">NeurIPS 2024</span>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2406.11384" target="_blank" class="pub-link">Paper</a>
+              <a href="https://github.com/kaist-cvml-lab/part-clipseg" target="_blank" class="pub-link">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Workshop Papers -->
+  <section>
+    <div class="section-title">Workshop Papers</div>
+    <div class="pub-list">
+
+      <div class="pub-entry">
+        <span class="pub-index">W1</span>
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/covand.png" alt="CoVAND">
+        <div class="pub-body">
+          <div class="pub-title">Grounding the "Not": Symbolic Representation of Negation for Logical Reasoning in VLMs</div>
+          <div class="pub-authors">Inha Kang, <strong>Seonho Lee</strong>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge workshop">ICLR 2026 Workshop LLM Reasoning</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Preprints -->
+  <section>
+    <div class="section-title">Preprints</div>
+    <div class="pub-list">
+
+      <div class="pub-entry">
+        <span class="pub-index">P3</span>
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/dr3d.png" alt="DR3D">
+        <div class="pub-body">
+          <div class="pub-title">Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views</div>
+          <div class="pub-authors">Jiho Choi*, <strong>Seonho Lee</strong>*, Seojeong Park, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge preprint">Under Review</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-entry">
+        <span class="pub-index">P2</span>
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/perceptual_judge.png" alt="Perceptual Judge">
+        <div class="pub-body">
+          <div class="pub-title">Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling</div>
+          <div class="pub-authors">Seojeong Park*, Jiho Choi*, Junyong Kang, <strong>Seonho Lee</strong>, Jaeyo Shin, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge preprint">Under Review</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-entry">
+        <span class="pub-index">P1</span>
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/waymoqa.png" alt="WaymoQA">
+        <div class="pub-body">
+          <div class="pub-title">WaymoQA: A Multi-View Visual Question Answering Dataset for Safety-Critical Reasoning in Autonomous Driving</div>
+          <div class="pub-authors">Seungjun Yu, <strong>Seonho Lee</strong>, Namho Kim, Jaeyo Shin, Junsung Park, Wonjeong Ryu, Raehyuk Jung, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge preprint">Under Review</span>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2511.20022" target="_blank" class="pub-link">Preprint</a>
+              <a href="https://github.com/sjyu001/WaymoQA" target="_blank" class="pub-link">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Last updated: 8th, Apr. 2026 · Griffin Sunho (Seonho) Lee
+</footer>
+
+</body>
+</html>

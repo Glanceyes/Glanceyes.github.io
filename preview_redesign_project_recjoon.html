@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RECJOON – Griffin Sunho (Seonho) Lee</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --font: 'Inter', sans-serif;
+  --bg: #fff; --bg-alt: #f8f9fa; --text: #1a1d23; --text-mid: #52596b;
+  --text-light: #8e96a8; --accent: #1d4ed8; --accent-light: #eff4ff;
+  --border: #e5e8ef; --hero-bg: #0f1b2d; --radius: 8px;
+}
+body { font-family: var(--font); font-size: 15.5px; line-height: 1.8; color: var(--text); background: var(--bg); -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); }
+h2 { font-size: 18px; font-weight: 700; color: var(--text); margin: 40px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+h3 { font-size: 15.5px; font-weight: 600; color: var(--text); margin: 24px 0 10px; }
+h4 { font-size: 14px; font-weight: 600; color: var(--text-mid); margin: 20px 0 8px; }
+p { color: var(--text-mid); margin-bottom: 16px; }
+img { max-width: 100%; border-radius: 8px; margin: 16px 0; display: block; }
+ul, ol { color: var(--text-mid); padding-left: 20px; margin-bottom: 16px; }
+li { margin-bottom: 4px; }
+
+/* Table */
+table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 16px 0 24px; }
+th { background: var(--bg-alt); color: var(--text); font-weight: 600; text-align: left; padding: 10px 14px; border: 1px solid var(--border); }
+td { color: var(--text-mid); padding: 9px 14px; border: 1px solid var(--border); vertical-align: top; line-height: 1.6; }
+td a { color: var(--accent); font-size: 13px; }
+
+/* Demo banner */
+.demo-banner { background: #1e3a5f; border-bottom: 1px solid #2d5a8e; padding: 9px 24px; text-align: center; font-size: 12.5px; color: rgba(255,255,255,0.75); }
+
+/* Nav */
+.nav { position: sticky; top: 0; z-index: 100; background: var(--hero-bg); height: 54px; display: flex; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.06); }
+.nav-inner { max-width: 900px; margin: 0 auto; padding: 0 28px; width: 100%; display: flex; align-items: center; justify-content: space-between; }
+.nav-logo { font-size: 16px; font-weight: 600; color: #fff; text-decoration: none; letter-spacing: -0.01em; }
+.nav-links { display: flex; gap: 6px; list-style: none; }
+.nav-links a { color: rgba(255,255,255,0.6); text-decoration: none; font-size: 13.5px; font-weight: 500; padding: 5px 12px; border-radius: 6px; transition: color 0.15s; }
+.nav-links a:hover { color: #fff; }
+
+/* Project hero */
+.proj-hero { background: var(--hero-bg); padding: 44px 28px 40px; }
+.proj-hero-inner { max-width: 760px; margin: 0 auto; }
+.proj-tag { display: inline-block; padding: 3px 10px; border: 1px solid rgba(255,255,255,0.18); border-radius: 20px; font-size: 12px; color: rgba(255,255,255,0.6); margin-bottom: 14px; }
+.proj-title { font-size: 26px; font-weight: 700; color: #fff; letter-spacing: -0.02em; line-height: 1.25; margin-bottom: 10px; }
+.proj-subtitle { font-size: 14px; color: rgba(255,255,255,0.55); margin-bottom: 20px; }
+.proj-meta { display: flex; gap: 20px; flex-wrap: wrap; font-size: 13px; color: rgba(255,255,255,0.45); }
+.proj-links-hero { display: flex; gap: 8px; margin-top: 20px; flex-wrap: wrap; }
+.proj-link-btn { display: inline-flex; align-items: center; gap: 5px; padding: 7px 16px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.2); color: rgba(255,255,255,0.85); font-size: 13px; font-weight: 500; text-decoration: none; background: rgba(255,255,255,0.05); transition: background 0.15s; }
+.proj-link-btn:hover { background: rgba(255,255,255,0.12); text-decoration: none; color: #fff; }
+
+/* Main */
+.main { max-width: 760px; margin: 0 auto; padding: 52px 28px 80px; }
+.back-link { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text-light); margin-bottom: 32px; text-decoration: none; }
+.back-link:hover { color: var(--accent); }
+
+/* Footer */
+footer { background: var(--hero-bg); color: rgba(255,255,255,0.5); text-align: center; font-size: 12.5px; padding: 24px; border-top: 1px solid rgba(255,255,255,0.06); }
+</style>
+</head>
+<body>
+
+<div class="demo-banner">🎨 Redesign Demo · 실제 사이트 적용 전 미리보기입니다</div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="preview_redesign.html" class="nav-logo">Glanceyes</a>
+    <ul class="nav-links">
+      <li><a href="preview_redesign.html">About</a></li>
+      <li><a href="preview_redesign_publications.html">Publications</a></li>
+      <li><a href="preview_redesign_projects.html">Projects</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="proj-hero">
+  <div class="proj-hero-inner">
+    <span class="proj-tag">Engineering Project</span>
+    <div class="proj-title">RECJOON</div>
+    <div class="proj-subtitle">A Personalized Algorithm Problem and Rival Recommendation System for Baekjoon Online Judge Users</div>
+    <div class="proj-meta">
+      <span>Apr. 2022 – Jun. 2022</span>
+      <span>Recommendation System, Content-Based Filtering</span>
+      <span>Naver Boostcamp AI Tech 3rd</span>
+    </div>
+    <div class="proj-links-hero">
+      <a href="https://github.com/boostcampaitech3/final-project-level3-recsys-14" target="_blank" class="proj-link-btn">Code</a>
+      <a href="https://www.youtube.com/watch?v=S5TFpJ0uZrA" target="_blank" class="proj-link-btn">Presentation Video</a>
+    </div>
+  </div>
+</div>
+
+<main class="main">
+
+  <a href="preview_redesign_projects.html" class="back-link">← Back to Projects</a>
+
+  <img src="https://vip2.loli.io/2023/09/01/PpXAGQ8Y7nyuOtW.png" alt="RECJOON Logo">
+
+  <h2>Abstract</h2>
+  <p>RECJOON is an AI-driven service designed to recommend algorithm problems and rivals for users of the <a href="https://www.acmicpc.net/">Baekjoon Online Judge (BOJ)</a> and <a href="https://solved.ac/">solved.ac</a> platforms. Utilizing deep learning and machine learning techniques, the service offers personalized suggestions based on each user's problem-solving history.</p>
+
+  <h2>Background</h2>
+  <img src="https://cdn.jsdelivr.net/gh/Glanceyes/Image-Repository/2022/06/13/20220613_1655087579.png" alt="RECJOON Background">
+  <p>As the demand for algorithmic problem solving and competitive programming grows, there is a rising need for platforms that not only offer challenges but also provide guidance tailored to individual users. RECJOON addresses this need by analyzing the problem-solving records of BOJ and solved.ac users and offering recommendations suited to their proficiency level.</p>
+
+  <h2>Method</h2>
+  <p>The system harnesses the power of deep learning and machine learning to process and analyze vast amounts of user data. By studying the patterns and tendencies in each user's problem-solving history, RECJOON's AI models are trained to predict which problems or rivals would be most beneficial for a user's growth.</p>
+
+  <h3>Batch Serving</h3>
+  <img src="https://cdn.jsdelivr.net/gh/Glanceyes/Image-Repository/2022/06/14/20220614_1655175870.png" alt="Model Pipeline">
+  <p>In RECJOON, model training and prediction, along with data collection, are executed through batch serving at predefined intervals. Every recommendation service undergoes a validation process post-model training, where predefined metrics are measured. The model that showcases the best performance during each cycle is then chosen as the prediction model.</p>
+
+  <h3>Models</h3>
+
+  <h4>Models for Algorithm Problems Recommendation</h4>
+  <table>
+    <tr><th>Name</th><th>Reference</th></tr>
+    <tr>
+      <td>RecVAE (Variational AutoEncoder)</td>
+      <td><a href="https://arxiv.org/abs/1912.11160">Shenbin et al. 2019. RecVAE: A New Variational Autoencoder for Top-N Recommendations with Implicit Feedback. ACM</a></td>
+    </tr>
+    <tr>
+      <td>Multi-VAE</td>
+      <td><a href="https://dl.acm.org/doi/10.1145/3178876.3186150">Liang et al. 2018. Variational Autoencoders for Collaborative Filtering. WWW '18</a></td>
+    </tr>
+    <tr>
+      <td>Multi-DAE (Denoising AutoEncoder)</td>
+      <td><a href="https://dl.acm.org/doi/10.1145/3178876.3186150">Liang et al. 2018. Variational Autoencoders for Collaborative Filtering. WWW '18</a></td>
+    </tr>
+  </table>
+  <p>In Multi-VAE and Multi-DAE, embeddings related to the tags of the problems were incorporated into the encoder's input. This integration aimed to facilitate the learning of side information about the problems, thereby enhancing performance.</p>
+
+  <h4>Models for Rivals Recommendation</h4>
+  <table>
+    <tr><th>Name</th><th>Reference</th></tr>
+    <tr>
+      <td>Collective MF (Matrix Factorization)</td>
+      <td><a href="https://arxiv.org/abs/1809.00366">Cortes. 2020. Cold-start recommendations in Collective Matrix Factorization</a></td>
+    </tr>
+    <tr>
+      <td>K-nearest neighbors</td>
+      <td><a href="https://ieeexplore.ieee.org/abstract/document/4781121">Altman. 1992. An introduction to kernel and nearest-neighbor nonparametric regression</a></td>
+    </tr>
+  </table>
+
+  <h4>Models for Algorithm Problems Recommendation based on Rivals</h4>
+  <table>
+    <tr><th>Name</th><th>Reference</th></tr>
+    <tr>
+      <td>BPR (Bayesian Personalized Ranking)</td>
+      <td><a href="https://arxiv.org/abs/1205.2618">Rendle et al. 2009. BPR: Bayesian Personalized Ranking from Implicit Feedback</a></td>
+    </tr>
+    <tr>
+      <td>ALS (Alternating Least Squares) MF</td>
+      <td><a href="https://ieeexplore.ieee.org/abstract/document/4781121">Hu et al. 2008. Collaborative Filtering for Implicit Feedback Datasets</a></td>
+    </tr>
+    <tr>
+      <td>Item-based CF (Collaborative Filtering)</td>
+      <td><a href="https://www.researchgate.net/publication/2369002_Item-based_Collaborative_Filtering_Recommendation_Algorithms">Sarwar et al. 2001. Item-based Collaborative Filtering Recommendation Algorithms</a></td>
+    </tr>
+  </table>
+
+  <h3>Architecture</h3>
+  <img src="https://cdn.jsdelivr.net/gh/Glanceyes/Image-Repository/2022/06/26/20220626_1656245363.png" alt="RECJOON Architecture">
+
+  <h2>Result</h2>
+  <p>The deployment of RECJOON has led to a more personalized experience for BOJ and solved.ac users, enabling them to find suitable challenges and rivals that align with their current skill level. The intuitive interface and accurate recommendations have been positively received by the user community.</p>
+
+  <h3>Algorithm Problems Recommendation</h3>
+  <img src="https://cdn.jsdelivr.net/gh/Glanceyes/Image-Repository/2022/06/13/20220613_1655105972.gif" alt="Algorithm Recommender Demo">
+
+  <h3>Rivals Recommendation</h3>
+  <img src="https://cdn.jsdelivr.net/gh/Glanceyes/Image-Repository/2022/06/13/20220613_1655116552.gif" alt="Rival Recommender Demo">
+
+  <h3>Algorithm Problems Recommendation based on Rivals</h3>
+  <img src="https://cdn.jsdelivr.net/gh/Glanceyes/Image-Repository/2022/06/13/20220613_1655106250.gif" alt="Rival's Problem Recommender Demo">
+
+  <h2>Further Information</h2>
+  <p>For further details, please visit the official <a href="https://github.com/boostcampaitech3/final-project-level3-recsys-14">GitHub repository</a>.</p>
+  <p>For a comprehensive overview, please refer to the <a href="https://www.youtube.com/watch?v=S5TFpJ0uZrA">presentation video</a> or <a href="https://github.com/boostcampaitech3/final-project-level3-recsys-14/blob/main/experiments/documents/RECJOON_Presentation.pdf">slides</a>.</p>
+  <p>For detailed insights into the primary model experiments, analyses, and overall project progression, refer to the <a href="https://github.com/boostcampaitech3/final-project-level3-recsys-14/blob/main/experiments/documents/RECJOON_Wrap-up_Report.pdf">Wrap-up Report</a>.</p>
+
+</main>
+
+<footer>
+  Last updated: 8th, Apr. 2026 · Griffin Sunho (Seonho) Lee
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KUVIS – Griffin Sunho (Seonho) Lee</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --font: 'Inter', sans-serif;
+  --bg: #fff; --bg-alt: #f8f9fa; --text: #1a1d23; --text-mid: #52596b;
+  --text-light: #8e96a8; --accent: #1d4ed8; --accent-light: #eff4ff;
+  --border: #e5e8ef; --hero-bg: #0f1b2d; --radius: 8px;
+}
+body { font-family: var(--font); font-size: 15.5px; line-height: 1.8; color: var(--text); background: var(--bg); -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); }
+h2 { font-size: 18px; font-weight: 700; color: var(--text); margin: 40px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+h3 { font-size: 15.5px; font-weight: 600; color: var(--text); margin: 24px 0 10px; }
+p { color: var(--text-mid); margin-bottom: 16px; }
+img { max-width: 100%; border-radius: 8px; margin: 16px 0; display: block; }
+ol { color: var(--text-mid); padding-left: 20px; margin-bottom: 16px; }
+li { margin-bottom: 6px; line-height: 1.7; }
+
+.demo-banner { background: #1e3a5f; border-bottom: 1px solid #2d5a8e; padding: 9px 24px; text-align: center; font-size: 12.5px; color: rgba(255,255,255,0.75); }
+
+.nav { position: sticky; top: 0; z-index: 100; background: var(--hero-bg); height: 54px; display: flex; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.06); }
+.nav-inner { max-width: 900px; margin: 0 auto; padding: 0 28px; width: 100%; display: flex; align-items: center; justify-content: space-between; }
+.nav-logo { font-size: 16px; font-weight: 600; color: #fff; text-decoration: none; letter-spacing: -0.01em; }
+.nav-links { display: flex; gap: 6px; list-style: none; }
+.nav-links a { color: rgba(255,255,255,0.6); text-decoration: none; font-size: 13.5px; font-weight: 500; padding: 5px 12px; border-radius: 6px; transition: color 0.15s; }
+.nav-links a:hover { color: #fff; }
+
+.proj-hero { background: var(--hero-bg); padding: 44px 28px 40px; }
+.proj-hero-inner { max-width: 760px; margin: 0 auto; }
+.proj-tag { display: inline-block; padding: 3px 10px; border: 1px solid rgba(255,255,255,0.18); border-radius: 20px; font-size: 12px; color: rgba(255,255,255,0.6); margin-bottom: 14px; }
+.proj-title { font-size: 26px; font-weight: 700; color: #fff; letter-spacing: -0.02em; line-height: 1.25; margin-bottom: 10px; }
+.proj-subtitle { font-size: 14px; color: rgba(255,255,255,0.55); margin-bottom: 20px; }
+.proj-meta { display: flex; gap: 20px; flex-wrap: wrap; font-size: 13px; color: rgba(255,255,255,0.45); }
+.proj-links-hero { display: flex; gap: 8px; margin-top: 20px; flex-wrap: wrap; }
+.proj-link-btn { display: inline-flex; align-items: center; gap: 5px; padding: 7px 16px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.2); color: rgba(255,255,255,0.85); font-size: 13px; font-weight: 500; text-decoration: none; background: rgba(255,255,255,0.05); transition: background 0.15s; }
+.proj-link-btn:hover { background: rgba(255,255,255,0.12); text-decoration: none; color: #fff; }
+
+.main { max-width: 760px; margin: 0 auto; padding: 52px 28px 80px; }
+.back-link { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text-light); margin-bottom: 32px; text-decoration: none; }
+.back-link:hover { color: var(--accent); }
+
+footer { background: var(--hero-bg); color: rgba(255,255,255,0.5); text-align: center; font-size: 12.5px; padding: 24px; border-top: 1px solid rgba(255,255,255,0.06); }
+</style>
+</head>
+<body>
+
+<div class="demo-banner">🎨 Redesign Demo · 실제 사이트 적용 전 미리보기입니다</div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="preview_redesign.html" class="nav-logo">Glanceyes</a>
+    <ul class="nav-links">
+      <li><a href="preview_redesign.html">About</a></li>
+      <li><a href="preview_redesign_publications.html">Publications</a></li>
+      <li><a href="preview_redesign_projects.html">Projects</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="proj-hero">
+  <div class="proj-hero-inner">
+    <span class="proj-tag">Engineering Project</span>
+    <div class="proj-title">KUVIS</div>
+    <div class="proj-subtitle">Web Application Enabling AI Modeling through Visual Programming in Medical Science</div>
+    <div class="proj-meta">
+      <span>Jul. 2022 – Aug. 2022</span>
+      <span>Visual Programming, Parallel Computing</span>
+      <span>Advised by Prof. Wonki Jeong</span>
+    </div>
+    <div class="proj-links-hero">
+      <a href="https://vience.io/main" target="_blank" class="proj-link-btn">Demo (VIENCE Pathoview)</a>
+    </div>
+  </div>
+</div>
+
+<main class="main">
+
+  <a href="preview_redesign_projects.html" class="back-link">← Back to Projects</a>
+
+  <img src="https://vip2.loli.io/2023/09/01/QGOXRI3Ha2bxjUP.png" alt="KUVIS Overview">
+
+  <h2>Abstract</h2>
+  <img src="https://vip2.loli.io/2023/09/01/4mpxRGOMdWaHASr.png" alt="KUVIS Abstract">
+  <p>In the evolving trend of artificial intelligence and deep learning, tools that simplify the modeling process are in high demand. This project delves into the creation of a pioneering web application designed to enable AI modeling through visual programming. By harnessing the power of cloud technology, this application provides users with universal access and adaptability, establishing a new paradigm in AI model design.</p>
+
+  <h2>Introduction</h2>
+  <p>The world of AI modeling has often been constrained by the intricacies of code-based design. To bridge this gap, the project has an goal of developing a web application that enables visual programming, allowing even those unfamiliar with traditional coding to design complex AI models.</p>
+
+  <h2>Method</h2>
+  <p>At the heart of the project was the ambition to redefine AI modeling. Fundamental data structures were crafted and a baseline structure for the application was architected. The prime focus was to provide an interface where users could visually draft workflows, thus democratizing the AI modeling process and making it more accessible to a broader audience.</p>
+
+  <img src="https://vip2.loli.io/2023/09/01/IkZgtNoR6qds8BY.png" alt="KUVIS DAG Workflow">
+  <p>One of the distinctive features was allowing users to design DAG (Directed Acyclic Graph) workflows visually, presenting them as diagrams. This approach not only makes AI modeling accessible to non-experts but also offers professionals a more intuitive and efficient way to visualize and manage their workflows.</p>
+
+  <h3>Hierarchical Data Structure</h3>
+  <img src="https://vip2.loli.io/2023/09/01/IuntFkSsaoNMXPE.png" alt="KUVIS Hierarchy 1">
+  <img src="https://vip2.loli.io/2023/09/01/iGdAZX5M1yj4Wu7.png" alt="KUVIS Hierarchy 2">
+  <p>To achieve a seamless representation, a unique approach was adopted where the hierarchy was divided based on powers of two. Each level in the hierarchy represented a specific depth, with each subsequent level being a multiple of two from the previous one. This method allowed for a consistent and logical division of the AI components and workflows.</p>
+  <p>By leveraging this hierarchical structure, the system could effortlessly map visual elements to their corresponding functional components, ensuring that the visual representation was always in sync with the underlying logic. This architecture played a pivotal role in ensuring that the application could handle complex AI workflows with multiple layers of abstraction.</p>
+
+  <h3>Features &amp; Implementation</h3>
+  <img src="https://vip2.loli.io/2023/09/01/YjO2wnfRZFqvJ6b.png" alt="KUVIS Features">
+  <p>The application stands out with its three core features:</p>
+  <ol>
+    <li><strong>Universal Accessibility</strong> — Built as a web-based tool, users can access and utilize the service from any location with internet connectivity.</li>
+    <li><strong>Cloud Integration</strong> — Ensuring that user projects are not bound by device constraints, the cloud foundation allows for project reviews and modifications from any location.</li>
+    <li><strong>Visual Programming Support</strong> — Bypassing the need for traditional coding, users can design intricate workflows with a visual interface, making the modeling process intuitive.</li>
+  </ol>
+  <p>The integration of these features was underpinned by a robust backend infrastructure, ensuring seamless user experience and real-time processing capabilities.</p>
+
+  <h2>Results</h2>
+  <img src="https://vip2.loli.io/2023/09/01/7taHJBAVrESnGbj.png" alt="KUVIS Results">
+  <p>Though still in its prototype phase, the application's outcomes are promising. The holistic design encapsulates the envisioned functionalities effectively. The introduction of such an application not only streamlines the AI modeling process but also has the potential to redefine how individuals, especially those without coding expertise, interact with AI modeling tools.</p>
+
+  <h2>Miscellaneous</h2>
+  <p>This project is a prototype developed during an internship at the <a href="http://hvcl.korea.ac.kr">High-Performance Visual Computing Lab (HVCL)</a> of Korea University's School of Information. The program is proprietary to <a href="https://vience.io/main">Vience</a>.</p>
+
+</main>
+
+<footer>
+  Last updated: 8th, Apr. 2026 · Griffin Sunho (Seonho) Lee
+</footer>
+
+</body>
+</html>

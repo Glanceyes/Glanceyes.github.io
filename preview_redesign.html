@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seonho Lee – About</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #fff;
+  --bg-alt: #f8f9fa;
+  --text: #1a1d23;
+  --text-mid: #52596b;
+  --text-light: #8e96a8;
+  --accent: #1d4ed8;
+  --accent-light: #eff4ff;
+  --border: #e5e8ef;
+  --hero-bg: #0f1b2d;
+  --radius: 8px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Demo banner */
+.demo-banner {
+  background: #1e3a5f;
+  border-bottom: 1px solid #2d5a8e;
+  padding: 9px 24px;
+  text-align: center;
+  font-size: 12.5px;
+  color: rgba(255,255,255,0.75);
+}
+
+/* Nav */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--hero-bg);
+  height: 54px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.nav-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 28px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+.nav-links {
+  display: flex;
+  gap: 6px;
+  list-style: none;
+}
+.nav-links a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: 6px;
+  transition: color 0.15s;
+}
+.nav-links a.active,
+.nav-links a:hover { color: #fff; }
+.nav-links a.active { background: rgba(255,255,255,0.08); }
+
+/* Hero */
+.hero {
+  position: relative;
+  padding: 72px 28px 68px;
+  overflow: hidden;
+}
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/banner_image_new.jpg');
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(0.42) saturate(0.9);
+}
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+.hero-photo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 3px solid rgba(255,255,255,0.2);
+}
+.hero-text { flex: 1; }
+.hero-name {
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+.hero-position {
+  font-size: 13.5px;
+  color: rgba(255,255,255,0.65);
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+.hero-bio {
+  font-size: 14px;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.7;
+  max-width: 560px;
+  margin-bottom: 18px;
+}
+.hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 22px;
+}
+.hero-tag {
+  font-size: 12px;
+  color: rgba(255,255,255,0.75);
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 20px;
+  padding: 3px 11px;
+  font-weight: 500;
+}
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.hero-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 20px;
+  padding: 5px 14px;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+.hero-link:hover {
+  background: rgba(255,255,255,0.2);
+  border-color: rgba(255,255,255,0.3);
+}
+.hero-link svg { width: 13px; height: 13px; flex-shrink: 0; }
+
+/* Main */
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 52px 28px 80px;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--text-mid);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 18px;
+}
+
+section { margin-bottom: 56px; }
+
+/* News */
+.news-list { list-style: none; }
+.news-item {
+  display: flex;
+  gap: 16px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: flex-start;
+  font-size: 13.5px;
+}
+.news-item:last-child { border-bottom: none; }
+.news-date {
+  color: var(--text-light);
+  font-size: 12.5px;
+  min-width: 80px;
+  flex-shrink: 0;
+  padding-top: 2px;
+  font-weight: 500;
+}
+.news-content { color: var(--text-mid); flex: 1; }
+.news-content a { color: var(--text); font-weight: 500; text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px; transition: text-decoration-color 0.15s; }
+.news-content a:hover { text-decoration-color: var(--text-mid); }
+.honor-sub a { color: var(--text); font-weight: 500; text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px; transition: text-decoration-color 0.15s; }
+.honor-sub a:hover { text-decoration-color: var(--text-mid); }
+.honor-title a { color: inherit; font-weight: inherit; text-decoration: none; }
+.honor-title a:hover { text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px; }
+.more-news-btn {
+  background: none; border: none; padding: 0; cursor: pointer;
+  font-size: 13px; font-weight: 600; color: var(--accent);
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.more-news-btn:hover { color: #1e40af; }
+.more-news-arrow {
+  display: inline-block;
+  transition: transform 0.25s ease;
+  font-style: normal;
+}
+.more-news-btn.open .more-news-arrow { transform: rotate(90deg); }
+.more-news-body {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.35s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+.more-news-body.open {
+  max-height: 300px;
+  opacity: 1;
+}
+.news-tag {
+  font-size: 10.5px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 2px 7px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.news-tag.paper { background: #dbeafe; color: #1d4ed8; }
+.news-tag.award { background: #fef3c7; color: #92400e; }
+.news-tag.career { background: #dcfce7; color: #166534; }
+
+/* Publications */
+.pub-legend {
+  font-size: 12px;
+  color: var(--text-light);
+  margin-bottom: 16px;
+  font-style: italic;
+}
+.pub-list { display: flex; flex-direction: column; }
+.pub-entry {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: flex-start;
+}
+.pub-entry:last-child { border-bottom: none; }
+.pub-thumb {
+  width: 108px;
+  height: 76px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+}
+.pub-body { flex: 1; min-width: 0; }
+.project-thumb {
+  width: 108px;
+  height: 76px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+}
+.project-card-inner { display: flex; gap: 20px; align-items: flex-start; }
+.project-card.has-thumb { padding: 20px 24px; }
+.project-card.has-thumb:hover { border-color: #c7d2fe; box-shadow: 0 4px 16px rgba(29,78,216,0.08); }
+.pub-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.45;
+  margin-bottom: 5px;
+}
+.pub-note {
+  font-size: 12px;
+  color: #b45309;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.pub-authors {
+  font-size: 12.5px;
+  color: var(--text-mid);
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+.pub-authors strong { color: var(--text); font-weight: 600; }
+.pub-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.venue-badge {
+  font-size: 11.5px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 2px 8px;
+  letter-spacing: 0.02em;
+}
+.venue-badge.conf { background: var(--accent-light); color: var(--accent); }
+.venue-badge.workshop { background: #f0fdf4; color: #15803d; }
+.venue-badge.preprint { background: #f3f4f6; color: #6b7280; }
+.pub-links { display: flex; gap: 6px; flex-wrap: wrap; }
+.pub-link {
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--text-mid);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 2px 9px;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+}
+.pub-link:hover { border-color: var(--accent); color: var(--accent); }
+
+.btn-all {
+  display: inline-block;
+  margin-top: 24px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--accent);
+  background: var(--accent-light);
+  border: 1px solid #bfdbfe;
+  border-radius: var(--radius);
+  padding: 8px 18px;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.btn-all:hover { background: #dbeafe; }
+
+/* Work Experience */
+.exp-list { display: flex; flex-direction: column; }
+.exp-entry {
+  display: flex;
+  gap: 18px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: flex-start;
+}
+.exp-entry:last-child { border-bottom: none; }
+.exp-logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  object-fit: contain;
+  flex-shrink: 0;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  padding: 4px;
+}
+.exp-body { flex: 1; }
+.exp-company {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+}
+.exp-role {
+  font-size: 13.5px;
+  color: var(--text-mid);
+  margin-bottom: 2px;
+}
+.exp-meta {
+  font-size: 12.5px;
+  color: var(--text-light);
+  margin-bottom: 8px;
+}
+.exp-bullets { list-style: none; }
+.exp-bullets a { color: var(--text); font-weight: 500; text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px; transition: text-decoration-color 0.15s; }
+.exp-bullets a:hover { text-decoration-color: var(--text-mid); }
+.exp-bullets li {
+  font-size: 13px;
+  color: var(--text-mid);
+  padding: 2px 0 2px 14px;
+  position: relative;
+}
+.exp-bullets li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--text-light);
+}
+
+/* Projects */
+.section-header-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.section-header-row .section-title {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+  flex: 1;
+}
+.section-link {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+}
+.section-link:hover { text-decoration: underline; }
+.section-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 10px 0 16px;
+}
+.projects-grid { display: flex; flex-direction: column; gap: 14px; }
+.project-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.project-card:hover {
+  border-color: #c7d2fe;
+  box-shadow: 0 2px 12px rgba(29,78,216,0.07);
+}
+.project-title {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 5px;
+}
+.project-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.project-org {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-light);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.project-desc {
+  font-size: 13px;
+  color: var(--text-mid);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.project-desc ul { padding-left: 16px; }
+.project-desc li { margin-bottom: 2px; }
+.project-subtitle { font-size: 13px; color: var(--text-mid); margin-bottom: 10px; font-style: italic; }
+.project-bullets { list-style: none; margin-bottom: 12px; }
+.project-bullets li { font-size: 13px; color: var(--text-mid); padding: 2px 0 2px 16px; position: relative; line-height: 1.55; }
+.project-bullets li::before { content: '–'; position: absolute; left: 0; color: var(--text-light); }
+.project-bullets a { color: var(--text); font-weight: 500; text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px; transition: text-decoration-color 0.15s; }
+.project-bullets a:hover { text-decoration-color: var(--text-mid); }
+.project-links { display: flex; gap: 7px; flex-wrap: wrap; }
+.project-selected-badge { display: inline-block; font-size: 10px; font-weight: 600; color: var(--accent); background: var(--accent-light); border: 1px solid #bfdbfe; border-radius: 4px; padding: 1px 7px; margin-left: 6px; vertical-align: middle; letter-spacing: 0.02em; }
+.project-link {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-mid);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 3px 10px;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+}
+.project-link:hover { border-color: var(--accent); color: var(--accent); }
+
+/* Education */
+.edu-list { display: flex; flex-direction: column; }
+.edu-entry {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+.edu-entry:last-child { border-bottom: none; }
+.edu-school { font-size: 14.5px; font-weight: 600; color: var(--text); margin-bottom: 3px; }
+.edu-degree { font-size: 13.5px; color: var(--text-mid); margin-bottom: 3px; }
+.edu-meta { font-size: 12.5px; color: var(--text-light); }
+
+/* Honors */
+.honor-list { display: flex; flex-direction: column; }
+.honor-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+  gap: 16px;
+}
+.honor-entry:last-child { border-bottom: none; }
+.honor-title { font-size: 13.5px; font-weight: 500; color: var(--text); }
+.honor-sub { font-size: 12.5px; color: var(--text-mid); margin-top: 2px; }
+.honor-date { font-size: 12.5px; color: var(--text-light); flex-shrink: 0; font-weight: 500; }
+
+/* Footer */
+footer {
+  background: var(--hero-bg);
+  color: rgba(255,255,255,0.5);
+  text-align: center;
+  font-size: 12.5px;
+  padding: 24px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+</style>
+</head>
+<body>
+
+<div class="demo-banner">🎨 Redesign Demo · 실제 사이트 적용 전 미리보기입니다</div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="preview_redesign.html" class="nav-logo">Glanceyes</a>
+    <ul class="nav-links">
+      <li><a href="preview_redesign.html" class="active">About</a></li>
+      <li><a href="preview_redesign_publications.html">Publications</a></li>
+      <li><a href="preview_redesign_projects.html">Projects</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-inner">
+    <img class="hero-photo" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/profile_image.jpg" alt="Seonho Lee">
+    <div class="hero-text">
+      <div class="hero-name">Griffin Sunho (Seonho) Lee</div>
+      <div class="hero-position">Applied AI Researcher · Krafton AI · glanceyes@gmail.com</div>
+      <div class="hero-bio">
+        I am working as an Applied AI Researcher at Krafton AI. I got an M.S. from KAIST AI, advised by Prof. Hyunjung Shim at the CVML Lab. My research interests span Generative AI and Vision-Language Understanding.
+      </div>
+      <div class="hero-tags">
+        <span class="hero-tag">Generative AI</span>
+        <span class="hero-tag">Vision-Language Understanding</span>
+        <span class="hero-tag">3D Editing</span>
+        <span class="hero-tag">Multimodal LLM</span>
+      </div>
+      <div class="hero-links">
+        <a href="#" class="hero-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          CV
+        </a>
+        <a href="mailto:glanceyes@gmail.com" class="hero-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Email
+        </a>
+        <a href="https://github.com/glanceyes" class="hero-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          GitHub
+        </a>
+        <a href="https://linkedin.com/in/glanceyes" class="hero-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://scholar.google.com" class="hero-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 10a8 8 0 0 1 7.162 3.44L24 9.5z"/></svg>
+          Google Scholar
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main class="main">
+
+  <!-- News -->
+  <section>
+    <div class="section-title">News</div>
+    <ul class="news-list">
+      <li class="news-item">
+        <span class="news-date">Mar 2026</span>
+        <span class="news-content">Joined <strong><a href="https://www.krafton.com/en/">Krafton</a> <a href="https://www.krafton.ai/en/">AI</a></strong> as Applied AI Researcher.</span>
+        <span class="news-tag career">Career</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Feb 2026</span>
+        <span class="news-content">Grand Prize at IPIU 2026 for <a href="https://arxiv.org/abs/2510.13232">What "Not" to Detect</a>.</span>
+        <span class="news-tag award">Award</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Jan 2026</span>
+        <span class="news-content"><a href="preview_redesign_publications.html#c6">What "Not" to Detect</a> accepted to <strong><a href="https://iclr.cc/Conferences/2026">ICLR 2026</a></strong>.</span>
+        <span class="news-tag paper">Paper</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Oct 2025</span>
+        <span class="news-content"><a href="preview_redesign_publications.html#c4">PartCATSeg</a> &amp; <a href="preview_redesign_publications.html#c5">3D-Aware VLM Finetuning</a> selected as <strong><a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-south-korea">QIFK (Qualcomm Innovation Fellowship Korea) 2025</a> Finalist</strong>.</span>
+        <span class="news-tag award">Award</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Aug 2025</span>
+        <span class="news-content"><a href="preview_redesign_publications.html#c5">3D-Aware VLM Finetuning</a> accepted to <strong><a href="https://2025.emnlp.org/">EMNLP 2025 Findings</a></strong>.</span>
+        <span class="news-tag paper">Paper</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Jun 2025</span>
+        <span class="news-content">Awarded <strong>Korean Presidential Science Scholarship</strong> for Graduate Students.</span>
+        <span class="news-tag award">Award</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Jun 2025</span>
+        <span class="news-content">ML Engineering Intern at <strong><a href="https://www.snap.com">Snap Inc.</a></strong>, Santa Monica, CA.</span>
+        <span class="news-tag career">Career</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">May 2025</span>
+        <span class="news-content"><a href="preview_redesign_publications.html#c3">ScribbleDiff</a> accepted to <strong><a href="https://2025.ieeeicip.org/">ICIP 2025</a></strong>.</span>
+        <span class="news-tag paper">Paper</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Feb 2025</span>
+        <span class="news-content"><a href="preview_redesign_publications.html#c4">PartCATSeg</a> accepted to <strong><a href="https://cvpr.thecvf.com/Conferences/2025">CVPR 2025</a></strong>.</span>
+        <span class="news-tag paper">Paper</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">Jan 2025</span>
+        <span class="news-content"><a href="preview_redesign_publications.html#c2">DreamCatalyst</a> accepted to <strong><a href="https://iclr.cc/Conferences/2025">ICLR 2025</a></strong>.</span>
+        <span class="news-tag paper">Paper</span>
+      </li>
+    </ul>
+    <div style="margin-top:12px;">
+      <button class="more-news-btn" id="moreNewsBtn" onclick="toggleMoreNews()">
+        <span class="more-news-arrow">▸</span> More News
+      </button>
+      <div class="more-news-body" id="moreNewsBody">
+        <ul class="news-list" style="margin-top:12px;">
+          <li class="news-item">
+            <span class="news-date">Sep 2024</span>
+            <span class="news-content"><a href="preview_redesign_publications.html#c1">PartCLIPSeg</a> accepted to <strong><a href="https://neurips.cc/Conferences/2024">NeurIPS 2024</a></strong>.</span>
+            <span class="news-tag paper">Paper</span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">Sep 2023</span>
+            <span class="news-content">Joined <strong><a href="https://kaist-cvml.github.io">CVML Lab</a></strong> as an M.S. graduate student at <a href="https://gsai.kaist.ac.kr/">KAIST AI</a>.</span>
+            <span class="news-tag career">Career</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected Publications -->
+  <section>
+    <div style="display:flex; align-items:baseline; justify-content:space-between;">
+      <div class="section-title" style="flex:1; margin-bottom:0; border-bottom:none; padding-bottom:0;">Selected Publications</div>
+      <a href="preview_redesign_publications.html" class="section-link">All Publications →</a>
+    </div>
+    <div style="border-top:1px solid var(--border); margin:10px 0 16px;"></div>
+    <div class="pub-legend">* equal contribution · † corresponding author</div>
+    <div class="pub-list">
+
+      <div class="pub-entry">
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/3d_aware_vlm.png" alt="3D-Aware VLM">
+        <div class="pub-body">
+          <div class="pub-title">3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation</div>
+          <div class="pub-authors"><strong>Seonho Lee</strong>*, Jiho Choi*, Inha Kang, Jiwook Kim, Junsung Park, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge conf">EMNLP 2025 Findings</span>
+            <div class="pub-links">
+              <a href="preview_redesign_publications.html#c5" class="pub-link">Paper</a>
+              <a href="preview_redesign_publications.html#c5" class="pub-link">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-entry">
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/partcatseg.png" alt="PartCATSeg">
+        <div class="pub-body">
+          <div class="pub-title">Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation</div>
+          <div class="pub-authors">Jiho Choi*, <strong>Seonho Lee</strong>*, Seungho Lee, Minhyun Lee, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge conf">CVPR 2025</span>
+            <div class="pub-links">
+              <a href="preview_redesign_publications.html#c4" class="pub-link">Paper</a>
+              <a href="preview_redesign_publications.html#c4" class="pub-link">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-entry">
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/scribblediff.png" alt="ScribbleDiff">
+        <div class="pub-body">
+          <div class="pub-title">Scribble-Guided Diffusion for Training-free Text-to-Image Generation</div>
+          <div class="pub-authors"><strong>Seonho Lee</strong>*, Jiho Choi*, Seohyun Lim, Jiwook Kim, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge conf">ICIP 2025</span>
+            <div class="pub-links">
+              <a href="preview_redesign_publications.html#c3" class="pub-link">Paper</a>
+              <a href="preview_redesign_publications.html#c3" class="pub-link">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-entry">
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/dreamcatalyst.png" alt="DreamCatalyst">
+        <div class="pub-body">
+          <div class="pub-title">DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation</div>
+          <div class="pub-note">🤗 HuggingFace Daily Paper</div>
+          <div class="pub-authors">Jiwook Kim*, <strong>Seonho Lee</strong>*, Jaeyo Shin, Jiho Choi, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge conf">ICLR 2025</span>
+            <div class="pub-links">
+              <a href="preview_redesign_publications.html#c2" class="pub-link">Paper</a>
+              <a href="preview_redesign_publications.html#c2" class="pub-link">Project</a>
+              <a href="preview_redesign_publications.html#c2" class="pub-link">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-entry">
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/partclipseg.png" alt="PartCLIPSeg">
+        <div class="pub-body">
+          <div class="pub-title">Understanding Multi-Granularity for Open-Vocabulary Part Segmentation</div>
+          <div class="pub-authors">Jiho Choi*, <strong>Seonho Lee</strong>*, Seungho Lee, Minhyun Lee, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge conf">NeurIPS 2024</span>
+            <div class="pub-links">
+              <a href="preview_redesign_publications.html#c1" class="pub-link">Paper</a>
+              <a href="preview_redesign_publications.html#c1" class="pub-link">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-entry">
+        <img class="pub-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/publications/dr3d.png" alt="DR3D">
+        <div class="pub-body">
+          <div class="pub-title">Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views</div>
+          <div class="pub-authors">Jiho Choi*, <strong>Seonho Lee</strong>*, Seojeong Park, Hyunjung Shim†</div>
+          <div class="pub-meta">
+            <span class="venue-badge preprint">Under Review</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div style="text-align:center; margin-top:8px;">
+      <a href="preview_redesign_publications.html" class="btn-all">View All Publications →</a>
+    </div>
+  </section>
+
+  <!-- Work Experience -->
+  <section>
+    <div class="section-title">Work Experience</div>
+    <div class="exp-list">
+
+      <div class="exp-entry">
+        <a href="https://www.krafton.com/en/" target="_blank"><img class="exp-logo" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/companies/krafton.png" alt="Krafton AI"></a>
+        <div class="exp-body">
+          <div class="exp-company">Krafton AI</div>
+          <div class="exp-role">Applied AI Researcher</div>
+          <div class="exp-meta">Mar. 2026 – Present · Seoul, Republic of Korea</div>
+          <ul class="exp-bullets">
+            <li>Working in AI Art Gen Team at Krafton AI.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-entry">
+        <a href="https://www.snap.com" target="_blank"><img class="exp-logo" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/about/companies/snap.png" alt="Snap Inc."></a>
+        <div class="exp-body">
+          <div class="exp-company">Snap Inc.</div>
+          <div class="exp-role">ML Engineer Intern</div>
+          <div class="exp-meta">Jun. 2025 – Sep. 2025 · Santa Monica, CA, USA · Generative ML (VideoCraft)</div>
+          <ul class="exp-bullets">
+            <li>Led cross-reference dataset preprocessing pipeline for personalized video generation</li>
+            <li>Developed cross-reference dataset pipeline and multi-subject adapter architecture for <em>VideoAlchemist 2.0</em></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section>
+    <div class="section-header-row">
+      <div class="section-title">Selected Projects</div>
+      <a href="preview_redesign_projects.html" class="section-link">All Projects →</a>
+    </div>
+    <hr class="section-divider">
+    <div class="projects-grid">
+
+      <div class="project-card has-thumb">
+        <div class="project-card-inner">
+          <img class="project-thumb" src="file:///Users/glanceyes/Documents/Glanceyes.github.io/images/projects/raon_visionencoder.jpg" alt="Raon-VisionEncoder">
+          <div style="flex:1; min-width:0;">
+            <div class="project-header">
+              <div class="project-title">Raon-VisionEncoder</div>
+              <span class="project-org">Krafton AI</span>
+            </div>
+            <div class="project-subtitle">A Fully Open SigLIP2-class Vision Encoder</div>
+            <ul class="project-bullets">
+              <li>Developed a vision encoder with comparable performance to SigLIP2-NaFlex using only open data</li>
+              <li>Built VLM training pipeline integrating the vision encoder with a language model for downstream VQA evaluation and training optimization</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://krafton.ai/blog/posts/2026-04-02-raon_vision_encoder/raon-visionencoder-en.html" target="_blank" class="project-link">Blog Post</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-title">VideoAlchemist 2.0</div>
+          <span class="project-org">Snap Inc.</span>
+        </div>
+        <div class="project-subtitle">Multi-Subject Personalized Video Generation</div>
+        <ul class="project-bullets">
+          <li>Developed a personalized video generation model supporting multiple subjects with fine-grained temporal control</li>
+          <li>Built cross-reference dataset pipeline and multi-subject adapter architecture for personalized video generation</li>
+          <li>Contributed to foundation of dataset generation pipeline and adapter design of <a href="https://arxiv.org/abs/2512.10943">AlcheMinT</a></li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-title">3D-Aware VLM Finetuning</div>
+          <span class="project-org">Samsung Research</span>
+        </div>
+        <ul class="project-bullets">
+          <li>Electronic Device and Method for Operating Thereof and Storage Medium</li>
+          <li>See paper: <a href="preview_redesign_publications.html#c5">3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation</a></li>
+        </ul>
+        <div class="project-links">
+          <span class="project-link" style="cursor:default; pointer-events:none; color:var(--text-light);">Korean Patent: 10-2025-0109574</span>
+        </div>
+      </div>
+
+    </div>
+    <div style="text-align:center; margin-top:8px;">
+      <a href="preview_redesign_projects.html" class="btn-all">View All Projects →</a>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section>
+    <div class="section-title">Education</div>
+    <div class="edu-list">
+      <div class="edu-entry">
+        <div class="edu-school">KAIST</div>
+        <div class="edu-degree">M.S. in Artificial Intelligence</div>
+        <div class="edu-meta">Mar. 2024 – Feb. 2026 · GPA 4.20 / 4.3</div>
+      </div>
+      <div class="edu-entry">
+        <div class="edu-school">Sogang University</div>
+        <div class="edu-degree">B.S. in Computer Science and Engineering</div>
+        <div class="edu-meta">Mar. 2017 – Feb. 2024 · GPA 4.12 / 4.3 (<em>Summa Cum Laude</em>)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Honors & Awards -->
+  <section>
+    <div class="section-title">Honors &amp; Awards</div>
+    <div class="honor-list">
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title">Grand Prize, <a href="http://www.ipiu.or.kr/">IPIU 2026</a></div>
+          <div class="honor-sub">Paper: <a href="preview_redesign_publications.html#c6">What "Not" to Detect</a></div>
+        </div>
+        <div class="honor-date">Feb. 2026</div>
+      </div>
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title"><a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-south-korea">Qualcomm Innovation Fellowship Korea (QIFK) 2025</a> Finalist</div>
+          <div class="honor-sub">Selected by Qualcomm AI Research · <a href="preview_redesign_publications.html#c4">PartCATSeg</a> &amp; <a href="preview_redesign_publications.html#c5">3D-Aware VLM Finetuning</a></div>
+        </div>
+        <div class="honor-date">Oct. 2025</div>
+      </div>
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title">Korean Presidential Science Scholarship for <a href="https://www.msit.go.kr/bbs/view.do?sCode=user&mPid=121&mId=311&bbsSeqNo=100&nttSeqNo=3179541">Graduate Students</a></div>
+          <div class="honor-sub">Awarded by the President of Korea</div>
+        </div>
+        <div class="honor-date">Jun. 2025</div>
+      </div>
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title">2nd Place, <a href="https://vplow.github.io/vplow_4th.html">Open Vocabulary Part Segmentation Challenge</a> at CVPR 2024</div>
+          <div class="honor-sub">2nd Place on both Track 1 &amp; 2 · 4th Workshop on Open World Vision (VPLOW) at CVPR 2024</div>
+        </div>
+        <div class="honor-date">2024</div>
+      </div>
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title">Excellence Award, 2023 <a href="https://dataen.ai/challenge/history">POSTECH OIBC Challenge</a></div>
+          <div class="honor-sub">3rd Place (3/120) · AI Competition of Solar Power Generation Forecasting</div>
+        </div>
+        <div class="honor-date">Dec. 2023</div>
+      </div>
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title">2022 ICPC Asia Korea Regional Contest</div>
+          <div class="honor-sub">48th in Korea, 62nd in Preliminary</div>
+        </div>
+        <div class="honor-date">2022</div>
+      </div>
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title">Dean's List, Sogang University</div>
+          <div class="honor-sub">Top 1%: Spring 2018, Spring 2019, Fall 2022 · Top 5%: Fall 2018</div>
+        </div>
+        <div class="honor-date">2018 – 2022</div>
+      </div>
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title">Korea National Science and Technology Scholarship</div>
+          <div class="honor-sub">Spring 2019, Fall 2022, Spring 2023, Fall 2023 (4 Semesters)</div>
+        </div>
+        <div class="honor-date">2019 – 2023</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academic Activities -->
+  <section>
+    <div class="section-title">Academic Activities</div>
+    <div class="honor-list">
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title">Reviewer</div>
+          <div class="honor-sub">CVPRW 2026, 3DV 2026</div>
+        </div>
+        <div class="honor-date">2026</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Last updated: 8th, Apr. 2026 · Griffin Sunho (Seonho) Lee
+</footer>
+
+<script>
+function toggleMoreNews() {
+  const btn = document.getElementById('moreNewsBtn');
+  const body = document.getElementById('moreNewsBody');
+  const isOpen = body.classList.contains('open');
+  body.classList.toggle('open', !isOpen);
+  btn.classList.toggle('open', !isOpen);
+}
+</script>
+</body>
+</html>

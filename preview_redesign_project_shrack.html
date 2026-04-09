@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHrack – Griffin Sunho (Seonho) Lee</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --font: 'Inter', sans-serif;
+  --bg: #fff;
+  --bg-alt: #f8f9fa;
+  --text: #1a1d23;
+  --text-mid: #52596b;
+  --text-light: #8e96a8;
+  --accent: #1d4ed8;
+  --accent-light: #eff4ff;
+  --border: #e5e8ef;
+  --hero-bg: #0f1b2d;
+  --radius: 8px;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 15.5px;
+  line-height: 1.8;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); }
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  margin: 40px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+p {
+  color: var(--text-mid);
+  margin-bottom: 16px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 16px 0;
+  display: block;
+}
+
+/* Demo banner */
+.demo-banner {
+  background: #1e3a5f;
+  border-bottom: 1px solid #2d5a8e;
+  padding: 9px 24px;
+  text-align: center;
+  font-size: 12.5px;
+  color: rgba(255,255,255,0.75);
+}
+
+/* Nav */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--hero-bg);
+  height: 54px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.nav-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 28px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+.nav-links {
+  display: flex;
+  gap: 6px;
+  list-style: none;
+}
+.nav-links a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: 6px;
+  transition: color 0.15s;
+}
+.nav-links a:hover { color: #fff; }
+
+/* Project hero */
+.proj-hero {
+  background: var(--hero-bg);
+  padding: 44px 28px 40px;
+}
+.proj-hero-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.proj-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 20px;
+  font-size: 12px;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 14px;
+}
+.proj-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  margin-bottom: 10px;
+}
+.proj-subtitle {
+  font-size: 14px;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 20px;
+}
+.proj-meta {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: rgba(255,255,255,0.45);
+}
+.proj-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.proj-links-hero {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.proj-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 16px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.85);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  background: rgba(255,255,255,0.05);
+  transition: background 0.15s;
+}
+.proj-link-btn:hover {
+  background: rgba(255,255,255,0.12);
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main content */
+.main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 52px 28px 80px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-light);
+  margin-bottom: 32px;
+  text-decoration: none;
+}
+.back-link:hover { color: var(--accent); }
+
+/* Feature list */
+.feature-list {
+  list-style: none;
+  margin-bottom: 16px;
+  padding: 0;
+}
+.feature-list li {
+  color: var(--text-mid);
+  padding: 6px 0 6px 20px;
+  position: relative;
+  line-height: 1.7;
+}
+.feature-list li::before {
+  content: counter(feature-counter) '.';
+  counter-increment: feature-counter;
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 13.5px;
+}
+.feature-list {
+  counter-reset: feature-counter;
+}
+
+/* Footer */
+footer {
+  background: var(--hero-bg);
+  color: rgba(255,255,255,0.5);
+  text-align: center;
+  font-size: 12.5px;
+  padding: 24px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+</style>
+</head>
+<body>
+
+<div class="demo-banner">🎨 Redesign Demo · 실제 사이트 적용 전 미리보기입니다</div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="preview_redesign.html" class="nav-logo">Glanceyes</a>
+    <ul class="nav-links">
+      <li><a href="preview_redesign.html">About</a></li>
+      <li><a href="preview_redesign_publications.html">Publications</a></li>
+      <li><a href="preview_redesign_projects.html">Projects</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="proj-hero">
+  <div class="proj-hero-inner">
+    <span class="proj-tag">Engineering Project</span>
+    <div class="proj-title">SHrack</div>
+    <div class="proj-subtitle">Mobile Web Service for Real-time Exercise Posture Detection and Count Tracking</div>
+    <div class="proj-meta">
+      <span class="proj-meta-item">Mar. 2023 – Jun. 2023</span>
+      <span class="proj-meta-item">MobileNet, CPM</span>
+    </div>
+  </div>
+</div>
+
+<main class="main">
+
+  <a href="preview_redesign_projects.html" class="back-link">← Back to Projects</a>
+
+  <h2>Abstract</h2>
+  <p>SHrack is a web-based service designed for fitness enthusiasts, providing real-time tracking and recording of home training exercises. By utilizing computer vision, SHrack enables users to independently track their fitness progress and ensure accurate count during repetitive exercises.</p>
+  <img src="https://vip2.loli.io/2023/09/02/AZ4Wa3YGPjgmbR8.png" alt="SHrack overview">
+
+  <h2>Introduction</h2>
+  <p>In the realm of fitness, especially during weight training, it is often challenging to keep an accurate count of repetitions. While existing programs measure exercise counts, finding a service that offers real-time video streaming for accurate exercise count detection and management is rare. SHrack addresses this gap by combining computer vision with user-friendly web services.</p>
+  <img src="https://vip2.loli.io/2023/09/02/zqUysx7Ndep3T5i.png" alt="SHrack introduction">
+
+  <h2>Method</h2>
+  <p>SHrack employs MobileNet and the Contextual Prediction Module (CPM) to extract heatmaps and Part Affinity Fields (PAF) based on 19 crucial body keypoints. Due to unsatisfactory results from pre-trained models, supervised training with a labeled dataset was performed, leading to fine-tuned posture estimation for accurate exercise count tracking.</p>
+  <img src="https://vip2.loli.io/2023/09/02/yHXwQg1d5cDeNO9.png" alt="SHrack method">
+  <img src="https://vip2.loli.io/2023/09/02/viBYjWt6OxzAaZm.png" alt="SHrack system architecture">
+
+  <h2>Features &amp; Implementation</h2>
+  <p>Key features:</p>
+  <ol class="feature-list">
+    <li><strong>Real-time Posture Detection</strong> — Analyzes 19 crucial body keypoints to provide real-time feedback on exercise posture.</li>
+    <li><strong>Exercise Count Tracking</strong> — Accurately counts repetitions so users can focus on exercise rather than counting.</li>
+    <li><strong>User-friendly Interface</strong> — Web-based tool offering seamless access and use.</li>
+  </ol>
+  <img src="https://vip2.loli.io/2023/09/02/mIlvJtgei4jNwBy.png" alt="SHrack features">
+
+  <h2>Conclusion</h2>
+  <p>SHrack represents a step forward in the fusion of fitness and technology. By leveraging computer vision, it offers users an accurate exercise tracking experience that promotes better habits.</p>
+
+</main>
+
+<footer>
+  Last updated: 8th, Apr. 2026 · Griffin Sunho (Seonho) Lee
+</footer>
+
+</body>
+</html>
