@@ -37,6 +37,7 @@ featured_image: /images/archives/banner_image.jpg
         <a class="venue-badge conf" href="https://2025.emnlp.org/" target="_blank">EMNLP 2025 Findings</a>
         <a class="pub-link" href="http://arxiv.org/abs/2506.09883" target="_blank">Paper</a>
         <a class="pub-link" href="https://github.com/kaist-cvml/3d-vlm-gd" target="_blank">Code</a>
+        <a href="https://github.com/kaist-cvml/3d-vlm-gd" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/kaist-cvml/3d-vlm-gd?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
       </div>
     </div>
   </li>
@@ -52,6 +53,7 @@ featured_image: /images/archives/banner_image.jpg
         <a class="venue-badge conf" href="https://cvpr.thecvf.com/Conferences/2025" target="_blank">CVPR 2025</a>
         <a class="pub-link" href="http://arxiv.org/abs/2501.09688" target="_blank">Paper</a>
         <a class="pub-link" href="https://github.com/kaist-cvml/part-catseg" target="_blank">Code</a>
+        <a href="https://github.com/kaist-cvml/part-catseg" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/kaist-cvml/part-catseg?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
       </div>
     </div>
   </li>
@@ -67,6 +69,7 @@ featured_image: /images/archives/banner_image.jpg
         <a class="venue-badge conf" href="https://2025.ieeeicip.org/" target="_blank">ICIP 2025</a>
         <a class="pub-link" href="https://arxiv.org/abs/2409.08026" target="_blank">Paper</a>
         <a class="pub-link" href="https://github.com/kaist-cvml-lab/scribble-diffusion" target="_blank">Code</a>
+        <a href="https://github.com/kaist-cvml-lab/scribble-diffusion" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/kaist-cvml-lab/scribble-diffusion?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
       </div>
     </div>
   </li>
@@ -84,6 +87,7 @@ featured_image: /images/archives/banner_image.jpg
         <a class="pub-link" href="https://arxiv.org/abs/2407.11394" target="_blank">Paper</a>
         <a class="pub-link" href="https://dream-catalyst.github.io/" target="_blank">Project</a>
         <a class="pub-link" href="https://github.com/kaist-cvml-lab/DreamCatalyst" target="_blank">Code</a>
+        <a href="https://github.com/kaist-cvml-lab/DreamCatalyst" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/kaist-cvml-lab/DreamCatalyst?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
       </div>
     </div>
   </li>
@@ -99,6 +103,7 @@ featured_image: /images/archives/banner_image.jpg
         <a class="venue-badge conf" href="https://neurips.cc/Conferences/2024" target="_blank">NeurIPS 2024</a>
         <a class="pub-link" href="https://arxiv.org/abs/2406.11384" target="_blank">Paper</a>
         <a class="pub-link" href="https://github.com/kaist-cvml-lab/part-clipseg" target="_blank">Code</a>
+        <a href="https://github.com/kaist-cvml-lab/part-clipseg" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/kaist-cvml-lab/part-clipseg?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
       </div>
     </div>
   </li>
@@ -167,6 +172,7 @@ featured_image: /images/archives/banner_image.jpg
         <span class="venue-badge preprint">Under Review</span>
         <a class="pub-link" href="https://arxiv.org/abs/2511.20022" target="_blank">Preprint</a>
         <a class="pub-link" href="https://github.com/sjyu001/WaymoQA" target="_blank">Code</a>
+        <a href="https://github.com/sjyu001/WaymoQA" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/sjyu001/WaymoQA?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
       </div>
     </div>
   </li>

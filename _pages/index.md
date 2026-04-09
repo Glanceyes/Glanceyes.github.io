@@ -94,6 +94,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
           <div class="pub-links">
             <a href="http://arxiv.org/abs/2506.09883" target="_blank" class="pub-link">Paper</a>
             <a href="https://github.com/kaist-cvml/3d-vlm-gd" target="_blank" class="pub-link">Code</a>
+            <a href="https://github.com/kaist-cvml/3d-vlm-gd" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/kaist-cvml/3d-vlm-gd?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
           </div>
         </div>
       </div>
@@ -109,6 +110,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
           <div class="pub-links">
             <a href="http://arxiv.org/abs/2501.09688" target="_blank" class="pub-link">Paper</a>
             <a href="https://github.com/kaist-cvml/part-catseg" target="_blank" class="pub-link">Code</a>
+            <a href="https://github.com/kaist-cvml/part-catseg" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/kaist-cvml/part-catseg?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
           </div>
         </div>
       </div>
@@ -124,6 +126,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
           <div class="pub-links">
             <a href="https://arxiv.org/abs/2409.08026" target="_blank" class="pub-link">Paper</a>
             <a href="https://github.com/kaist-cvml-lab/scribble-diffusion" target="_blank" class="pub-link">Code</a>
+            <a href="https://github.com/kaist-cvml-lab/scribble-diffusion" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/kaist-cvml-lab/scribble-diffusion?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
           </div>
         </div>
       </div>
@@ -141,6 +144,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
             <a href="https://arxiv.org/abs/2407.11394" target="_blank" class="pub-link">Paper</a>
             <a href="https://dream-catalyst.github.io/" target="_blank" class="pub-link">Project</a>
             <a href="https://github.com/kaist-cvml-lab/DreamCatalyst" target="_blank" class="pub-link">Code</a>
+            <a href="https://github.com/kaist-cvml-lab/DreamCatalyst" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/kaist-cvml-lab/DreamCatalyst?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
           </div>
         </div>
       </div>
@@ -156,6 +160,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
           <div class="pub-links">
             <a href="https://arxiv.org/abs/2406.11384" target="_blank" class="pub-link">Paper</a>
             <a href="https://github.com/kaist-cvml-lab/part-clipseg" target="_blank" class="pub-link">Code</a>
+            <a href="https://github.com/kaist-cvml-lab/part-clipseg" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/kaist-cvml-lab/part-clipseg?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
           </div>
         </div>
       </div>
