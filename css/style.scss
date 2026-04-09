@@ -358,17 +358,25 @@ footer { background: var(--hero-bg); color: rgba(255,255,255,0.5); text-align: c
 /* Mobile */
 @media (max-width: 600px) {
   .hero-inner {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-areas: "photo text" "body body";
+    gap: 10px 16px;
+    align-items: start;
   }
   .hero-photo {
-    width: 88px;
-    height: 88px;
-    align-self: flex-start;
+    grid-area: photo;
+    width: 80px;
+    height: 80px;
   }
-  .hero-text { width: 100%; }
+  .hero-text {
+    grid-area: text;
+    flex: unset;
+  }
+  .hero-name { font-size: 18px; }
+  .hero-position { margin-bottom: 0; }
+  .hero-body {
+    grid-area: body;
+  }
   .hero-bio { max-width: 100%; }
-  .hero-tags { width: 100%; }
-  .hero-links { width: 100%; }
 }
