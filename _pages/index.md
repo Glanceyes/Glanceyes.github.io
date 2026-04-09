@@ -263,7 +263,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
       </div>
       <ul class="project-bullets">
         <li>Electronic Device and Method for Operating Thereof and Storage Medium</li>
-        <li><a href="/publications#c5">3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation</a></li>
+        <li>Paper: <a href="/publications#c5">3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation</a></li>
       </ul>
       <div class="project-links">
         <span class="project-link" style="cursor:default; pointer-events:none; color:var(--text-light);">Korean Patent: 10-2025-0109574</span>
@@ -288,6 +288,10 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
       <div class="edu-school"><a href="https://www.sogang.ac.kr/en/home" target="_blank">Sogang University</a></div>
       <div class="edu-degree">B.S. in Computer Science and Engineering</div>
       <div class="edu-meta">Mar. 2017 – Feb. 2024 · GPA 4.12 / 4.3 (<em>Summa Cum Laude</em>)</div>
+    </div>
+    <div class="edu-entry">
+      <div class="edu-school">Sangsan High School</div>
+      <div class="edu-meta">Mar. 2014 – Feb. 2017</div>
     </div>
   </div>
 </section>
