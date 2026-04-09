@@ -25,6 +25,7 @@ featured_image: /images/about/banner_image.jpg
           </ul>
           <div class="project-links">
             <a href="https://krafton.ai/blog/posts/2026-04-02-raon_vision_encoder/raon-visionencoder-en.html" target="_blank" class="project-link">Blog Post</a>
+            <a href="https://huggingface.co/KRAFTON/Raon-VisionEncoder" target="_blank" class="project-link">HuggingFace</a>
           </div>
         </div>
       </div>
