@@ -39,6 +39,11 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
       <span class="news-tag award">Award</span>
     </li>
     <li class="news-item">
+      <span class="news-date">May. 2025</span>
+      <span class="news-content">Our <a href="/publications#c3"><strong>ScribbleDiff</strong></a> paper accepted to <strong><a href="https://2025.ieeeicip.org/" target="_blank">ICIP 2025</a></strong>.</span>
+      <span class="news-tag paper">Paper</span>
+    </li>
+    <li class="news-item">
       <span class="news-date">Feb. 2025</span>
       <span class="news-content">Our <a href="/publications#c4"><strong>PartCATSeg</strong></a> paper accepted to <strong><a href="https://cvpr.thecvf.com/Conferences/2025" target="_blank">CVPR 2025</a></strong>.</span>
       <span class="news-tag paper">Paper</span>
@@ -55,11 +60,6 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
     </button>
     <div class="more-news-body" id="moreNewsBody">
       <ul class="news-list" style="margin-top:12px;">
-        <li class="news-item">
-          <span class="news-date">May. 2025</span>
-          <span class="news-content">Our <a href="/publications#c3"><strong>ScribbleDiff</strong></a> paper accepted to <strong><a href="https://2025.ieeeicip.org/" target="_blank">ICIP 2025</a></strong>.</span>
-          <span class="news-tag paper">Paper</span>
-        </li>
         <li class="news-item">
           <span class="news-date">Sep. 2024</span>
           <span class="news-content">Our <a href="/publications#c1"><strong>PartCLIPSeg</strong></a> paper accepted to <strong><a href="https://neurips.cc/Conferences/2024" target="_blank">NeurIPS 2024</a></strong>.</span>
