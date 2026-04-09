@@ -8,24 +8,24 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
 <h2 class="section-title">News</h2>
 
 <ul class="news-list" id="newsListMain">
-  <li class="news-item"><span class="news-date">Mar. 2026</span> I begin to work as an Applied AI Researcher at <a href="https://www.krafton.com/en/" target="_blank">Krafton</a> <a href="https://www.krafton.ai/en/" target="_blank">AI</a>.</li>
-  <li class="news-item"><span class="news-date">Jan. 2026</span> Our <a href="/publications#c6"><b>What "Not" to Detect</b></a> paper got accepted to <a href="https://iclr.cc/Conferences/2026" target="_blank">ICLR 2026</a>!</li>
-  <li class="news-item"><span class="news-date">Oct. 2025</span> Two papers <a href="/publications#c4"><b>PartCATSeg</b></a> and <a href="/publications#c5"><b>3D-Aware VLM Finetuning</b></a> got selected as <a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-south-korea" target="_blank"><b>QIFK 2025 Finalist</b></a>.</li>
-  <li class="news-item"><span class="news-date">Aug. 2025</span> Our <a href="/publications#c5"><b>3D-Aware VLM Finetuning</b></a> paper got accepted to <a href="https://2025.emnlp.org/" target="_blank"><b>EMNLP 2025 Findings</b></a>!</li>
-  <li class="news-item"><span class="news-date">Jun. 2025</span> I got ML engineering internship at <a href="https://www.snap.com" target="_blank">Snap Inc.</a> in Santa Monica, CA.</li>
-  <li class="news-item"><span class="news-date">Jun. 2025</span> I got awarded <a href="https://www.msit.go.kr/bbs/view.do?sCode=user&mPid=121&mId=311&bbsSeqNo=100&nttSeqNo=3179541" target="_blank"><b>Korean Presidential Science Scholarship for Graduate Students</b></a>.</li>
-  <li class="news-item"><span class="news-date">May. 2025</span> Our <a href="/publications#c3"><b>ScribbleDiff</b></a> paper got accepted to <a href="https://2025.ieeeicip.org/" target="_blank"><b>ICIP 2025</b></a>!</li>
-  <li class="news-item"><span class="news-date">Feb. 2025</span> Our <a href="/publications#c4"><b>PartCATSeg</b></a> paper got accepted to <a href="https://cvpr.thecvf.com/Conferences/2025" target="_blank"><b>CVPR 2025</b></a>!</li>
-  <li class="news-item"><span class="news-date">Jan. 2025</span> Our <a href="/publications#c2"><b>DreamCatalyst</b></a> paper got accepted to <a href="https://iclr.cc/Conferences/2025" target="_blank"><b>ICLR 2025</b></a>!</li>
+  <li class="news-item"><span class="news-date">Mar. 2026</span><span class="news-text">I begin to work as an Applied AI Researcher at <a href="https://www.krafton.com/en/" target="_blank">Krafton</a> <a href="https://www.krafton.ai/en/" target="_blank">AI</a>.</span></li>
+  <li class="news-item"><span class="news-date">Jan. 2026</span><span class="news-text">Our <a href="/publications#c6"><b>What "Not" to Detect</b></a> paper got accepted to <a href="https://iclr.cc/Conferences/2026" target="_blank">ICLR 2026</a>!</span></li>
+  <li class="news-item"><span class="news-date">Oct. 2025</span><span class="news-text">Two papers <a href="/publications#c4"><b>PartCATSeg</b></a> and <a href="/publications#c5"><b>3D-Aware VLM Finetuning</b></a> got selected as <a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2025-south-korea" target="_blank"><b>QIFK 2025 Finalist</b></a>.</span></li>
+  <li class="news-item"><span class="news-date">Aug. 2025</span><span class="news-text">Our <a href="/publications#c5"><b>3D-Aware VLM Finetuning</b></a> paper got accepted to <a href="https://2025.emnlp.org/" target="_blank"><b>EMNLP 2025 Findings</b></a>!</span></li>
+  <li class="news-item"><span class="news-date">Jun. 2025</span><span class="news-text">I got ML engineering internship at <a href="https://www.snap.com" target="_blank">Snap Inc.</a> in Santa Monica, CA.</span></li>
+  <li class="news-item"><span class="news-date">Jun. 2025</span><span class="news-text">I got awarded <a href="https://www.msit.go.kr/bbs/view.do?sCode=user&mPid=121&mId=311&bbsSeqNo=100&nttSeqNo=3179541" target="_blank"><b>Korean Presidential Science Scholarship for Graduate Students</b></a>.</span></li>
+  <li class="news-item"><span class="news-date">May. 2025</span><span class="news-text">Our <a href="/publications#c3"><b>ScribbleDiff</b></a> paper got accepted to <a href="https://2025.ieeeicip.org/" target="_blank"><b>ICIP 2025</b></a>!</span></li>
+  <li class="news-item"><span class="news-date">Feb. 2025</span><span class="news-text">Our <a href="/publications#c4"><b>PartCATSeg</b></a> paper got accepted to <a href="https://cvpr.thecvf.com/Conferences/2025" target="_blank"><b>CVPR 2025</b></a>!</span></li>
+  <li class="news-item"><span class="news-date">Jan. 2025</span><span class="news-text">Our <a href="/publications#c2"><b>DreamCatalyst</b></a> paper got accepted to <a href="https://iclr.cc/Conferences/2025" target="_blank"><b>ICLR 2025</b></a>!</span></li>
 </ul>
 
 <div class="more-news-body" id="moreNewsBody">
   <ul class="news-list">
-    <li class="news-item"><span class="news-date">Sep. 2024</span> Our <a href="/publications#c1"><b>PartCLIPSeg</b></a> paper got accepted to <a href="https://neurips.cc/Conferences/2024" target="_blank"><b>NeurIPS 2024</b></a>!</li>
-    <li class="news-item"><span class="news-date">Sep. 2023</span> I got accepted to <a href="https://sites.google.com/view/cvml-kaist/home" target="_blank">CVML Lab</a> as a M.S. graduate student in KAIST AI.</li>
+    <li class="news-item"><span class="news-date">Sep. 2024</span><span class="news-text">Our <a href="/publications#c1"><b>PartCLIPSeg</b></a> paper got accepted to <a href="https://neurips.cc/Conferences/2024" target="_blank"><b>NeurIPS 2024</b></a>!</span></li>
+    <li class="news-item"><span class="news-date">Sep. 2023</span><span class="news-text">I got accepted to <a href="https://sites.google.com/view/cvml-kaist/home" target="_blank">CVML Lab</a> as a M.S. graduate student in KAIST AI.</span></li>
   </ul>
 </div>
-<button class="more-news-btn" id="moreNewsBtn" onclick="toggleMoreNews()">More ▾</button>
+<button class="more-news-btn" id="moreNewsBtn" onclick="toggleMoreNews()">More News <i class="more-news-arrow">▾</i></button>
 
 <h2 class="section-title">Selected Publications</h2>
 
