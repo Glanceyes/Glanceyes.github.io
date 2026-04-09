@@ -20,7 +20,7 @@ featured_image: /images/archives/banner_image.jpg
       <div class="pub-authors">Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†</div>
       <div class="pub-kw">Described Object Detection under Negation</div>
       <div class="pub-meta">
-        <span class="venue-badge conf">ICLR 2026</span>
+        <a class="venue-badge conf" href="https://iclr.cc/Conferences/2026" target="_blank">ICLR 2026</a>
         <a class="pub-link" href="https://arxiv.org/abs/2510.13232" target="_blank">Paper</a>
       </div>
     </div>
@@ -34,7 +34,7 @@ featured_image: /images/archives/banner_image.jpg
       <div class="pub-authors"><b>Seonho Lee</b>*, Jiho Choi*, Inha Kang, Jiwook Kim, Junsung Park, Hyunjung Shim†</div>
       <div class="pub-kw">3D-Aware VLM Finetuning</div>
       <div class="pub-meta">
-        <span class="venue-badge conf">EMNLP 2025 Findings</span>
+        <a class="venue-badge conf" href="https://2025.emnlp.org/" target="_blank">EMNLP 2025 Findings</a>
         <a class="pub-link" href="http://arxiv.org/abs/2506.09883" target="_blank">Paper</a>
         <a class="pub-link" href="https://github.com/kaist-cvml/3d-vlm-gd" target="_blank">Code</a>
       </div>
@@ -49,7 +49,7 @@ featured_image: /images/archives/banner_image.jpg
       <div class="pub-authors">Jiho Choi*, <b>Seonho Lee</b>*, Seungho Lee, Minhyun Lee, Hyunjung Shim†</div>
       <div class="pub-kw">Open-Vocabulary Part Segmentation</div>
       <div class="pub-meta">
-        <span class="venue-badge conf">CVPR 2025</span>
+        <a class="venue-badge conf" href="https://cvpr.thecvf.com/Conferences/2025" target="_blank">CVPR 2025</a>
         <a class="pub-link" href="http://arxiv.org/abs/2501.09688" target="_blank">Paper</a>
         <a class="pub-link" href="https://github.com/kaist-cvml/part-catseg" target="_blank">Code</a>
       </div>
@@ -64,7 +64,7 @@ featured_image: /images/archives/banner_image.jpg
       <div class="pub-authors"><b>Seonho Lee</b>*, Jiho Choi*, Seohyun Lim, Jiwook Kim, Hyunjung Shim†</div>
       <div class="pub-kw">Conditional Image Generation</div>
       <div class="pub-meta">
-        <span class="venue-badge conf">ICIP 2025</span>
+        <a class="venue-badge conf" href="https://2025.ieeeicip.org/" target="_blank">ICIP 2025</a>
         <a class="pub-link" href="https://arxiv.org/abs/2409.08026" target="_blank">Paper</a>
         <a class="pub-link" href="https://github.com/kaist-cvml-lab/scribble-diffusion" target="_blank">Code</a>
       </div>
@@ -80,7 +80,7 @@ featured_image: /images/archives/banner_image.jpg
       <div class="pub-kw">3D Editing · Score Distillation</div>
       <div class="pub-authors">Jiwook Kim*, <b>Seonho Lee</b>*, Jaeyo Shin, Jiho Choi, Hyunjung Shim†</div>
       <div class="pub-meta">
-        <span class="venue-badge conf">ICLR 2025</span>
+        <a class="venue-badge conf" href="https://iclr.cc/Conferences/2025" target="_blank">ICLR 2025</a>
         <a class="pub-link" href="https://arxiv.org/abs/2407.11394" target="_blank">Paper</a>
         <a class="pub-link" href="https://dream-catalyst.github.io/" target="_blank">Project</a>
         <a class="pub-link" href="https://github.com/kaist-cvml-lab/DreamCatalyst" target="_blank">Code</a>
@@ -96,7 +96,7 @@ featured_image: /images/archives/banner_image.jpg
       <div class="pub-authors">Jiho Choi*, <b>Seonho Lee</b>*, Seungho Lee, Minhyun Lee, Hyunjung Shim†</div>
       <div class="pub-kw">Open-Vocabulary Part Segmentation</div>
       <div class="pub-meta">
-        <span class="venue-badge conf">NeurIPS 2024</span>
+        <a class="venue-badge conf" href="https://neurips.cc/Conferences/2024" target="_blank">NeurIPS 2024</a>
         <a class="pub-link" href="https://arxiv.org/abs/2406.11384" target="_blank">Paper</a>
         <a class="pub-link" href="https://github.com/kaist-cvml-lab/part-clipseg" target="_blank">Code</a>
       </div>
@@ -118,7 +118,7 @@ featured_image: /images/archives/banner_image.jpg
       <div class="pub-authors">Inha Kang, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†</div>
       <div class="pub-kw">Negation Understanding · Affirmative Bias</div>
       <div class="pub-meta">
-        <span class="venue-badge workshop">ICLR 2026 Workshop LLM Reasoning</span>
+        <a class="venue-badge workshop" href="https://iclr.cc/Conferences/2026" target="_blank">ICLR 2026 Workshop LLM Reasoning</a>
       </div>
     </div>
   </li>

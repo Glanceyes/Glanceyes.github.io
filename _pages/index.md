@@ -90,7 +90,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
         <div class="pub-title">3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation</div>
         <div class="pub-authors"><strong>Seonho Lee</strong>*, Jiho Choi*, Inha Kang, Jiwook Kim, Junsung Park, Hyunjung Shim†</div>
         <div class="pub-meta">
-          <span class="venue-badge conf">EMNLP 2025 Findings</span>
+          <a class="venue-badge conf" href="https://2025.emnlp.org/" target="_blank">EMNLP 2025 Findings</a>
           <div class="pub-links">
             <a href="http://arxiv.org/abs/2506.09883" target="_blank" class="pub-link">Paper</a>
             <a href="https://github.com/kaist-cvml/3d-vlm-gd" target="_blank" class="pub-link">Code</a>
@@ -105,7 +105,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
         <div class="pub-title">Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation</div>
         <div class="pub-authors">Jiho Choi*, <strong>Seonho Lee</strong>*, Seungho Lee, Minhyun Lee, Hyunjung Shim†</div>
         <div class="pub-meta">
-          <span class="venue-badge conf">CVPR 2025</span>
+          <a class="venue-badge conf" href="https://cvpr.thecvf.com/Conferences/2025" target="_blank">CVPR 2025</a>
           <div class="pub-links">
             <a href="http://arxiv.org/abs/2501.09688" target="_blank" class="pub-link">Paper</a>
             <a href="https://github.com/kaist-cvml/part-catseg" target="_blank" class="pub-link">Code</a>
@@ -120,7 +120,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
         <div class="pub-title">Scribble-Guided Diffusion for Training-free Text-to-Image Generation</div>
         <div class="pub-authors"><strong>Seonho Lee</strong>*, Jiho Choi*, Seohyun Lim, Jiwook Kim, Hyunjung Shim†</div>
         <div class="pub-meta">
-          <span class="venue-badge conf">ICIP 2025</span>
+          <a class="venue-badge conf" href="https://2025.ieeeicip.org/" target="_blank">ICIP 2025</a>
           <div class="pub-links">
             <a href="https://arxiv.org/abs/2409.08026" target="_blank" class="pub-link">Paper</a>
             <a href="https://github.com/kaist-cvml-lab/scribble-diffusion" target="_blank" class="pub-link">Code</a>
@@ -136,7 +136,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
         <div class="pub-note"><a href="https://huggingface.co/papers/2407.11394" target="_blank">🤗 HuggingFace Daily Paper</a></div>
         <div class="pub-authors">Jiwook Kim*, <strong>Seonho Lee</strong>*, Jaeyo Shin, Jiho Choi, Hyunjung Shim†</div>
         <div class="pub-meta">
-          <span class="venue-badge conf">ICLR 2025</span>
+          <a class="venue-badge conf" href="https://iclr.cc/Conferences/2025" target="_blank">ICLR 2025</a>
           <div class="pub-links">
             <a href="https://arxiv.org/abs/2407.11394" target="_blank" class="pub-link">Paper</a>
             <a href="https://dream-catalyst.github.io/" target="_blank" class="pub-link">Project</a>
@@ -152,7 +152,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
         <div class="pub-title">Understanding Multi-Granularity for Open-Vocabulary Part Segmentation</div>
         <div class="pub-authors">Jiho Choi*, <strong>Seonho Lee</strong>*, Seungho Lee, Minhyun Lee, Hyunjung Shim†</div>
         <div class="pub-meta">
-          <span class="venue-badge conf">NeurIPS 2024</span>
+          <a class="venue-badge conf" href="https://neurips.cc/Conferences/2024" target="_blank">NeurIPS 2024</a>
           <div class="pub-links">
             <a href="https://arxiv.org/abs/2406.11384" target="_blank" class="pub-link">Paper</a>
             <a href="https://github.com/kaist-cvml-lab/part-clipseg" target="_blank" class="pub-link">Code</a>
