@@ -22,6 +22,8 @@ featured_image: /images/archives/banner_image.jpg
       <div class="pub-meta">
         <a class="venue-badge conf" href="https://iclr.cc/Conferences/2026" target="_blank">ICLR 2026</a>
         <a class="pub-link" href="https://arxiv.org/abs/2510.13232" target="_blank">Paper</a>
+        <a class="pub-link" href="https://github.com/kaist-cvml/Negation-Aware_VLM" target="_blank">Code</a>
+        <a href="https://github.com/kaist-cvml/Negation-Aware_VLM" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/kaist-cvml/Negation-Aware_VLM?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
       </div>
     </div>
   </li>
