@@ -202,7 +202,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
         <div class="exp-meta">Jun. 2025 – Sep. 2025 · Santa Monica, CA, USA · Generative ML (VideoCraft)</div>
         <ul class="exp-bullets">
           <li>Led cross-reference dataset preprocessing pipeline for personalized video generation</li>
-          <li>Developed cross-reference dataset pipeline and multi-subject adapter architecture for <a href="#videoalchemist"><strong>VideoAlchemist 2.0</strong></a></li>
+          <li>Developed cross-reference dataset pipeline and multi-subject adapter architecture for <a href="/projects#videoalchemist"><strong>VideoAlchemist 2.0</strong></a></li>
         </ul>
       </div>
     </div>
