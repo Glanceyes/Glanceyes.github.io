@@ -85,20 +85,6 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
   <div class="pub-list">
 
     <div class="pub-entry">
-      <img class="pub-thumb" src="/images/about/publications/negtome.png" alt="NegToMe">
-      <div class="pub-body">
-        <div class="pub-title">What "Not" to Detect: Improving Object Detection under Negation via Reasoning and Token Merging</div>
-        <div class="pub-authors">Inha Kang, Youngsun Lim, <strong>Seonho Lee</strong>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†</div>
-        <div class="pub-meta">
-          <span class="venue-badge conf">ICLR 2026</span>
-          <div class="pub-links">
-            <a href="https://arxiv.org/abs/2510.13232" target="_blank" class="pub-link">Paper</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="pub-entry">
       <img class="pub-thumb" src="/images/about/publications/3d_aware_vlm.png" alt="3D-Aware VLM">
       <div class="pub-body">
         <div class="pub-title">3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation</div>
