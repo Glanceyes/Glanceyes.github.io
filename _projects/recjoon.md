@@ -1,10 +1,14 @@
 ---
-title: RECJOON&#58 A Personalized Algorithm Problem and Rival Recommendation System
-  for Baekjoon Online Judge Users
+title: "RECJOON: A Personalized Algorithm Problem and Rival Recommendation System for Baekjoon Online Judge Users"
+tag: Engineering Project
+subtitle: AI-driven personalized problem recommendation for competitive programmers
 featured_image: https://vip2.loli.io/2023/09/01/PpXAGQ8Y7nyuOtW.png
 start_date: '2022-04-21'
 end_date: '2022-06-18'
-last_modified_at: '2023-09-01 21:00:00'
+keywords: Recommendation System, Content-Based Filtering, Deep Learning
+links:
+  - label: GitHub
+    url: https://github.com/boostcampaitech3/final-project-level3-recsys-14
 ---
 
 

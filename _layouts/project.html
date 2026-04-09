@@ -2,32 +2,27 @@
 layout: default
 ---
 
-<section class="hero hero--single">
+<div class="proj-hero">
+  <div class="proj-hero-inner">
+    <span class="proj-tag">{{ page.tag | default: "Engineering Project" }}</span>
+    <div class="proj-title">{{ page.title }}</div>
+    {% if page.subtitle %}<div class="proj-subtitle">{{ page.subtitle }}</div>{% endif %}
+    <div class="proj-meta">
+      {% if page.start_date %}<span>{{ page.start_date | date: "%b. %Y" }} – {{ page.end_date | date: "%b. %Y" | default: "Present" }}</span>{% endif %}
+      {% if page.keywords %}<span>{{ page.keywords }}</span>{% endif %}
+      {% if page.advisor %}<span>Advised by {{ page.advisor }}</span>{% endif %}
+    </div>
+    {% if page.links %}
+    <div class="proj-links-hero">
+      {% for link in page.links %}
+      <a href="{{ link.url }}" target="_blank" class="proj-link-btn">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>
 
-	<div class="hero__image" style="background-image: url({{ page.featured_image | relative_url }})">
-		<div class="hero__overlay"></div>
-	</div>
-
-	<div class="wrap">
-
-		<h1>{{ page.title }}</h1>
-		<p>Project Duration: {{ page.start_date }} ~ {{ page.end_date | default: 'now' }}</p>
-		<p>Updated on {{ page.last_modified_at | date_to_long_string}}</p>
-	
-	</div>
-
-</section>
-
-<section class="single">
-
-	<div class="wrap">
-
-		<article class="single-post">
-
-			{{ page.content }}
-
-		</article>
-
-	</div>
-
-</section>
+<main class="main--narrow">
+  <a href="{{ '/projects' | relative_url }}" class="back-link">← Back to Projects</a>
+  {{ content }}
+</main>

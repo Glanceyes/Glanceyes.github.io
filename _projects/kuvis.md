@@ -1,9 +1,12 @@
 ---
-title: KUVIS&#58 A Web Application Enabling AI Modeling through Visual Programming in Medical Science
+title: "KUVIS: A Web Application Enabling AI Modeling through Visual Programming in Medical Science"
+tag: Engineering Project
+subtitle: Visual programming interface for deep learning in medical imaging
 featured_image: https://vip2.loli.io/2023/09/01/4mpxRGOMdWaHASr.png
 start_date: '2022-07-01'
 end_date: '2022-08-31'
-last_modified_at: '2023-09-01 22:00:00'
+keywords: Visual Programming, Parallel Computing, Deep Learning
+advisor: Prof. Wonki Jeong
 ---
 
 

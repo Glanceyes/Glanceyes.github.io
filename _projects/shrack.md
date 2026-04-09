@@ -1,10 +1,14 @@
 ---
-title: SHrack&#58 Mobile Web Service for Real-time Exercise Posture Detection and
-  Count Tracking
+title: "SHrack: Mobile Web Service for Real-time Exercise Posture Detection and Count Tracking"
+tag: Engineering Project
+subtitle: Real-time exercise count tracking using computer vision
 featured_image: https://vip2.loli.io/2023/09/02/yHXwQg1d5cDeNO9.png
 start_date: '2023-03-19'
 end_date: '2023-06-09'
-last_modified_at: '2023-09-01 22:00:00'
+keywords: MobileNet, Contextual Prediction Module, WebRTC
+links:
+  - label: GitHub
+    url: https://github.com/glanceyes/SHrack
 ---
 
 

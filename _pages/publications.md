@@ -1,123 +1,146 @@
 ---
 title: Publications
-subtitle:
-description: Publications by Seonho Lee
-featured_image: /images/about/banner_image.jpg
+layout: page
+permalink: /publications
+featured_image: /images/about/banner_image_new.jpg
 ---
 
-<b>*: equal contribution.</b> &nbsp; <b>†: corresponding author.</b> &nbsp; <b>C: conference</b> &nbsp; <b>P: preprint</b> &nbsp; <b>W: workshop</b>
+<p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:2rem;">*: equal contribution &nbsp;·&nbsp; †: corresponding author &nbsp;·&nbsp; <b>C</b>: conference &nbsp;·&nbsp; <b>W</b>: workshop &nbsp;·&nbsp; <b>P</b>: preprint</p>
 
-<br clear="all"/>
+<ul class="pub-list">
 
+  <li class="pub-entry" id="c6">
+    <img class="pub-thumb" src="/images/about/publications/negtome.png" alt="NegToMe">
+    <div class="pub-body">
+      <div class="pub-title">[C6] What "Not" to Detect: Improving Object Detection under Negation via Reasoning and Token Merging</div>
+      <div class="pub-authors">Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†</div>
+      <div class="pub-kw">Described Object Detection under Negation</div>
+      <div class="pub-meta">
+        <span class="venue-badge conf">ICLR 2026</span>
+        <a class="pub-link" href="https://arxiv.org/abs/2510.13232" target="_blank">Paper</a>
+      </div>
+    </div>
+  </li>
 
-#### [C6] What "Not" to Detect: Improving Object Detection under Negation via Reasoning and Token Merging
+  <li class="pub-entry" id="c5">
+    <img class="pub-thumb" src="/images/about/publications/3d_aware_vlm.png" alt="3D-Aware VLM">
+    <div class="pub-body">
+      <div class="pub-title">[C5] 3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation</div>
+      <div class="pub-authors"><b>Seonho Lee</b>*, Jiho Choi*, Inha Kang, Jiwook Kim, Junsung Park, Hyunjung Shim†</div>
+      <div class="pub-kw">3D-Aware VLM Finetuning</div>
+      <div class="pub-meta">
+        <span class="venue-badge conf">EMNLP 2025 Findings</span>
+        <a class="pub-link" href="http://arxiv.org/abs/2506.09883" target="_blank">Paper</a>
+        <a class="pub-link" href="https://github.com/kaist-cvml/3d-vlm-gd" target="_blank">Code</a>
+      </div>
+    </div>
+  </li>
 
-![NegToMe](/images/about/publications/negtome.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 60px; margin-bottom: 60px;"}
+  <li class="pub-entry" id="c4">
+    <img class="pub-thumb" src="/images/about/publications/partcatseg.png" alt="PartCATSeg">
+    <div class="pub-body">
+      <div class="pub-title">[C4] Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation</div>
+      <div class="pub-authors">Jiho Choi*, <b>Seonho Lee</b>*, Seungho Lee, Minhyun Lee, Hyunjung Shim†</div>
+      <div class="pub-kw">Open-Vocabulary Part Segmentation</div>
+      <div class="pub-meta">
+        <span class="venue-badge conf">CVPR 2025</span>
+        <a class="pub-link" href="http://arxiv.org/abs/2501.09688" target="_blank">Paper</a>
+        <a class="pub-link" href="https://github.com/kaist-cvml/part-catseg" target="_blank">Code</a>
+      </div>
+    </div>
+  </li>
 
-- Inha Kang, Youngsun Lim, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†
-- Keywords: Described Object Detection under Negation
+  <li class="pub-entry" id="c3">
+    <img class="pub-thumb" src="/images/about/publications/scribblediff.png" alt="ScribbleDiff">
+    <div class="pub-body">
+      <div class="pub-title">[C3] Scribble-Guided Diffusion for Training-free Text-to-Image Generation</div>
+      <div class="pub-authors"><b>Seonho Lee</b>*, Jiho Choi*, Seohyun Lim, Jiwook Kim, Hyunjung Shim†</div>
+      <div class="pub-kw">Conditional Image Generation</div>
+      <div class="pub-meta">
+        <span class="venue-badge conf">ICIP 2025</span>
+        <a class="pub-link" href="https://arxiv.org/abs/2409.08026" target="_blank">Paper</a>
+        <a class="pub-link" href="https://github.com/kaist-cvml-lab/scribble-diffusion" target="_blank">Code</a>
+      </div>
+    </div>
+  </li>
 
-<b>[ICLR 2026](https://openreview.net/forum?id=hFzrP5mw24)</b>, [Paper](https://arxiv.org/abs/2510.13232)
+  <li class="pub-entry" id="c2">
+    <img class="pub-thumb" src="/images/about/publications/dreamcatalyst.png" alt="DreamCatalyst">
+    <div class="pub-body">
+      <div class="pub-title">[C2] DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation</div>
+      <div class="pub-authors">Jiwook Kim*, <b>Seonho Lee</b>*, Jaeyo Shin, Jiho Choi, Hyunjung Shim†</div>
+      <div class="pub-kw">3D Editing · Score Distillation · <a href="https://huggingface.co/papers/2407.11394" target="_blank">HuggingFace Daily Paper</a></div>
+      <div class="pub-meta">
+        <span class="venue-badge conf">ICLR 2025</span>
+        <a class="pub-link" href="https://arxiv.org/abs/2407.11394" target="_blank">Paper</a>
+        <a class="pub-link" href="https://dream-catalyst.github.io/" target="_blank">Project</a>
+        <a class="pub-link" href="https://github.com/kaist-cvml-lab/DreamCatalyst" target="_blank">Code</a>
+      </div>
+    </div>
+  </li>
 
-<br clear="all"/>
+  <li class="pub-entry" id="c1">
+    <img class="pub-thumb" src="/images/about/publications/partclipseg.png" alt="PartCLIPSeg">
+    <div class="pub-body">
+      <div class="pub-title">[C1] Understanding Multi-Granularity for Open-Vocabulary Part Segmentation</div>
+      <div class="pub-authors">Jiho Choi*, <b>Seonho Lee</b>*, Seungho Lee, Minhyun Lee, Hyunjung Shim†</div>
+      <div class="pub-kw">Open-Vocabulary Part Segmentation</div>
+      <div class="pub-meta">
+        <span class="venue-badge conf">NeurIPS 2024</span>
+        <a class="pub-link" href="https://arxiv.org/abs/2406.11384" target="_blank">Paper</a>
+        <a class="pub-link" href="https://github.com/kaist-cvml-lab/part-clipseg" target="_blank">Code</a>
+      </div>
+    </div>
+  </li>
 
-#### [C5] 3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation
+  <li class="pub-entry" id="w1">
+    <img class="pub-thumb" src="/images/about/publications/covand.png" alt="CoVAND">
+    <div class="pub-body">
+      <div class="pub-title">[W1] Grounding the "Not": Symbolic Representation of Negation for Logical Reasoning in VLMs</div>
+      <div class="pub-authors">Inha Kang, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†</div>
+      <div class="pub-kw">Negation Understanding · Affirmative Bias</div>
+      <div class="pub-meta">
+        <span class="venue-badge workshop">ICLR 2026 Workshop LLM Reasoning</span>
+      </div>
+    </div>
+  </li>
 
-![3D-Aware-VLM](/images/about/publications/3d_aware_vlm.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
+  <li class="pub-entry" id="p3">
+    <img class="pub-thumb" src="/images/about/publications/dr3d.png" alt="DR3D">
+    <div class="pub-body">
+      <div class="pub-title">[P3] Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views</div>
+      <div class="pub-authors">Jiho Choi*, <b>Seonho Lee</b>*, Seojeong Park, Hyunjung Shim†</div>
+      <div class="pub-kw">Multi-View 3D Reasoning · Reinforcement Learning</div>
+      <div class="pub-meta">
+        <span class="venue-badge preprint">Under Review</span>
+      </div>
+    </div>
+  </li>
 
-- <b>Seonho Lee</b>\*, Jiho Choi\*, Inha Kang, Jiwook Kim, Junsung Park, Hyunjung Shim†
-- Keywords: 3D-Aware VLM Finetuning
+  <li class="pub-entry" id="p2">
+    <img class="pub-thumb" src="/images/about/publications/perceptual_judge.png" alt="Perceptual Judge">
+    <div class="pub-body">
+      <div class="pub-title">[P2] Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling</div>
+      <div class="pub-authors">Seojeong Park*, Jiho Choi*, Junyong Kang, <b>Seonho Lee</b>, Jaeyo Shin, Hyunjung Shim†</div>
+      <div class="pub-kw">Multimodal LLM · Perceptual Judgment Bias</div>
+      <div class="pub-meta">
+        <span class="venue-badge preprint">Under Review</span>
+      </div>
+    </div>
+  </li>
 
-<b>[EMNLP 2025 Findings](https://2025.emnlp.org/)</b>, [Paper](http://arxiv.org/abs/2506.09883), [Codes](https://github.com/kaist-cvml/3d-vlm-gd) [![GitHub Stars](https://img.shields.io/github/stars/kaist-cvml/3d-vlm-gd){: style="display: inline; height: 20px; vertical-align: middle;"}](https://github.com/kaist-cvml/3d-vlm-gd){: style="text-decoration: none; border: none;"}
+  <li class="pub-entry" id="p1">
+    <img class="pub-thumb" src="/images/about/publications/waymoqa.png" alt="WaymoQA">
+    <div class="pub-body">
+      <div class="pub-title">[P1] WaymoQA: A Multi-View Visual Question Answering Dataset for Safety-Critical Reasoning in Autonomous Driving</div>
+      <div class="pub-authors">Seungjun Yu, <b>Seonho Lee</b>, Namho Kim, Jaeyo Shin, Junsung Park, Wonjeong Ryu, Raehyuk Jung, Hyunjung Shim†</div>
+      <div class="pub-kw">Visual Question Answering · Safety-Critical Reasoning</div>
+      <div class="pub-meta">
+        <span class="venue-badge preprint">Under Review</span>
+        <a class="pub-link" href="https://arxiv.org/abs/2511.20022" target="_blank">Preprint</a>
+        <a class="pub-link" href="https://github.com/sjyu001/WaymoQA" target="_blank">Code</a>
+      </div>
+    </div>
+  </li>
 
-<br clear="all"/>
-
-
-#### [C4] Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation
-
-![PartCATSeg](/images/about/publications/partcatseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
-
-- Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim†
-- Keywords: Open-Vocabulary Part Segmentation
-
-<b>[CVPR 2025](https://cvpr.thecvf.com/Conferences/2025)</b>, [Paper](http://arxiv.org/abs/2501.09688), [Codes](https://github.com/kaist-cvml/part-catseg) [![GitHub Stars](https://img.shields.io/github/stars/kaist-cvml/part-catseg){: style="display: inline; height: 20px; vertical-align: middle;"}](https://github.com/kaist-cvml/part-catseg){: style="text-decoration: none; border: none;"}
-
-<br clear="all"/>
-
-#### [C3] Scribble-Guided Diffusion for Training-free Text-to-Image Generation
-
-![Scribble-Guided Diffusion](/images/about/publications/scribblediff.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
-
-- <b>Seonho Lee</b>\*, Jiho Choi\*, Seohyun Lim, Jiwook Kim, Hyunjung Shim†
-- Keywords: Conditional Image Generation
-
-<b>[ICIP 2025](https://2025.ieeeicip.org)</b>, [Paper](https://arxiv.org/abs/2409.08026), [Codes](https://github.com/kaist-cvml-lab/scribble-diffusion) [![GitHub Stars](https://img.shields.io/github/stars/kaist-cvml/scribble-guided-diffusion){: style="display: inline; height: 20px; vertical-align: middle;"}](https://github.com/kaist-cvml/scribble-guided-diffusion){: style="text-decoration: none; border: none;"}
-
-<br clear="all"/>
-
-#### [C2] DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation
-
-![DreamCatalyst](/images/about/publications/dreamcatalyst.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 20px; margin-bottom: 20px;"}
-
-- Jiwook Kim\*, <b>Seonho Lee</b>\*, Jaeyo Shin, Jiho Choi, Hyunjung Shim†
-- Keywords: 3D Editing, Score Distillation
-- Selected as a [Daily Paper in HuggingFace](https://huggingface.co/papers/2407.11394)
-
-<b>[ICLR 2025](https://openreview.net/forum?id=FA5ZAJlv96)</b>, [Paper](https://arxiv.org/abs/2407.11394), [Project Page](https://dream-catalyst.github.io/), [Codes](https://github.com/kaist-cvml-lab/DreamCatalyst) [![GitHub Stars](https://img.shields.io/github/stars/kaist-cvml/DreamCatalyst){: style="display: inline; height: 20px; vertical-align: middle;"}](https://github.com/kaist-cvml/DreamCatalyst){: style="text-decoration: none; border: none;"}
-
-<br clear="all"/>
-
-#### [C1] Understanding Multi-Granularity for Open-Vocabulary Part Segmentation
-
-![PartCLIPSeg](/images/about/publications/partclipseg.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
-
-- Jiho Choi\*, <b>Seonho Lee</b>\*, Seungho Lee, Minhyun Lee, Hyunjung Shim†
-- Keywords: Open-Vocabulary Part Segmentation
-
-<b>[NeurIPS 2024](https://neurips.cc/virtual/2024/poster/94085)</b>, [Paper](https://arxiv.org/abs/2406.11384), [Codes](https://github.com/kaist-cvml-lab/part-clipseg) [![GitHub Stars](https://img.shields.io/github/stars/kaist-cvml/part-clipseg){: style="display: inline; height: 20px; vertical-align: middle;"}](https://github.com/kaist-cvml/part-clipseg){: style="text-decoration: none; border: none;"}
-
-<br clear="all"/>
-
-#### [W1] Grounding the "Not": Symbolic Representation of Negation for Logical Reasoning in VLMs
-
-![CoVAND](/images/about/publications/covand.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
-
-- Inha Kang, <b>Seonho Lee</b>, Jiho Choi, Junsuk Choi†, Hyunjung Shim†
-- Keywords: Negation Understanding, Affirmative Bias
-
-<b>[ICLR 2026 Workshop LLM Reasoning](https://sites.google.com/view/iclr-2026-llmreasoning)</b>
-
-<br clear="all"/>
-
-#### [P3] Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views
-
-![DR3D](/images/about/publications/dr3d.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
-
-- Jiho Choi\*, <b>Seonho Lee</b>\*, Seojeong Park, Hyunjung Shim†
-- Keywords: Multi-View 3D Reasoning, Reinforcement Learning
-
-Under Review
-
-<br clear="all"/>
-
-#### [P2] Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling
-
-![Perceptual_Judge](/images/about/publications/perceptual_judge.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
-
-- Seojeong Park\*, Jiho Choi\*, Junyong Kang, <b>Seonho Lee</b>, Jaeyo Shin, Hyunjung Shim†
-- Keywords: Multimodal LLM, Perceptual Judgment Bias
-
-Under Review
-
-<br clear="all"/>
-
-#### [P1] WaymoQA: A Multi-View Visual Question Answering Dataset for Safety-Critical Reasoning in Autonomous Driving
-
-![WaymoQA](/images/about/publications/waymoqa.png){: width="20%" style="float: left; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;"}
-
-- Seungjun Yu, <b>Seonho Lee</b>, Namho Kim, Jaeyo Shin, Junsung Park, Wonjeong Ryu, Raehyuk Jung, Hyunjung Shim†
-- Keywords: Visual Question Answering, Safety-Critical Reasoning
-
-Under Review, [Preprint](https://arxiv.org/abs/2511.20022), [Codes](https://github.com/sjyu001/WaymoQA) [![GitHub Stars](https://img.shields.io/github/stars/sjyu001/WaymoQA){: style="display: inline; height: 20px; vertical-align: middle;"}](https://github.com/sjyu001/WaymoQA){: style="text-decoration: none; border: none;"}
-
-<br clear="all"/>
+</ul>
