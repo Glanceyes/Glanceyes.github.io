@@ -117,11 +117,9 @@ featured_image: /images/about/banner_image.jpg
             <li>Developed a prototype of <a href="https://vience.io/main" target="_blank">VIENCE Pathoview</a></li>
           </ul>
           <div class="project-keywords">Keywords: <span>Visual Programming, Parallel Computing for Deep Learning</span></div>
-          <div class="project-meta">
-            <span>Advised by Prof. Wonki Jeong</span>
-            <span class="project-meta-dot">·</span>
-            <span>Jul. 2022 – Aug. 2022</span>
-          </div>
+          <ul class="project-bullets">
+            <li>Advised by Prof. Wonki Jeong · Jul. 2022 – Aug. 2022</li>
+          </ul>
           <div class="project-links">
             <a href="/project/kuvis" class="project-link">Review</a>
           </div>
