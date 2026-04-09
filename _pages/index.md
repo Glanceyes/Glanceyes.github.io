@@ -133,7 +133,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
       <img class="pub-thumb" src="/images/about/publications/dreamcatalyst.png" alt="DreamCatalyst">
       <div class="pub-body">
         <div class="pub-title">DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation</div>
-        <div class="pub-note">🤗 HuggingFace Daily Paper</div>
+        <div class="pub-note"><a href="https://huggingface.co/papers/2407.11394" target="_blank">🤗 HuggingFace Daily Paper</a></div>
         <div class="pub-authors">Jiwook Kim*, <strong>Seonho Lee</strong>*, Jaeyo Shin, Jiho Choi, Hyunjung Shim†</div>
         <div class="pub-meta">
           <span class="venue-badge conf">ICLR 2025</span>
@@ -202,7 +202,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
         <div class="exp-meta">Jun. 2025 – Sep. 2025 · Santa Monica, CA, USA · Generative ML (VideoCraft)</div>
         <ul class="exp-bullets">
           <li>Led cross-reference dataset preprocessing pipeline for personalized video generation</li>
-          <li>Developed cross-reference dataset pipeline and multi-subject adapter architecture for <em>VideoAlchemist 2.0</em></li>
+          <li>Developed cross-reference dataset pipeline and multi-subject adapter architecture for <a href="#videoalchemist"><strong>VideoAlchemist 2.0</strong></a></li>
         </ul>
       </div>
     </div>
@@ -238,7 +238,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
       </div>
     </div>
 
-    <div class="project-card">
+    <div class="project-card" id="videoalchemist">
       <div class="project-header">
         <div class="project-title">VideoAlchemist 2.0</div>
         <span class="project-org">Snap Inc.</span>
