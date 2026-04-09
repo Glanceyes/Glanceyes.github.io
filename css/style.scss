@@ -210,7 +210,13 @@ section { margin-bottom: 56px; }
 .pub-list { display: flex; flex-direction: column; }
 .pub-entry { display: flex; gap: 20px; padding: 20px 0; border-bottom: 1px solid var(--border); align-items: flex-start; scroll-margin-top: 80px; }
 .pub-entry:last-child { border-bottom: none; }
-.pub-entry:target { background: #eff6ff; border-radius: 8px; padding: 16px 14px; margin: 0 -14px; }
+.pub-entry:target { border-radius: 8px; padding: 16px 14px; margin: 0 -14px; animation: highlight-fade 2.5s ease-out forwards; }
+.project-card:target { animation: highlight-fade 2.5s ease-out forwards; }
+@keyframes highlight-fade {
+  0%   { background: #eff6ff; }
+  60%  { background: #eff6ff; }
+  100% { background: transparent; }
+}
 .pub-index { font-size: 11px; font-weight: 600; color: var(--text-light); background: var(--bg-alt); border: 1px solid var(--border); border-radius: 4px; padding: 2px 6px; flex-shrink: 0; margin-top: 3px; letter-spacing: 0.02em; min-width: 34px; text-align: center; }
 .pub-thumb { width: 108px; height: 76px; border-radius: 6px; object-fit: cover; flex-shrink: 0; background: var(--bg-alt); border: 1px solid var(--border); }
 .pub-body { flex: 1; min-width: 0; }
