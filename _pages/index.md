@@ -290,7 +290,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
       <div class="edu-meta">Mar. 2017 – Feb. 2024 · GPA 4.12 / 4.3 (<em>Summa Cum Laude</em>)</div>
     </div>
     <div class="edu-entry">
-      <div class="edu-school">Sangsan High School</div>
+      <div class="edu-school"><a href="https://school.jbedu.kr/sangsan" target="_blank">Sangsan High School</a></div>
       <div class="edu-meta">Mar. 2014 – Feb. 2017</div>
     </div>
   </div>
