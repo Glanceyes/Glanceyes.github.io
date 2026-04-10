@@ -17,6 +17,9 @@ layout: default
       {% for link in page.links %}
       <a href="{{ link.url }}" target="_blank" class="proj-link-btn">{{ link.label }}</a>
       {% endfor %}
+      {% if page.github_repo %}
+      <a href="https://github.com/{{ page.github_repo }}" target="_blank" style="text-decoration:none; border:none; display:inline-flex; align-items:center;"><img src="https://img.shields.io/github/stars/{{ page.github_repo }}?style=social" alt="GitHub Stars" style="height:20px;"></a>
+      {% endif %}
     </div>
     {% endif %}
   </div>

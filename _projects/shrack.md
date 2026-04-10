@@ -1,6 +1,6 @@
 ---
 title: "SHrack: Mobile Web Service for Real-time Exercise Posture Detection and Count Tracking"
-tag: Engineering Project
+tag: Personal Project
 subtitle: Real-time exercise count tracking using computer vision
 featured_image: https://vip2.loli.io/2023/09/02/yHXwQg1d5cDeNO9.png
 start_date: '2023-03-19'
