@@ -95,7 +95,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 44px;
 }
 .hero-photo {
@@ -373,6 +373,7 @@ footer { background: var(--hero-bg); color: rgba(255,255,255,0.5); text-align: c
     grid-area: text;
     flex: unset;
   }
+  .hero-name { font-size: 21px; }
   .hero-position { margin-bottom: 0; }
   .hero-body {
     grid-area: body;
