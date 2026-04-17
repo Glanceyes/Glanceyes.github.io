@@ -203,8 +203,8 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
       <a href="https://www.snap.com" target="_blank"><img class="exp-logo" src="/images/about/companies/snap.png" alt="Snap Inc."></a>
       <div class="exp-body">
         <div class="exp-company">Snap Inc.</div>
-        <div class="exp-role">ML Engineer Intern</div>
-        <div class="exp-meta">Jun. 2025 – Sep. 2025 · Santa Monica, CA, USA · Generative ML (VideoCraft)</div>
+        <div class="exp-role">ML Engineer Intern <span class="exp-team">· Generative ML (VideoCraft)</span></div>
+        <div class="exp-meta">Jun. 2025 – Sep. 2025 · Santa Monica, CA, USA</div>
         <ul class="exp-bullets">
           <li>Led cross-reference dataset preprocessing pipeline for personalized video generation</li>
           <li>Developed cross-reference dataset pipeline and multi-subject adapter architecture for <a href="/projects#videoalchemist"><strong>VideoAlchemist 2.0</strong></a></li>
