@@ -117,8 +117,8 @@ featured_image: /images/archives/banner_image.jpg
 <div class="section-title">Workshop Papers</div>
 <ul class="pub-list">
 
-  <li class="pub-entry" id="w1">
-    <span class="pub-index">W1</span>
+  <li class="pub-entry" id="w2">
+    <span class="pub-index">W2</span>
     <img class="pub-thumb" src="/images/about/publications/covand.png" alt="CoVAND">
     <div class="pub-body">
       <div class="pub-title">Grounding the "Not": Symbolic Representation of Negation for Logical Reasoning in VLMs</div>
@@ -126,6 +126,19 @@ featured_image: /images/archives/banner_image.jpg
       <div class="pub-kw">Negation Understanding · Affirmative Bias</div>
       <div class="pub-meta">
         <a class="venue-badge workshop" href="https://iclr.cc/Conferences/2026" target="_blank">ICLR 2026 Workshop LLM Reasoning</a>
+      </div>
+    </div>
+  </li>
+
+  <li class="pub-entry" id="w1">
+    <span class="pub-index">W1</span>
+    <img class="pub-thumb" src="/images/about/publications/partclipseg_cvpr2024.png" alt="PartCLIPSeg Workshop">
+    <div class="pub-body">
+      <div class="pub-title">PartCLIPSeg: Technical Report for CVPR 2024 VPLOW Open Vocabulary Part Segmentation Challenge</div>
+      <div class="pub-authors">Jiho Choi*, <b>Seonho Lee</b>*, Seojeong Park, Hyunjung Shim†</div>
+      <div class="pub-kw">Open-Vocabulary Part Segmentation · 2nd Place (Track 1 &amp; 2)</div>
+      <div class="pub-meta">
+        <a class="venue-badge workshop" href="https://vplow.github.io/vplow_4th.html" target="_blank">CVPR 2024 VPLOW Workshop</a>
       </div>
     </div>
   </li>
