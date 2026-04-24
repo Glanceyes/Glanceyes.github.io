@@ -194,7 +194,8 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
         <div class="exp-role">Applied AI Researcher</div>
         <div class="exp-meta">Mar. 2026 – Present · Seoul, Republic of Korea</div>
         <ul class="exp-bullets">
-          <li>Working in AI Art Gen Team at Krafton AI.</li>
+          <li>Working in agentic game development</li>
+          <li>Worked on VQA evaluation of <a href="/projects#raon">Raon-VE</a></li>
         </ul>
       </div>
     </div>
@@ -223,7 +224,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
   <hr class="section-divider">
   <div class="projects-grid">
 
-    <div class="project-card has-thumb">
+    <div class="project-card has-thumb" id="raon">
       <div class="project-card-inner">
         <img class="project-thumb" src="/images/projects/raon_visionencoder.jpg" alt="Raon-VisionEncoder">
         <div style="flex:1; min-width:0;">
