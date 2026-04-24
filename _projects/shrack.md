@@ -6,9 +6,6 @@ featured_image: https://vip2.loli.io/2023/09/02/yHXwQg1d5cDeNO9.png
 start_date: '2023-03-19'
 end_date: '2023-06-09'
 keywords: MobileNet, Contextual Prediction Module, WebRTC
-links:
-  - label: Code
-    url: https://github.com/glanceyes/SHrack
 ---
 
 
