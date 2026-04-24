@@ -7,7 +7,7 @@ start_date: '2023-03-19'
 end_date: '2023-06-09'
 keywords: MobileNet, Contextual Prediction Module, WebRTC
 links:
-  - label: GitHub
+  - label: Code
     url: https://github.com/glanceyes/SHrack
 ---
 

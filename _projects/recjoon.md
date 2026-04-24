@@ -8,7 +8,7 @@ end_date: '2022-06-18'
 keywords: Recommendation System, Content-Based Filtering, Deep Learning
 github_repo: boostcampaitech3/final-project-level3-recsys-14
 links:
-  - label: GitHub
+  - label: Code
     url: https://github.com/boostcampaitech3/final-project-level3-recsys-14
 ---
 

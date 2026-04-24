@@ -20,8 +20,8 @@ featured_image: /images/about/banner_image.jpg
           </div>
           <div class="project-subtitle">A Fully Open SigLIP2-class Vision Encoder</div>
           <ul class="project-bullets">
-            <li>Developed a vision encoder with comparable performance to SigLIP2-NaFlex using only open data</li>
-            <li>Built VLM training pipeline integrating the vision encoder with a language model for downstream VQA evaluation and training optimization</li>
+            <li>Developed a fully-open vision encoder with comparable performance to SigLIP2</li>
+            <li>Contributed to VLM training pipeline integrating the vision encoder with a language model for downstream VQA evaluation and training optimization</li>
           </ul>
           <div class="project-links">
             <a href="https://krafton.ai/blog/posts/2026-04-02-raon_vision_encoder/raon-visionencoder-en.html" target="_blank" class="project-link">Blog Post</a>
@@ -41,7 +41,7 @@ featured_image: /images/about/banner_image.jpg
           </div>
           <div class="project-subtitle">Multi-Subject Personalized Video Generation</div>
           <ul class="project-bullets">
-            <li>Developed a personalized video generation model supporting multiple subjects with fine-grained temporal control</li>
+            <li>Developed a personalized video generation model with multiple subjects</li>
             <li>Built cross-reference dataset pipeline and multi-subject adapter architecture for personalized video generation</li>
             <li>Contributed to foundation of dataset generation pipeline and adapter design of <a href="https://arxiv.org/abs/2512.10943" target="_blank">AlcheMinT</a></li>
           </ul>

@@ -195,7 +195,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
         <div class="exp-meta">Mar. 2026 – Present · Seoul, Republic of Korea</div>
         <ul class="exp-bullets">
           <li>Working in agentic game development</li>
-          <li>Worked on VQA evaluation of <a href="/projects#raon">Raon-VisionEncoder</a></li>
+          <li>Worked on training and VQA evaluation of <a href="/projects#raon">Raon-VisionEncoder</a></li>
         </ul>
       </div>
     </div>
@@ -332,7 +332,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
         <div class="honor-title">2nd Place, <a href="https://vplow.github.io/vplow_4th.html" target="_blank">Open Vocabulary Part Segmentation Challenge</a> at CVPR 2024</div>
         <div class="honor-sub">2nd Place on both Track 1 &amp; 2 · 4th Workshop on Open World Vision (VPLOW) at CVPR 2024</div>
       </div>
-      <div class="honor-date">2024</div>
+      <div class="honor-date">Jun. 2024</div>
     </div>
     <div class="honor-entry">
       <div>
