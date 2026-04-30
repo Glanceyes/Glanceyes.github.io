@@ -21,6 +21,7 @@ featured_image: /images/archives/banner_image.jpg
       <div class="pub-kw">MLLM-as-a-Judge · Reward Modeling</div>
       <div class="pub-meta">
         <a class="venue-badge conf" href="https://icml.cc/Conferences/2026" target="_blank">ICML 2026</a>
+        <a class="pub-link" href="https://perceptionjudge.github.io/" target="_blank">Project</a>
       </div>
     </div>
   </li>

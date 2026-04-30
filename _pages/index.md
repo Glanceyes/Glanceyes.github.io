@@ -268,17 +268,22 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
       </div>
     </div>
 
-    <div class="project-card">
-      <div class="project-header">
-        <div class="project-title">3D-Aware VLM Finetuning</div>
-        <span class="project-org">Samsung Research</span>
-      </div>
-      <ul class="project-bullets">
-        <li>Electronic Device and Method for Operating Thereof and Storage Medium</li>
-        <li>Paper: <a href="/publications#c5">3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation</a></li>
-      </ul>
-      <div class="project-links">
-        <span class="project-link" style="cursor:default; pointer-events:none; color:var(--text-light);">Korean Patent: 10-2025-0109574</span>
+    <div class="project-card has-thumb">
+      <div class="project-card-inner">
+        <img class="project-thumb" src="/images/projects/3d_aware_vlm.png" alt="3D-Aware VLM Finetuning" style="object-fit:contain; background:#fff;">
+        <div style="flex:1; min-width:0;">
+          <div class="project-header">
+            <div class="project-title">3D-Aware VLM Finetuning</div>
+            <span class="project-org">Samsung Research</span>
+          </div>
+          <ul class="project-bullets">
+            <li>Electronic Device and Method for Operating Thereof and Storage Medium</li>
+            <li>Paper: <a href="/publications#c5">3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation</a></li>
+          </ul>
+          <div class="project-links">
+            <span class="project-link" style="cursor:default; pointer-events:none; color:var(--text-light);">Korean Patent: 10-2025-0109574</span>
+          </div>
+        </div>
       </div>
     </div>
 
