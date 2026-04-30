@@ -42,7 +42,7 @@ featured_image: /images/about/banner_image.jpg
           <div class="project-subtitle">Multi-Subject Personalized Video Generation</div>
           <ul class="project-bullets">
             <li>Developed a personalized video generation model with multiple subjects</li>
-            <li>Built cross-reference dataset pipeline and multi-subject adapter architecture for personalized video generation</li>
+            <li>Built cross-reference dataset pipeline and adapter architecture for personalized video generation</li>
             <li>Contributed to foundation of dataset generation pipeline and adapter design of <a href="https://arxiv.org/abs/2512.10943" target="_blank">AlcheMinT</a></li>
           </ul>
         </div>
