@@ -9,6 +9,11 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
   <div class="section-title">News</div>
   <ul class="news-list">
     <li class="news-item">
+      <span class="news-date">May. 2026</span>
+      <span class="news-content">Our <a href="/publications#c7"><strong>Perceptual Judgment Bias</strong></a> paper accepted to <strong><a href="https://icml.cc/Conferences/2026" target="_blank">ICML 2026</a></strong>.</span>
+      <span class="news-tag paper">Paper</span>
+    </li>
+    <li class="news-item">
       <span class="news-date">Mar. 2026</span>
       <span class="news-content">I begin to work as an Applied AI Researcher at <a href="https://www.krafton.com/en/" target="_blank">Krafton</a> <a href="https://www.krafton.ai/en/" target="_blank">AI</a>.</span>
       <span class="news-tag career">Career</span>
@@ -208,7 +213,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
         <div class="exp-meta">Jun. 2025 – Sep. 2025 · Santa Monica, CA, USA</div>
         <ul class="exp-bullets">
           <li>Led cross-reference dataset preprocessing pipeline for personalized video generation</li>
-          <li>Developed cross-reference dataset pipeline and multi-subject adapter architecture for <a href="/projects#videoalchemist"><strong>VideoAlchemist 2.0</strong></a></li>
+          <li>Developed cross-reference dataset pipeline and multi-subject adapter architecture for <a href="/projects#videoalchemist">VideoAlchemist 2.0</a></li>
         </ul>
       </div>
     </div>

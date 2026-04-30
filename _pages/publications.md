@@ -12,6 +12,19 @@ featured_image: /images/archives/banner_image.jpg
 <div class="section-title">Conference Papers</div>
 <ul class="pub-list">
 
+  <li class="pub-entry" id="c7">
+    <span class="pub-index">C7</span>
+    <img class="pub-thumb" src="/images/about/publications/perceptual_judge.png" alt="Perceptual Judge">
+    <div class="pub-body">
+      <div class="pub-title">Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling</div>
+      <div class="pub-authors">Seojeong Park*, Jiho Choi*, Junyong Kang, <b>Seonho Lee</b>, Jaeyo Shin, Hyunjung Shim†</div>
+      <div class="pub-kw">MLLM-as-a-Judge · Reward Modeling</div>
+      <div class="pub-meta">
+        <a class="venue-badge conf" href="https://icml.cc/Conferences/2026" target="_blank">ICML 2026</a>
+      </div>
+    </div>
+  </li>
+
   <li class="pub-entry" id="c6">
     <span class="pub-index">C6</span>
     <img class="pub-thumb" src="/images/about/publications/negtome.png" alt="NegToMe">
@@ -150,26 +163,13 @@ featured_image: /images/archives/banner_image.jpg
 <div class="section-title">Preprints</div>
 <ul class="pub-list">
 
-  <li class="pub-entry" id="p3">
-    <span class="pub-index">P3</span>
+  <li class="pub-entry" id="p2">
+    <span class="pub-index">P2</span>
     <img class="pub-thumb" src="/images/about/publications/dr3d.png" alt="DR3D">
     <div class="pub-body">
       <div class="pub-title">Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views</div>
       <div class="pub-authors">Jiho Choi*, <b>Seonho Lee</b>*, Seojeong Park, Hyunjung Shim†</div>
       <div class="pub-kw">Multi-View 3D Reasoning · Reinforcement Learning</div>
-      <div class="pub-meta">
-        <span class="venue-badge preprint">Under Review</span>
-      </div>
-    </div>
-  </li>
-
-  <li class="pub-entry" id="p2">
-    <span class="pub-index">P2</span>
-    <img class="pub-thumb" src="/images/about/publications/perceptual_judge.png" alt="Perceptual Judge">
-    <div class="pub-body">
-      <div class="pub-title">Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling</div>
-      <div class="pub-authors">Seojeong Park*, Jiho Choi*, Junyong Kang, <b>Seonho Lee</b>, Jaeyo Shin, Hyunjung Shim†</div>
-      <div class="pub-kw">Multimodal LLM · Perceptual Judgment Bias</div>
       <div class="pub-meta">
         <span class="venue-badge preprint">Under Review</span>
       </div>
