@@ -20,7 +20,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
     </li>
     <li class="news-item">
       <span class="news-date">Jan. 2026</span>
-      <span class="news-content">Our <a href="/publications#c6"><strong>What "Not" to Detect</strong></a> paper got accepted to <strong><a href="https://iclr.cc/Conferences/2026" target="_blank">ICLR 2026</a></strong>!</span>
+      <span class="news-content">Our <a href="/publications#c6"><strong>What "Not" to Detect</strong></a> paper got accepted to <strong><a href="https://iclr.cc/Conferences/2026" target="_blank">ICLR 2026</a></strong>.</span>
       <span class="news-tag paper">Paper</span>
     </li>
     <li class="news-item">
