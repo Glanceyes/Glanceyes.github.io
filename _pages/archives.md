@@ -1,6 +1,6 @@
 ---
 title: Archives
-subtitle: A curated repository for my study notes, insights, and write-ups.
+subtitle: A curated repository for my study notes, insights, and write-ups
 layout: page
 permalink: /archives
 featured_image: /images/archives/banner_image_new.jpg
