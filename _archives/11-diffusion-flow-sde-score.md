@@ -147,7 +147,7 @@ $$
   - density evolution follows the continuity equation:
     - $\partial p_t(x) / \partial t = -\nabla \cdot (p_t(x)\, u_t(x))$
   - log-density change:
-    - $d \log p(x_t) / dt = -\nabla \cdot u_t(x_t) = -\operatorname{Tr}\!\left(\partial u_t / \partial x\right)$
+    - $\dfrac{d \log p(x_t)}{dt} = -\nabla \cdot u_t(x_t) = -\mathrm{tr}(\partial u_t / \partial x)$
 - advantages
   - more flexible transformations
   - avoids explicit Jacobian determinants
@@ -182,7 +182,7 @@ $$
   - $x_1 \sim$ data distribution
 - learns how to transport $x_0$ to $x_1$ over time
 - objective
-  - $\mathcal{L} = \mathbb{E}\!\left[\|v_\theta(x_t, t) - u_t(x_t \mid x_0, x_1)\|^2\right]$
+  - $\mathcal{L} = \mathbb{E}[\|v_\theta(x_t, t) - u_t(x_t \mid x_0, x_1)\|^2]$
   - theoretically grounded by the continuity equation
 - benefits
   - simpler target vector field
