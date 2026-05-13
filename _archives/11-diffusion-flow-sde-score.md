@@ -390,8 +390,8 @@ $$
 
   - $m_{:i}$ and $\ell_{:i}$ — running max and normalizer over rows $0..i$ (state before this block)
   - $m_{i:j}$ and $\ell_{i:j}$ — max and normalizer over the current block (rows $i..j$)
-  - $m^{\text{new}}_{:j}$ and $\ell^{\text{new}}_{:j}$ — merged running state covering rows $0..j$
-  - new normalizer rescales each contributor by $\exp(\text{old max} - \text{new max})$ so the two normalizers share the same reference max and can be summed safely
+  - the left-hand side of the update (with the "new" superscript) is the merged running state that now covers rows $0..j$
+  - each contributor is rescaled by $\exp(\text{old max} - \text{new max})$ so both normalizers share the same reference max and can be summed safely
 
 **KV Cache**
 
