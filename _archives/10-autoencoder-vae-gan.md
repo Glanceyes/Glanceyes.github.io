@@ -256,6 +256,8 @@ $$
 
 ### Wasserstein GAN (WGAN)
 
+<img class="note-img" src="/images/archives/notes/10-autoencoder-vae-gan-p49-wgan-p49.png" alt="WGAN — section header, critic replacement, support-mismatch motivation (page 49 bottom)">
+
 <img class="note-img" src="/images/archives/notes/10-autoencoder-vae-gan-p50-wgan-continued.png" alt="WGAN — Wasserstein distance proxy, Lipschitz constraint, WGAN-GP (page 50 top)">
 
 - replace discriminator with a critic $D$ (no sigmoid)
