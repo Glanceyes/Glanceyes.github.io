@@ -21,7 +21,7 @@ These notes cover the convolutional building blocks that power modern computer-v
 
 ## Convolutional Neural Networks (CNN)
 
-<img class="note-img" src="/images/archives/notes/08-cnn-and-resnet-p35-cnn-intro.png" alt="CNN — basics">
+<img class="note-img" src="/images/archives/notes/08-cnn-and-resnet-p35-cnn-intro.png" alt="CNN: basics">
 
 - convolution kernels with weight sharing
 - local receptive field → local information
@@ -33,7 +33,7 @@ These notes cover the convolutional building blocks that power modern computer-v
 
 <img class="note-img" src="/images/archives/notes/08-cnn-and-resnet-p35-downsampling-p35.png" alt="Downsampling (page 35 portion)">
 
-<img class="note-img" src="/images/archives/notes/08-cnn-and-resnet-p36-downsampling-p36.png" alt="Downsampling (page 36 top — stride formula + batch normalization)">
+<img class="note-img" src="/images/archives/notes/08-cnn-and-resnet-p36-downsampling-p36.png" alt="Downsampling (page 36 top: stride formula + batch normalization)">
 
 - reducing spatial resolution
 - pooling

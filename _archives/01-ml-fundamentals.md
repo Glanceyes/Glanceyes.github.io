@@ -114,7 +114,7 @@ $$
 
 - convergence ↑ and sensitivity ↓ to the learning rate
 
-**Common template** — most normalization variants follow this with different statistics:
+**Common template**: most normalization variants follow this with different statistics:
 
 $$
 \hat{x} = \frac{x - \mu}{\sqrt{\sigma^2 + \epsilon}}, \qquad y = \gamma \hat{x} + \beta
@@ -191,9 +191,9 @@ $$
 
 ### Adaptive Instance Normalization (AdaIN)
 
-<img class="note-img" src="/images/archives/notes/01-ml-fundamentals-p05-adain.png" alt="Adaptive Instance Normalization (AdaIN) — page 5">
+<img class="note-img" src="/images/archives/notes/01-ml-fundamentals-p05-adain.png" alt="Adaptive Instance Normalization (AdaIN): page 5">
 
-<img class="note-img" src="/images/archives/notes/01-ml-fundamentals-p06-adain-continued.png" alt="AdaIN — γ/β formula, properties, effective usage (page 6 top)">
+<img class="note-img" src="/images/archives/notes/01-ml-fundamentals-p06-adain-continued.png" alt="AdaIN: γ/β formula, properties, effective usage (page 6 top)">
 
 - an extension of Instance Normalization
   - used for conditional normalization

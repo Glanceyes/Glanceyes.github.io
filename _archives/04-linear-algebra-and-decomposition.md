@@ -17,7 +17,7 @@ excerpt_short: Vector-space basics, norms, eigen/SVD decompositions, LoRA, and P
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
-These notes cover the linear-algebra machinery behind ML — vector-space structure, curvature, similarity, and the matrix decompositions used in optimization, compression, and dimensionality reduction.
+These notes cover the linear-algebra machinery behind ML: vector-space structure, curvature, similarity, and the matrix decompositions used in optimization, compression, and dimensionality reduction.
 
 ## Basics
 

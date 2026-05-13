@@ -17,13 +17,13 @@ excerpt_short: NeRF, neural tangent kernels, InstantNGP, and 3D Gaussian Splatti
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
-These notes cover the family of neural 3D scene representations — from MLP-based radiance fields to hash-grid accelerations and the explicit Gaussian-based formulation that enables real-time rendering.
+These notes cover the family of neural 3D scene representations: from MLP-based radiance fields to hash-grid accelerations and the explicit Gaussian-based formulation that enables real-time rendering.
 
 ## Neural Radiance Field (NeRF)
 
 <img class="note-img" src="/images/archives/notes/13-3d-neural-rendering-p57-nerf-intro.png" alt="NeRF intro">
 
-<img class="note-img" src="/images/archives/notes/13-3d-neural-rendering-p58-nerf-detail.png" alt="NeRF — Volumetric rendering & Positional encoding">
+<img class="note-img" src="/images/archives/notes/13-3d-neural-rendering-p58-nerf-detail.png" alt="NeRF: Volumetric rendering & Positional encoding">
 
 - continuous neural representation of a 3D scene
   - represents a scene as a function parameterized by a neural network

@@ -17,7 +17,7 @@ excerpt_short: Knowledge distillation and conditioning adapters for pretrained d
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
-These notes cover two complementary directions for steering pretrained models — distilling knowledge from larger or self-supervised teachers, and bolting on adapter networks that inject external control signals into a frozen diffusion backbone.
+These notes cover two complementary directions for steering pretrained models: distilling knowledge from larger or self-supervised teachers, and bolting on adapter networks that inject external control signals into a frozen diffusion backbone.
 
 ## Knowledge Distillation
 
@@ -78,7 +78,7 @@ These notes cover two complementary directions for steering pretrained models �
 
 ## ControlNet
 
-<img class="note-img" src="/images/archives/notes/12-conditioning-and-distillation-p56-controlnet.png" alt="ControlNet (page 56 — core idea, how it works, benefits)">
+<img class="note-img" src="/images/archives/notes/12-conditioning-and-distillation-p56-controlnet.png" alt="ControlNet (page 56: core idea, how it works, benefits)">
 
 <img class="note-img" src="/images/archives/notes/12-conditioning-and-distillation-p57-controlnet-limitations.png" alt="ControlNet limitations (page 57 top)">
 
