@@ -253,6 +253,8 @@ $$
 
 ### Wasserstein GAN (WGAN)
 
+<img class="note-img" src="/images/archives/notes/10-autoencoder-vae-gan-p50-wgan-continued.png" alt="WGAN — Wasserstein distance proxy, Lipschitz constraint, WGAN-GP (page 50 top)">
+
 - replace discriminator with a critic $D$ (no sigmoid)
 - optimize Wasserstein-1 distance proxy
 - enforce Lipschitz constraint (weight clipping or gradient penalty)
