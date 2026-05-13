@@ -107,8 +107,6 @@ $$
 
 <img class="note-img" src="/images/archives/notes/03-classification-and-information-theory-p14-softmax.png" alt="Softmax (page 14)">
 
-<img class="note-img" src="/images/archives/notes/03-classification-and-information-theory-p15-softmax-cont.png" alt="Softmax overflow note (page 15 top)">
-
 $$
 p_i = \frac{e^{z_i}}{\sum_j e^{z_j}}
 $$
@@ -123,6 +121,8 @@ $$
 
 ### Log-Sum-Exp Trick
 
+<img class="note-img" src="/images/archives/notes/03-classification-and-information-theory-p15-log-sum-exp.png" alt="Log-Sum-Exp Trick (page 15)">
+
 $$
 \log \sum_j e^{z_j} = c + \log \sum_j e^{z_j - c}, \quad c = \max_j z_j
 $$
@@ -131,6 +131,8 @@ $$
   - keeps exponentials in a safe range
 
 ### Gumbel Softmax
+
+<img class="note-img" src="/images/archives/notes/03-classification-and-information-theory-p15-gumbel-softmax.png" alt="Gumbel Softmax (page 15)">
 
 $$
 y_i = \frac{\exp\!\left((\log p_i + g_i) / \tau\right)}{\sum_j \exp\!\left((\log p_j + g_j) / \tau\right)}

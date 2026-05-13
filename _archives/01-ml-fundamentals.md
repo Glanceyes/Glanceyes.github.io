@@ -191,7 +191,9 @@ $$
 
 ### Adaptive Instance Normalization (AdaIN)
 
-<img class="note-img" src="/images/archives/notes/01-ml-fundamentals-p05-adain.png" alt="Adaptive Instance Normalization (AdaIN)">
+<img class="note-img" src="/images/archives/notes/01-ml-fundamentals-p05-adain.png" alt="Adaptive Instance Normalization (AdaIN) — page 5">
+
+<img class="note-img" src="/images/archives/notes/01-ml-fundamentals-p06-adain-continued.png" alt="AdaIN — γ/β formula, properties, effective usage (page 6 top)">
 
 - an extension of Instance Normalization
   - used for conditional normalization
@@ -211,6 +213,15 @@ $$
     - $\gamma, \beta$ are learnable parameters
   - AdaIN
     - $\gamma = \sigma(y), \beta = \mu(y)$ come from the style feature at runtime
+    - parameters are dynamically computed from style input
+- properties
+  - removes instance-specific appearance from content
+  - reintroduces desired style characteristics
+    - color, contrast, texture statistics
+- effective usage
+  - style transfer
+  - image generation with controllable appearance
+  - conditional generative models
 
 ## Dropout
 
