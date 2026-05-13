@@ -307,12 +307,12 @@ $$
 
 - **DDPM**: stochastic, many-step ancestral sampling
   - forward process: Markovian chain + linear Gaussian transitions + $q(x_t \mid x_0)$ closed-form
-  - reverse process: stochastic: at each step, noise is sampled directly from the posterior distribution
+  - reverse process: stochastic; each step samples noise directly from the posterior distribution
   - $p_\theta(x_{t-1} \mid x_t) = \mathcal{N}(\mu_\theta(x_t, t), \sigma_\theta^2 I)$
   - core idea: discrete-time sampling
 - **DDIM**: deterministic, fast
   - forward process: same marginals as DDPM, but the transition itself is not Markovian
-  - reverse process: implicit (not a Markov chain): considered as a joint distribution over $x_0$
+  - reverse process: implicit (not a Markov chain), considered as a joint distribution over $x_0$
   - reverse step: predict $\hat{x}_0$ + predict the direction toward $x_t$ (with scaling) + optional stochastic term
   - implicit trajectory: controllable stochasticity (η in the reverse step)
     - $\eta = 0$ → deterministic; can be mapped to a probability-flow ODE
