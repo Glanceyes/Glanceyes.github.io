@@ -320,11 +320,30 @@ $$
 
 ### Solver
 
-<img class="note-img" src="/images/archives/notes/11-diffusion-flow-sde-score-p65-solver.png" alt="Solver (handwritten)">
+<img class="note-img" src="/images/archives/notes/11-diffusion-flow-sde-score-p65-solver.png" alt="Solver (handwritten — Euler, Euler-Maruyama, higher-order, PLMS, DPM-Solver)">
 
-- diffusion sampling is solving an ODE / SDE
-- common ODE solvers: Euler, Heun, DPM-Solver
-- choice of solver determines sample quality vs speed tradeoff
+- diffusion sampling is solving an ODE / SDE step by step (numerical approximation)
+- the **sampler** decides *how much* to integrate based on the model's drift / score; the **solver** decides *how* each step is numerically computed
+
+**1st-order solvers (Euler family)**
+
+- one derivative per step, move along a straight line for one step
+- for ODE $dx/dt = F(x, t)$: $x_{k+1} = x_k + h\, F(x_k, t_k)$
+- DDIM is a PF-ODE-form Euler step: predict $\varepsilon_\theta(x_t, t)$ → score $s_\theta(x_t, t)$ → drift $F(x_t, t)$ → update $x_{t-1}$
+- **SDE Euler–Maruyama**: $x_{k+1} = x_k + h\, f(x_k, t_k) + g(t_k)\sqrt{h}\, z, \; z \sim \mathcal{N}(0, \Sigma)$
+
+**Higher-order solvers**
+
+- evaluate the derivative at intermediate / next time points and average
+  - e.g. Heun: $x_{k+1} = x_k + \tfrac{h}{2}\big(F(x_k, t_k) + F(x_{k+1}, t_{k+1})\big)$
+- more accurate per step but increases the number of function evaluations (NFE)
+- **PLMS** (Pseudo Linear Multistep): multi-step solver that reuses cached $\varepsilon$-predictions from previous steps → higher accuracy without extra NFE
+- **DPM-Solver**: solver tailored to the diffusion ODE structure rather than treating it as a generic ODE → ~10–20 steps with good quality
+
+**Practical notes**
+
+- choice of solver determines the sample quality vs speed tradeoff
+- with strong CFG / large drift, denser step placement near the high-drift region gives a more stable solver
 
 ## ADM, Diffusion Likelihood & Efficient DiT
 
