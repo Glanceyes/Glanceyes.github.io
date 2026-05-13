@@ -114,7 +114,7 @@ $$
 
 - the gradient does not change too fast
 - the curvature of the function is bounded
-- equivalently, the Hessian eigenvalues are bounded: $\lvert \lambda_i(H) \rvert \leq L$
+- equivalently, the Hessian is bounded above in Loewner order: $\nabla^2 f(x) \preceq L I$
 
 **Why Lipschitz continuity matters in optimization**
 
