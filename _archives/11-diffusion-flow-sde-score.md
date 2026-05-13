@@ -379,8 +379,8 @@ $$
   - GPU HBM ↔ SRAM data movement is the bottleneck → reduce round trips
   - compute similarity, softmax, and weighted sum on-chip in one pass
 - online running max + log-sum-exp update
-  - $m_i = \max(m_{i-1}, m_{:j})$
-  - $\ell_i = e^{m_{i-1} - m_i}\, \ell_{i-1} + e^{m_{:j} - m_i}\, \ell_{:j}$
+  - $m^{\text{new}}_{:j} = \max(m_{:i},\, m_{i:j})$
+  - $\ell^{\text{new}}_{:j} = e^{m_{:i} - m^{\text{new}}_{:j}}\, \ell_{:i} + e^{m_{i:j} - m^{\text{new}}_{:j}}\, \ell_{i:j}$
   - update normalization stably as new blocks arrive
 
 **KV Cache**
