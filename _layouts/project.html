@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="proj-hero">
+<div class="proj-hero"{% if page.featured_image %} style="--hero-bg-image: url('{{ page.featured_image | relative_url }}');"{% endif %}>
   <div class="proj-hero-inner">
     <span class="proj-tag">{{ page.tag | default: "Engineering Project" }}</span>
     <div class="proj-title">{{ page.title }}</div>

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="proj-hero archive-hero">
+<div class="proj-hero archive-hero"{% if page.thumb %} style="--hero-bg-image: url('{{ page.thumb | relative_url }}');"{% endif %}>
   <div class="proj-hero-inner">
     <span class="proj-tag">{{ page.category | default: "Notes" }}</span>
     <div class="proj-title">{{ page.title }}</div>

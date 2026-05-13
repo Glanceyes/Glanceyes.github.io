@@ -146,8 +146,20 @@ body {
 .page-hero-subtitle { font-size: 15px; color: rgba(255,255,255,0.65); font-weight: 400; }
 
 /* Project Detail Hero */
-.proj-hero { background: var(--hero-bg); padding: 44px 28px 40px; }
-.proj-hero-inner { max-width: 760px; margin: 0 auto; }
+.proj-hero { position: relative; background: var(--hero-bg); padding: 44px 28px 40px; overflow: hidden; isolation: isolate; }
+.proj-hero[style*="--hero-bg-image"]::before {
+  content: ""; position: absolute; inset: -40px;
+  background-image: var(--hero-bg-image);
+  background-size: cover; background-position: center;
+  filter: blur(32px) saturate(1.1);
+  opacity: 0.95; z-index: -2;
+}
+.proj-hero[style*="--hero-bg-image"]::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(15,18,26,0.35) 0%, rgba(15,18,26,0.62) 100%);
+  z-index: -1;
+}
+.proj-hero-inner { max-width: 760px; margin: 0 auto; position: relative; z-index: 1; }
 .proj-tag { display: inline-block; padding: 3px 10px; border: 1px solid rgba(255,255,255,0.18); border-radius: 20px; font-size: 12px; color: rgba(255,255,255,0.6); margin-bottom: 14px; }
 .proj-title { font-size: 26px; font-weight: 700; color: #fff; letter-spacing: -0.02em; line-height: 1.25; margin-bottom: 10px; }
 .proj-subtitle { font-size: 14px; color: rgba(255,255,255,0.55); margin-bottom: 20px; }
