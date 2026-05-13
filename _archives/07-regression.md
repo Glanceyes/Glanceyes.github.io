@@ -9,7 +9,7 @@ topic_chips:
   - Logistic Regression
   - MLE / NLL / BCE
 pdf: /pdf/archives/07-regression.pdf
-thumb: /images/archives/notes/07-regression-p29-linear-regression.png
+thumb: /images/archives/thumbs/07-regression.png
 excerpt_short: Linear and logistic regression with a probabilistic interpretation
 ---
 

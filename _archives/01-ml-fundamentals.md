@@ -10,7 +10,7 @@ topic_chips:
   - Normalization
   - Dropout
 pdf: /pdf/archives/01-ml-fundamentals.pdf
-thumb: /images/archives/notes/01-ml-fundamentals-p01-bias-variance.png
+thumb: /images/archives/thumbs/01-ml-fundamentals.png
 excerpt_short: Core concepts behind generalization, regularization, normalization, and dropout
 ---
 

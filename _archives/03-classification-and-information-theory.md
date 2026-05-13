@@ -10,7 +10,7 @@ topic_chips:
   - Entropy
   - Cross-Entropy / KL
 pdf: /pdf/archives/03-classification-and-information-theory.pdf
-thumb: /images/archives/notes/03-classification-and-information-theory-p11-svm-intro.png
+thumb: /images/archives/thumbs/03-classification-and-information-theory.png
 excerpt_short: SVM, logits and softmax, entropy, cross-entropy, and KL divergence
 ---
 

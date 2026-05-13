@@ -10,7 +10,7 @@ topic_chips:
   - Initialization
   - Activations
 pdf: /pdf/archives/02-optimization-and-training.pdf
-thumb: /images/archives/notes/02-optimization-and-training-p06-backpropagation.png
+thumb: /images/archives/thumbs/02-optimization-and-training.png
 excerpt_short: Backpropagation, optimizers, activations, and initialization
 ---
 

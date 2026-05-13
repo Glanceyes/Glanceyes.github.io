@@ -10,7 +10,7 @@ topic_chips:
   - GAN / WGAN
   - Generative Metrics
 pdf: /pdf/archives/10-autoencoder-vae-gan.pdf
-thumb: /images/archives/notes/10-autoencoder-vae-gan-p44-autoencoder.png
+thumb: /images/archives/thumbs/10-autoencoder-vae-gan.png
 excerpt_short: AutoEncoders, VAEs, GANs, and generative model evaluation metrics
 ---
 

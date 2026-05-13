@@ -10,7 +10,7 @@ topic_chips:
   - Matrix Decomposition
   - PCA
 pdf: /pdf/archives/04-linear-algebra-and-decomposition.pdf
-thumb: /images/archives/notes/04-linear-algebra-and-decomposition-p17-basics-linearity.png
+thumb: /images/archives/thumbs/04-linear-algebra-and-decomposition.png
 excerpt_short: Vector-space basics, norms, eigen/SVD decompositions, LoRA, and PCA
 ---
 

@@ -10,7 +10,7 @@ topic_chips:
   - Common Distributions
   - CLT
 pdf: /pdf/archives/05-probability-and-bayesian-inference.pdf
-thumb: /images/archives/notes/05-probability-and-bayesian-inference-p21-bayes-theorem.png
+thumb: /images/archives/thumbs/05-probability-and-bayesian-inference.png
 excerpt_short: Bayes' theorem, MLE/MAP, and the canonical distributions used in ML
 ---
 

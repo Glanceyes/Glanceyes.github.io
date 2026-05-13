@@ -11,7 +11,7 @@ topic_chips:
   - SDE Score Models
   - Diffusion Transformer
 pdf: /pdf/archives/11-diffusion-flow-sde-score.pdf
-thumb: /images/archives/notes/11-diffusion-flow-sde-score-p50-diffusion-intro.png
+thumb: /images/archives/thumbs/11-diffusion-flow-sde-score.png
 excerpt_short: Denoising diffusion, classifier-free guidance, flow matching, SDE-based score models, and DiT
 ---
 

@@ -10,7 +10,7 @@ topic_chips:
   - ControlNet
   - T2I Adapter
 pdf: /pdf/archives/12-conditioning-and-distillation.pdf
-thumb: /images/archives/notes/12-conditioning-and-distillation-p55-kd-start.png
+thumb: /images/archives/thumbs/12-conditioning-and-distillation.png
 excerpt_short: Knowledge distillation and conditioning adapters for pretrained diffusion models
 ---
 

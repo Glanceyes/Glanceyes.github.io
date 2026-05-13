@@ -9,7 +9,7 @@ topic_chips:
   - Lipschitz Smoothness
   - Lagrangian Duality
 pdf: /pdf/archives/06-optimization-theory.pdf
-thumb: /images/archives/notes/06-optimization-theory-p31-convexity-intro.png
+thumb: /images/archives/thumbs/06-optimization-theory.png
 excerpt_short: Convexity, Lipschitz smoothness, and constrained optimization via Lagrangian duality
 ---
 
