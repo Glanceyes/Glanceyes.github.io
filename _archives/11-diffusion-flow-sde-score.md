@@ -381,17 +381,17 @@ $$
 - online running max + log-sum-exp update
 
     $$
-    m'_{:j} = \max\!\left(m_{:i},\; m_{i:j}\right)
+    m_{:j} \;=\; \max\!\left(m_{:i},\; m_{i:j}\right)
     $$
 
     $$
-    \ell'_{:j} = e^{\,m_{:i} - m'_{:j}}\, \ell_{:i} \;+\; e^{\,m_{i:j} - m'_{:j}}\, \ell_{i:j}
+    \ell_{:j} \;=\; e^{\,m_{:i} - m_{:j}}\, \ell_{:i} \;+\; e^{\,m_{i:j} - m_{:j}}\, \ell_{i:j}
     $$
 
   - $m_{:i}$ and $\ell_{:i}$, running max and normalizer over rows $0..i$ (state before this block)
   - $m_{i:j}$ and $\ell_{i:j}$, max and normalizer over the current block (rows $i..j$)
-  - $m'_{:j}$ and $\ell'_{:j}$, the merged running state covering rows $0..j$ (prime denotes the updated value)
-  - each contributor is rescaled by $e^{(\text{old max}) - (\text{new max})}$ so both normalizers share the same reference max and can be summed safely
+  - $m_{:j}$ and $\ell_{:j}$ on the left-hand sides, the merged running state covering rows $0..j$ after this block
+  - each contributor is rescaled by $e^{m_{:i} - m_{:j}}$ (or $e^{m_{i:j} - m_{:j}}$) so both normalizers share the same reference max and can be summed safely
 
 **KV Cache**
 
