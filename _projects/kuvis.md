@@ -2,7 +2,7 @@
 title: "KUVIS: A Web Application Enabling AI Modeling through Visual Programming in Medical Science"
 tag: Personal Project
 subtitle: Visual programming interface for deep learning in medical imaging
-featured_image: https://vip2.loli.io/2023/09/01/4mpxRGOMdWaHASr.png
+featured_image: /images/projects/kuvis/featured.png
 start_date: '2022-07-01'
 end_date: '2022-08-31'
 keywords: Visual Programming, Parallel Computing, Deep Learning
@@ -12,13 +12,13 @@ keywords: Visual Programming, Parallel Computing, Deep Learning
 
 
 
-![Kuvis1](https://vip2.loli.io/2023/09/01/QGOXRI3Ha2bxjUP.png)
+![Kuvis1](/images/projects/kuvis/kuvis1.png)
 
 
 
 ## Abstract
 
-![kuvis](https://vip2.loli.io/2023/09/01/4mpxRGOMdWaHASr.png)
+![kuvis](/images/projects/kuvis/featured.png)
 
 In the evolving trend of artificial intelligence and deep learning, tools that simplify the modeling process are in high demand. This project delves into the creation of a pioneering web application designed to enable AI modeling through visual programming. By harnessing the power of cloud technology, this application provides users with universal access and adaptability, establishing a new paradigm in AI model design.
 
@@ -36,7 +36,7 @@ At the heart of the project was the ambition to redefine AI modeling. Fundamenta
 
 <br/>
 
-![Kuvis2](https://vip2.loli.io/2023/09/01/IkZgtNoR6qds8BY.png)
+![Kuvis2](/images/projects/kuvis/kuvis2.png)
 
 One of the distinctive features of the project was allowing users to design DAG (Directed Acyclic Graph) workflows visually, presenting them as diagrams. This approach not only makes AI modeling accessible to non-experts but also offers professionals a more intuitive and efficient way to visualize and manage their workflows. Instead of delving into lines of code, users can easily comprehend and manipulate workflows through visual diagrams, reinforcing the project's commitment to user-centric design.
 
@@ -44,9 +44,9 @@ One of the distinctive features of the project was allowing users to design DAG 
 
 ### Hierarchical Data Structure
 
-![kuvis7](https://vip2.loli.io/2023/09/01/IuntFkSsaoNMXPE.png)
+![kuvis7](/images/projects/kuvis/hierarchy1.png)
 
-![kuvis10](https://vip2.loli.io/2023/09/01/iGdAZX5M1yj4Wu7.png)
+![kuvis10](/images/projects/kuvis/hierarchy2.png)
 
 To achieve a seamless representation, a unique approach was adopted where the hierarchy was divided based on powers of two. Each level in the hierarchy represented a specific depth, with each subsequent level being a multiple of two from the previous one. This method allowed for a consistent and logical division of the AI components and workflows, providing users with a clear and intuitive structure for modeling.
 
@@ -58,7 +58,7 @@ This architecture played a pivotal role in ensuring that the application could h
 
 ### Features & Implementation
 
-![kuvis2](https://vip2.loli.io/2023/09/01/YjO2wnfRZFqvJ6b.png)
+![kuvis2](/images/projects/kuvis/features.png)
 
 The application stands out with its three core features:
 
@@ -76,7 +76,7 @@ The integration of these features was underpinned by a robust backend infrastruc
 
 ## Results
 
-![Blend_Beers1](https://vip2.loli.io/2023/09/01/7taHJBAVrESnGbj.png)
+![Blend_Beers1](/images/projects/kuvis/results.png)
 
 Though still in its prototype phase, the application's outcomes are promising. The holistic design encapsulates the envisioned functionalities effectively. The introduction of such an application not only streamlines the AI modeling process but also has the potential to redefine how individuals, especially those without coding expertise, interact with AI modeling tools.
 

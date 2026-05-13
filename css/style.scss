@@ -138,7 +138,7 @@ body {
   position: absolute;
   inset: 0;
   background-size: cover;
-  background-position: center 40%;
+  background-position: center center;
   filter: brightness(0.42) saturate(0.8);
 }
 .page-hero-inner { position: relative; z-index: 1; max-width: 900px; margin: 0 auto; }
@@ -352,6 +352,35 @@ section { margin-bottom: 56px; }
 
 /* Honors sub structure */
 .honor-body { flex: 1; }
+
+/* Archives listing */
+.archive-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.archive-card { display: flex; flex-direction: column; background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; text-decoration: none; color: inherit; transition: transform 0.15s, box-shadow 0.15s; }
+.archive-card:hover { transform: translateY(-2px); box-shadow: 0 4px 14px rgba(0,0,0,0.08); }
+.archive-card-thumb { width: 100%; height: 160px; object-fit: cover; object-position: top center; background: #fff; border-bottom: 1px solid var(--border); }
+.archive-card-body { padding: 14px 16px; }
+.archive-card-title { font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 6px; line-height: 1.35; }
+.archive-card-topics { font-size: 12px; color: var(--text-light); margin-bottom: 8px; }
+.archive-card-excerpt { font-size: 13px; color: var(--text-mid); line-height: 1.5; }
+
+/* Archive hero chips */
+.archive-hero-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 16px; }
+.archive-chip { font-size: 12px; color: rgba(255,255,255,0.78); background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.16); border-radius: 20px; padding: 3px 11px; font-weight: 500; }
+
+/* Archive article body */
+.archive-body h2 { font-size: 22px; font-weight: 700; color: var(--text); margin-top: 32px; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+.archive-body h3 { font-size: 17px; font-weight: 600; color: var(--text); margin-top: 22px; margin-bottom: 8px; }
+.archive-body p { font-size: 14.5px; line-height: 1.7; color: var(--text-mid); margin-bottom: 14px; }
+.archive-body ul, .archive-body ol { font-size: 14.5px; line-height: 1.7; color: var(--text-mid); padding-left: 22px; margin-bottom: 14px; }
+.archive-body li { margin-bottom: 4px; }
+.archive-body img.note-img { display: block; max-width: 100%; margin: 18px auto; border: 1px solid var(--border); border-radius: 6px; }
+.archive-body figure { margin: 18px 0; }
+.archive-body figcaption { font-size: 12px; color: var(--text-light); text-align: center; margin-top: 6px; }
+.archive-body code { background: var(--bg-alt); padding: 1px 5px; border-radius: 3px; font-size: 0.92em; }
+.archive-body blockquote { border-left: 3px solid var(--accent, #2563eb); background: var(--bg-alt); padding: 12px 16px; margin: 18px 0; border-radius: 0 6px 6px 0; }
+.archive-body blockquote ul { margin: 0; padding-left: 18px; }
+.archive-body blockquote li { font-size: 13.5px; color: var(--text-mid); line-height: 1.55; margin-bottom: 4px; }
+.archive-body blockquote p { margin: 0; font-size: 13.5px; color: var(--text-mid); }
 
 /* Footer */
 footer { background: var(--hero-bg); color: rgba(255,255,255,0.5); text-align: center; font-size: 12.5px; padding: 24px; border-top: 1px solid rgba(255,255,255,0.06); }

@@ -2,7 +2,7 @@
 title: "RECJOON: A Personalized Algorithm Problem and Rival Recommendation System for Baekjoon Online Judge Users"
 tag: Personal Project
 subtitle: AI-driven personalized problem recommendation for competitive programmers
-featured_image: https://vip2.loli.io/2023/09/01/PpXAGQ8Y7nyuOtW.png
+featured_image: /images/projects/recjoon/logo.png
 start_date: '2022-04-21'
 end_date: '2022-06-18'
 keywords: Recommendation System, Content-Based Filtering, Deep Learning
@@ -16,7 +16,7 @@ links:
 
 
 
-![RECJOON Logo](https://vip2.loli.io/2023/09/01/PpXAGQ8Y7nyuOtW.png)
+![RECJOON Logo](/images/projects/recjoon/logo.png)
 
 <br/>
 
@@ -28,7 +28,7 @@ RECJOON is an AI-driven service designed to recommend algorithm problems and riv
 
 ## Background
 
-![RECJOON Computers](https://cdn.jsdelivr.net/gh/Glanceyes/Image-Repository/2022/06/13/20220613_1655087579.png)
+![RECJOON Computers](/images/projects/recjoon/background.png)
 
 As the demand for algorithmic problem solving and competitive programming grows, there is a rising need for platforms that not only offer challenges but also provide guidance tailored to individual users. RECJOON addresses this need by analyzing the problem-solving records of BOJ and solved.ac users and offering recommendations suited to their proficiency level.
 
@@ -46,7 +46,7 @@ The system harnesses the power of deep learning and machine learning to process 
 
 <br/>
 
-![model_pipeline](https://cdn.jsdelivr.net/gh/Glanceyes/Image-Repository/2022/06/14/20220614_1655175870.png)
+![model_pipeline](/images/projects/recjoon/batch-pipeline.png)
 
 
 
@@ -101,7 +101,7 @@ In Multi-VAE and Multi-DAE, embeddings related to the tags of the problems were 
 
 
 
-![Architecture_0626](https://cdn.jsdelivr.net/gh/Glanceyes/Image-Repository/2022/06/26/20220626_1656245363.png)
+![Architecture_0626](/images/projects/recjoon/architecture.png)
 
 
 
@@ -121,19 +121,19 @@ The deployment of RECJOON has led to a more personalized experience for BOJ and 
 
 
 
-![Algorithm Recommender](https://cdn.jsdelivr.net/gh/Glanceyes/Image-Repository/2022/06/13/20220613_1655105972.gif)
+![Algorithm Recommender](/images/projects/recjoon/algorithm-recommender.gif)
 
 <br/>
 
 ### Rivals Recommendation
 
-![Rival Recommender](https://cdn.jsdelivr.net/gh/Glanceyes/Image-Repository/2022/06/13/20220613_1655116552.gif)
+![Rival Recommender](/images/projects/recjoon/rival-recommender.gif)
 
 <br/>
 
 ### Algorithm Problems Recommendation based on Rivals
 
-![Rival's Problem Recommender](https://cdn.jsdelivr.net/gh/Glanceyes/Image-Repository/2022/06/13/20220613_1655106250.gif)
+![Rival's Problem Recommender](/images/projects/recjoon/rival-problem-recommender.gif)
 
 
 

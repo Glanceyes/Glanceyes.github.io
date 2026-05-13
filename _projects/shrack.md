@@ -2,7 +2,7 @@
 title: "SHrack: Mobile Web Service for Real-time Exercise Posture Detection and Count Tracking"
 tag: Personal Project
 subtitle: Real-time exercise count tracking using computer vision
-featured_image: https://vip2.loli.io/2023/09/02/yHXwQg1d5cDeNO9.png
+featured_image: /images/projects/shrack/featured.png
 start_date: '2023-03-19'
 end_date: '2023-06-09'
 keywords: MobileNet, Contextual Prediction Module, WebRTC
@@ -12,7 +12,7 @@ keywords: MobileNet, Contextual Prediction Module, WebRTC
 
 
 
-![SHrack.png](https://vip2.loli.io/2023/09/02/AZ4Wa3YGPjgmbR8.png)
+![SHrack.png](/images/projects/shrack/shrack.png)
 
 
 
@@ -26,7 +26,7 @@ The fitness landscape is rapidly evolving with the integration of technology. We
 
 ## Introduction
 
-![ShrackBackground.png](https://vip2.loli.io/2023/09/02/zqUysx7Ndep3T5i.png)
+![ShrackBackground.png](/images/projects/shrack/background.png)
 
 In the realm of fitness, especially during weight training, it's often challenging for individuals to keep an accurate count of their repetitions. While there are existing programs that measure exercise counts, finding a service that offers real-time video streaming for accurate exercise count detection and management is rare. SHrack addresses this gap, providing a platform that combines the power of computer vision with user-friendly web services.
 
@@ -36,7 +36,7 @@ In the realm of fitness, especially during weight training, it's often challengi
 
 ## Method
 
-![SHrackML이미지5.png](https://vip2.loli.io/2023/09/02/yHXwQg1d5cDeNO9.png)
+![SHrackML이미지5.png](/images/projects/shrack/featured.png)
 
 SHrack is developed to have an ability to harness computer vision techniques for real-time detection and tracking. The system employs the capabilities of Mobilenet and the Contextual Prediction Module (CPM) to extract heatmaps and PAF (Part Affinity Fields) based on 19 crucial points of the body.
 
@@ -46,7 +46,7 @@ Initially, the plan was to utilize pre-trained models. However, due to unsatisfa
 
 
 
-![SHrack 프로젝트 구조.png](https://vip2.loli.io/2023/09/02/viBYjWt6OxzAaZm.png)
+![SHrack 프로젝트 구조.png](/images/projects/shrack/structure.png)
 
 The visual data, which includes the user's exercise movements, is processed in real-time. The system analyzes the posture and movements, providing instant feedback regarding the accuracy of the exercise and the count.
 
@@ -56,7 +56,7 @@ The visual data, which includes the user's exercise movements, is processed in r
 
 ## Features & Implementation
 
-![shrack simulation](https://vip2.loli.io/2023/09/02/mIlvJtgei4jNwBy.png)
+![shrack simulation](/images/projects/shrack/simulation.png)
 
 SHrack stands out with its unique features:
 

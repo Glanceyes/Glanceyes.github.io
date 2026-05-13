@@ -5,6 +5,7 @@
       <li><a href="{{ '/' | relative_url }}"{% if page.url == "/" or page.url == "/index" %} class="active"{% endif %}>About</a></li>
       <li><a href="{{ '/publications' | relative_url }}"{% if page.url contains "publications" %} class="active"{% endif %}>Publications</a></li>
       <li><a href="{{ '/projects' | relative_url }}"{% if page.url contains "project" %} class="active"{% endif %}>Projects</a></li>
+      <li><a href="{{ '/archives' | relative_url }}"{% if page.url contains "archive" %} class="active"{% endif %}>Archives</a></li>
     </ul>
   </div>
 </nav>

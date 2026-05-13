@@ -10,12 +10,9 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
-  # posts:
-  #   output: true
-  #   permalink: /blog/:slug
-  # archives:
-  #   output: true
-  #   permalink: /archives/:slug
+  archives:
+    output: true
+    permalink: /archive/:slug
 
 defaults:
   -
@@ -35,18 +32,12 @@ defaults:
       type: "projects"
     values:
       layout: "project"
-  # -
-  #   scope:
-  #     path: ""
-  #     type: "posts"
-  #   values:
-  #     layout: "post"
-  # - 
-  #   scope:
-  #     path: ""
-  #     type: "archives"
-  #   values:
-  #     layout: "archive"
+  -
+    scope:
+      path: ""
+      type: "archives"
+    values:
+      layout: "archive"
 
 markdown: kramdown
 highlighter: rouge
@@ -59,11 +50,13 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 6
-paginate_path: "/blog/page:num/"
+exclude:
+  - _backup
+  - vendor
+  - Gemfile
+  - Gemfile.lock
 
 future: true
 
