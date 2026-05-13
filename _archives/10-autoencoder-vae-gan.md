@@ -17,7 +17,7 @@ excerpt_short: AutoEncoders, VAEs, GANs, and generative model evaluation metrics
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
-These notes cover the family of latent-variable and adversarial generative models — how to compress data into representations, how to make those representations probabilistic, and how to train generators by competing against a discriminator.
+These notes cover the family of latent-variable and adversarial generative models: how to compress data into representations, how to make those representations probabilistic, and how to train generators by competing against a discriminator.
 
 ## AutoEncoder
 
@@ -68,7 +68,7 @@ These notes cover the family of latent-variable and adversarial generative model
 <img class="note-img" src="/images/archives/notes/10-autoencoder-vae-gan-p45-vae-p45-cont.png" alt="VAE Objective (handwritten)">
 
 - maximize the marginal log-likelihood of the data: $\log p(x) = \log \int p_\theta(x, z) \, dz$
-- intractable in general — the posterior $p(z \mid x)$ is intractable
+- intractable in general: the posterior $p(z \mid x)$ is intractable
 - → motivates the **ELBO** (variational lower bound)
 
 ### ELBO (Evidence Lower BOund)
@@ -102,7 +102,11 @@ These notes cover the family of latent-variable and adversarial generative model
   - encoder → outputs a vector
   - vector → quantized to nearest codebook vector
 - objective
-  - $\mathcal{L} = \|x - \hat{x}\|^2 + \|\operatorname{sg}[z_e] - e\|^2 + \beta \|z_e - \operatorname{sg}[e]\|^2$
+
+  $$
+  \mathcal{L} = \|x - \hat{x}\|^2 + \|\operatorname{sg}[z_e] - e\|^2 + \beta \|z_e - \operatorname{sg}[e]\|^2
+  $$
+
   - reconstruction loss + codebook loss + commitment loss
 - captures discrete structure
 
@@ -222,7 +226,7 @@ $$
   - commonly used for image-to-image translation, restoration, diffusion reconstruction quality
 - limitation
   - depends on the backbone and training domain
-  - not a distribution metric (unlike FID) — it's a pairwise similarity metric
+  - not a distribution metric (unlike FID): it's a pairwise similarity metric
 
 ## Generative Adversarial Network (GAN)
 
@@ -242,7 +246,7 @@ $$
 
 - $$\min_G \max_D \; \mathbb{E}_{x \sim p_{\text{data}}}[\log D(x)] + \mathbb{E}_{z \sim p(z)}[\log(1 - D(G(z)))]$$
 - common generator variant (stronger gradients early in training)
-  - $\mathcal{L}_G = -\mathbb{E}_z[\log D(G(z))]$ — non-saturating loss
+  - $\mathcal{L}_G = -\mathbb{E}_z[\log D(G(z))]$: non-saturating loss
 
 **Strengths**
 
@@ -256,9 +260,9 @@ $$
 
 ### Wasserstein GAN (WGAN)
 
-<img class="note-img" src="/images/archives/notes/10-autoencoder-vae-gan-p49-wgan-p49.png" alt="WGAN — section header, critic replacement, support-mismatch motivation (page 49 bottom)">
+<img class="note-img" src="/images/archives/notes/10-autoencoder-vae-gan-p49-wgan-p49.png" alt="WGAN: section header, critic replacement, support-mismatch motivation (page 49 bottom)">
 
-<img class="note-img" src="/images/archives/notes/10-autoencoder-vae-gan-p50-wgan-continued.png" alt="WGAN — Wasserstein distance proxy, Lipschitz constraint, WGAN-GP (page 50 top)">
+<img class="note-img" src="/images/archives/notes/10-autoencoder-vae-gan-p50-wgan-continued.png" alt="WGAN: Wasserstein distance proxy, Lipschitz constraint, WGAN-GP (page 50 top)">
 
 - replace discriminator with a critic $D$ (no sigmoid)
   - optimize Wasserstein-1 distance proxy
