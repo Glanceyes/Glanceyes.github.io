@@ -213,7 +213,7 @@ $$
 <img class="note-img" src="/images/archives/notes/02-optimization-and-training-p13-xavier-init.png" alt="Xavier Initialization">
 
 $$
-\text{Var}(W) = \frac{2}{\text{fan\_in} + \text{fan\_out}}, \qquad W \sim \mathcal{U}\!\left(-\sqrt{\tfrac{6}{\text{fan\_in} + \text{fan\_out}}},\, \sqrt{\tfrac{6}{\text{fan\_in} + \text{fan\_out}}}\right)
+\text{Var}(W) = \frac{2}{n_{\text{in}} + n_{\text{out}}}, \qquad W \sim \mathcal{U}\!\left(-\sqrt{\tfrac{6}{n_{\text{in}} + n_{\text{out}}}},\, \sqrt{\tfrac{6}{n_{\text{in}} + n_{\text{out}}}}\right)
 $$
 
 - balance variance of activations across layers
@@ -229,7 +229,7 @@ $$
 <img class="note-img" src="/images/archives/notes/02-optimization-and-training-p14-he-init-p14.png" alt="He Initialization (page 14 portion)">
 
 $$
-\text{Var}(W) = \frac{2}{\text{fan\_in}}, \qquad W \sim \mathcal{N}\!\left(0, \frac{2}{\text{fan\_in}}\right)
+\text{Var}(W) = \frac{2}{n_{\text{in}}}, \qquad W \sim \mathcal{N}\!\left(0, \frac{2}{n_{\text{in}}}\right)
 $$
 
 - designed for ReLU-style activations (e.g., ReLU, Leaky ReLU, GELU)
