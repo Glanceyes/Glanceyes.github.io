@@ -388,10 +388,10 @@ $$
     \ell^{\text{new}}_{:j} = e^{\,m_{:i} - m^{\text{new}}_{:j}}\, \ell_{:i} \;+\; e^{\,m_{i:j} - m^{\text{new}}_{:j}}\, \ell_{i:j}
     $$
 
-  - $m_{:i}, \ell_{:i}$: running max / normalizer over rows $0..i$ (state before this block)
-  - $m_{i:j}, \ell_{i:j}$: max / normalizer over the current block (rows $i..j$)
-  - $m^{\text{new}}_{:j}, \ell^{\text{new}}_{:j}$: merged running state covering rows $0..j$
-  - update normalization stably as new blocks arrive
+  - $m_{:i}$ and $\ell_{:i}$ — running max and normalizer over rows $0..i$ (state before this block)
+  - $m_{i:j}$ and $\ell_{i:j}$ — max and normalizer over the current block (rows $i..j$)
+  - $m^{\text{new}}_{:j}$ and $\ell^{\text{new}}_{:j}$ — merged running state covering rows $0..j$
+  - new normalizer rescales each contributor by $\exp(\text{old max} - \text{new max})$ so the two normalizers share the same reference max and can be summed safely
 
 **KV Cache**
 
