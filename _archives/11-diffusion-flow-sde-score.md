@@ -95,6 +95,8 @@ $$
 
 ### Tweedie's Formula
 
+<img class="note-img" src="/images/archives/notes/11-diffusion-flow-sde-score-p52-tweedie.png" alt="Tweedie's Formula — posterior mean estimation (page 52 top)">
+
 - posterior mean estimation using variance-scaled score function:
 
     $$
