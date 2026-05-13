@@ -11,7 +11,7 @@ topic_chips:
   - Activations
 pdf: /pdf/archives/02-optimization-and-training.pdf
 thumb: /images/archives/notes/02-optimization-and-training-p06-backpropagation.png
-excerpt_short: Backpropagation, optimizers (SGD/Momentum/RMSProp/Adam), activations, and initialization
+excerpt_short: Backpropagation, optimizers, activations, and initialization
 ---
 
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
