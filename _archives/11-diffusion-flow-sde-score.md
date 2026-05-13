@@ -44,6 +44,11 @@ $$
 
 - learns to reverse the noising process step by step using a neural network
   - gradually denoising Gaussian noise estimated by the network (denoiser)
+  - true posterior is approximated by the learned reverse step
+
+$$
+q(x_{t-1} \mid x_t, x_0) \approx p_\theta(x_{t-1} \mid x_t)
+$$
 
 ### DDIM (Denoising Diffusion Implicit Models)
 
