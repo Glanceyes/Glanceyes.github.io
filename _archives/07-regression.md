@@ -84,7 +84,9 @@ $$
 
 ## Logistic Regression
 
-<img class="note-img" src="/images/archives/notes/07-regression-p31-logistic-continued.png" alt="Logistic Regression — BCE / gradient / training">
+<img class="note-img" src="/images/archives/notes/07-regression-p30-logistic-start.png" alt="Logistic Regression — model, classifier, decision boundary (page 30 portion)">
+
+<img class="note-img" src="/images/archives/notes/07-regression-p31-logistic-continued.png" alt="Logistic Regression — likelihood, MLE, BCE, gradient, training (page 31)">
 
 - linear classifier that models the probability of a binary label
 - uses a linear score $w^\top x$ and squashes it into $[0, 1]$ with a sigmoid
