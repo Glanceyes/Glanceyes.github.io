@@ -111,7 +111,7 @@ $$
 **NLL = Binary Cross-Entropy (BCE)**
 
 - $-\log p(y \mid x, w) = -y \log p - (1-y) \log (1 - p)$
-- equivalent to Binary Cross Entropy (BCE)
+- equivalent to Binary Cross-Entropy (BCE)
 - gradient: $\nabla_w \mathcal{L}(w) = X^\top (p - y)$
 
 **Training**
