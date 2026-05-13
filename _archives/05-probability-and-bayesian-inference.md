@@ -128,7 +128,7 @@ $$
 - mean $\mu$, variance $\sigma^2$
 
 $$
-\mathcal{N}(x; \mu, \sigma^2) = \frac{1}{\sqrt{2\pi}\sigma} \exp\!\left(-\frac{(x-\mu)^2}{2\sigma^2}\right)
+\mathcal{N}(x; \mu, \sigma^2) = \frac{1}{\sqrt{2\pi}\,\sigma}\, e^{-(x-\mu)^2 / (2\sigma^2)}
 $$
 
 - commonly used as a noise model in regression
@@ -139,11 +139,18 @@ $$
 
 <img class="note-img" src="/images/archives/notes/05-probability-and-bayesian-inference-p28-exponential-p28.png" alt="Exponential (page 28 portion)">
 
+$$
+p(x) = \lambda e^{-\lambda x}, \quad x \geq 0
+$$
+
 - models waiting time until the next event
-- time between events in a Poisson process
-- rate $\lambda$
-- mean: $1/\lambda$, variance: $1/\lambda^2$
-- **memoryless property**: future waiting time independent of the past
+  - time between events in a Poisson process
+  - rate $\lambda > 0$
+- mean: $1/\lambda$
+- variance: $1/\lambda^2$
+- **memoryless property**
+  - $P(X > s + t \mid X > s) = P(X > t)$
+  - future waiting time independent of the past
 
 ### Poisson
 
