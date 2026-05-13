@@ -21,7 +21,9 @@ These notes cover the mechanics that make deep networks trainable: how gradients
 
 ## Backpropagation
 
-<img class="note-img" src="/images/archives/notes/02-optimization-and-training-p06-backpropagation.png" alt="Backpropagation">
+<img class="note-img" src="/images/archives/notes/02-optimization-and-training-p06-backpropagation.png" alt="Backpropagation (page 6 portion)">
+
+<img class="note-img" src="/images/archives/notes/02-optimization-and-training-p07-backprop-continued.png" alt="Backpropagation continued — Chain rule, Computation flow, Dynamic programming (page 7 portion)">
 
 - efficiently compute gradients of a loss with respect to all parameters
   - based on the chain rule

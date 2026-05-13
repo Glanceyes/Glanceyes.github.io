@@ -105,19 +105,21 @@ $$
 
 ### Softmax
 
-<img class="note-img" src="/images/archives/notes/03-classification-and-information-theory-p15-softmax-p15.png" alt="Softmax / Log-Sum-Exp / Gumbel (page 15)">
+<img class="note-img" src="/images/archives/notes/03-classification-and-information-theory-p14-softmax.png" alt="Softmax (page 14)">
+
+<img class="note-img" src="/images/archives/notes/03-classification-and-information-theory-p15-softmax-cont.png" alt="Softmax overflow note (page 15 top)">
+
+$$
+p_i = \frac{e^{z_i}}{\sum_j e^{z_j}}
+$$
 
 - convert logits into a probability distribution
-- output is positive and sums to 1
-- preserves relative differences between logits
+  - output is positive and sums to 1
+  - preserve relative differences between logits
 - smooth and differentiable
-- compatible with likelihood-based objectives
-
-$$
-\text{softmax}(z)_i = \frac{e^{z_i}}{\sum_j e^{z_j}}
-$$
-
-- $e^{z_i}$ grows extremely fast; if some logit $z_i$ is large, $e^{z_i}$ can exceed floating-point range → overflow
+  - compatible with likelihood-based objectives
+- $e^{z}$ grows extremely fast
+  - if some logit $z$ is large, $e^{z}$ can exceed floating-point range → overflow (`inf`)
 
 ### Log-Sum-Exp Trick
 
@@ -157,26 +159,30 @@ $$
 
 ### Cross-Entropy
 
-- measures the expected surprisal when
-  - true distribution is $p$
-  - but outcomes are encoded using model distribution $q$
-- how "surprised" we are when using $q$ to explain data from $p$
-- equivalent to negative log-likelihood
-- used as the standard loss for classification
-- penalizes assigning low probability to true labels
+<img class="note-img" src="/images/archives/notes/03-classification-and-information-theory-p16-cross-entropy.png" alt="Cross-Entropy (page 16)">
 
 $$
 H(p, q) = -\sum_i p_i \log q_i
 $$
 
+- measures the expected surprisal when
+  - true distribution is $p$
+  - but outcomes are encoded using model distribution $q$
+  - how "surprised" we are when using $q$ to explain data from $p$
+- equivalent to negative log-likelihood
+  - used as the standard loss for classification
+  - penalizes assigning low probability to true labels
+
 ### KL Divergence
 
-- measures how much information is lost when $q$ is used to approximate $p$
-- extra surprise due to mismatch between $p$ and $q$
+<img class="note-img" src="/images/archives/notes/03-classification-and-information-theory-p16-kl-divergence.png" alt="KL Divergence (page 16)">
 
 $$
 \text{KL}(p \| q) = \sum_i p_i \log \frac{p_i}{q_i} = H(p, q) - H(p)
 $$
 
-- minimizing cross-entropy ⇔ minimizing KL divergence (since $H(p)$ is fixed)
-- entropy $H(p)$: intrinsic uncertainty of the data
+- measure how much information is lost when $q$ is used to approximate $p$
+  - extra surprise due to mismatch between $p$ and $q$
+- minimizing cross-entropy ⇔ minimizing KL divergence
+  - since $H(p)$ is fixed
+    - entropy $H(p)$: intrinsic uncertainty of the data

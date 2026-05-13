@@ -10,7 +10,7 @@ topic_chips:
   - ResNet
   - Residual Connection
 pdf: /pdf/archives/08-cnn-and-resnet.pdf
-thumb: /images/archives/notes/08-cnn-and-resnet-p35-cnn-start.png
+thumb: /images/archives/notes/08-cnn-and-resnet-p35-cnn-intro.png
 excerpt_short: Convolutional layers, parameter-efficient variants, and residual learning for deep networks.
 ---
 
@@ -21,7 +21,7 @@ These notes cover the convolutional building blocks that power modern computer-v
 
 ## Convolutional Neural Networks (CNN)
 
-<img class="note-img" src="/images/archives/notes/08-cnn-and-resnet-p35-cnn-start.png" alt="CNN — basics, downsampling">
+<img class="note-img" src="/images/archives/notes/08-cnn-and-resnet-p35-cnn-intro.png" alt="CNN — basics">
 
 - convolution kernels with weight sharing
 - local receptive field → local information
@@ -31,7 +31,9 @@ These notes cover the convolutional building blocks that power modern computer-v
 
 ### Downsampling
 
-<img class="note-img" src="/images/archives/notes/08-cnn-and-resnet-p36-cnn-continued-p36.png" alt="CNN / Downsampling continuation (page 36 top)">
+<img class="note-img" src="/images/archives/notes/08-cnn-and-resnet-p35-downsampling-p35.png" alt="Downsampling (page 35 portion)">
+
+<img class="note-img" src="/images/archives/notes/08-cnn-and-resnet-p36-downsampling-p36.png" alt="Downsampling (page 36 top — stride formula + batch normalization)">
 
 - reducing spatial resolution
 - pooling

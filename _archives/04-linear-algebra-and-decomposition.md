@@ -204,18 +204,23 @@ $$
 <img class="note-img" src="/images/archives/notes/04-linear-algebra-and-decomposition-p25-eigen-decomp-p25.png" alt="Eigen Decomposition (page 25)">
 
 $$
-A = Q \Lambda Q^{-1}, \qquad \det(A - \lambda I) = 0
+A = Q \Lambda Q^{-1}, \qquad \det(A - \lambda I) = 0, \qquad (A - \lambda I) v = 0
 $$
 
-- applicable only to square matrices
-- similar to a change of basis: transforms the problem into independent directions
+- $A = Q \Lambda Q^{-1}$
+  - applicable only to square matrices
+- similar to a change of basis
+  - transforms the problem into independent directions
 - **Eigenvectors**: principal directions of transformation
 - **Eigenvalues**: scaling along each direction
-- Hessian analysis: eigenvalues ≃ curvature (from second-order Taylor expansion)
-- large eigenvalue → steep direction
+  - Hessian analysis: eigenvalues ≃ curvature
+    - second-order curvature from Taylor expansion
+    - along principal directions of the loss surface
+    - large eigenvalue → steep direction
 - **Spectral Theorem**
   - any real symmetric matrix can be decomposed by eigen decomposition
     - leftmost and rightmost matrices have orthonormal eigenvectors
+  - Hessian eigen decomposition
 
 ### Singular Value Decomposition (SVD)
 
