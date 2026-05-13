@@ -126,7 +126,7 @@ $$
   - damps oscillations in steep directions → zig-zagging ↓
 
 $$
-v_{t+1} = \mu v_t + \nabla_\theta \mathcal{L}, \qquad \theta_{t+1} = \theta_t - \eta v_{t+1}
+v_t = \beta v_{t-1} + \nabla \mathcal{L}(\theta_t), \qquad \theta_{t+1} = \theta_t - \eta v_t
 $$
 
 ### RMSProp

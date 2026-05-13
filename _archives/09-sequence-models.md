@@ -64,7 +64,9 @@ $$
 
 ### RNN vs Transformer
 
-<img class="note-img" src="/images/archives/notes/09-sequence-models-p37-rnn-vs-transformer.png" alt="RNN vs Transformer">
+<img class="note-img" src="/images/archives/notes/09-sequence-models-p37-rnn-vs-transformer.png" alt="RNN vs Transformer — RNN side (page 37)">
+
+<img class="note-img" src="/images/archives/notes/09-sequence-models-p38-rnn-vs-transformer-cont.png" alt="RNN vs Transformer — Transformer side (page 38 top)">
 
 - **RNN**
   - strong inductive bias for sequence order
