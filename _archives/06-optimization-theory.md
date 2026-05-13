@@ -91,7 +91,7 @@ These notes cover the theoretical conditions that make optimization problems tra
 - $f$ is Lipschitz continuous if there exists $L \geq 0$ such that
 
 $$
-|f(x) - f(y)| \leq L \|x - y\| \quad \forall x, y
+\lvert f(x) - f(y) \rvert \leq L \, \|x - y\| \quad \forall x, y
 $$
 
 **Intuition**
