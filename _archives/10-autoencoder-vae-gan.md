@@ -11,7 +11,7 @@ topic_chips:
   - Generative Metrics
 pdf: /pdf/archives/10-autoencoder-vae-gan.pdf
 thumb: /images/archives/notes/10-autoencoder-vae-gan-p44-autoencoder.png
-excerpt_short: AutoEncoders, VAE/VQ-VAE, GAN/WGAN, and the metrics used to evaluate generative models
+excerpt_short: AutoEncoders, VAEs, GANs, and generative model evaluation metrics
 ---
 
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
