@@ -16,13 +16,13 @@ excerpt_short: Linear and logistic regression with a probabilistic interpretatio
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
-These notes cover two foundational regression models — the linear case for continuous targets and the logistic case for binary classification — and the probabilistic perspectives that connect them to MLE and MAP.
+These notes cover two foundational regression models (the linear case for continuous targets and the logistic case for binary classification) and the probabilistic perspectives that connect them to MLE and MAP.
 
 ## Linear Regression
 
-<img class="note-img" src="/images/archives/notes/07-regression-p29-linear-regression.png" alt="Linear Regression — model & objective">
+<img class="note-img" src="/images/archives/notes/07-regression-p29-linear-regression.png" alt="Linear Regression: model & objective">
 
-<img class="note-img" src="/images/archives/notes/07-regression-p30-linear-reg-continued.png" alt="Linear Regression — closed-form, probabilistic interpretation">
+<img class="note-img" src="/images/archives/notes/07-regression-p30-linear-reg-continued.png" alt="Linear Regression: closed-form, probabilistic interpretation">
 
 - models the relationship between input features and a target variable
   - assumes a linear relationship between inputs and output
@@ -84,9 +84,9 @@ $$
 
 ## Logistic Regression
 
-<img class="note-img" src="/images/archives/notes/07-regression-p30-logistic-start.png" alt="Logistic Regression — model, classifier, decision boundary (page 30 portion)">
+<img class="note-img" src="/images/archives/notes/07-regression-p30-logistic-start.png" alt="Logistic Regression: model, classifier, decision boundary (page 30 portion)">
 
-<img class="note-img" src="/images/archives/notes/07-regression-p31-logistic-continued.png" alt="Logistic Regression — likelihood, MLE, BCE, gradient, training (page 31)">
+<img class="note-img" src="/images/archives/notes/07-regression-p31-logistic-continued.png" alt="Logistic Regression: likelihood, MLE, BCE, gradient, training (page 31)">
 
 - linear classifier that models the probability of a binary label
 - uses a linear score $w^\top x$ and squashes it into $[0, 1]$ with a sigmoid

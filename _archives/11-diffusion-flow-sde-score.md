@@ -18,7 +18,7 @@ excerpt_short: Denoising diffusion, classifier-free guidance, flow matching, SDE
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
-These notes cover the modern continuous-time generative-modeling family — denoising diffusion, the score-based SDE viewpoint, classifier-free guidance, and the flow-matching reformulation that unifies them. The handwritten pages at the end derive the SDE / score-model / sampler / solver mechanics in detail.
+These notes cover the modern continuous-time generative-modeling family: denoising diffusion, the score-based SDE viewpoint, classifier-free guidance, and the flow-matching reformulation that unifies them. The handwritten pages at the end derive the SDE / score-model / sampler / solver mechanics in detail.
 
 ## Denoising Diffusion
 
@@ -100,7 +100,7 @@ $$
 
 ### Tweedie's Formula
 
-<img class="note-img" src="/images/archives/notes/11-diffusion-flow-sde-score-p52-tweedie.png" alt="Tweedie's Formula — posterior mean estimation (page 52 top)">
+<img class="note-img" src="/images/archives/notes/11-diffusion-flow-sde-score-p52-tweedie.png" alt="Tweedie's Formula: posterior mean estimation (page 52 top)">
 
 - posterior mean estimation using variance-scaled score function:
 
@@ -268,7 +268,7 @@ $$
 - $x_t = x_0 + \sigma(t) \epsilon$
 - $\text{SNR}(t) \propto 1 / \sigma(t)^2$
 - forward: $dx = g(t)\, dW_t$ (drift = 0)
-- learns score at many noise levels — annealed Langevin dynamics
+- learns score at many noise levels: annealed Langevin dynamics
 
 ### Prediction Targets
 
@@ -290,7 +290,7 @@ $$
 
 ### Noise Scheduler
 
-<img class="note-img" src="/images/archives/notes/11-diffusion-flow-sde-score-p63-noise-scheduler.png" alt="Noise Scheduler (handwritten — SNR / cosine schedule)">
+<img class="note-img" src="/images/archives/notes/11-diffusion-flow-sde-score-p63-noise-scheduler.png" alt="Noise Scheduler (handwritten: SNR / cosine schedule)">
 
 - forward process: choose $\alpha_t, \bar{\alpha}_t$ at each $t$ → determines noise amount
 - SNR $= \bar{\alpha}_t / (1 - \bar{\alpha}_t)$
@@ -307,12 +307,12 @@ $$
 
 - **DDPM**: stochastic, many-step ancestral sampling
   - forward process: Markovian chain + linear Gaussian transitions + $q(x_t \mid x_0)$ closed-form
-  - reverse process: stochastic — at each step, noise is sampled directly from the posterior distribution
+  - reverse process: stochastic: at each step, noise is sampled directly from the posterior distribution
   - $p_\theta(x_{t-1} \mid x_t) = \mathcal{N}(\mu_\theta(x_t, t), \sigma_\theta^2 I)$
   - core idea: discrete-time sampling
 - **DDIM**: deterministic, fast
   - forward process: same marginals as DDPM, but the transition itself is not Markovian
-  - reverse process: implicit (not a Markov chain) — considered as a joint distribution over $x_0$
+  - reverse process: implicit (not a Markov chain): considered as a joint distribution over $x_0$
   - reverse step: predict $\hat{x}_0$ + predict the direction toward $x_t$ (with scaling) + optional stochastic term
   - implicit trajectory: controllable stochasticity (η in the reverse step)
     - $\eta = 0$ → deterministic; can be mapped to a probability-flow ODE
@@ -320,7 +320,7 @@ $$
 
 ### Solver
 
-<img class="note-img" src="/images/archives/notes/11-diffusion-flow-sde-score-p65-solver.png" alt="Solver (handwritten — Euler, Euler-Maruyama, higher-order, PLMS, DPM-Solver)">
+<img class="note-img" src="/images/archives/notes/11-diffusion-flow-sde-score-p65-solver.png" alt="Solver (handwritten: Euler, Euler-Maruyama, higher-order, PLMS, DPM-Solver)">
 
 - diffusion sampling is solving an ODE / SDE step by step (numerical approximation)
 - the **sampler** decides *how much* to integrate based on the model's drift / score; the **solver** decides *how* each step is numerically computed
@@ -365,7 +365,7 @@ $$
 - **discrete**: ELBO
 - **continuous**: Score-SDE / probability-flow ODE → CNF-style likelihood computation
 
-### Efficient DiT — Flash Attention & KV Cache
+### Efficient DiT: Flash Attention & KV Cache
 
 <img class="note-img" src="/images/archives/notes/11-diffusion-flow-sde-score-p67-flash-kv.png" alt="Flash Attention / KV Cache (handwritten)">
 
@@ -381,17 +381,17 @@ $$
 - online running max + log-sum-exp update
 
     $$
-    m^{\text{new}}_{:j} = \max\!\left(m_{:i},\; m_{i:j}\right)
+    m'_{:j} = \max\!\left(m_{:i},\; m_{i:j}\right)
     $$
 
     $$
-    \ell^{\text{new}}_{:j} = e^{\,m_{:i} - m^{\text{new}}_{:j}}\, \ell_{:i} \;+\; e^{\,m_{i:j} - m^{\text{new}}_{:j}}\, \ell_{i:j}
+    \ell'_{:j} = e^{\,m_{:i} - m'_{:j}}\, \ell_{:i} \;+\; e^{\,m_{i:j} - m'_{:j}}\, \ell_{i:j}
     $$
 
-  - $m_{:i}$ and $\ell_{:i}$ — running max and normalizer over rows $0..i$ (state before this block)
-  - $m_{i:j}$ and $\ell_{i:j}$ — max and normalizer over the current block (rows $i..j$)
-  - the left-hand side of the update (with the "new" superscript) is the merged running state that now covers rows $0..j$
-  - each contributor is rescaled by $\exp(\text{old max} - \text{new max})$ so both normalizers share the same reference max and can be summed safely
+  - $m_{:i}$ and $\ell_{:i}$, running max and normalizer over rows $0..i$ (state before this block)
+  - $m_{i:j}$ and $\ell_{i:j}$, max and normalizer over the current block (rows $i..j$)
+  - $m'_{:j}$ and $\ell'_{:j}$, the merged running state covering rows $0..j$ (prime denotes the updated value)
+  - each contributor is rescaled by $e^{(\text{old max}) - (\text{new max})}$ so both normalizers share the same reference max and can be summed safely
 
 **KV Cache**
 
