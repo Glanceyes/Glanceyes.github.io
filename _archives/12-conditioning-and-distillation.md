@@ -43,7 +43,7 @@ These notes cover two complementary directions for steering pretrained models â€
 **Key knobs**
 
 - temperature $T$ (softness of targets)
-- weight $\alpha$ (balance with supervised loss)
+- weight $\lambda$ (balance with supervised loss)
 
 ### DINO
 

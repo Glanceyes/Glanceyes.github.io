@@ -219,7 +219,10 @@ $$
   - $\hat{\phi}$: channel-normalized features
 - interpretation
   - lower is better (more perceptually similar)
-- not a distribution metric (unlike FID); pairwise similarity metric
+  - commonly used for image-to-image translation, restoration, diffusion reconstruction quality
+- limitation
+  - depends on the backbone and training domain
+  - not a distribution metric (unlike FID) — it's a pairwise similarity metric
 
 ## Generative Adversarial Network (GAN)
 
