@@ -102,6 +102,8 @@ $$
 
 ### Lipschitz Continuous Gradient (Smoothness)
 
+<img class="note-img" src="/images/archives/notes/06-optimization-theory-p33-lipschitz-gradient.png" alt="Lipschitz Continuous Gradient (Smoothness)">
+
 - a differentiable function $f$ has an $L$-Lipschitz continuous gradient if
 
 $$
