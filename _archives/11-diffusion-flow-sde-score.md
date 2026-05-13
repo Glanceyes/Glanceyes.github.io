@@ -290,6 +290,8 @@ $$
 
 ### Noise Scheduler
 
+<img class="note-img" src="/images/archives/notes/11-diffusion-flow-sde-score-p63-noise-scheduler.png" alt="Noise Scheduler (handwritten — SNR / cosine schedule)">
+
 - forward process: choose $\alpha_t, \bar{\alpha}_t$ at each $t$ → determines noise amount
 - SNR $= \bar{\alpha}_t / (1 - \bar{\alpha}_t)$
   - $\bar{\alpha}_t \downarrow$ → noise $\uparrow$ → SNR $\downarrow$ → $\epsilon$ prediction harder

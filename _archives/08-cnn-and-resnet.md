@@ -62,6 +62,7 @@ These notes cover the convolutional building blocks that power modern computer-v
 **Depthwise Separable Convolution**
 
 - depthwise + pointwise → mixing spatial and channel-wise computations cheaply
+- parameters: $k_H k_W C_{\text{in}} + C_{\text{in}} C_{\text{out}}$
 
 ### Adaptive Average Pooling
 
