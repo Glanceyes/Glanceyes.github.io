@@ -11,7 +11,7 @@ topic_chips:
   - Activations
 pdf: /pdf/archives/02-optimization-and-training.pdf
 thumb: /images/archives/notes/02-optimization-and-training-p06-backpropagation.png
-excerpt_short: Backpropagation, optimizers (SGD/Momentum/RMSProp/Adam), activations, and initialization.
+excerpt_short: Backpropagation, optimizers (SGD/Momentum/RMSProp/Adam), activations, and initialization
 ---
 
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
@@ -213,7 +213,7 @@ $$
 <img class="note-img" src="/images/archives/notes/02-optimization-and-training-p13-xavier-init.png" alt="Xavier Initialization">
 
 $$
-\text{Var}(W) = \frac{2}{n_{\text{in}} + n_{\text{out}}}, \qquad W \sim \mathcal{U}\!\left(-\sqrt{\tfrac{6}{n_{\text{in}} + n_{\text{out}}}},\, \sqrt{\tfrac{6}{n_{\text{in}} + n_{\text{out}}}}\right)
+\text{Var}(W) = \frac{2}{\text{fan}_{\text{in}} + \text{fan}_{\text{out}}}, \qquad W \sim \mathcal{U}\!\left(-\sqrt{\tfrac{6}{\text{fan}_{\text{in}} + \text{fan}_{\text{out}}}},\, \sqrt{\tfrac{6}{\text{fan}_{\text{in}} + \text{fan}_{\text{out}}}}\right)
 $$
 
 - balance variance of activations across layers
@@ -229,7 +229,7 @@ $$
 <img class="note-img" src="/images/archives/notes/02-optimization-and-training-p14-he-init-p14.png" alt="He Initialization (page 14 portion)">
 
 $$
-\text{Var}(W) = \frac{2}{n_{\text{in}}}, \qquad W \sim \mathcal{N}\!\left(0, \frac{2}{n_{\text{in}}}\right)
+\text{Var}(W) = \frac{2}{\text{fan}_{\text{in}}}, \qquad W \sim \mathcal{N}\!\left(0, \frac{2}{\text{fan}_{\text{in}}}\right)
 $$
 
 - designed for ReLU-style activations (e.g., ReLU, Leaky ReLU, GELU)

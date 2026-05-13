@@ -10,7 +10,7 @@ topic_chips:
   - MLE / NLL / BCE
 pdf: /pdf/archives/07-regression.pdf
 thumb: /images/archives/notes/07-regression-p29-linear-regression.png
-excerpt_short: Linear and logistic regression — closed-form vs gradient-based solutions, MLE perspective, and BCE.
+excerpt_short: Linear and logistic regression: closed-form vs gradient-based solutions, MLE perspective, and BCE
 ---
 
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).

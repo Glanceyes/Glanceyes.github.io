@@ -11,7 +11,7 @@ topic_chips:
   - Vision Transformer
 pdf: /pdf/archives/09-sequence-models.pdf
 thumb: /images/archives/notes/09-sequence-models-p39-transformer-intro.png
-excerpt_short: From RNNs to Transformers and ViT — attention mechanisms, positional encodings, and complexity.
+excerpt_short: From RNNs to Transformers and ViT: attention mechanisms, positional encodings, and complexity
 ---
 
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).

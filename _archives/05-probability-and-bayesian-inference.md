@@ -11,7 +11,7 @@ topic_chips:
   - CLT
 pdf: /pdf/archives/05-probability-and-bayesian-inference.pdf
 thumb: /images/archives/notes/05-probability-and-bayesian-inference-p21-bayes-theorem.png
-excerpt_short: Bayes' theorem, MLE/MAP, and the canonical distributions used in ML.
+excerpt_short: Bayes' theorem, MLE/MAP, and the canonical distributions used in ML
 ---
 
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).

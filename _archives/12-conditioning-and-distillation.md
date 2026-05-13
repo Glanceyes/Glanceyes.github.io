@@ -11,7 +11,7 @@ topic_chips:
   - T2I Adapter
 pdf: /pdf/archives/12-conditioning-and-distillation.pdf
 thumb: /images/archives/notes/12-conditioning-and-distillation-p55-kd-start.png
-excerpt_short: Knowledge distillation (incl. DINO) and conditioning adapters for pretrained diffusion models.
+excerpt_short: Knowledge distillation (incl. DINO) and conditioning adapters for pretrained diffusion models
 ---
 
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).

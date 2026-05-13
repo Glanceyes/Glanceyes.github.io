@@ -12,7 +12,7 @@ topic_chips:
   - Diffusion Transformer
 pdf: /pdf/archives/11-diffusion-flow-sde-score.pdf
 thumb: /images/archives/notes/11-diffusion-flow-sde-score-p50-diffusion-intro.png
-excerpt_short: Denoising diffusion (DDPM/DDIM), classifier-free guidance, flow matching, SDE-based score models, samplers, and DiT.
+excerpt_short: Denoising diffusion (DDPM/DDIM), classifier-free guidance, flow matching, SDE-based score models, samplers, and DiT
 ---
 
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).

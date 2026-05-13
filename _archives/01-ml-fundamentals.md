@@ -11,7 +11,7 @@ topic_chips:
   - Dropout
 pdf: /pdf/archives/01-ml-fundamentals.pdf
 thumb: /images/archives/notes/01-ml-fundamentals-p01-bias-variance.png
-excerpt_short: Core concepts behind generalization, regularization, normalization, and dropout.
+excerpt_short: Core concepts behind generalization, regularization, normalization, and dropout
 ---
 
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).

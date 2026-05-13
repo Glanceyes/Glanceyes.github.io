@@ -11,7 +11,7 @@ topic_chips:
   - PCA
 pdf: /pdf/archives/04-linear-algebra-and-decomposition.pdf
 thumb: /images/archives/notes/04-linear-algebra-and-decomposition-p17-basics-linearity.png
-excerpt_short: Vector-space basics, norms, eigen/SVD decompositions, LoRA, and PCA.
+excerpt_short: Vector-space basics, norms, eigen/SVD decompositions, LoRA, and PCA
 ---
 
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).

@@ -11,7 +11,7 @@ topic_chips:
   - Residual Connection
 pdf: /pdf/archives/08-cnn-and-resnet.pdf
 thumb: /images/archives/notes/08-cnn-and-resnet-p35-cnn-intro.png
-excerpt_short: Convolutional layers, parameter-efficient variants, and residual learning for deep networks.
+excerpt_short: Convolutional layers, parameter-efficient variants, and residual learning for deep networks
 ---
 
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).

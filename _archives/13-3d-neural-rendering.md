@@ -11,7 +11,7 @@ topic_chips:
   - Gaussian Splatting
 pdf: /pdf/archives/13-3d-neural-rendering.pdf
 thumb: /images/archives/notes/13-3d-neural-rendering-p58-nerf-detail.png
-excerpt_short: NeRF, neural tangent kernels, InstantNGP, and 3D Gaussian Splatting for novel-view synthesis.
+excerpt_short: NeRF, neural tangent kernels, InstantNGP, and 3D Gaussian Splatting for novel-view synthesis
 ---
 
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
