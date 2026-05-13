@@ -17,7 +17,7 @@ excerpt_short: Bayes' theorem, MLE/MAP, and the canonical distributions used in 
 > - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
-These notes cover the probabilistic foundations of ML — how to model uncertainty, update beliefs from data, and choose between maximum-likelihood and Bayesian objectives.
+These notes cover the probabilistic foundations of ML: how to model uncertainty, update beliefs from data, and choose between maximum-likelihood and Bayesian objectives.
 
 ## Bayes Theorem
 
@@ -43,7 +43,7 @@ $$
   - measures how well a set of parameters $\theta$ explains the observed data
   - not a probability distribution over the data $x$
 - **Gaussian model**: $x \sim \mathcal{N}(\mu, \sigma^2)$
-  - likelihood: $p(x \mid \mu, \sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}} \exp\!\left(-\frac{(x - \mu)^2}{2\sigma^2}\right)$
+  - likelihood: $p(x \mid \mu, \sigma^2) = \dfrac{1}{\sqrt{2\pi\sigma^2}}\, e^{-(x - \mu)^2 / (2\sigma^2)}$
 
 ### Maximum Likelihood Estimation (MLE)
 

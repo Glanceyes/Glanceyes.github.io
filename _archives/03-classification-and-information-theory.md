@@ -85,7 +85,7 @@ These notes cover the foundations of discriminative classification and the infor
     - $f(x) = \sum_{i \in \text{SV}} \alpha_i y_i K(x_i, x) + b$
 - common kernels
   - linear: $K(x, x') = x^\top x'$
-  - RBF: $K(x, x') = \exp(-\gamma \|x - x'\|^2)$
+  - RBF: $K(x, x') = e^{-\gamma \|x - x'\|^2}$
   - polynomial: $K(x, x') = (x^\top x' + c)^d$
 
 ## Logit & Softmax
