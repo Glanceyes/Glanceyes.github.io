@@ -1,6 +1,6 @@
 ---
 title: 3D Neural Rendering
-subtitle: Neural fields and differentiable rendering for 3D scene reconstruction.
+subtitle: Brief notes prepared for technical interviews
 slug: 3d-neural-rendering
 order: 13
 category: Interview Preparation

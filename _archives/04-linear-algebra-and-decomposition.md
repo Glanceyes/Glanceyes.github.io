@@ -1,6 +1,6 @@
 ---
 title: Linear Algebra & Decomposition
-subtitle: The vector-space and matrix-decomposition tools that underpin modern ML.
+subtitle: Brief notes prepared for technical interviews
 slug: linear-algebra-and-decomposition
 order: 4
 category: Interview Preparation

@@ -1,6 +1,6 @@
 ---
 title: Conditioning & Distillation
-subtitle: Adding control to pretrained models and transferring knowledge between them.
+subtitle: Brief notes prepared for technical interviews
 slug: conditioning-and-distillation
 order: 12
 category: Interview Preparation

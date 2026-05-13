@@ -1,6 +1,6 @@
 ---
 title: Probability & Bayesian Inference
-subtitle: Distributions, Bayes' theorem, and parameter estimation.
+subtitle: Brief notes prepared for technical interviews
 slug: probability-and-bayesian-inference
 order: 5
 category: Interview Preparation

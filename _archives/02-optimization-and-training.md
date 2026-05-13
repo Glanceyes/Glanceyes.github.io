@@ -1,6 +1,6 @@
 ---
 title: Optimization & Training
-subtitle: How parameters are updated and gradients are propagated in deep networks.
+subtitle: Brief notes prepared for technical interviews
 slug: optimization-and-training
 order: 2
 category: Interview Preparation

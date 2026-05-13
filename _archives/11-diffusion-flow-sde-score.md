@@ -1,6 +1,6 @@
 ---
 title: Diffusion · Flow Matching · SDE Score
-subtitle: Continuous and stochastic generative modeling.
+subtitle: Brief notes prepared for technical interviews
 slug: diffusion-flow-sde-score
 order: 11
 category: Interview Preparation

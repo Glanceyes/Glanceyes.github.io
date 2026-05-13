@@ -1,6 +1,6 @@
 ---
 title: Classification & Information Theory
-subtitle: Linear classifiers, probability calibration, and information-theoretic losses.
+subtitle: Brief notes prepared for technical interviews
 slug: classification-and-information-theory
 order: 3
 category: Interview Preparation

@@ -1,6 +1,6 @@
 ---
 title: Regression
-subtitle: Linear and logistic regression with probabilistic interpretation.
+subtitle: Brief notes prepared for technical interviews
 slug: regression
 order: 7
 category: Interview Preparation

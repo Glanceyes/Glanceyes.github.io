@@ -1,6 +1,6 @@
 ---
 title: CNN & ResNet
-subtitle: Convolutional architectures and residual connections.
+subtitle: Brief notes prepared for technical interviews
 slug: cnn-and-resnet
 order: 8
 category: Interview Preparation

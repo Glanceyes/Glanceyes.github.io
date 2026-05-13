@@ -1,6 +1,6 @@
 ---
 title: Optimization Theory
-subtitle: Convexity, smoothness, and constrained optimization.
+subtitle: Brief notes prepared for technical interviews
 slug: optimization-theory
 order: 6
 category: Interview Preparation

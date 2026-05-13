@@ -1,6 +1,6 @@
 ---
 title: ML Fundamentals
-subtitle: Foundational concepts behind generalization in modern ML systems.
+subtitle: Brief notes prepared for technical interviews
 slug: ml-fundamentals
 order: 1
 category: Interview Preparation

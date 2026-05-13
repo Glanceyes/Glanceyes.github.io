@@ -1,6 +1,6 @@
 ---
 title: Sequence Models
-subtitle: RNNs, Transformers, attention, and Vision Transformers.
+subtitle: Brief notes prepared for technical interviews
 slug: sequence-models
 order: 9
 category: Interview Preparation

@@ -1,6 +1,6 @@
 ---
 title: AutoEncoder · VAE · GAN
-subtitle: Representation learning and adversarial generative modeling.
+subtitle: Brief notes prepared for technical interviews
 slug: autoencoder-vae-gan
 order: 10
 category: Interview Preparation
