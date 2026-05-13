@@ -78,7 +78,9 @@ These notes cover two complementary directions for steering pretrained models â€
 
 ## ControlNet
 
-<img class="note-img" src="/images/archives/notes/12-conditioning-and-distillation-p56-controlnet.png" alt="ControlNet (handwritten)">
+<img class="note-img" src="/images/archives/notes/12-conditioning-and-distillation-p56-controlnet.png" alt="ControlNet (page 56 â€” core idea, how it works, benefits)">
+
+<img class="note-img" src="/images/archives/notes/12-conditioning-and-distillation-p57-controlnet-limitations.png" alt="ControlNet limitations (page 57 top)">
 
 - add conditioning control to a pretrained diffusion model without destroying its generative ability
   - conditions: edge, depth, pose, segmentation, scribble, etc.
