@@ -9,6 +9,7 @@
 /* Reset */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { -webkit-text-size-adjust: 100%; }
+html, body { overflow-x: clip; }
 img, video { max-width: 100%; display: block; }
 button { font-family: inherit; }
 
@@ -418,6 +419,7 @@ section { margin-bottom: 56px; }
 .archive-body blockquote ul { margin: 0; padding-left: 18px; }
 .archive-body blockquote li { font-size: 13.5px; color: var(--text-mid); line-height: 1.55; margin-bottom: 4px; }
 .archive-body blockquote p { margin: 0; font-size: 13.5px; color: var(--text-mid); }
+.archive-body mjx-container[display="true"] { max-width: 100%; overflow-x: auto; overflow-y: hidden; padding-bottom: 4px; }
 
 /* Footer */
 footer { background: var(--hero-bg); color: rgba(255,255,255,0.5); text-align: center; font-size: 12.5px; padding: 24px; border-top: 1px solid rgba(255,255,255,0.06); }
