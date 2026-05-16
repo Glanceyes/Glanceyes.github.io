@@ -186,8 +186,6 @@ $$
 
 ### Central Limit Theorem (CLT)
 
-<img class="note-img" src="/images/archives/notes/05-probability-and-bayesian-inference-p28-clt-p28.png" alt="CLT (page 28 portion)">
-
 <img class="note-img" src="/images/archives/notes/05-probability-and-bayesian-inference-p29-clt-p29.png" alt="CLT statement (page 29 portion)">
 
 - as the number of samples $n$ increases
