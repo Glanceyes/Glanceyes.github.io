@@ -186,8 +186,6 @@ $$
 
 #### Inception Score
 
-<img class="note-img" src="/images/archives/notes/10-autoencoder-vae-gan-p48-fid-continued.png" alt="FID continued (page 48 top)">
-
 <img class="note-img" src="/images/archives/notes/10-autoencoder-vae-gan-p48-inception-score.png" alt="Inception Score">
 
 $$
