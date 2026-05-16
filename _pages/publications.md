@@ -95,9 +95,9 @@ featured_image: /images/archives/banner_image.jpg
     <img class="pub-thumb" src="/images/about/publications/dreamcatalyst.png" alt="DreamCatalyst">
     <div class="pub-body">
       <div class="pub-title">DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation</div>
-      <div class="pub-note"><a href="https://huggingface.co/papers/2407.11394" target="_blank">🤗 HuggingFace Daily Paper</a></div>
-      <div class="pub-kw">3D Editing · Score Distillation</div>
       <div class="pub-authors">Jiwook Kim*, <b>Seonho Lee</b>*, Jaeyo Shin, Jiho Choi, Hyunjung Shim†</div>
+      <div class="pub-kw">3D Editing · Score Distillation</div>
+      <div class="pub-note"><a href="https://huggingface.co/papers/2407.11394" target="_blank">🤗 HuggingFace Daily Paper</a></div>
       <div class="pub-meta">
         <a class="venue-badge conf" href="https://iclr.cc/Conferences/2025" target="_blank">ICLR 2025</a>
         <a class="pub-link" href="https://arxiv.org/abs/2407.11394" target="_blank">Paper</a>
