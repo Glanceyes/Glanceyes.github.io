@@ -169,6 +169,8 @@ $$
 
 <img class="note-img" src="/images/archives/notes/10-autoencoder-vae-gan-p47-fid.png" alt="FID">
 
+<img class="note-img" src="/images/archives/notes/10-autoencoder-vae-gan-p48-fid-continued.png" alt="FID continued (page 48 top)">
+
 $$
 \text{FID} = \|\mu_r - \mu_g\|^2 + \text{Tr}\!\left(\Sigma_r + \Sigma_g - 2(\Sigma_r \Sigma_g)^{1/2}\right)
 $$
