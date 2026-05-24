@@ -14,7 +14,7 @@ thumb: /images/archives/thumbs/01-ml-fundamentals.png
 excerpt_short: Core concepts behind generalization, regularization, normalization, and dropout
 ---
 
-> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
+> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., KRAFTON, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
 These notes cover the core ML concepts that determine how a model generalizes and trains. The sections trace the bias/variance decomposition, the regularization techniques used to control capacity, the normalization layers that stabilize training, and dropout as a stochastic regularizer.

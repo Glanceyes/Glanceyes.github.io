@@ -13,7 +13,7 @@ thumb: /images/archives/thumbs/07-regression.png
 excerpt_short: Linear and logistic regression with a probabilistic interpretation
 ---
 
-> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
+> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., KRAFTON, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
 These notes cover two foundational regression models (the linear case for continuous targets and the logistic case for binary classification) and the probabilistic perspectives that connect them to MLE and MAP.

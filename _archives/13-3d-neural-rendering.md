@@ -14,7 +14,7 @@ thumb: /images/archives/thumbs/13-3d-neural-rendering.png
 excerpt_short: NeRF, neural tangent kernels, InstantNGP, and 3D Gaussian Splatting for novel-view synthesis
 ---
 
-> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
+> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., KRAFTON, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
 These notes cover the family of neural 3D scene representations: from MLP-based radiance fields to hash-grid accelerations and the explicit Gaussian-based formulation that enables real-time rendering.

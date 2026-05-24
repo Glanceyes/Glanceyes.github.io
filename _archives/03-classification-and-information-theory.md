@@ -14,7 +14,7 @@ thumb: /images/archives/thumbs/03-classification-and-information-theory.png
 excerpt_short: SVM, logits and softmax, entropy, cross-entropy, and KL divergence
 ---
 
-> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
+> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., KRAFTON, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
 These notes cover the foundations of discriminative classification and the information-theoretic objectives that drive most learning losses.

@@ -14,7 +14,7 @@ thumb: /images/archives/thumbs/09-sequence-models.png
 excerpt_short: From RNNs to Transformers and ViT, with attention mechanisms, positional encodings, and complexity
 ---
 
-> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
+> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., KRAFTON, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
 These notes cover the evolution from recurrent to attention-based sequence models, the mechanics of self-attention, the variants used to control its cost, and the adaptation of Transformers to images via patch tokens.

@@ -14,7 +14,7 @@ thumb: /images/archives/thumbs/08-cnn-and-resnet.png
 excerpt_short: Convolutional layers, parameter-efficient variants, and residual learning for deep networks
 ---
 
-> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
+> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., KRAFTON, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
 These notes cover the convolutional building blocks that power modern computer-vision architectures, and the residual learning idea that made training very deep networks possible.

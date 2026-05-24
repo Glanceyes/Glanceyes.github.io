@@ -14,7 +14,7 @@ thumb: /images/archives/thumbs/02-optimization-and-training.png
 excerpt_short: Backpropagation, optimizers, activations, and initialization
 ---
 
-> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
+> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., KRAFTON, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
 These notes cover the mechanics that make deep networks trainable: how gradients are computed, how parameters are updated efficiently, how to choose initial values, and how activations shape gradient flow.

@@ -2,7 +2,7 @@
 title: Seonho Lee
 layout: home
 permalink: /
-description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
+description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at KRAFTON AI
 ---
 
 <section>
@@ -15,7 +15,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
     </li>
     <li class="news-item">
       <span class="news-date">Mar. 2026</span>
-      <span class="news-content">I begin to work as an Applied AI Researcher at <a href="https://www.krafton.com/en/" target="_blank">Krafton</a> <a href="https://www.krafton.ai/en/" target="_blank">AI</a>.</span>
+      <span class="news-content">I begin to work as an Applied AI Researcher at <a href="https://www.krafton.com/en/" target="_blank">KRAFTON</a> <a href="https://www.krafton.ai/en/" target="_blank">AI</a>.</span>
       <span class="news-tag career">Career</span>
     </li>
     <li class="news-item">
@@ -193,9 +193,9 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
   <div class="exp-list">
 
     <div class="exp-entry">
-      <a href="https://www.krafton.com/en/" target="_blank"><img class="exp-logo" src="/images/about/companies/krafton.png" alt="Krafton AI"></a>
+      <a href="https://www.krafton.com/en/" target="_blank"><img class="exp-logo" src="/images/about/companies/krafton.png" alt="KRAFTON AI"></a>
       <div class="exp-body">
-        <div class="exp-company">Krafton AI</div>
+        <div class="exp-company">KRAFTON AI</div>
         <div class="exp-role">Applied AI Researcher</div>
         <div class="exp-meta">Mar. 2026 – Present · Seoul, Republic of Korea</div>
         <ul class="exp-bullets">
@@ -235,7 +235,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at Krafton AI
         <div style="flex:1; min-width:0;">
           <div class="project-header">
             <div class="project-title">Raon-VisionEncoder</div>
-            <span class="project-org">Krafton AI</span>
+            <span class="project-org">KRAFTON AI</span>
           </div>
           <div class="project-subtitle">A Fully Open SigLIP2-class Vision Encoder</div>
           <ul class="project-bullets">

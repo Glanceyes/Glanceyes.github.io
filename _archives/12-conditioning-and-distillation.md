@@ -14,7 +14,7 @@ thumb: /images/archives/thumbs/12-conditioning-and-distillation.png
 excerpt_short: Knowledge distillation and conditioning adapters for pretrained diffusion models
 ---
 
-> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
+> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., KRAFTON, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
 These notes cover two complementary directions for steering pretrained models: distilling knowledge from larger or self-supervised teachers, and bolting on adapter networks that inject external control signals into a frozen diffusion backbone.

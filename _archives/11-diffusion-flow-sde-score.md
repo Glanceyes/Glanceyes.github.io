@@ -15,7 +15,7 @@ thumb: /images/archives/thumbs/11-diffusion-flow-sde-score.png
 excerpt_short: Denoising diffusion, classifier-free guidance, flow matching, SDE-based score models, and DiT
 ---
 
-> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
+> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., KRAFTON, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
 These notes cover the modern continuous-time generative-modeling family: denoising diffusion, the score-based SDE viewpoint, classifier-free guidance, and the flow-matching reformulation that unifies them. The handwritten pages at the end derive the SDE / score-model / sampler / solver mechanics in detail.

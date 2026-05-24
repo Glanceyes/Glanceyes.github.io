@@ -13,7 +13,7 @@ thumb: /images/archives/thumbs/06-optimization-theory.png
 excerpt_short: Convexity, Lipschitz smoothness, and constrained optimization via Lagrangian duality
 ---
 
-> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
+> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., KRAFTON, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
 These notes cover the theoretical conditions that make optimization problems tractable: when local solutions are global (convexity), what smoothness lets us bound step sizes, and how constrained problems are reformulated via duality.

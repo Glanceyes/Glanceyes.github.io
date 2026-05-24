@@ -14,7 +14,7 @@ thumb: /images/archives/thumbs/05-probability-and-bayesian-inference.png
 excerpt_short: Bayes' theorem, MLE/MAP, and the canonical distributions used in ML
 ---
 
-> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
+> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., KRAFTON, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
 These notes cover the probabilistic foundations of ML: how to model uncertainty, update beliefs from data, and choose between maximum-likelihood and Bayesian objectives.

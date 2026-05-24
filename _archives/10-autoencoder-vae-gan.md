@@ -14,7 +14,7 @@ thumb: /images/archives/thumbs/10-autoencoder-vae-gan.png
 excerpt_short: AutoEncoders, VAEs, GANs, and generative model evaluation metrics
 ---
 
-> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., Krafton, etc.).
+> - These notes were prepared while studying for technical interviews (e.g., Snap Inc., KRAFTON, etc.).
 > - Each entry contains a concise English summary, key math expressions, and excerpts from my original handwritten/typed study notes.
 
 These notes cover the family of latent-variable and adversarial generative models: how to compress data into representations, how to make those representations probabilistic, and how to train generators by competing against a discriminator.
