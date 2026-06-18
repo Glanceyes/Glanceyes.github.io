@@ -37,6 +37,8 @@ featured_image: /images/archives/banner_image.jpg
         <a class="venue-badge conf" href="https://icml.cc/Conferences/2026" target="_blank">ICML 2026</a>
         <a class="pub-link" href="https://arxiv.org/abs/2606.02578" target="_blank">Paper</a>
         <a class="pub-link" href="https://perception-judge.github.io/" target="_blank">Project</a>
+        <a class="pub-link" href="https://github.com/kaist-cvml/perception-judge" target="_blank">Code</a>
+        <a href="https://github.com/kaist-cvml/perception-judge" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/kaist-cvml/perception-judge?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
       </div>
     </div>
   </li>
