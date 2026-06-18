@@ -19,9 +19,11 @@ featured_image: /images/archives/banner_image.jpg
       <div class="pub-title">Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling</div>
       <div class="pub-authors">Seojeong Park*, Jiho Choi*, Junyong Kang, <b>Seonho Lee</b>, Jaeyo Shin, Hyunjung Shim†</div>
       <div class="pub-kw">MLLM-as-a-Judge · Reward Modeling</div>
+      <div class="pub-note"><a href="https://huggingface.co/papers/2606.02578" target="_blank">🤗 HuggingFace Daily Paper</a></div>
       <div class="pub-meta">
         <a class="venue-badge conf" href="https://icml.cc/Conferences/2026" target="_blank">ICML 2026</a>
-        <a class="pub-link" href="https://perceptionjudge.github.io/" target="_blank">Project</a>
+        <a class="pub-link" href="https://arxiv.org/abs/2606.02578" target="_blank">Paper</a>
+        <a class="pub-link" href="https://perception-judge.github.io/" target="_blank">Project</a>
       </div>
     </div>
   </li>
