@@ -95,6 +95,17 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at KRAFTON AI
   <div class="pub-list">
 
     <div class="pub-entry">
+      <img class="pub-thumb" src="/images/about/publications/dr3d.png" alt="DR3D">
+      <div class="pub-body">
+        <div class="pub-title">Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views</div>
+        <div class="pub-authors">Jiho Choi*, <strong>Seonho Lee</strong>*, Seojeong Park, Hyunjung Shim†</div>
+        <div class="pub-meta">
+          <a class="venue-badge conf" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-entry">
       <img class="pub-thumb" src="/images/about/publications/3d_aware_vlm.png" alt="3D-Aware VLM">
       <div class="pub-body">
         <div class="pub-title">3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation</div>
@@ -172,17 +183,6 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at KRAFTON AI
             <a href="https://github.com/kaist-cvml-lab/part-clipseg" target="_blank" class="pub-link">Code</a>
             <a href="https://github.com/kaist-cvml-lab/part-clipseg" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/kaist-cvml-lab/part-clipseg?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <img class="pub-thumb" src="/images/about/publications/dr3d.png" alt="DR3D">
-      <div class="pub-body">
-        <div class="pub-title">Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views</div>
-        <div class="pub-authors">Jiho Choi*, <strong>Seonho Lee</strong>*, Seojeong Park, Hyunjung Shim†</div>
-        <div class="pub-meta">
-          <a class="venue-badge conf" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a>
         </div>
       </div>
     </div>
