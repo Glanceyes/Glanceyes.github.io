@@ -12,6 +12,19 @@ featured_image: /images/archives/banner_image.jpg
 <div class="section-title">Conference Papers</div>
 <ul class="pub-list">
 
+  <li class="pub-entry" id="c8">
+    <span class="pub-index">C8</span>
+    <img class="pub-thumb" src="/images/about/publications/dr3d.png" alt="DR3D">
+    <div class="pub-body">
+      <div class="pub-title">Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views</div>
+      <div class="pub-authors">Jiho Choi*, <b>Seonho Lee</b>*, Seojeong Park, Hyunjung Shim†</div>
+      <div class="pub-kw">Multi-View 3D Reasoning · Reinforcement Learning</div>
+      <div class="pub-meta">
+        <a class="venue-badge conf" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a>
+      </div>
+    </div>
+  </li>
+
   <li class="pub-entry" id="c7">
     <span class="pub-index">C7</span>
     <img class="pub-thumb" src="/images/about/publications/perceptual_judge.png" alt="Perceptual Judge">
@@ -165,19 +178,6 @@ featured_image: /images/archives/banner_image.jpg
 <section>
 <div class="section-title">Preprints</div>
 <ul class="pub-list">
-
-  <li class="pub-entry" id="p2">
-    <span class="pub-index">P2</span>
-    <img class="pub-thumb" src="/images/about/publications/dr3d.png" alt="DR3D">
-    <div class="pub-body">
-      <div class="pub-title">Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views</div>
-      <div class="pub-authors">Jiho Choi*, <b>Seonho Lee</b>*, Seojeong Park, Hyunjung Shim†</div>
-      <div class="pub-kw">Multi-View 3D Reasoning · Reinforcement Learning</div>
-      <div class="pub-meta">
-        <span class="venue-badge preprint">Under Review</span>
-      </div>
-    </div>
-  </li>
 
   <li class="pub-entry" id="p1">
     <span class="pub-index">P1</span>

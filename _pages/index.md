@@ -9,6 +9,11 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at KRAFTON AI
   <div class="section-title">News</div>
   <ul class="news-list">
     <li class="news-item">
+      <span class="news-date">Jun. 2026</span>
+      <span class="news-content">Our <a href="/publications#c8"><strong>Dense Reward for Multi-View 3D Reasoning</strong></a> paper accepted to <strong><a href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a></strong>.</span>
+      <span class="news-tag paper">Paper</span>
+    </li>
+    <li class="news-item">
       <span class="news-date">May. 2026</span>
       <span class="news-content">Our <a href="/publications#c7"><strong>Perceptual Judgment Bias</strong></a> paper accepted to <strong><a href="https://icml.cc/Conferences/2026" target="_blank">ICML 2026</a></strong>.</span>
       <span class="news-tag paper">Paper</span>
@@ -177,7 +182,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at KRAFTON AI
         <div class="pub-title">Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views</div>
         <div class="pub-authors">Jiho Choi*, <strong>Seonho Lee</strong>*, Seojeong Park, Hyunjung Shim†</div>
         <div class="pub-meta">
-          <span class="venue-badge preprint">Under Review</span>
+          <a class="venue-badge conf" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a>
         </div>
       </div>
     </div>
