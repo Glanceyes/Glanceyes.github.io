@@ -21,6 +21,7 @@ featured_image: /images/archives/banner_image.jpg
       <div class="pub-kw">Multi-View 3D Reasoning · Reinforcement Learning</div>
       <div class="pub-meta">
         <a class="venue-badge conf" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a>
+        <a class="pub-link" href="https://dr-mv3d.github.io/" target="_blank">Project</a>
       </div>
     </div>
   </li>

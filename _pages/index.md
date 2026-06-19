@@ -101,6 +101,9 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at KRAFTON AI
         <div class="pub-authors">Jiho Choi*, <strong>Seonho Lee</strong>*, Seojeong Park, Hyunjung Shim†</div>
         <div class="pub-meta">
           <a class="venue-badge conf" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a>
+          <div class="pub-links">
+            <a href="https://dr-mv3d.github.io/" target="_blank" class="pub-link">Project</a>
+          </div>
         </div>
       </div>
     </div>
