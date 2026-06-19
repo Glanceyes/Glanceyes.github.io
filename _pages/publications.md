@@ -149,6 +149,19 @@ featured_image: /images/archives/banner_image.jpg
 <div class="section-title">Workshop Papers</div>
 <ul class="pub-list">
 
+  <li class="pub-entry" id="w3">
+    <span class="pub-index">W3</span>
+    <img class="pub-thumb" src="/images/about/publications/perceptual_judge.png" alt="Perceptual Judge Workshop">
+    <div class="pub-body">
+      <div class="pub-title">Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge for Mathematical and Scientific Reasoning Evaluation</div>
+      <div class="pub-authors">Seojeong Park*, Jiho Choi*, Junyong Kang, <b>Seonho Lee</b>, Jaeyo Shin, Hyunjung Shim†</div>
+      <div class="pub-kw">MLLM-as-a-Judge · Reward Modeling</div>
+      <div class="pub-meta">
+        <a class="venue-badge workshop" href="https://openreview.net/forum?id=QpABpBMzhZ" target="_blank">ICML 2026 AI4Math Workshop</a>
+      </div>
+    </div>
+  </li>
+
   <li class="pub-entry" id="w2">
     <span class="pub-index">W2</span>
     <img class="pub-thumb" src="/images/about/publications/covand.png" alt="CoVAND">
