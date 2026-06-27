@@ -99,10 +99,14 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at KRAFTON AI
       <div class="pub-body">
         <div class="pub-title">Dense Reward for Multi-View 3D Reasoning with Global Maps and Local Views</div>
         <div class="pub-authors">Jiho Choi*, <strong>Seonho Lee</strong>*, Seojeong Park, Hyunjung Shim†</div>
+        <div class="pub-note"><a href="https://huggingface.co/papers/2606.23557" target="_blank">🤗 HuggingFace Daily Paper</a></div>
         <div class="pub-meta">
           <a class="venue-badge conf" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a>
           <div class="pub-links">
+            <a href="https://arxiv.org/abs/2606.23557" target="_blank" class="pub-link">Paper</a>
             <a href="https://dr-mv3d.github.io/" target="_blank" class="pub-link">Project</a>
+            <a href="https://github.com/kaist-cvml/DR-MV3D" target="_blank" class="pub-link">Code</a>
+            <a href="https://github.com/kaist-cvml/DR-MV3D" target="_blank" style="text-decoration:none; border:none;"><img src="https://img.shields.io/github/stars/kaist-cvml/DR-MV3D?style=social" alt="GitHub Stars" style="display:inline; height:18px; vertical-align:middle;"></a>
           </div>
         </div>
       </div>
