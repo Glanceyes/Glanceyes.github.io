@@ -47,11 +47,34 @@ body {
   align-items: center;
   border-bottom: 1px solid rgba(255,255,255,0.06);
 }
+/* soft, spread-out mesh aurora — two layers drifting slowly in different directions */
+.nav::before, .nav::after { content: ""; position: absolute; inset: 0; pointer-events: none; z-index: 0; }
+.nav::before {
+  background:
+    radial-gradient(80% 180% at 18% 30%, rgba(56,120,255,0.20), transparent 60%),
+    radial-gradient(72% 170% at 68% 62%, rgba(139,92,246,0.17), transparent 62%);
+  background-size: 200% 200%;
+  animation: navAuraA 26s ease-in-out infinite alternate;
+  opacity: 0.7;
+}
+.nav::after {
+  background:
+    radial-gradient(76% 170% at 86% 34%, rgba(20,175,160,0.15), transparent 60%),
+    radial-gradient(70% 170% at 40% 82%, rgba(236,120,190,0.12), transparent 62%);
+  background-size: 200% 200%;
+  animation: navAuraB 34s ease-in-out infinite alternate;
+  opacity: 0.6;
+}
+@keyframes navAuraA { 0% { background-position: 0% 40%; } 100% { background-position: 100% 60%; } }
+@keyframes navAuraB { 0% { background-position: 100% 60%; } 100% { background-position: 15% 25%; } }
+@media (prefers-reduced-motion: reduce) { .nav::before, .nav::after { animation: none; } }
 .nav-inner {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 28px;
   width: 100%;
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
