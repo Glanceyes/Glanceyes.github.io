@@ -86,6 +86,128 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at KRAFTON AI
 </section>
 
 <section>
+  <div class="section-title">Research Areas</div>
+  <div class="ra-grid" id="ra-grid"></div>
+</section>
+
+<style>
+.ra-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;}
+@media(max-width:640px){.ra-grid{grid-template-columns:1fr;}}
+.ra-card{position:relative;border:1px solid var(--border);border-radius:18px;padding:16px 16px 14px;background:var(--bg);box-shadow:0 1px 2px rgba(16,24,40,.03),0 12px 30px var(--ra-glow,rgba(29,78,216,.06));transition:box-shadow .25s ease,transform .25s ease;}
+.ra-card:hover{transform:translateY(-3px);box-shadow:0 0 0 1px var(--ra-ring,rgba(29,78,216,.14)),0 18px 40px var(--ra-glow,rgba(29,78,216,.13));}
+.ra-head{display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--text);margin:2px 2px 13px;}
+.ra-ic{display:inline-flex;color:var(--ra,var(--accent));flex-shrink:0;}
+.ra-ic svg{width:20px;height:20px;display:block;}
+.ra-name{font-size:15px;font-weight:800;letter-spacing:-.01em;}
+.ra-go{margin-left:auto;color:var(--ra,var(--accent));opacity:0;transform:translateX(-4px);transition:opacity .2s,transform .2s;font-weight:700;}
+.ra-card:hover .ra-go{opacity:1;transform:translateX(0);}
+.ra-slider{position:relative;border-radius:12px;overflow:hidden;border:1px solid var(--border);background:#fff;}
+.ra-track{display:flex;transition:transform .55s cubic-bezier(.4,0,.2,1);}
+.ra-slide{min-width:100%;display:block;position:relative;text-decoration:none;}
+.ra-slide img{width:100%;height:152px;object-fit:contain;background:#fff;display:block;padding:8px;}
+.ra-cap{position:absolute;left:0;right:0;bottom:0;padding:16px 12px 8px;font-size:11.5px;font-weight:600;color:#fff;background:linear-gradient(transparent,rgba(15,27,45,.75));}
+.ra-dots{position:absolute;right:9px;bottom:9px;display:flex;gap:5px;z-index:2;}
+.ra-dot{width:6px;height:6px;border-radius:50%;border:0;padding:0;cursor:pointer;background:rgba(255,255,255,.55);transition:background .2s,transform .2s;}
+.ra-dot.on{background:#fff;transform:scale(1.3);}
+.ra-note{border-radius:12px;border:1px dashed var(--border);background:var(--bg-alt);padding:34px 16px;text-align:center;font-size:13px;color:var(--text-mid);line-height:1.6;}
+.ra-note b{color:var(--ra);font-weight:800;}
+.ra-topics{font-size:11.5px;color:var(--text-light);margin:-6px 2px 13px;line-height:1.55;}
+.ra-nav{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:30px;height:30px;border-radius:50%;border:1px solid var(--border);cursor:pointer;background:rgba(255,255,255,.9);color:var(--text-mid);display:inline-flex;align-items:center;justify-content:center;font-size:17px;line-height:1;box-shadow:0 2px 8px rgba(16,24,40,.12);opacity:0;transition:opacity .2s,background .2s,color .2s;}
+.ra-slider:hover .ra-nav{opacity:1;}
+.ra-nav:hover{background:#fff;color:var(--text);}
+.ra-nav.prev{left:8px;}
+.ra-nav.next{right:8px;}
+</style>
+
+<script>
+(function(){
+  var IMG='/images/about/publications/', PUB='/publications';
+  var ICON={
+    reasoning:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>',
+    perception:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg>',
+    generation:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9.94 15.5A2 2 0 0 0 8.5 14.06l-6.14-1.58a.5.5 0 0 1 0-.96L8.5 9.94A2 2 0 0 0 9.94 8.5l1.58-6.14a.5.5 0 0 1 .96 0L14.06 8.5A2 2 0 0 0 15.5 9.94l6.14 1.58a.5.5 0 0 1 0 .96L15.5 14.06a2 2 0 0 0-1.44 1.44l-1.58 6.14a.5.5 0 0 1-.96 0z"/></svg>',
+    agentic:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><line x1="6" x2="10" y1="11" y2="11"/><line x1="8" x2="8" y1="9" y2="13"/><line x1="15" x2="15.01" y1="12" y2="12"/><line x1="18" x2="18.01" y1="10" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.544-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.152A4 4 0 0 0 17.32 5z"/></svg>'
+  };
+  var TOPICS={
+    reasoning:'MLLM-as-a-Judge · 3D Reasoning · Negation Understanding · Visual Question Answering',
+    perception:'Open-Vocabulary Part Segmentation · Detection',
+    generation:'3D Editing · Text-to-Image · Video Generation',
+    agentic:'Game Agents · Benchmark Construction'
+  };
+  var AREAS=[
+    {key:'reasoning',name:'Multimodal Reasoning',color:'#1d4ed8',glow:'rgba(29,78,216,.10)',ring:'rgba(29,78,216,.20)',slides:[
+      {img:'dr3d.png',href:'c8',cap:'Dense Reward &middot; ECCV 2026'},
+      {img:'perceptual_judge.png',href:'c7',cap:'Perceptual Judgment &middot; ICML 2026'},
+      {img:'negtome.png',href:'c6',cap:'What &ldquo;Not&rdquo; to Detect &middot; ICLR 2026'},
+      {img:'3d_aware_vlm.png',href:'c5',cap:'3D-Aware VLM &middot; EMNLP 2025'},
+      {img:'waymoqa.png',href:'p1',cap:'WaymoQA &middot; Preprint'}
+    ]},
+    {key:'perception',name:'Visual Perception',color:'#0e9384',glow:'rgba(14,147,132,.11)',ring:'rgba(14,147,132,.22)',slides:[
+      {img:'partcatseg.png',href:'c4',cap:'PartCATSeg &middot; CVPR 2025'},
+      {img:'partclipseg.png',href:'c1',cap:'PartCLIPSeg &middot; NeurIPS 2024'}
+    ]},
+    {key:'generation',name:'Generation &amp; Editing',color:'#7c3aed',glow:'rgba(124,58,237,.11)',ring:'rgba(124,58,237,.22)',slides:[
+      {img:'dreamcatalyst.png',href:'c2',cap:'DreamCatalyst &middot; ICLR 2025'},
+      {img:'scribblediff.png',href:'c3',cap:'Scribble-Guided Diffusion &middot; ICIP 2025'}
+    ]},
+    {key:'agentic',name:'Agentic AI',color:'#d97706',glow:'rgba(217,119,6,.10)',ring:'rgba(217,119,6,.20)',note:'Game agents &amp; benchmarks<br>Ongoing at <b>KRAFTON&nbsp;AI</b>'}
+  ];
+  var grid=document.getElementById('ra-grid');
+  if(!grid) return;
+  AREAS.forEach(function(a){
+    var card=document.createElement('article');
+    card.className='ra-card';
+    card.style.setProperty('--ra',a.color);
+    card.style.setProperty('--ra-glow',a.glow);
+    card.style.setProperty('--ra-ring',a.ring);
+
+    var head=document.createElement('a'); head.className='ra-head'; head.href=PUB+'#area-'+a.key;
+    head.innerHTML='<span class="ra-ic">'+(ICON[a.key]||'')+'</span><span class="ra-name">'+a.name+'</span><span class="ra-go">&rarr;</span>';
+    card.appendChild(head);
+
+    var tp=TOPICS[a.key];
+    if(tp){ var topicsEl=document.createElement('div'); topicsEl.className='ra-topics'; topicsEl.textContent=tp; card.appendChild(topicsEl); }
+
+    if(a.slides && a.slides.length){
+      var slider=document.createElement('div'); slider.className='ra-slider';
+      var track=document.createElement('div'); track.className='ra-track';
+      a.slides.forEach(function(s){
+        var slide=document.createElement('a'); slide.className='ra-slide'; slide.href=PUB+'#'+s.href;
+        slide.innerHTML='<img src="'+IMG+s.img+'" alt="" loading="lazy"><span class="ra-cap">'+s.cap+'</span>';
+        track.appendChild(slide);
+      });
+      slider.appendChild(track);
+      var dots=document.createElement('div'); dots.className='ra-dots'; slider.appendChild(dots);
+      card.appendChild(slider);
+
+      var idx=0,n=a.slides.length,timer=null;
+      function render(){ track.style.transform='translateX(-'+(idx*100)+'%)'; var ds=dots.children; for(var i=0;i<ds.length;i++){ ds[i].className='ra-dot'+(i===idx?' on':''); } }
+      function go(i){ idx=(i+n)%n; render(); restart(); }
+      function next(){ go(idx+1); }
+      function restart(){ if(timer){clearInterval(timer);} timer=setInterval(next,4200); }
+      a.slides.forEach(function(s,i){
+        var d=document.createElement('button'); d.type='button'; d.className='ra-dot'+(i===0?' on':'');
+        d.addEventListener('click',function(e){ e.preventDefault(); go(i); });
+        dots.appendChild(d);
+      });
+      var prevBtn=document.createElement('button'); prevBtn.type='button'; prevBtn.className='ra-nav prev'; prevBtn.setAttribute('aria-label','Previous'); prevBtn.innerHTML='&lsaquo;';
+      prevBtn.addEventListener('click',function(e){ e.preventDefault(); e.stopPropagation(); go(idx-1); });
+      var nextBtn=document.createElement('button'); nextBtn.type='button'; nextBtn.className='ra-nav next'; nextBtn.setAttribute('aria-label','Next'); nextBtn.innerHTML='&rsaquo;';
+      nextBtn.addEventListener('click',function(e){ e.preventDefault(); e.stopPropagation(); go(idx+1); });
+      slider.appendChild(prevBtn); slider.appendChild(nextBtn);
+      slider.addEventListener('mouseenter',function(){ if(timer){clearInterval(timer);} });
+      slider.addEventListener('mouseleave',restart);
+      render(); restart();
+    } else if(a.note){
+      var note=document.createElement('div'); note.className='ra-note'; note.innerHTML=a.note;
+      card.appendChild(note);
+    }
+    grid.appendChild(card);
+  });
+})();
+</script>
+
+<section>
   <div style="display:flex; align-items:baseline; justify-content:space-between;">
     <div class="section-title" style="flex:1; margin-bottom:0; border-bottom:none; padding-bottom:0;">Selected Publications</div>
     <a href="/publications" class="section-link">All Publications →</a>
