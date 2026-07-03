@@ -211,7 +211,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at KRAFTON AI
         <div class="exp-role">Applied AI Researcher</div>
         <div class="exp-meta">Mar. 2026 – Present · Seoul, Republic of Korea</div>
         <ul class="exp-bullets">
-          <li>Working in agentic game development</li>
+          <li>Working on agentic game development and benchmark construction</li>
           <li>Worked on training and VQA evaluation of <a href="/projects#raon">Raon-VisionEncoder</a></li>
         </ul>
       </div>
