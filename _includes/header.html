@@ -31,4 +31,27 @@
       }
     });
   })();
+
+  // soft light that eases (lags) toward the cursor over the top nav
+  (function () {
+    var nav = document.querySelector('.nav');
+    if (!nav || !window.matchMedia || !window.matchMedia('(hover: hover)').matches) return;
+    var tx = 0, ty = 0, cx = 0, cy = 0, raf = null, active = false;
+    function loop() {
+      cx += (tx - cx) * 0.16;
+      cy += (ty - cy) * 0.16;
+      nav.style.setProperty('--nav-cx', cx.toFixed(1) + 'px');
+      nav.style.setProperty('--nav-cy', cy.toFixed(1) + 'px');
+      if (active || Math.abs(tx - cx) > 0.4 || Math.abs(ty - cy) > 0.4) {
+        raf = requestAnimationFrame(loop);
+      } else { raf = null; }
+    }
+    nav.addEventListener('mousemove', function (e) {
+      var r = nav.getBoundingClientRect();
+      tx = e.clientX - r.left; ty = e.clientY - r.top;
+      active = true;
+      if (!raf) raf = requestAnimationFrame(loop);
+    });
+    nav.addEventListener('mouseleave', function () { active = false; });
+  })();
 </script>

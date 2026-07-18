@@ -91,9 +91,13 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at KRAFTON AI
 </section>
 
 <style>
-.ra-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;}
-@media(max-width:640px){.ra-grid{grid-template-columns:1fr;}}
-.ra-card{position:relative;border:1px solid var(--border);border-radius:18px;padding:16px 16px 14px;background:var(--bg);box-shadow:0 1px 2px rgba(16,24,40,.03),0 12px 30px var(--ra-glow,rgba(29,78,216,.06));transition:box-shadow .25s ease,transform .25s ease;}
+.ra-grid{display:grid;grid-template-columns:1fr;gap:18px;}
+@media(min-width:641px){
+  .ra-grid{grid-template-columns:1.1fr 1fr;align-items:stretch;}
+  .ra-card:first-child{grid-row:span 2;}
+  .ra-card:first-child .ra-slider{height:auto;flex:1 1 auto;min-height:0;}
+}
+.ra-card{display:flex;flex-direction:column;position:relative;border:1px solid var(--border);border-radius:18px;padding:16px 16px 14px;background:var(--bg);box-shadow:0 1px 2px rgba(16,24,40,.03),0 12px 30px var(--ra-glow,rgba(29,78,216,.06));transition:box-shadow .25s ease,transform .25s ease;}
 .ra-card:hover{transform:translateY(-3px);box-shadow:0 0 0 1px var(--ra-ring,rgba(29,78,216,.14)),0 18px 40px var(--ra-glow,rgba(29,78,216,.13));}
 .ra-head{display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--text);margin:2px 2px 13px;}
 .ra-ic{display:inline-flex;color:var(--ra,var(--accent));flex-shrink:0;}
@@ -101,17 +105,17 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at KRAFTON AI
 .ra-name{font-size:15px;font-weight:800;letter-spacing:-.01em;}
 .ra-go{margin-left:auto;color:var(--ra,var(--accent));opacity:0;transform:translateX(-4px);transition:opacity .2s,transform .2s;font-weight:700;}
 .ra-card:hover .ra-go{opacity:1;transform:translateX(0);}
-.ra-slider{position:relative;border-radius:12px;overflow:hidden;border:1px solid var(--border);background:#fff;}
-.ra-track{display:flex;transition:transform .55s cubic-bezier(.4,0,.2,1);}
-.ra-slide{min-width:100%;display:block;position:relative;text-decoration:none;}
-.ra-slide img{width:100%;height:152px;object-fit:contain;background:#fff;display:block;padding:8px;}
+.ra-slider{position:relative;border-radius:12px;overflow:hidden;border:1px solid var(--border);background:#fff;height:140px;display:flex;}
+.ra-track{display:flex;flex:1;height:100%;transition:transform .55s cubic-bezier(.4,0,.2,1);}
+.ra-slide{min-width:100%;height:100%;display:block;position:relative;text-decoration:none;}
+.ra-slide img{width:100%;height:100%;object-fit:contain;background:#fff;display:block;padding:8px;}
 .ra-cap{position:absolute;left:0;right:0;bottom:0;padding:16px 12px 8px;font-size:11.5px;font-weight:600;color:#fff;background:linear-gradient(transparent,rgba(15,27,45,.75));}
 .ra-dots{position:absolute;right:9px;bottom:9px;display:flex;gap:5px;z-index:2;}
 .ra-dot{width:6px;height:6px;border-radius:50%;border:0;padding:0;cursor:pointer;background:rgba(255,255,255,.55);transition:background .2s,transform .2s;}
 .ra-dot.on{background:#fff;transform:scale(1.3);}
 .ra-note{border-radius:12px;border:1px dashed var(--border);background:var(--bg-alt);padding:34px 16px;text-align:center;font-size:13px;color:var(--text-mid);line-height:1.6;}
 .ra-note b{color:var(--ra);font-weight:800;}
-.ra-topics{font-size:11.5px;color:var(--text-light);margin:-6px 2px 13px;line-height:1.55;}
+.ra-topics{font-size:11.5px;color:var(--text-light);margin:-6px 2px 13px;line-height:1.55;min-height:2lh;}
 .ra-nav{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:30px;height:30px;border-radius:50%;border:1px solid var(--border);cursor:pointer;background:rgba(255,255,255,.9);color:var(--text-mid);display:inline-flex;align-items:center;justify-content:center;font-size:17px;line-height:1;box-shadow:0 2px 8px rgba(16,24,40,.12);opacity:0;transition:opacity .2s,background .2s,color .2s;}
 .ra-slider:hover .ra-nav{opacity:1;}
 .ra-nav:hover{background:#fff;color:var(--text);}
@@ -149,8 +153,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at KRAFTON AI
     {key:'generation',name:'Generation &amp; Editing',color:'#7c3aed',glow:'rgba(124,58,237,.11)',ring:'rgba(124,58,237,.22)',slides:[
       {img:'dreamcatalyst.png',href:'c2',cap:'DreamCatalyst &middot; ICLR 2025'},
       {img:'scribblediff.png',href:'c3',cap:'Scribble-Guided Diffusion &middot; ICIP 2025'}
-    ]},
-    {key:'agentic',name:'Agentic AI',color:'#d97706',glow:'rgba(217,119,6,.10)',ring:'rgba(217,119,6,.20)',note:'Game agents &amp; benchmarks<br>Ongoing at <b>KRAFTON&nbsp;AI</b>'}
+    ]}
   ];
   var grid=document.getElementById('ra-grid');
   if(!grid) return;
@@ -515,9 +518,8 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at KRAFTON AI
     <div class="honor-entry">
       <div>
         <div class="honor-title">Reviewer</div>
-        <div class="honor-sub">CVPRW 2026, 3DV 2026</div>
+        <div class="honor-sub">NeurIPS 2026, CVPRW 2026, 3DV 2026</div>
       </div>
-      <div class="honor-date">2026</div>
     </div>
   </div>
 </section>
