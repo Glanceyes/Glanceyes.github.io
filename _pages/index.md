@@ -518,7 +518,7 @@ description: Griffin Sunho (Seonho) Lee – Applied AI Researcher at KRAFTON AI
     <div class="honor-entry">
       <div>
         <div class="honor-title">Reviewer</div>
-        <div class="honor-sub">NeurIPS 2026, CVPRW 2026, 3DV 2026</div>
+        <div class="honor-sub">ACCV 2026, NeurIPS 2026, CVPRW 2026, 3DV 2026</div>
       </div>
     </div>
   </div>
